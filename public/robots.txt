@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.getverveai.com
+
+# Sitemaps
+Sitemap: https://www.getverveai.com/sitemap.xml

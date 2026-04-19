@@ -5,11 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape": "npx ts-node scripts/scrape.ts"
   },
   "dependencies": {
     "next": "16.2.4",
+    "next-sitemap": "^4.2.3",
+    "puppeteer": "^24.41.0",
+    "puppeteer-core": "^24.41.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
