@@ -11,8 +11,11 @@
     "scrape": "npx ts-node scripts/scrape.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.104.0",
+    "@types/papaparse": "^5.5.2",
     "next": "16.2.4",
     "next-sitemap": "^4.2.3",
+    "papaparse": "^5.5.3",
     "puppeteer": "^24.41.0",
     "puppeteer-core": "^24.41.0",
     "react": "19.2.4",

@@ -15,6 +15,11 @@ export interface PageData {
   externalLinks: string[]
   jsonLd: string[]
   scrapedAt: string
+  // CSV import fields
+  htmlContent?: string
+  imageUrl?: string
+  imageAlt?: string
+  csvDate?: string
 }
 
 const CONTENT_DIR = path.join(process.cwd(), 'content')

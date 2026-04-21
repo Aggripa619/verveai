@@ -28,15 +28,18 @@ export default function AboutPage() {
           </h1>
           {data?.bodyText ? (
             <div className="prose max-w-none">
-              {data.bodyText
-                .split('\n')
-                .filter((line) => line.trim())
-                .slice(4) // skip nav lines
-                .map((line, i) => (
+              {(() => {
+                const lines = data.bodyText.split('\n').filter((l) => l.trim())
+                const h1 = data.h1 || 'We Built Verve Because We Needed It Ourselves'
+                const start = lines.findIndex((l) => l === h1)
+                const end = lines.findIndex((l) => l === 'AI Forecasting Software for E-Commerce Businesses')
+                const content = lines.slice(start + 1, end >= 0 ? end : undefined)
+                return content.map((line, i) => (
                   <p key={i} className="text-gray-700 leading-relaxed mb-4">
                     {line}
                   </p>
-                ))}
+                ))
+              })()}
             </div>
           ) : (
             <div className="prose max-w-none text-gray-700">

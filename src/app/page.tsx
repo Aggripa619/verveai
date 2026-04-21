@@ -19,6 +19,23 @@ export const metadata: Metadata = {
   },
 }
 
+function CTAPair({ label }: { label?: string }) {
+  return (
+    <div className="flex flex-col items-center gap-3">
+      {label && <p className="text-base font-semibold text-gray-700">{label}</p>}
+      <div className="flex flex-wrap justify-center gap-4">
+        <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
+          Start Free Trial — Shopify
+        </CTAButton>
+        <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
+          Start Free Trial — WooCommerce
+        </CTAButton>
+      </div>
+      <p className="text-sm text-gray-500">14-day free trial · No credit card required · Cancel anytime</p>
+    </div>
+  )
+}
+
 export default function HomePage() {
   return (
     <div className="bg-white">
@@ -39,19 +56,12 @@ export default function HomePage() {
           {/* Right: headline + CTAs */}
           <div className="order-1 lg:order-2 flex flex-col gap-6">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              No More Spreadsheets &amp; CSVs
+              Stop Stockouts. Stop Overstocking. Start Profiting.
             </h1>
-            <h2 className="text-xl lg:text-2xl font-medium text-gray-700 leading-relaxed">
-              Say goodbye to spreadsheets and inventory mistakes. Let AI handle it for you.
-            </h2>
-            <div className="flex flex-wrap gap-4 mt-2">
-              <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
-                Shopify — Start Free Trial
-              </CTAButton>
-              <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
-                WooCommerce — Start Free Trial
-              </CTAButton>
-            </div>
+            <p className="text-xl lg:text-2xl font-medium text-gray-700 leading-relaxed">
+              Verve AI gives Shopify and WooCommerce merchants AI-powered demand forecasts — so you always know what to order, and when.
+            </p>
+            <CTAPair />
           </div>
         </div>
       </section>
@@ -74,7 +84,7 @@ export default function HomePage() {
             </p>
           </div>
           <blockquote
-            className="italic text-gray-600 text-lg max-w-2xl mx-auto border-l-4 pl-4 text-left"
+            className="italic text-gray-600 text-lg max-w-2xl mx-auto border-l-4 pl-4 text-left mb-10"
             style={{ borderColor: 'rgb(0, 201, 167)' }}
           >
             I definitely feel the pain. Keeping track of stock with always growing number of SKU&apos;s and vendors
@@ -83,6 +93,8 @@ export default function HomePage() {
             <br /><br />
             <strong>— @HarryL@M R/Shopify</strong>
           </blockquote>
+          <p className="text-lg font-semibold text-gray-800 mb-4">Sound familiar? Fix it in minutes.</p>
+          <CTAPair />
         </div>
       </section>
 
@@ -134,15 +146,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="text-center mt-10">
-            <p className="text-lg font-semibold mb-6">Start your free 14 day trial</p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
-                For Shopify
-              </CTAButton>
-              <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
-                For WooCommerce
-              </CTAButton>
-            </div>
+            <CTAPair label="Get your first forecast in minutes" />
           </div>
         </div>
       </section>
@@ -173,41 +177,62 @@ export default function HomePage() {
               </ul>
             </div>
           </div>
+          <div className="text-center mt-10">
+            <p className="text-lg font-semibold text-gray-800 mb-4">Ready to switch sides?</p>
+            <CTAPair />
+          </div>
         </div>
       </section>
 
-      {/* Trust Section */}
+      {/* Testimonials */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h4 className="text-3xl lg:text-4xl font-bold mb-2">Spend Less Time on Inventory Management</h4>
-          <h5 className="text-xl text-gray-600 mb-10">And More Time To Build Your Business</h5>
-          <div className="flex flex-col gap-4 text-left max-w-2xl mx-auto mb-10">
-            <p className="text-lg">
-              🟢 We&apos;ve been in your shoes. Verve was built to make forecasting simple, not stressful.
-            </p>
-            <p className="text-lg">
-              🟢 Just plug in a handful of SKUs to see how Verve works — no setup fees, no lock-ins.
-            </p>
-            <p className="text-lg">
-              🟢 You&apos;re in control. Use Verve month-to-month with no long-term commitments.
-            </p>
-            <p className="text-lg">🟢 Get your first forecast in minutes</p>
+          <p className="text-xl text-gray-600 mb-10">And More Time To Build Your Business</p>
+          <div className="grid md:grid-cols-3 gap-6 text-left mb-12">
+            <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 flex flex-col gap-4">
+              <p className="text-gray-700 italic leading-relaxed">
+                &ldquo;Keeping track of stock with always growing number of SKUs and vendors can be an absolute nightmare. I&apos;ve tried spreadsheets but it tends to add to the headache rather than fix it!&rdquo;
+              </p>
+              <p className="text-sm font-semibold text-gray-500">@HarryL · r/Shopify</p>
+            </div>
+            <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 flex flex-col gap-4">
+              <p className="text-gray-700 italic leading-relaxed">
+                &ldquo;We were built on Verve AI. It handles everything from demand forecasting to inventory management. The AI does all the heavy lifting.&rdquo;
+              </p>
+              <p className="text-sm font-semibold text-gray-500">Verve AI · Shopify merchant</p>
+            </div>
+            <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 flex flex-col gap-4">
+              <p className="text-gray-700 italic leading-relaxed">
+                &ldquo;Verve AI is the best forecasting app for Shopify. It&apos;s easy to use and the AI is spot on. I highly recommend it to any e-commerce merchant.&rdquo;
+              </p>
+              <p className="text-sm font-semibold text-gray-500">Verve AI · WooCommerce merchant</p>
+            </div>
           </div>
+          <p className="text-lg font-semibold text-gray-800 mb-4">Join hundreds of merchants forecasting smarter</p>
+          <CTAPair />
         </div>
       </section>
 
       {/* Final CTA */}
-      <section className="py-16" style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
+      <section
+        className="py-20"
+        style={{ background: 'linear-gradient(135deg, rgb(19, 33, 68) 0%, rgb(128, 72, 245) 100%)' }}
+      >
         <div className="max-w-2xl mx-auto px-4 text-center">
-          <p className="text-xl font-semibold mb-8">Start your free 14 day trial</p>
-          <div className="flex flex-wrap justify-center gap-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
+            Your inventory. Under control. Starting today.
+          </h2>
+          <p className="text-lg text-white/80 mb-8">14-day free trial · No credit card required · Cancel anytime</p>
+          <div className="flex flex-wrap justify-center gap-4 mb-6">
             <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
-              For Shopify
+              Start Free Trial — Shopify
             </CTAButton>
             <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
-              For WooCommerce
+              Start Free Trial — WooCommerce
             </CTAButton>
           </div>
+          <p className="text-sm text-white/60">30-day money-back guarantee</p>
         </div>
       </section>
     </div>
