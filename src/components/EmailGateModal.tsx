@@ -44,6 +44,12 @@ export default function EmailGateModal({ toolSlug, toolName, onClose }: EmailGat
     }
 
     setState('success')
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({
+      event: 'email_gate_submit',
+      tool_slug: toolSlug,
+      tool_name: toolName,
+    })
     setTimeout(() => {
       window.open(data.redirectUrl, '_blank', 'noopener,noreferrer')
     }, 800)
