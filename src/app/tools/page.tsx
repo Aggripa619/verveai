@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const TOOL_DESCRIPTIONS: Record<string, string> = {
   'ecommerce-profit-margin-calculator': 'Calculate your true profit margin including COGS, shipping, and fees.',
   'inventory-days-calculator': 'Find out how many days of inventory you have on hand.',
-  'reorder-point-calculator': 'Calculate the exact reorder point for each SKU.',
+  'reorder-point-calculator': 'Calculate the exact reorder point for each SKU. Enter demand, lead time, and safety stock — get your ROP and days until reorder instantly.',
   'sales-forecast-template': 'Free Google Sheet template for sales forecasting.',
   'cashflow-forecast-template': 'Free Google Sheet template for cashflow forecasting.',
   'inventory-control-excel': 'Free Google Sheet template for inventory control.',

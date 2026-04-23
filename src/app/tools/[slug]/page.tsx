@@ -4,6 +4,7 @@ import { getAllToolSlugs, getToolPage, SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } 
 import CTAButton from '@/components/CTAButton'
 import ToolCTA from '@/components/ToolCTA'
 import EmailGateCTA from '@/components/EmailGateCTA'
+import ReorderPointCalculatorWrapper from '@/components/ReorderPointCalculatorWrapper'
 
 const TOOL_URLS: Record<string, { href: string; name: string; emailGate?: boolean }> = {
   'inventory-days-calculator':          { href: 'https://tool2.getverveai.com/', name: 'Inventory Days Calculator' },
@@ -18,6 +19,22 @@ const NAV_LINES = new Set([
   'Home', 'About', 'Pricing', 'Blog', 'Tools', 'Contact', 'FAQ',
   'Twitter', 'Quick Links', 'Important', 'Get in Touch',
 ])
+
+// Slugs that have an inline interactive calculator (no Google Sheet redirect)
+const INTERACTIVE_CALCULATOR_SLUGS = new Set(['reorder-point-calculator'])
+
+function splitHtmlAtMidHeading(html: string): [string, string] {
+  const matches = [...html.matchAll(/<h2[\s>]/gi)]
+  if (matches.length < 2) return [html, '']
+  const mid = Math.floor(html.length / 2)
+  let splitIndex = matches[0].index!
+  let closest = Math.abs(matches[0].index! - mid)
+  for (const m of matches) {
+    const dist = Math.abs(m.index! - mid)
+    if (dist < closest) { closest = dist; splitIndex = m.index! }
+  }
+  return [html.slice(0, splitIndex), html.slice(splitIndex)]
+}
 
 export async function generateStaticParams() {
   const slugs = getAllToolSlugs()
@@ -100,6 +117,36 @@ export default async function ToolPage({
     )
     if (toolConfig.emailGate) return <EmailGateCTA toolSlug={slug} toolName={toolConfig.name} />
     return <ToolCTA href={toolConfig.href} toolName={toolConfig.name} />
+  }
+
+  // htmlContent path — used for interactive calculator tools
+  if (tool.htmlContent && INTERACTIVE_CALCULATOR_SLUGS.has(slug)) {
+    const [firstHalf, secondHalf] = splitHtmlAtMidHeading(tool.htmlContent)
+    const CalculatorComponent = slug === 'reorder-point-calculator' ? ReorderPointCalculatorWrapper : null
+
+    return (
+      <div style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
+        <article className="bg-white py-16">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div
+              className="prose max-w-none"
+              dangerouslySetInnerHTML={{ __html: firstHalf }}
+            />
+
+            {CalculatorComponent && <CalculatorComponent />}
+
+            {secondHalf && (
+              <div
+                className="prose max-w-none"
+                dangerouslySetInnerHTML={{ __html: secondHalf }}
+              />
+            )}
+
+            <BottomCTA />
+          </div>
+        </article>
+      </div>
+    )
   }
 
   return (

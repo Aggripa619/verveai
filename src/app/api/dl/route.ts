@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSupabase } from '@/lib/supabase'
 
-const INTERACTIVE_TOOLS = new Set(['safety-stock-calculator'])
+const INTERACTIVE_TOOLS = new Set(['safety-stock-calculator', 'reorder-point-calculator'])
 
 const SHEET_URLS: Record<string, string> = {
   'reorder-point-calculator':  'https://docs.google.com/spreadsheets/d/1XyDZw_cHpyS6E2evvfctIPyZdn0ze4qreLcHC8KsV7M/edit?usp=drivesdk',
