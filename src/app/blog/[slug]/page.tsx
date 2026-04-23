@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getAllBlogSlugs, getBlogPost, SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } from '@/lib/content'
 import BlogCTA from '@/components/BlogCTA'
+import InlineCTABanner from '@/components/InlineCTABanner'
 import SafetyStockCalculatorWrapper from '@/components/SafetyStockCalculatorWrapper'
 
 export async function generateStaticParams() {
@@ -76,12 +77,18 @@ export default async function BlogPostPage({
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           {post.htmlContent ? (
             <>
+              {slug === 'safety-stock-calculator' && (
+                <InlineCTABanner message="Want safety stock calculated automatically for every SKU? Verve AI pulls live Shopify data and keeps your buffers up to date." />
+              )}
+
               <div
                 className="prose max-w-none"
                 dangerouslySetInnerHTML={{ __html: firstHalf }}
               />
 
               {slug === 'safety-stock-calculator' ? <SafetyStockCalculatorWrapper /> : <BlogCTA />}
+
+              {slug === 'safety-stock-calculator' && <BlogCTA />}
 
               {secondHalf && (
                 <div

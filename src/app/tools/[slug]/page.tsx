@@ -4,6 +4,8 @@ import { getAllToolSlugs, getToolPage, SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } 
 import CTAButton from '@/components/CTAButton'
 import ToolCTA from '@/components/ToolCTA'
 import EmailGateCTA from '@/components/EmailGateCTA'
+import BlogCTA from '@/components/BlogCTA'
+import InlineCTABanner from '@/components/InlineCTABanner'
 import ReorderPointCalculatorWrapper from '@/components/ReorderPointCalculatorWrapper'
 
 const TOOL_URLS: Record<string, { href: string; name: string; emailGate?: boolean }> = {
@@ -128,12 +130,16 @@ export default async function ToolPage({
       <div style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
         <article className="bg-white py-16">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <InlineCTABanner message="Want reorder points calculated automatically for every SKU? Verve AI pulls live Shopify data and keeps your numbers up to date." />
+
             <div
               className="prose max-w-none"
               dangerouslySetInnerHTML={{ __html: firstHalf }}
             />
 
             {CalculatorComponent && <CalculatorComponent />}
+
+            <BlogCTA />
 
             {secondHalf && (
               <div
@@ -142,7 +148,7 @@ export default async function ToolPage({
               />
             )}
 
-            <BottomCTA />
+            <BlogCTA />
           </div>
         </article>
       </div>
