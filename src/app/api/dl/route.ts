@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSupabase } from '@/lib/supabase'
 
+const INTERACTIVE_TOOLS = new Set(['safety-stock-calculator'])
+
 const SHEET_URLS: Record<string, string> = {
   'reorder-point-calculator':  'https://docs.google.com/spreadsheets/d/1XyDZw_cHpyS6E2evvfctIPyZdn0ze4qreLcHC8KsV7M/edit?usp=drivesdk',
   'inventory-control-excel':   'https://docs.google.com/spreadsheets/d/1WvfS3RR-oZx-ozB5n3ZbZ5neu7zKNRvQx02GZ4BvZvk/edit?usp=drivesdk',
@@ -17,8 +19,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Please enter a valid email address.' }, { status: 400 })
   }
 
-  const redirectUrl = SHEET_URLS[toolSlug]
-  if (!redirectUrl) {
+  const redirectUrl = SHEET_URLS[toolSlug] ?? null
+  const isInteractive = INTERACTIVE_TOOLS.has(toolSlug)
+  if (!redirectUrl && !isInteractive) {
     return NextResponse.json({ error: 'Unknown tool.' }, { status: 400 })
   }
 
@@ -34,5 +37,5 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: error.message, code: error.code }, { status: 500 })
   }
 
-  return NextResponse.json({ success: true, redirectUrl })
+  return NextResponse.json({ success: true, ...(redirectUrl ? { redirectUrl } : {}) })
 }

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getAllBlogSlugs, getBlogPost, SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } from '@/lib/content'
 import BlogCTA from '@/components/BlogCTA'
+import SafetyStockCalculatorWrapper from '@/components/SafetyStockCalculatorWrapper'
 
 export async function generateStaticParams() {
   const slugs = getAllBlogSlugs()
@@ -80,7 +81,7 @@ export default async function BlogPostPage({
                 dangerouslySetInnerHTML={{ __html: firstHalf }}
               />
 
-              <BlogCTA />
+              {slug === 'safety-stock-calculator' ? <SafetyStockCalculatorWrapper /> : <BlogCTA />}
 
               {secondHalf && (
                 <div
