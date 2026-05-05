@@ -1,0 +1,74 @@
+{
+  "vertical_name": "Apparel & Fashion",
+  "vertical_slug": "apparel",
+  "hero_pain": "Apparel merchants on Shopify lose thousands every season to dead stock from mis-sized buys and can't see which colour variants are selling fast enough to reorder before stockouts hit.",
+  "hero_intro": "Running an apparel or fashion brand on Shopify means managing hundreds — sometimes thousands — of size-colour variant combinations, all with seasonal windows that close fast. When a size sells out mid-season and a reorder takes 60 days, you lose the sale permanently. Verve AI gives Shopify fashion merchants demand forecasting and automated purchase orders built specifically for the complexity of apparel inventory.",
+  "pain_points": [
+    {
+      "title": "Variant Explosion & SKU Bloat",
+      "description": "A 20-style collection across 6 sizes and 4 colours creates 480 individual SKUs to track. Most Shopify merchants manage this in spreadsheets, leading to missed reorders on fast sellers and over-buying on slow ones.",
+      "icon": "📊"
+    },
+    {
+      "title": "Seasonal Dead Stock",
+      "description": "Buying too deep into a season leaves you with markdown pressure and tied-up capital. Without accurate sell-through forecasting, apparel brands routinely over-buy winter lines that sit unsold into spring, destroying margins.",
+      "icon": "🧊"
+    },
+    {
+      "title": "Multi-Location Stock Transfers",
+      "description": "Stock imbalances across multiple Shopify locations — one warehouse overstocked on large sizes while another is out — cost apparel brands lost sales even when total inventory is sufficient to fulfil demand.",
+      "icon": "🏭"
+    }
+  ],
+  "feature_mapping": [
+    {
+      "pain": "Variant Explosion & SKU Bloat",
+      "feature": "AI Demand Forecasting",
+      "description": "Verve AI analyses historical sales velocity at the variant level — size, colour, and style — so you can see exactly which SKUs are trending up and which are slowing before you commit to a reorder. No more managing 480 spreadsheet rows manually."
+    },
+    {
+      "pain": "Seasonal Dead Stock",
+      "feature": "Seasonal Sell-Through Forecasting",
+      "description": "Verve AI models seasonal demand curves for each product line, giving you a predicted end-of-season inventory position weeks in advance. You can adjust buy quantities, plan promotions early, or pause reorders on lines tracking below target — before the dead stock problem locks in."
+    },
+    {
+      "pain": "Multi-Location Stock Transfers",
+      "feature": "Multi-Location Inventory Intelligence",
+      "description": "Verve AI surfaces stock imbalances across all your Shopify locations in one dashboard, flagging transfers that would prevent stockouts at high-demand locations. You see which sizes need moving, from where to where, and what the cost of inaction is in lost sales."
+    }
+  ],
+  "social_proof_quote": "Before Verve AI, we'd review our size run buys in a spreadsheet the night before placing a PO — now the reorder quantities come pre-filled based on actual velocity and we've cut our end-of-season markdowns by almost a third.",
+  "social_proof_attribution": "Verified Shopify Merchant — Apparel & Fashion",
+  "seasonality_note": "Strong peaks at Spring/Summer and Autumn/Winter seasons, plus sale events",
+  "typical_sku_count": "500–5,000 active SKUs",
+  "avg_lead_time": "45–90 days (overseas manufacturing)",
+  "faq": [
+    {
+      "question": "Can Verve AI forecast demand at the size and colour variant level?",
+      "answer": "Yes. Verve AI forecasts at the individual variant level, not just at the product level. This means you get separate demand signals for Small Black, Medium Black, Large Black, and so on — so your purchase order quantities reflect actual size-run selling patterns rather than an average across the whole product. This is especially valuable for apparel brands where certain sizes sell two to three times faster than others."
+    },
+    {
+      "question": "How does Verve AI handle seasonal transitions for fashion brands?",
+      "answer": "Verve AI models seasonal demand curves using your historical sell-through data, so it understands that demand for winter coats peaks in October and collapses by February. During the season, it adjusts forecasts week by week based on actual trading versus the predicted curve, giving you early warning if a line is running ahead of or behind plan. This lets you act on promotions or pause reorders before the window closes."
+    },
+    {
+      "question": "We sell across multiple Shopify locations — can Verve AI manage stock across all of them?",
+      "answer": "Yes. Verve AI connects to all your Shopify locations and tracks inventory levels across each one. It flags imbalances — for example, if you have excess large sizes at your UK warehouse but a stockout risk at your US location — and recommends transfers. You can see projected stockout dates per location for each variant, so you know exactly where to act first."
+    },
+    {
+      "question": "What happens if we have a viral product or unexpected demand spike?",
+      "answer": "Verve AI detects unusual sales velocity spikes automatically and flags them as anomalies in your dashboard. When a product is selling significantly above its forecast, the system recalculates reorder points and recommended purchase order quantities in real time. You get an alert so you can place an emergency PO before a stockout occurs, rather than discovering the problem after the fact in your Shopify admin."
+    },
+    {
+      "question": "How long does it take to set up Verve AI for an apparel store with hundreds of SKUs?",
+      "answer": "Most apparel merchants are fully set up within one business day. Verve AI connects directly to your Shopify store and pulls historical sales, inventory, and purchase order data automatically — there is no manual data entry or spreadsheet importing required. The forecasting models begin generating demand signals immediately, and you can review your first reorder recommendations the same day you install the app."
+    }
+  ],
+  "related_blog_slugs": [
+    "apparel-demand-forecasting",
+    "seasonal-demand-forecasting",
+    "sku-forecasting"
+  ],
+  "meta_title": "Inventory Management for Apparel & Fashion | Verve AI",
+  "meta_description": "Verve AI forecasts demand at the variant level for Shopify apparel brands — cut dead stock, prevent size-run stockouts, and automate POs."
+}

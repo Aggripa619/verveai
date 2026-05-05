@@ -1,0 +1,74 @@
+{
+  "vertical_name": "Health & Supplements",
+  "vertical_slug": "supplements",
+  "hero_pain": "Supplement brands on Shopify risk costly write-offs from expired batches and stockouts on subscription products when demand spikes hit without advance warning.",
+  "hero_intro": "Health and supplement brands face inventory challenges that generic Shopify tools simply weren't designed for — expiry dates, batch compliance, and the unpredictable demand spikes that come with subscription products and New Year resolution seasons. Verve AI brings FIFO-aware demand forecasting and automated purchase orders to Shopify supplement merchants so you can protect margins without daily manual checks.",
+  "pain_points": [
+    {
+      "title": "Expiry & FIFO Management",
+      "description": "Supplement inventory with short shelf lives demands strict FIFO rotation. Without visibility into batch expiry dates across your Shopify stock, brands risk selling near-expiry product, triggering costly write-offs, or worse — returns and compliance issues.",
+      "icon": "⏰"
+    },
+    {
+      "title": "Subscription Demand Spikes",
+      "description": "Subscription products create layered demand — recurring orders on top of one-time purchases. When a new product launches or a promotion drives subscription sign-ups, reorder calculations based on historical sales alone drastically underestimate what you need to stock.",
+      "icon": "🔄"
+    },
+    {
+      "title": "Regulatory Batch Compliance",
+      "description": "Lot tracking requirements for supplement brands mean you need to know which batches are allocated to which orders. Without this visibility in your Shopify inventory system, a recall or compliance query becomes an hours-long manual investigation.",
+      "icon": "📋"
+    }
+  ],
+  "feature_mapping": [
+    {
+      "pain": "Expiry & FIFO Management",
+      "feature": "Expiry-Aware Inventory Tracking",
+      "description": "Verve AI tracks batch quantities and expiry dates in your Shopify inventory, flagging stock that will expire before projected sell-through. You see which batches need to move fastest, can prioritise them in fulfilment, and get reorder recommendations that account for remaining shelf life — so you never buy more than you can sell before expiry."
+    },
+    {
+      "pain": "Subscription Demand Spikes",
+      "feature": "Subscription-Adjusted Forecasting",
+      "description": "Verve AI separates recurring subscription demand from one-time purchase demand in its forecasting models, giving you a cleaner signal for reorder planning. When subscription sign-ups accelerate — during a promotion or a New Year campaign — the forecast adjusts in real time so your purchase orders keep pace with committed future demand before a stockout occurs."
+    },
+    {
+      "pain": "Regulatory Batch Compliance",
+      "feature": "Lot & Batch Traceability",
+      "description": "Verve AI maintains a full batch and lot audit trail within your Shopify inventory, so you can answer a compliance query or recall notice in minutes. Every inbound purchase order records batch numbers and expiry dates, and every outbound order is linked to the specific batch it fulfilled — giving you the traceability that supplement regulations demand."
+    }
+  ],
+  "social_proof_quote": "We had a batch expiry write-off every quarter before Verve AI — now the system flags batches that won't sell through before they expire and we've had zero write-offs in eight months.",
+  "social_proof_attribution": "Verified Shopify Merchant — Health & Supplements",
+  "seasonality_note": "New Year resolution spike in January, back-to-school in September, and gifting peaks in Q4",
+  "typical_sku_count": "100–800 active SKUs",
+  "avg_lead_time": "30–60 days (domestic and overseas)",
+  "faq": [
+    {
+      "question": "Can Verve AI track expiry dates for supplement batches in Shopify?",
+      "answer": "Yes. Verve AI records expiry dates for each incoming batch as part of your purchase order workflow on Shopify. The system then forecasts whether you will sell through each batch before its expiry date, and flags any batches that are at risk of going to waste. You can prioritise at-risk batches in your fulfilment queue and use this data to refine future order quantities so you buy what you can actually sell within the shelf life."
+    },
+    {
+      "question": "How does Verve AI handle the difference between subscription and one-time purchase demand?",
+      "answer": "Verve AI segments your Shopify demand signals by order type, so recurring subscription revenue and one-time purchases are modelled separately. This matters because subscription demand is highly predictable and compounds over time as sign-ups grow, while one-time demand has more variability. By forecasting these two streams independently and combining them, Verve AI produces significantly more accurate reorder recommendations than a single blended forecast would provide."
+    },
+    {
+      "question": "We're planning a major January campaign — can Verve AI help us prepare inventory in advance?",
+      "answer": "Yes. Verve AI lets you input planned promotions and expected uplift percentages so the forecasting model accounts for campaign-driven demand when calculating purchase order quantities. With supplement lead times typically running 30 to 60 days, you need to start building stock six to eight weeks before a January campaign goes live — Verve AI calculates exactly how much to order and when to place the PO to arrive in time."
+    },
+    {
+      "question": "Does Verve AI support lot number tracking for supplement compliance requirements?",
+      "answer": "Yes. Verve AI records lot numbers against every inbound purchase order and links outbound Shopify orders to the specific lot they were fulfilled from. This creates a complete traceability chain — if a regulator or a customer asks which batch a product came from, or if you need to issue a recall for a specific lot, you can pull the full chain in seconds rather than manually cross-referencing supplier invoices and order exports."
+    },
+    {
+      "question": "How accurate are Verve AI's demand forecasts for supplement products with large seasonal swings?",
+      "answer": "Verve AI models seasonal demand patterns specific to each product in your Shopify catalogue, using your full sales history to identify recurring peaks and troughs. For supplement brands, this typically captures the January wellness spike, the summer sports nutrition uptick, and Q4 gifting demand. The model is updated weekly as new sales data flows in, so forecasts for the next 90 days reflect your most recent trading patterns — not just last year's seasonal shape."
+    }
+  ],
+  "related_blog_slugs": [
+    "demand-forecasting-new-products",
+    "automatic-stock-replenishment",
+    "safety-stock-calculator"
+  ],
+  "meta_title": "Inventory Management for Supplement Brands | Verve AI",
+  "meta_description": "FIFO-aware inventory forecasting for Shopify supplement brands. Track expiry dates, manage batch compliance, and automate POs with Verve AI."
+}

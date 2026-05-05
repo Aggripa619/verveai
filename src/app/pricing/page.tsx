@@ -96,8 +96,16 @@ export default function PricingPage() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-4">Why choose Verve AI?</h2>
-          <p className="text-center text-gray-600 mb-10">
+          <p className="text-center text-gray-600 mb-3">
             We&apos;ve been in your shoes, running e-commerce stores, fighting with spreadsheets and CSV exports.
+          </p>
+          <p className="text-center text-sm text-gray-500 mb-10">
+            Built for{' '}
+            <a href="/inventory-management-for/apparel" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>apparel</a>,{' '}
+            <a href="/inventory-management-for/supplements" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>supplements</a>,{' '}
+            <a href="/inventory-management-for/beauty" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>beauty</a>,{' '}
+            <a href="/inventory-management-for/pet-supplies" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>pet supplies</a>, and{' '}
+            <a href="/inventory-management-for" className="underline hover:opacity-80 font-medium" style={{ color: 'rgb(0, 160, 133)' }}>8+ more verticals →</a>
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[

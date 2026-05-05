@@ -1,0 +1,74 @@
+{
+  "vertical_name": "Sports & Outdoor",
+  "vertical_slug": "sports-and-outdoor",
+  "hero_pain": "Sports and outdoor brands on Shopify carry two completely different inventory profiles simultaneously — summer and winter product lines with near-zero demand overlap — making it nearly impossible to manage reorders accurately with a single set of inventory rules.",
+  "hero_intro": "Sports and outdoor brands on Shopify face the most complex seasonal split in e-commerce: summer cycling, running, and water sports gear operates on an entirely different demand calendar than winter ski, snowboard, and cold-weather equipment — yet both live in the same Shopify catalogue with the same inventory tools. Verve AI gives outdoor and sporting goods merchants seasonal demand forecasting and automated purchase orders that account for the hard stop-start cycles and wide variant ranges that define this category.",
+  "pain_points": [
+    {
+      "title": "Summer/Winter Inventory Split",
+      "description": "Managing summer and winter product lines simultaneously means two separate demand forecasting problems sharing one inventory system. Ordering summer stock while winter stock is still selling — and vice versa — demands a seasonal precision that spreadsheet reordering cannot deliver consistently.",
+      "icon": "🏔️"
+    },
+    {
+      "title": "Size & Spec Variant Range",
+      "description": "Sports equipment comes in extensive size and specification ranges — cycling frames in 7 sizes, running shoes in 12 sizes and 4 widths, wetsuits in XS to XXL in multiple thicknesses. Managing stockouts and over-stocks at the variant level across a large active catalogue is extremely difficult without automated forecasting.",
+      "icon": "📏"
+    },
+    {
+      "title": "Hybrid Dropship Fulfilment",
+      "description": "Many sports and outdoor brands mix held inventory with dropship products, particularly for specialist or low-velocity equipment. Without integrated visibility across both fulfilment methods, merchants lose track of true available inventory and make reorder decisions on incomplete stock pictures.",
+      "icon": "🚚"
+    }
+  ],
+  "feature_mapping": [
+    {
+      "pain": "Summer/Winter Inventory Split",
+      "feature": "Seasonal Demand Segmentation",
+      "description": "Verve AI separates your product catalogue into seasonal demand groups, applying independently calibrated demand curves to summer, winter, and year-round SKUs. Purchase order recommendations for summer products automatically account for the seasonal ramp-up and its end date, while winter products are planned on their own cycle. You get accurate, season-specific buy recommendations for each part of your range without managing two separate systems."
+    },
+    {
+      "pain": "Size & Spec Variant Range",
+      "feature": "Variant-Level Demand Forecasting",
+      "description": "Verve AI forecasts demand at the individual variant level — frame size, shoe size, wetsuit thickness — building separate velocity curves for each. This replaces the common approach of splitting a product-level forecast evenly across sizes, which consistently over-orders slow-moving sizes and under-orders bestsellers. You get per-variant reorder recommendations that keep popular sizes in stock without building excess on your tails."
+    },
+    {
+      "pain": "Hybrid Dropship Fulfilment",
+      "feature": "Unified Held & Dropship Inventory View",
+      "description": "Verve AI integrates with your Shopify store to give you a single inventory dashboard covering both your held warehouse stock and your dropship arrangements. Demand forecasts factor in the fulfilment method for each product — held inventory gets standard reorder logic, while dropship products are flagged when demand is trending above supplier capacity. You always see the complete picture before making a sourcing decision."
+    }
+  ],
+  "social_proof_quote": "We'd always either go into summer with too much winter kit still on hand or run out of key cycling lines in May because we under-bought in January — Verve AI's seasonal split forecasting has completely fixed that and our stock efficiency across both seasons is measurably better.",
+  "social_proof_attribution": "Verified Shopify Merchant — Sports & Outdoor",
+  "seasonality_note": "Hard summer/winter split — outdoor gear peaks May–August, winter sports October–January; crossover items (base layers, shoes) need separate treatment",
+  "typical_sku_count": "400–4,000 active SKUs",
+  "avg_lead_time": "45–90 days (overseas and specialist suppliers)",
+  "faq": [
+    {
+      "question": "How does Verve AI handle forecasting for both summer and winter product lines in the same catalogue?",
+      "answer": "Verve AI categorises your products by their seasonal demand profile and applies independently calibrated demand curves to each group. Summer cycling and outdoor products are modelled on their own seasonal cycle — ramping up from March, peaking in June to August, and declining through September — while winter ski and cold-weather products follow their own separate curve. Each product group gets buy recommendations timed to its own season, so you're never applying a single blended forecast to products with completely different demand calendars."
+    },
+    {
+      "question": "Can Verve AI forecast demand at the individual size level for sports equipment with large size ranges?",
+      "answer": "Yes. Verve AI forecasts each size and variant as a separate SKU, building individual velocity curves from your Shopify sales data. For a running shoe available in 12 sizes, the system tracks which sizes are selling fastest and generates separate reorder recommendations for each. In practice, this means your most popular sizes (typically mid-range) stay in stock throughout the season while your least popular sizes don't accumulate unnecessary excess — significantly improving your capital efficiency on high-variant sports products."
+    },
+    {
+      "question": "We mix held inventory with dropship products — can Verve AI manage both together?",
+      "answer": "Yes. Verve AI supports hybrid fulfilment models where some SKUs are held in your warehouse and others are fulfilled directly by suppliers or distributors. Each product is assigned its appropriate fulfilment type and gets demand forecasting tailored to that model. Held inventory products receive standard reorder point recommendations; dropship products are monitored for demand trends that might warrant switching to held stock. Both appear in a unified dashboard so you always have a complete inventory picture before making buying decisions."
+    },
+    {
+      "question": "How does Verve AI help sports brands manage the transition between seasons?",
+      "answer": "Verve AI tracks actual sell-through against your seasonal forecast during the final weeks of each season, projecting how much clearance stock you will carry into the transition period. If a winter line is tracking below plan in February, the system flags it early so you can accelerate promotions before the season ends rather than carrying expensive out-of-season stock into spring. For incoming seasons, forward-demand forecasts give you the buy quantities needed for the new season's launch, timed to arrive with the opening of each demand window."
+    },
+    {
+      "question": "Does Verve AI work for sports brands that sell across both Shopify and wholesale channels?",
+      "answer": "Yes. Verve AI can incorporate wholesale order demand alongside your Shopify direct-to-consumer sales when generating demand forecasts and purchase order recommendations. Wholesale orders — which are often placed seasonally and in large volumes — are treated as forward demand commitments that reduce the available inventory for DTC fulfilment. This gives you a unified view of total demand against total supply, so you know exactly how much stock to order to cover both channels without double-counting or running short on either."
+    }
+  ],
+  "related_blog_slugs": [
+    "seasonal-demand-forecasting",
+    "demand-forecasting-ecommerce",
+    "sku-forecasting"
+  ],
+  "meta_title": "Inventory Management for Sports & Outdoor Brands | Verve AI",
+  "meta_description": "Seasonal demand forecasting for Shopify sports & outdoor brands. Manage summer/winter splits, variant ranges, and hybrid fulfilment with Verve AI."
+}

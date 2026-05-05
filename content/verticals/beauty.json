@@ -1,0 +1,74 @@
+{
+  "vertical_name": "Beauty & Cosmetics",
+  "vertical_slug": "beauty",
+  "hero_pain": "Beauty brands on Shopify lose sales and margin to influencer-driven demand spikes they didn't see coming and to expired shade inventory that couldn't sell fast enough before the next launch.",
+  "hero_intro": "Beauty and cosmetics brands on Shopify operate in one of the most unpredictable demand environments in e-commerce — a single influencer post can drive a month of sales in 48 hours, while a formula discontinuation leaves dead stock across every shade in the range. Verve AI gives beauty brand operators demand forecasting and purchase order automation that handles the speed and SKU complexity of the beauty category.",
+  "pain_points": [
+    {
+      "title": "Influencer Demand Spikes",
+      "description": "When a beauty product goes viral, Shopify inventory disappears in days. Without real-time demand sensing and fast reorder triggering, brands lose the peak sales window entirely — and the spike is over before replacement stock arrives from their manufacturer.",
+      "icon": "📱"
+    },
+    {
+      "title": "Short Shelf Life & Expiry Risk",
+      "description": "Cosmetics and skincare products have regulated shelf lives. Over-buying a shade or formula that falls out of trend means stock sits until it expires, forcing write-offs that can erase months of margin on that SKU entirely.",
+      "icon": "⏳"
+    },
+    {
+      "title": "High SKU Count Across Shades",
+      "description": "A single lip colour in 30 shades creates 30 individual demand signals to manage. Most beauty brands track this in spreadsheets, which means slow-moving shades stay on order while fast-moving ones stockout — all within the same product.",
+      "icon": "🎨"
+    }
+  ],
+  "feature_mapping": [
+    {
+      "pain": "Influencer Demand Spikes",
+      "feature": "Real-Time Demand Sensing",
+      "description": "Verve AI monitors your Shopify sales velocity hour by hour, detecting when a product's sell rate accelerates significantly above its normal pattern. The moment a spike is detected, the system recalculates your days of cover and triggers a reorder alert — so you can act within hours rather than discovering the problem when you're already out of stock."
+    },
+    {
+      "pain": "Short Shelf Life & Expiry Risk",
+      "feature": "Shelf Life Inventory Planning",
+      "description": "Verve AI forecasts sell-through timelines against product shelf life, flagging any SKU where projected demand won't clear the current stock before expiry. This lets you adjust buy quantities before placing the next purchase order, run targeted promotions on at-risk stock, or dial back production on slow shades — protecting margins before the write-off happens."
+    },
+    {
+      "pain": "High SKU Count Across Shades",
+      "feature": "Shade-Level Variant Forecasting",
+      "description": "Verve AI forecasts demand at the individual shade and variant level across your entire beauty catalogue. Rather than spreading a product-level forecast evenly across shades, the system tracks each shade's own velocity curve and generates separate reorder recommendations — so your bestselling shades never stockout while slow ones stop being over-ordered."
+    }
+  ],
+  "social_proof_quote": "An influencer featured one of our serums on a Tuesday night and we were out of stock by Thursday morning — since installing Verve AI, a spike like that now triggers an automatic reorder alert within two hours and we've never missed a window like that again.",
+  "social_proof_attribution": "Verified Shopify Merchant — Beauty & Cosmetics",
+  "seasonality_note": "Valentine's Day, Mother's Day, and Q4 gifting season are peak demand periods; launch events create additional spikes",
+  "typical_sku_count": "200–2,000 active SKUs",
+  "avg_lead_time": "30–75 days",
+  "faq": [
+    {
+      "question": "How does Verve AI handle demand spikes caused by influencer content or viral moments?",
+      "answer": "Verve AI monitors sales velocity on your Shopify store in real time and flags when a product's sell rate is significantly above its baseline. When a spike is detected, the system immediately recalculates how many days of cover you have remaining and generates an alert with a recommended emergency reorder quantity. This means you can respond within hours of a viral moment rather than discovering the stockout the next morning when orders have already been lost."
+    },
+    {
+      "question": "Can Verve AI forecast at the shade level for a product with 20 or 30 colour variants?",
+      "answer": "Yes. Verve AI forecasts each shade and variant as an individual SKU, so each one gets its own demand signal and reorder recommendation rather than sharing a blended forecast across the product. In practice, this means your bestselling nudes and core shades get correctly sized reorders while your limited-edition shades — which sell at a fraction of the rate — don't get over-ordered into dead stock. This is one of the most common sources of margin loss for multi-shade beauty brands."
+    },
+    {
+      "question": "How does Verve AI help prevent cosmetics expiry write-offs?",
+      "answer": "Verve AI tracks the projected sell-through rate for each SKU against the remaining shelf life of current stock. If the forecast shows a product won't clear before expiry, the system surfaces it as an at-risk item in your dashboard before the problem becomes a write-off. You can then take action — increasing promotional spend, bundling slow sellers with bestsellers, or reducing your next reorder quantity — while you still have time to act on the information."
+    },
+    {
+      "question": "We're planning a new product launch — can Verve AI help us estimate initial stock levels?",
+      "answer": "Yes. Verve AI's new product forecasting uses the sales curve of comparable products in your catalogue to project demand for a new launch in its first 90 days. You input the product category, price point, and any planned marketing spend, and the system estimates launch inventory requirements and reorder timing. For beauty brands that launch multiple new SKUs each season, this significantly reduces the risk of either stocking out in the first week or committing to excess inventory that won't clear."
+    },
+    {
+      "question": "Does Verve AI integrate with both Shopify and WooCommerce for beauty stores?",
+      "answer": "Yes. Verve AI is available as a native Shopify app and as a WooCommerce plugin, so it works whichever platform your beauty store runs on. The inventory forecasting, automated purchase orders, and demand sensing features work identically on both platforms. If you operate your beauty brand across multiple channels or are considering a platform migration, Verve AI can support both simultaneously."
+    }
+  ],
+  "related_blog_slugs": [
+    "demand-forecasting-ecommerce",
+    "seasonal-demand-forecasting",
+    "inventory-flow"
+  ],
+  "meta_title": "Inventory Management for Beauty Brands | Verve AI",
+  "meta_description": "Shopify inventory forecasting for beauty & cosmetics brands. Handle influencer spikes, manage shade-level variants, and prevent expiry write-offs."
+}

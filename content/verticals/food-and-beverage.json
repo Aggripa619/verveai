@@ -1,0 +1,74 @@
+{
+  "vertical_name": "Food & Beverage",
+  "vertical_slug": "food-and-beverage",
+  "hero_pain": "DTC food and beverage brands on Shopify risk both costly perishable write-offs from over-buying and lost sales from stockouts on fast-moving lines because standard inventory tools don't account for shelf life when calculating reorder quantities.",
+  "hero_intro": "Direct-to-consumer food and beverage brands on Shopify operate with constraints that general inventory tools ignore — perishable shelf lives that create a hard upper limit on how much stock it's safe to hold, lot tracking compliance requirements, and the unpredictable demand mix that comes with running subscription products alongside one-time purchases. Verve AI gives Shopify food brands inventory forecasting and purchase order automation that respects shelf life, tracks batches, and handles the subscription-plus-one-time demand complexity.",
+  "pain_points": [
+    {
+      "title": "Perishable Stock & Expiry",
+      "description": "Food and beverage products have a shelf life that sets a firm ceiling on how much stock you can safely hold. Over-buying to buffer against stockouts creates direct write-off risk. Most Shopify food brands manage this tension manually — with spreadsheets and intuition — rather than with data-driven shelf-life-aware forecasting.",
+      "icon": "🥫"
+    },
+    {
+      "title": "Subscription & One-Time Order Mix",
+      "description": "DTC food brands increasingly blend subscription and one-time purchase channels. The demand from both sources looks identical in a standard inventory report but has fundamentally different predictability. Treating them the same leads to either stocking out on subscription fulfilment days or holding too much inventory between subscription cycles.",
+      "icon": "📅"
+    },
+    {
+      "title": "Lot & Batch Compliance",
+      "description": "Food brands face regulatory requirements to track which batch of product was sold to which customer. Without batch-level traceability baked into your Shopify inventory workflow, a food safety query or product recall becomes a forensic exercise across multiple systems instead of a 30-second lookup.",
+      "icon": "🏷️"
+    }
+  ],
+  "feature_mapping": [
+    {
+      "pain": "Perishable Stock & Expiry",
+      "feature": "Shelf Life-Constrained Forecasting",
+      "description": "Verve AI incorporates product shelf life as a hard constraint when calculating safe reorder quantities. Rather than recommending you hold three months of cover on a product with a four-month shelf life, the system caps your recommended stock position at a level your projected demand can clear before expiry — eliminating the guesswork that leads to write-offs without sacrificing your ability to meet demand."
+    },
+    {
+      "pain": "Subscription & One-Time Order Mix",
+      "feature": "Dual-Channel Demand Forecasting",
+      "description": "Verve AI separates subscription order demand from one-time purchase demand in its forecasting models, treating subscription orders as firm future commitments and one-time demand as probabilistic. This produces a more accurate combined forecast than blended averages — and ensures your purchase orders always account for upcoming subscription fulfilment requirements, so you never find yourself short on a subscription dispatch day."
+    },
+    {
+      "pain": "Lot & Batch Compliance",
+      "feature": "Full Batch Traceability",
+      "description": "Verve AI records batch and lot numbers for every inbound purchase order and links them to the outbound Shopify orders they fulfilled. If you receive a food safety query, a customer complaint about a specific production run, or a regulatory request for batch distribution records, you can pull the complete chain in seconds — which products came from which batch, when they were received, and which orders they shipped with."
+    }
+  ],
+  "social_proof_quote": "Our previous system had no concept of shelf life — it would tell us to buy three months of a sauce that expires in four and a half months, and we'd end up writing off a full pallet. Verve AI caps our reorder quantities at what we can actually sell before the best-before date and our write-offs are down to almost nothing.",
+  "social_proof_attribution": "Verified Shopify Merchant — Food & Beverage",
+  "seasonality_note": "Summer BBQ season (May–August), Christmas gifting, and Dry January/wellness spikes drive the largest demand surges",
+  "typical_sku_count": "50–500 active SKUs",
+  "avg_lead_time": "7–30 days (domestic and short-shelf-life)",
+  "faq": [
+    {
+      "question": "How does Verve AI handle inventory forecasting for perishable food products with short shelf lives?",
+      "answer": "Verve AI incorporates shelf life as a direct input into reorder quantity calculations, so the system never recommends holding more stock than your projected demand can clear before the best-before date. For each perishable SKU, you set the product's shelf life and the system uses your demand forecast to calculate the maximum safe stock position. This prevents the common scenario where standard inventory tools recommend three months of cover on a product with only six weeks of usable life remaining."
+    },
+    {
+      "question": "Can Verve AI track lot numbers and batch codes for food safety compliance?",
+      "answer": "Yes. Verve AI records the lot number, batch code, and expiry date for each inbound purchase order and maintains a link between each batch and the Shopify orders it fulfilled. If you receive a food safety concern or regulatory enquiry about a specific production run, you can immediately see which batches you received from a supplier, when they were received, and which customer orders they were shipped with. This replaces the hours-long manual trace that most food brands face today when a compliance query arrives."
+    },
+    {
+      "question": "We run both subscription and one-time purchase sales — how does Verve AI account for both?",
+      "answer": "Verve AI identifies and segments subscription demand from one-time purchase demand in your Shopify sales data, forecasting each stream separately. Subscription demand is treated as a committed future liability when calculating available inventory, ensuring your purchase orders always include enough stock to cover upcoming subscription dispatch dates. One-time demand is forecast probabilistically on top of that base. The result is a combined reorder recommendation that protects subscription fulfilment while right-sizing stock for one-time demand."
+    },
+    {
+      "question": "How does Verve AI help food brands plan for the Christmas gifting and January wellness peaks?",
+      "answer": "Verve AI models seasonal demand patterns for each product using your historical data, identifying the typical uplift multiple and timing of your Christmas gifting peak and January health reset spike. Because food and beverage lead times are relatively short — typically 7 to 30 days — you have more flexibility than homeware brands, but you still need accurate forecasts to scale production or place supplier orders in time. Verve AI surfaces the required uplift quantities 4 to 6 weeks before each seasonal peak."
+    },
+    {
+      "question": "Can Verve AI help a DTC food brand manage both made-to-order and held inventory products?",
+      "answer": "Yes. Verve AI supports mixed inventory models where some products are produced or bought in advance and held in stock, while others are made or ordered only when a customer purchase is confirmed. Each product type gets appropriate reorder logic — held inventory products get standard demand-driven reorder points, while made-to-order products are tracked separately to ensure production lead times align with order volumes. Both are visible in the same Verve AI dashboard connected to your Shopify store."
+    }
+  ],
+  "related_blog_slugs": [
+    "demand-forecasting-new-products",
+    "automatic-stock-replenishment",
+    "inventory-flow"
+  ],
+  "meta_title": "Inventory Management for Food & Beverage Brands | Verve AI",
+  "meta_description": "Shelf life-aware inventory forecasting for Shopify food brands. Track batches, manage subscription demand, and prevent perishable write-offs."
+}

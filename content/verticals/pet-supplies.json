@@ -1,0 +1,74 @@
+{
+  "vertical_name": "Pet Supplies",
+  "vertical_slug": "pet-supplies",
+  "hero_pain": "Pet supply brands on Shopify face stockouts on high-velocity consumables like food and treats precisely because recurring purchase patterns make demand look predictable until a promotion or seasonal spike reveals how thin the safety stock actually is.",
+  "hero_intro": "Pet supply merchants on Shopify sell a unique mix of high-frequency consumables — food, treats, supplements — alongside slower-moving accessories and toys that behave completely differently in terms of reorder timing. Verve AI separates these demand patterns and automates your Shopify purchase orders so consumables never stockout and slower items never tie up capital in excess inventory.",
+  "pain_points": [
+    {
+      "title": "Consumable Stockout Risk",
+      "description": "Pet food and treat brands have customers who buy every 2-4 weeks without fail. A stockout on a core SKU doesn't just lose one sale — it sends a loyal customer to a competitor's subscription service, costing you recurring revenue that's expensive to win back.",
+      "icon": "🐾"
+    },
+    {
+      "title": "Subscription Box Fulfilment",
+      "description": "Subscription box products require committed stock allocation against known future orders. Without separate demand planning for subscription versus one-off purchase volumes, brands either over-buy for boxes or find themselves short on fulfilment day with no time to reorder.",
+      "icon": "📦"
+    },
+    {
+      "title": "Seasonal & Trend-Driven Spikes",
+      "description": "Pet travel accessories, seasonal treats, and trending product categories see demand spikes that are difficult to anticipate from average monthly sales data alone. Spreadsheet-based reordering misses these windows, leaving revenue on the table during peak periods.",
+      "icon": "📈"
+    }
+  ],
+  "feature_mapping": [
+    {
+      "pain": "Consumable Stockout Risk",
+      "feature": "Recurring Demand Forecasting",
+      "description": "Verve AI models the replenishment cycle for each consumable SKU in your Shopify catalogue — tracking the rhythm of repeat purchases to project future demand with high accuracy. Reorder points are set dynamically, accounting for your supplier lead time, so you always have a buffer before any consumable SKU can reach zero stock."
+    },
+    {
+      "pain": "Subscription Box Fulfilment",
+      "feature": "Subscription Demand Allocation",
+      "description": "Verve AI separates your committed subscription demand from one-time purchase demand, treating subscription orders as a firm forward commitment when calculating available-to-sell inventory. This means your purchase order recommendations account for subscription fulfilment requirements before allocating stock to new one-off sales, eliminating the risk of fulfilment shortfalls on subscription days."
+    },
+    {
+      "pain": "Seasonal & Trend-Driven Spikes",
+      "feature": "Seasonal Uplift Forecasting",
+      "description": "Verve AI applies historical seasonal patterns to each SKU's demand forecast, automatically increasing reorder recommendations ahead of summer travel accessory peaks, Christmas gifting, and other recurring high-demand periods in the pet category. When a trend-driven spike emerges outside the seasonal pattern, the real-time velocity monitoring triggers an alert so you can respond before stock runs out."
+    }
+  ],
+  "social_proof_quote": "We were stockoutting on our top three food SKUs every other month despite them being our most predictable sellers — Verve AI set dynamic reorder points based on our actual replenishment cycle and we haven't had a consumable stockout in over six months.",
+  "social_proof_attribution": "Verified Shopify Merchant — Pet Supplies",
+  "seasonality_note": "Consistent year-round consumable demand with spikes around Christmas gifting and summer travel accessories",
+  "typical_sku_count": "200–1,500 active SKUs",
+  "avg_lead_time": "20–45 days",
+  "faq": [
+    {
+      "question": "How does Verve AI prevent stockouts on high-velocity consumable pet products?",
+      "answer": "Verve AI calculates dynamic reorder points for each consumable SKU based on its actual daily sales velocity and your supplier's lead time. Rather than using a fixed reorder point that gets stale as demand grows, the system updates these thresholds weekly. When stock drops to the reorder point for a consumable, an automated purchase order recommendation is triggered immediately — so you always have a safety buffer before hitting zero and losing repeat customers to competitors."
+    },
+    {
+      "question": "Can Verve AI separate subscription demand from one-time purchases when forecasting?",
+      "answer": "Yes. Verve AI identifies and segments recurring purchase patterns consistent with subscription behaviour, treating that committed future demand separately from one-time purchase forecasts. This matters because subscription demand is highly predictable and must be reserved before one-time orders are allocated against available stock. By separating these two demand streams, Verve AI produces more accurate reorder quantities and ensures your subscription fulfilment is never at risk from one-time demand variability."
+    },
+    {
+      "question": "We have seasonal pet products like summer travel accessories — how does Verve AI handle these?",
+      "answer": "Verve AI applies seasonal demand curves to each SKU individually, using your historical data to identify when a product typically sees its annual peak and how sharp that peak is. For summer travel accessories, the forecast ramps up automatically in April and May, increasing recommended reorder quantities ahead of the demand window. This means you build the right level of stock before the season hits rather than scrambling to reorder once sales have already outpaced your buffer."
+    },
+    {
+      "question": "Does Verve AI work for pet brands that dropship some products alongside held inventory?",
+      "answer": "Yes. Verve AI supports hybrid fulfilment models where some SKUs are held in your own Shopify-connected warehouse and others are dropshipped directly from suppliers. You can set different lead times and reorder logic for each fulfilment method, and the demand forecasts work across both. Purchase order recommendations for held inventory and supplier notifications for dropship products can be managed from the same Verve AI dashboard."
+    },
+    {
+      "question": "How long does it take for Verve AI to learn our pet brand's demand patterns?",
+      "answer": "Verve AI begins generating demand forecasts as soon as it connects to your Shopify store and imports your historical sales data. For consumable SKUs with consistent purchase patterns, accurate forecasts are typically available within the first week. For seasonal or trend-driven SKUs, the system improves its accuracy over the first 30 to 60 days as it calibrates to your specific product mix and customer behaviour. Most pet supply merchants see meaningful reorder accuracy improvements within the first month."
+    }
+  ],
+  "related_blog_slugs": [
+    "automatic-stock-replenishment",
+    "reorder-level-formula",
+    "safety-stock-calculator"
+  ],
+  "meta_title": "Inventory Management for Pet Supply Brands | Verve AI",
+  "meta_description": "Stop stockouting on consumables. Verve AI gives Shopify pet supply brands demand forecasting and automated POs built for recurring purchase patterns."
+}

@@ -1,0 +1,74 @@
+{
+  "vertical_name": "Home Goods & Décor",
+  "vertical_slug": "home-goods",
+  "hero_pain": "Home goods brands on Shopify routinely arrive at their seasonal peak understocked because 60-to-120-day overseas supplier lead times mean purchase orders must be placed months before demand is visible.",
+  "hero_intro": "Home goods and décor brands on Shopify face one of the longest planning horizons in e-commerce — overseas factory lead times of 60 to 120 days mean your Christmas inventory decisions happen in August, and your spring refresh stock is committed before the previous season is even finished. Verve AI gives Shopify homeware merchants the long-horizon demand forecasting and automated purchase orders needed to nail seasonal buys without tying up excessive capital in slow-moving lines.",
+  "pain_points": [
+    {
+      "title": "Long Overseas Lead Times",
+      "description": "Home goods sourced from overseas manufacturers require purchase orders placed 60-120 days in advance. At that horizon, standard reorder tools give meaningless signals. Brands either over-buy to be safe — creating dead stock — or under-buy and miss the peak season entirely.",
+      "icon": "🚢"
+    },
+    {
+      "title": "Seasonal Décor Dead Stock",
+      "description": "Seasonal home décor — Christmas linens, spring ceramics, Halloween accessories — has a hard sell-through window. Excess stock after the season is extremely difficult to move without deep markdowns, directly eroding the margins that made the product attractive to buy in the first place.",
+      "icon": "🏠"
+    },
+    {
+      "title": "Bulky SKU Storage Costs",
+      "description": "Furniture and larger homeware items carry storage cost implications that smaller product categories don't. Holding excess stock of a sofa or a dining table isn't just a working capital problem — it's a physical warehouse cost that compounds every week the item sits unsold.",
+      "icon": "📐"
+    }
+  ],
+  "feature_mapping": [
+    {
+      "pain": "Long Overseas Lead Times",
+      "feature": "Long-Horizon Demand Planning",
+      "description": "Verve AI generates demand forecasts extending 90 to 180 days forward, specifically designed for the planning horizons that home goods sourcing requires. The system combines your historical seasonal data with current trading trends to project what you will need 3 to 4 months from now — and calculates the purchase order that should be placed today to arrive in time, factoring in the full supplier lead time."
+    },
+    {
+      "pain": "Seasonal Décor Dead Stock",
+      "feature": "Seasonal Sell-Through Optimisation",
+      "description": "Verve AI models the seasonal demand curve for each décor product line and projects its end-of-season inventory position based on current sell-through rate. If a seasonal line is tracking below plan, the system surfaces it early — while you still have the promotional runway to clear it — and recommends adjustments to the next seasonal buy to avoid repeating the same over-commitment."
+    },
+    {
+      "pain": "Bulky SKU Storage Costs",
+      "feature": "Capital Efficiency Reporting",
+      "description": "Verve AI calculates days-of-cover and inventory turnover for every SKU in your Shopify catalogue, with particular emphasis on your high-storage-cost items. For bulky furniture and homeware, you can see at a glance which products are tying up the most warehouse space relative to their sales velocity — and prioritise these for tighter reorder management or promotional activity to improve capital efficiency."
+    }
+  ],
+  "social_proof_quote": "We used to finalise our Christmas homeware buy in September based on gut feel and last year's numbers — now Verve AI runs the demand forecast in July and tells us exactly what to order from each factory, and our dead stock after Christmas has dropped by more than half.",
+  "social_proof_attribution": "Verified Shopify Merchant — Home Goods & Décor",
+  "seasonality_note": "Spring refresh season (March–May) and Q4 gifting (October–December) are the largest demand peaks; January sees deep clearance demand",
+  "typical_sku_count": "300–3,000 active SKUs",
+  "avg_lead_time": "60–120 days (overseas manufacturers)",
+  "faq": [
+    {
+      "question": "How does Verve AI help home goods brands plan purchases 3-4 months in advance?",
+      "answer": "Verve AI generates forward-looking demand forecasts up to 180 days out, using your historical seasonal patterns and current sales trends to project what you will need at each point in the upcoming season. The system calculates your required order quantity today based on that projection and your supplier's lead time, so you place purchase orders at the right size and at the right time to arrive before demand peaks — without the guesswork that typically leads to either under-buying or committing to too much inventory."
+    },
+    {
+      "question": "Can Verve AI help us avoid dead stock on seasonal home décor ranges?",
+      "answer": "Yes. Verve AI tracks actual sell-through rates against your expected seasonal curve for every décor product line and projects the end-of-season inventory position week by week. If a seasonal line is selling more slowly than forecast, the system flags it as an at-risk item with enough lead time to take action — running a promotion, creating a bundle with faster-moving items, or simply reducing the next buy. This proactive view replaces the painful January discovery of how much seasonal stock didn't sell."
+    },
+    {
+      "question": "Does Verve AI work for home goods brands with both small accessories and large furniture SKUs?",
+      "answer": "Yes. Verve AI handles mixed catalogues with very different product sizes, price points, and demand frequencies in a single account. Small accessory SKUs with weekly sales get different reorder logic than furniture pieces that might sell once per day or less. Each product group can have its own safety stock rules, reorder frequency, and capital efficiency thresholds — all managed from one dashboard connected to your Shopify store."
+    },
+    {
+      "question": "How does Verve AI help manage multiple overseas suppliers with different lead times?",
+      "answer": "Verve AI maintains a supplier profile for each vendor, recording their standard lead time and actual historical delivery performance. When calculating your reorder point for products sourced from a given factory, the system uses that supplier's actual delivery variability to set the right safety buffer — not just their quoted lead time. You can see which suppliers are causing planning risk through consistent late deliveries and factor this into your buying strategy and supplier negotiations."
+    },
+    {
+      "question": "We're a small homeware brand with limited buying budget — can Verve AI help us prioritise which SKUs to reorder first?",
+      "answer": "Yes. Verve AI includes a budget-aware purchase order planner that ranks your reorder recommendations by urgency and commercial impact. You can input your available buying budget for the period and the system will allocate it across your highest-priority reorders first — the SKUs closest to stockout on your fastest-selling lines — so you protect revenue on your best products even when capital is constrained. Lower-priority reorders are queued for the next buying cycle."
+    }
+  ],
+  "related_blog_slugs": [
+    "seasonal-demand-forecasting",
+    "inventory-flow",
+    "demand-forecasting-ecommerce"
+  ],
+  "meta_title": "Inventory Management for Home Goods Brands | Verve AI",
+  "meta_description": "Long-horizon demand forecasting for Shopify homeware brands. Plan seasonal buys 90-180 days out, prevent dead stock, and automate overseas POs."
+}

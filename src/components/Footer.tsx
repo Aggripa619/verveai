@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer style={{ backgroundColor: 'rgb(19, 33, 68)' }} className="text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Brand column */}
           <div className="flex flex-col gap-4">
             <Link href="/">
@@ -87,6 +87,21 @@ export default function Footer() {
                   FAQ
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          {/* By Industry */}
+          <div>
+            <p className="font-bold mb-4">By Industry</p>
+            <ul className="flex flex-col gap-2 text-sm text-white/80">
+              <li><Link href="/inventory-management-for/apparel" className="hover:text-white transition-colors">Apparel</Link></li>
+              <li><Link href="/inventory-management-for/supplements" className="hover:text-white transition-colors">Supplements</Link></li>
+              <li><Link href="/inventory-management-for/beauty" className="hover:text-white transition-colors">Beauty</Link></li>
+              <li><Link href="/inventory-management-for/pet-supplies" className="hover:text-white transition-colors">Pet Supplies</Link></li>
+              <li><Link href="/inventory-management-for/jewellery" className="hover:text-white transition-colors">Jewellery</Link></li>
+              <li><Link href="/inventory-management-for/home-goods" className="hover:text-white transition-colors">Home Goods</Link></li>
+              <li><Link href="/inventory-management-for/food-and-beverage" className="hover:text-white transition-colors">Food & Beverage</Link></li>
+              <li><Link href="/inventory-management-for/sports-and-outdoor" className="hover:text-white transition-colors">Sports & Outdoor</Link></li>
             </ul>
           </div>
 

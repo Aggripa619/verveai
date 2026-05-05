@@ -8,9 +8,11 @@
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "eslint",
-    "scrape": "npx ts-node scripts/scrape.ts"
+    "scrape": "npx ts-node scripts/scrape.ts",
+    "generate-verticals": "npx ts-node scripts/generate-verticals.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.94.0",
     "@supabase/supabase-js": "^2.104.0",
     "@types/papaparse": "^5.5.2",
     "next": "16.2.4",

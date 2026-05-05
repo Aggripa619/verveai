@@ -1,0 +1,74 @@
+{
+  "vertical_name": "Jewellery & Accessories",
+  "vertical_slug": "jewellery",
+  "hero_pain": "Jewellery brands on Shopify lose high-margin sales during gifting peaks because they can't accurately predict demand for individual SKUs that sell only a few units per week but carry significant capital value.",
+  "hero_intro": "Jewellery and accessories merchants on Shopify face an inventory challenge that's the inverse of high-volume categories — low unit volumes per SKU but high capital value per unit, combined with violent demand spikes around Valentine's Day, Mother's Day, and Christmas that are impossible to navigate with spreadsheet forecasts. Verve AI gives Shopify jewellery merchants the precision demand forecasting and purchase order automation needed to protect high-value stock and capture gifting peaks without over-committing capital.",
+  "pain_points": [
+    {
+      "title": "High-Value Low-Volume SKU Tracking",
+      "description": "A jewellery brand with 500 SKUs might sell only 2-5 units per week per style. At those volumes, standard inventory tools produce meaningless averages. A single miscalculation on a high-ticket item means either a stockout on a £300 sale or thousands in tied-up capital.",
+      "icon": "💎"
+    },
+    {
+      "title": "Gift Season Demand Surges",
+      "description": "Valentine's Day and Christmas drive 40-60% of annual jewellery revenue in a matter of days. Without accurate gifting season forecasts, merchants either run short during the peak window — when products are hardest to reorder quickly — or sit on deep unsold inventory in January.",
+      "icon": "🎁"
+    },
+    {
+      "title": "Supplier Lead Time Variability",
+      "description": "Artisan, handmade, and imported jewellery suppliers often have unpredictable lead times that stretch from 4 to 12 weeks. A purchase order placed in November may arrive after Christmas if supplier capacity is constrained — making timing precision critical.",
+      "icon": "🔗"
+    }
+  ],
+  "feature_mapping": [
+    {
+      "pain": "High-Value Low-Volume SKU Tracking",
+      "feature": "Low-Volume Precision Forecasting",
+      "description": "Verve AI uses statistical models calibrated for low-unit-volume products, where standard averages fail. Rather than treating 2 sales per week as equivalent to 2 sales per week every week, the system accounts for intermittent demand patterns, producing reorder recommendations that reflect the true risk of stockouts on high-value, slow-moving jewellery SKUs."
+    },
+    {
+      "pain": "Gift Season Demand Surges",
+      "feature": "Gifting Season Demand Planning",
+      "description": "Verve AI models the gifting season demand curve for each product in your jewellery catalogue, projecting the uplift multiple for Valentine's Day, Mother's Day, and Christmas based on your historical data. Purchase order recommendations are automatically calculated with gifting season timing in mind — accounting for your supplier lead time so stock arrives before the peak, not after it."
+    },
+    {
+      "pain": "Supplier Lead Time Variability",
+      "feature": "Lead Time Tracking & Buffer Calculation",
+      "description": "Verve AI records actual versus promised lead times for each supplier over time, building a statistical model of their delivery variability. When calculating your reorder point, the system uses your supplier's historical lead time range — not just their quoted average — adding the appropriate safety buffer so a delayed delivery doesn't translate directly into a stockout during your most important trading period."
+    }
+  ],
+  "social_proof_quote": "We used to place one big Christmas order based on last year's sales and hope for the best — Verve AI now gives us a gifting season forecast by style in October so we can place the right order with each supplier in time for them to deliver before peak.",
+  "social_proof_attribution": "Verified Shopify Merchant — Jewellery & Accessories",
+  "seasonality_note": "Valentine's Day, Mother's Day, and Christmas are the three critical gifting peaks; demand can triple in the two weeks before each event",
+  "typical_sku_count": "100–1,000 active SKUs",
+  "avg_lead_time": "30–90 days (artisan and overseas suppliers)",
+  "faq": [
+    {
+      "question": "How does Verve AI forecast demand for jewellery SKUs that only sell a few units per week?",
+      "answer": "Verve AI uses statistical methods designed for low-volume, intermittent demand patterns rather than the simple moving averages that work for high-velocity products. For jewellery SKUs that sell two to five units per week, the system models the probability distribution of demand over your supplier lead time and calculates a reorder point that achieves your target service level. This means you get meaningful forecasts even for your slowest-selling high-value pieces, rather than treating them as too slow to forecast."
+    },
+    {
+      "question": "How far in advance does Verve AI help jewellery brands plan for Valentine's Day and Christmas?",
+      "answer": "Verve AI surfaces gifting season planning recommendations 10 to 14 weeks before each major gifting event, which is typically the minimum lead time needed to place orders with artisan and overseas suppliers and receive delivery in time. The system calculates the expected demand uplift for each style based on your previous gifting seasons and generates purchase order quantities with the peak window in mind. This replaces the common approach of placing a large speculative order in October without per-style visibility."
+    },
+    {
+      "question": "Can Verve AI track which of our jewellery suppliers are consistently late?",
+      "answer": "Yes. Verve AI records the actual arrival date for every purchase order against the originally confirmed delivery date and builds a lead time reliability profile for each supplier. You can see which suppliers consistently deliver on time versus which regularly run two or three weeks late. This data feeds directly into your reorder point calculations, so suppliers with poor delivery reliability automatically get a larger safety buffer — protecting you from stockouts caused by their delays."
+    },
+    {
+      "question": "We sell both fine jewellery and fashion accessories — can Verve AI handle both in the same account?",
+      "answer": "Yes. Verve AI handles mixed catalogues with different price points, demand frequencies, and supplier networks in a single account. Fine jewellery SKUs with infrequent sales get low-volume forecasting treatment, while fashion accessories with higher velocity get standard demand forecasting. Each product category can have its own reorder rules, safety stock levels, and supplier lead time settings, all managed from one dashboard connected to your Shopify store."
+    },
+    {
+      "question": "Does Verve AI support multi-location inventory for jewellery brands with both online and physical stores?",
+      "answer": "Yes. Verve AI connects to all your Shopify locations and tracks inventory across your online store and any physical retail locations linked to Shopify. For jewellery brands, this is particularly useful for identifying stock that is sitting idle at one location while another faces a stockout risk — the system surfaces transfer recommendations so your high-value stock is always where demand is highest."
+    }
+  ],
+  "related_blog_slugs": [
+    "sku-forecasting",
+    "seasonal-demand-forecasting",
+    "stockout-costs"
+  ],
+  "meta_title": "Inventory Management for Jewellery Brands | Verve AI",
+  "meta_description": "Precision inventory forecasting for Shopify jewellery brands. Plan gifting season demand, track supplier lead times, and prevent high-value stockouts."
+}

@@ -83,6 +83,42 @@ export function getPageData(filename: string): PageData | null {
   return readJson(path.join(CONTENT_DIR, 'pages', `${filename}.json`))
 }
 
+// ─── Vertical (pSEO) pages ────────────────────────────────────────────────────
+
+import type { VerticalData } from '@/types/vertical'
+
+function readVerticalJson(filePath: string): VerticalData | null {
+  try {
+    const raw = fs.readFileSync(filePath, 'utf-8')
+    return JSON.parse(raw) as VerticalData
+  } catch {
+    return null
+  }
+}
+
+export function getVerticalPage(slug: string): VerticalData | null {
+  return readVerticalJson(path.join(CONTENT_DIR, 'verticals', `${slug}.json`))
+}
+
+export function getAllVerticalSlugs(): string[] {
+  const dir = path.join(CONTENT_DIR, 'verticals')
+  if (!fs.existsSync(dir)) return []
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => f.replace('.json', ''))
+    .sort()
+}
+
+export function getAllVerticalPages(): { slug: string; data: VerticalData }[] {
+  return getAllVerticalSlugs()
+    .map((slug) => {
+      const data = getVerticalPage(slug)
+      return data ? { slug, data } : null
+    })
+    .filter(Boolean) as { slug: string; data: VerticalData }[]
+}
+
 export const SHOPIFY_URL = 'https://apps.shopify.com/verve-ai'
 export const WOOCOMMERCE_URL = 'https://wordpress.org/plugins/verve-ai-inventory-forecasting'
 export const TWITTER_URL = 'https://x.com/getverveai'
