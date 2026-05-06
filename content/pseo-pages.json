@@ -238,5 +238,115 @@
     "meta_title": "Inventory App for Fast Fashion Shopify | Verve AI",
     "meta_description": "Fast fashion moves fast — your inventory app should too. Verve AI gives fast fashion brands on Shopify AI-powered forecasting and automated purchase orders.",
     "hero_intro": "Fast fashion brands on Shopify move at a pace that makes manual inventory management impossible — styles turn over rapidly, demand signals need to be acted on immediately, and restocking windows are short. Verve AI is the inventory app built for this pace, with real-time demand forecasting and one-click purchase orders."
+  },
+
+  "inventory-management-supplement-brands": {
+    "slug": "inventory-management-supplement-brands",
+    "keyword": "inventory management for supplement brands",
+    "vertical": "supplements",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Supplement Brands",
+    "meta_title": "Inventory Management for Supplement Brands | Verve AI",
+    "meta_description": "Stop writing off expired stock. Verve AI gives supplement brands FIFO-aware demand forecasting and automated POs built for Shopify.",
+    "hero_intro": "Supplement brands face inventory challenges that generic tools weren't built for — expiry dates, batch compliance, and subscription demand stacked on top of seasonal spikes. Verve AI connects directly to your Shopify store and delivers FIFO-aware forecasting and automated purchase orders so you protect your margins without daily manual checks."
+  },
+
+  "supplement-inventory-management-software": {
+    "slug": "supplement-inventory-management-software",
+    "keyword": "supplement inventory management software",
+    "vertical": "supplements",
+    "page_type": "vertical_landing",
+    "h1": "Supplement Inventory Management Software for Shopify",
+    "meta_title": "Supplement Inventory Management Software | Verve AI",
+    "meta_description": "Purpose-built supplement inventory software for Shopify. Track expiry dates, forecast demand, and automate reorders with Verve AI.",
+    "hero_intro": "Most inventory software treats a protein powder the same way it treats a t-shirt. Verve AI is built differently — it understands supplement-specific challenges like batch expiry, lot compliance, and subscription-layered demand, and applies that context to every forecast and purchase order it generates for your Shopify store."
+  },
+
+  "health-supplement-stock-management": {
+    "slug": "health-supplement-stock-management",
+    "keyword": "health supplement stock management",
+    "vertical": "supplements",
+    "page_type": "vertical_landing",
+    "h1": "Health Supplement Stock Management for Shopify Brands",
+    "meta_title": "Health Supplement Stock Management | Verve AI",
+    "meta_description": "Smarter stock management for health supplement brands. Verve AI forecasts demand, tracks expiry, and automates POs on Shopify.",
+    "hero_intro": "Health supplement stock management is a balancing act — hold too little and you lose sales; hold too much and batches expire before they sell. Verve AI gives Shopify supplement brands a smarter approach, using your actual sales history and lead times to calculate exactly how much stock to carry and when to reorder."
+  },
+
+  "nutraceutical-inventory-software": {
+    "slug": "nutraceutical-inventory-software",
+    "keyword": "nutraceutical inventory software",
+    "vertical": "supplements",
+    "page_type": "vertical_landing",
+    "h1": "Nutraceutical Inventory Software for Shopify",
+    "meta_title": "Nutraceutical Inventory Software | Verve AI",
+    "meta_description": "Nutraceutical inventory software with expiry tracking, batch compliance, and AI demand forecasting. Built for Shopify brands.",
+    "hero_intro": "Nutraceutical brands operate under stricter inventory requirements than most e-commerce categories — batch traceability, expiry management, and regulatory lot tracking are non-negotiable. Verve AI is the Shopify inventory software that meets these requirements head-on, giving nutraceutical brands FIFO-aware stock management and forecasting in one connected system."
+  },
+
+  "supplement-inventory-app-shopify": {
+    "slug": "supplement-inventory-app-shopify",
+    "keyword": "supplement inventory app Shopify",
+    "vertical": "supplements",
+    "page_type": "vertical_landing",
+    "h1": "Supplement Inventory App for Shopify",
+    "meta_title": "Supplement Inventory App Shopify | Verve AI",
+    "meta_description": "The Shopify inventory app built for supplement brands. AI forecasting, expiry tracking, and automated purchase orders in minutes.",
+    "hero_intro": "Finding a Shopify inventory app that actually understands supplement businesses is harder than it should be. Verve AI is purpose-built for supplement brands — it tracks batch expiry dates, handles subscription-driven demand, and generates automated purchase orders directly within your Shopify workflow."
+  },
+
+  "shopify-inventory-supplement-store": {
+    "slug": "shopify-inventory-supplement-store",
+    "keyword": "Shopify inventory management for supplement store",
+    "vertical": "supplements",
+    "page_type": "vertical_landing",
+    "h1": "Shopify Inventory Management for Supplement Stores",
+    "meta_title": "Shopify Inventory for Supplement Stores | Verve AI",
+    "meta_description": "Shopify inventory management built for supplement stores. Forecast demand, track expiry dates, and automate reorders with Verve AI.",
+    "hero_intro": "Running a supplement store on Shopify means managing inventory that expires, sells in subscription patterns, and spikes unpredictably at the start of every year. Verve AI integrates directly with Shopify to give supplement stores AI-powered demand forecasting, batch expiry tracking, and automated purchase orders — all without spreadsheets."
+  },
+
+  "health-product-inventory-shopify": {
+    "slug": "health-product-inventory-shopify",
+    "keyword": "health product inventory management Shopify",
+    "vertical": "supplements",
+    "page_type": "vertical_landing",
+    "h1": "Health Product Inventory Management for Shopify",
+    "meta_title": "Health Product Inventory Shopify | Verve AI",
+    "meta_description": "AI-powered inventory management for health product brands on Shopify. Forecast demand, manage expiry, and automate POs.",
+    "hero_intro": "Health product brands on Shopify face a unique inventory challenge — products with short shelf lives, subscription customers expecting consistent availability, and seasonal spikes that catch underprepared brands off guard. Verve AI brings AI-powered demand forecasting and automated purchase order management to your Shopify health product catalogue."
+  },
+
+  "demand-forecasting-supplement-brands": {
+    "slug": "demand-forecasting-supplement-brands",
+    "keyword": "demand forecasting for supplement brands",
+    "vertical": "supplements",
+    "page_type": "feature",
+    "h1": "Demand Forecasting for Supplement Brands",
+    "meta_title": "Demand Forecasting for Supplement Brands | Verve AI",
+    "meta_description": "AI demand forecasting for supplement brands on Shopify. Separate subscription and one-time demand, plan for seasonal spikes.",
+    "hero_intro": "Demand forecasting for supplement brands requires a fundamentally different approach to most e-commerce categories. Verve AI models subscription demand separately from one-time purchases, layers in your seasonal patterns — January resolution spikes, Q4 gifting, summer sports nutrition — and produces 90-day rolling forecasts that update weekly as new Shopify sales data comes in."
+  },
+
+  "health-product-forecasting-shopify": {
+    "slug": "health-product-forecasting-shopify",
+    "keyword": "health product sales forecasting Shopify",
+    "vertical": "supplements",
+    "page_type": "feature",
+    "h1": "Health Product Sales Forecasting for Shopify",
+    "meta_title": "Health Product Sales Forecasting Shopify | Verve AI",
+    "meta_description": "Forecast health product sales on Shopify with AI. Verve AI models seasonal demand, subscription uplift, and reorder timing.",
+    "hero_intro": "Accurate sales forecasting for health products on Shopify means accounting for subscription renewal patterns, campaign-driven spikes, and the hard seasonality of the wellness calendar. Verve AI analyses your full Shopify order history to build product-level forecasts that give you the confidence to place the right purchase orders — weeks before your stock runs out."
+  },
+
+  "purchase-orders-supplement-supplier": {
+    "slug": "purchase-orders-supplement-supplier",
+    "keyword": "purchase orders supplement supplier",
+    "vertical": "supplements",
+    "page_type": "feature",
+    "h1": "Automated Purchase Orders for Supplement Suppliers",
+    "meta_title": "Purchase Orders for Supplement Suppliers | Verve AI",
+    "meta_description": "Automate purchase orders to your supplement suppliers from Shopify. Verve AI calculates reorder quantities and timing automatically.",
+    "hero_intro": "Placing purchase orders to supplement suppliers without a data-driven system means guessing — and guessing with a 30–60 day lead time means you either over-order and risk expiry write-offs, or under-order and run out. Verve AI calculates exactly how much to reorder from each supplier and when, based on your Shopify demand forecast, current stock levels, and supplier lead times."
   }
 }
