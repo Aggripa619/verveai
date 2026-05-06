@@ -568,5 +568,104 @@
     "meta_title": "Inventory Planning Influencer Campaigns Beauty | Verve AI",
     "meta_description": "How beauty brands can plan inventory ahead of influencer campaigns — forecasting uplift, setting safety stock, and avoiding stockouts after spikes.",
     "hero_intro": "Influencer campaigns are the most powerful and most unpredictable demand driver in the beauty category. A micro-influencer post can double your daily sell rate; a major brand partnership can clear your entire stock in 72 hours. This guide covers how beauty brands on Shopify can plan inventory intelligently ahead of influencer campaigns — so when the spike arrives, you're ready for it."
+  },
+
+  "manage-inventory-spike-viral-product": {
+    "slug": "manage-inventory-spike-viral-product",
+    "keyword": "how to manage inventory spike after viral product",
+    "vertical": "beauty",
+    "page_type": "blog",
+    "h1": "How to Manage Inventory After a Viral Product Spike",
+    "meta_title": "Manage Inventory Spike After Viral Product | Verve AI",
+    "meta_description": "What to do when a product goes viral and clears your stock. How beauty brands can respond fast, reorder smart, and capture demand.",
+    "hero_intro": "A viral moment is every beauty brand's dream — until you watch your stock disappear in 48 hours and realise you won't be able to restock for six weeks. Managing inventory after a viral product spike requires fast decision-making, accurate emergency reorder calculations, and a system that detects the spike before you've already sold out. This guide walks through exactly how to handle it."
+  },
+
+  "beauty-inventory-expiry-management": {
+    "slug": "beauty-inventory-expiry-management",
+    "keyword": "beauty product inventory expiry management",
+    "vertical": "beauty",
+    "page_type": "blog",
+    "h1": "Beauty Product Inventory Expiry Management on Shopify",
+    "meta_title": "Beauty Inventory Expiry Management | Verve AI",
+    "meta_description": "How beauty brands on Shopify can manage product expiry dates, prevent write-offs, and buy only what they can sell within shelf life.",
+    "hero_intro": "Expiry management is one of the most underappreciated margin protectors in the beauty category. A shade that falls out of trend, a formula that gets reformulated, or simply an over-ambitious buy quantity can leave you with stock that expires before it sells — turning a profitable product into a write-off. This guide covers how beauty brands on Shopify can manage product expiry systematically and avoid the write-offs that erode annual margins."
+  },
+
+  "high-sku-beauty-brand-inventory": {
+    "slug": "high-sku-beauty-brand-inventory",
+    "keyword": "managing high SKU count beauty brand inventory",
+    "vertical": "beauty",
+    "page_type": "blog",
+    "h1": "Managing High SKU Count Inventory for Beauty Brands",
+    "meta_title": "High SKU Beauty Brand Inventory Management | Verve AI",
+    "meta_description": "How beauty brands with 500+ SKUs can manage inventory without spreadsheets — using AI forecasting to track demand at the variant level.",
+    "hero_intro": "When your beauty brand reaches 500, 1,000, or 2,000+ active SKUs, spreadsheet-based inventory management doesn't just become inefficient — it becomes a source of constant errors, missed reorders, and compounding dead stock. This guide covers how high-SKU beauty brands can implement AI-driven inventory management that scales with catalogue size rather than against it."
+  },
+
+  "inventory-software-dtc-skincare": {
+    "slug": "inventory-software-dtc-skincare",
+    "keyword": "inventory software for DTC skincare brand",
+    "vertical": "beauty",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Software for DTC Skincare Brands",
+    "meta_title": "Inventory Software for DTC Skincare | Verve AI",
+    "meta_description": "Inventory software built for DTC skincare brands on Shopify. AI forecasting, expiry management, and automated purchase orders.",
+    "hero_intro": "DTC skincare brands operate on tighter margins and faster product cycles than almost any other e-commerce category — and inventory software that can't keep pace with that reality becomes a liability. Verve AI is built specifically for DTC skincare brands, delivering AI-powered demand forecasting and purchase order automation directly from your Shopify sales data."
+  },
+
+  "inventory-management-indie-beauty-brand": {
+    "slug": "inventory-management-indie-beauty-brand",
+    "keyword": "inventory management for indie beauty brand",
+    "vertical": "beauty",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Indie Beauty Brands",
+    "meta_title": "Inventory Management for Indie Beauty | Verve AI",
+    "meta_description": "Indie beauty brand inventory management on Shopify. AI demand forecasting and automated POs without the enterprise price tag.",
+    "hero_intro": "Indie beauty brands punch above their weight in product quality and brand identity — but inventory management is often where the wheels come off, with founders juggling spreadsheets across dozens of SKUs and making reorder decisions based on gut feel rather than data. Verve AI gives indie beauty brands on Shopify enterprise-grade demand forecasting and purchase order automation at a price that fits the stage of your business."
+  },
+
+  "inventory-management-hair-care-brand": {
+    "slug": "inventory-management-hair-care-brand",
+    "keyword": "inventory management for hair care brand Shopify",
+    "vertical": "beauty",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Hair Care Brands on Shopify",
+    "meta_title": "Inventory Management Hair Care Brand | Verve AI",
+    "meta_description": "Inventory management for hair care brands on Shopify. AI forecasting at the variant level, automated reorders, and shelf life tracking.",
+    "hero_intro": "Hair care brands on Shopify manage a wide and complex range — shampoos, conditioners, treatments, and styling products across multiple formulations for different hair types, each with its own demand pattern and shelf life. Verve AI gives hair care brands AI-powered demand forecasting at the variant level and automated purchase orders so you maintain availability across your full range without overstocking slow-moving formulas."
+  },
+
+  "inventory-management-makeup-brand": {
+    "slug": "inventory-management-makeup-brand",
+    "keyword": "inventory management for makeup brand",
+    "vertical": "beauty",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Makeup Brands",
+    "meta_title": "Inventory Management for Makeup Brands | Verve AI",
+    "meta_description": "AI inventory management for makeup brands on Shopify. Shade-level forecasting, expiry tracking, and automated purchase orders.",
+    "hero_intro": "Makeup brands face the most complex inventory challenge in the beauty category — hundreds of SKUs across foundations, lip colours, eyeshadow palettes, and concealers, each with dozens of shades and a shelf life that punishes over-buying. Verve AI gives makeup brands on Shopify shade-level demand forecasting and automated purchase orders that reflect how your catalogue actually sells, not a blended average."
+  },
+
+  "inventory-app-natural-beauty-brand": {
+    "slug": "inventory-app-natural-beauty-brand",
+    "keyword": "inventory app for natural beauty brand",
+    "vertical": "beauty",
+    "page_type": "vertical_landing",
+    "h1": "Inventory App for Natural Beauty Brands on Shopify",
+    "meta_title": "Inventory App for Natural Beauty Brand | Verve AI",
+    "meta_description": "Inventory app for natural beauty brands on Shopify. Short shelf lives, clean formulas — Verve AI forecasts demand and automates POs.",
+    "hero_intro": "Natural and clean beauty brands face heightened inventory pressure from shorter shelf lives — formulas without synthetic preservatives have tighter windows to sell through, which means buying too much of a product isn't just a cash flow problem, it's a write-off waiting to happen. Verve AI gives natural beauty brands on Shopify demand forecasting that accounts for shelf life constraints and automated purchase orders sized to sell through before expiry."
+  },
+
+  "purchase-order-automation-skincare": {
+    "slug": "purchase-order-automation-skincare",
+    "keyword": "purchase order automation skincare brand",
+    "vertical": "beauty",
+    "page_type": "feature",
+    "h1": "Purchase Order Automation for Skincare Brands",
+    "meta_title": "Purchase Order Automation Skincare | Verve AI",
+    "meta_description": "Automate purchase orders for your skincare brand on Shopify. Verve AI calculates reorder quantities from your demand forecast automatically.",
+    "hero_intro": "Manually calculating reorder quantities for a skincare catalogue with hundreds of SKUs is a full-time job — and it's a job that introduces errors every time someone updates a spreadsheet formula or forgets to account for an upcoming campaign. Verve AI automates purchase order generation for skincare brands on Shopify, pulling your demand forecast, current stock levels, and supplier lead times together into ready-to-send POs."
   }
 }
