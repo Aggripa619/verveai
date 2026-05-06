@@ -1,1 +1,102 @@
-{}
+{
+  "inventory-management-for-clothing-stores": {
+    "slug": "inventory-management-for-clothing-stores",
+    "keyword": "inventory management for clothing stores",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Clothing Stores",
+    "meta_title": "Inventory Management for Clothing Stores | Verve AI",
+    "meta_description": "Stop guessing your reorders. Verve AI gives clothing stores AI demand forecasting and automated purchase orders, built for Shopify.",
+    "hero_intro": "Running a clothing store means juggling hundreds of SKUs across sizes, colours, and styles — and one missed reorder can mean a lost season. Verve AI connects to your Shopify store and uses your sales history to predict exactly what you'll need, at variant level, before you run out or overstock."
+  },
+  "inventory-management-for-apparel-brands": {
+    "slug": "inventory-management-for-apparel-brands",
+    "keyword": "inventory management for apparel brands",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Apparel Brands",
+    "meta_title": "Inventory Management for Apparel Brands | Verve AI",
+    "meta_description": "Apparel brands face size runs, seasonal spikes, and long lead times. Verve AI gives you AI demand forecasting and one-click purchase orders on Shopify.",
+    "hero_intro": "Apparel brands carry hundreds of SKU variants across sizes, colours, and styles — and a single missed reorder can mean lost sales for an entire season. Verve AI analyses your Shopify order history to forecast demand at variant level and automates purchase orders so you're always stocked at the right time."
+  },
+  "inventory-management-for-fashion-brands": {
+    "slug": "inventory-management-for-fashion-brands",
+    "keyword": "inventory management for fashion brands",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Fashion Brands",
+    "meta_title": "Inventory Management for Fashion Brands | Verve AI",
+    "meta_description": "Fashion brands need variant-level forecasting and fast purchase orders. Verve AI automates both, connected directly to your Shopify store.",
+    "hero_intro": "Fashion brands deal with rapid trend cycles, seasonal inventory swings, and the constant challenge of balancing depth versus breadth across styles. Verve AI turns your Shopify data into SKU-level forecasts and automated purchase orders — so your buying decisions are driven by data, not gut feel."
+  },
+  "apparel-inventory-management-software": {
+    "slug": "apparel-inventory-management-software",
+    "keyword": "apparel inventory management software",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Apparel Inventory Management Software",
+    "meta_title": "Apparel Inventory Management Software | Verve AI",
+    "meta_description": "Purpose-built inventory management software for apparel brands on Shopify. AI forecasting, variant tracking, and automated purchase orders in one app.",
+    "hero_intro": "Spreadsheets and generic Shopify apps weren't built for the complexity of apparel inventory — size runs, colourways, seasonal buys, and fast-moving trends. Verve AI is purpose-built apparel inventory management software, with AI-powered demand forecasting and automated purchase orders that account for how fashion actually works."
+  },
+  "clothing-inventory-management-software": {
+    "slug": "clothing-inventory-management-software",
+    "keyword": "clothing inventory management software",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Clothing Inventory Management Software",
+    "meta_title": "Clothing Inventory Management Software | Verve AI",
+    "meta_description": "Smarter clothing inventory management for Shopify stores. Verve AI forecasts demand by variant and generates purchase orders automatically.",
+    "hero_intro": "Managing clothing inventory means tracking dozens of variants per style, anticipating seasonal demand, and ordering far enough ahead to avoid stockouts. Verve AI gives clothing retailers a smarter solution — using AI to forecast demand and automate purchase orders directly from your Shopify data."
+  },
+  "fashion-inventory-management-software": {
+    "slug": "fashion-inventory-management-software",
+    "keyword": "fashion inventory management software",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Fashion Inventory Management Software",
+    "meta_title": "Fashion Inventory Management Software | Verve AI",
+    "meta_description": "Verve AI is fashion inventory management software built for Shopify. Forecast demand by SKU, track variants, and automate purchase orders.",
+    "hero_intro": "Fashion inventory is uniquely complex — styles change every season, demand can spike overnight, and size availability determines whether you convert a sale or lose it. Verve AI's forecasting engine is built for this complexity, giving fashion brands the tools to plan smarter and buy with confidence."
+  },
+  "apparel-inventory-management-shopify": {
+    "slug": "apparel-inventory-management-shopify",
+    "keyword": "apparel inventory management Shopify",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Apparel Inventory Management for Shopify",
+    "meta_title": "Apparel Inventory Management for Shopify | Verve AI",
+    "meta_description": "The best apparel inventory management app for Shopify. AI demand forecasting, variant-level tracking, and automated purchase orders — free trial.",
+    "hero_intro": "Shopify is a great platform for selling apparel — but its native inventory tools weren't built for the complexity of size runs, colourways, and seasonal buying cycles. Verve AI fills that gap with AI demand forecasting and automated purchase orders that plug directly into your Shopify store."
+  },
+  "clothing-store-inventory-app-shopify": {
+    "slug": "clothing-store-inventory-app-shopify",
+    "keyword": "clothing store inventory app Shopify",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Inventory App for Clothing Stores on Shopify",
+    "meta_title": "Clothing Store Inventory App for Shopify | Verve AI",
+    "meta_description": "Verve AI is the inventory app clothing stores on Shopify use for demand forecasting and automated purchase orders. Set up in minutes.",
+    "hero_intro": "Clothing stores on Shopify juggle hundreds of variants, seasonal shifts, and supplier lead times — all while trying to keep shelves stocked and avoid tying up cash in slow-moving styles. Verve AI is the inventory app that fixes this, turning your Shopify order history into accurate forecasts and automated purchase orders."
+  },
+  "shopify-inventory-app-fashion-brands": {
+    "slug": "shopify-inventory-app-fashion-brands",
+    "keyword": "Shopify inventory app for fashion brands",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "The Shopify Inventory App for Fashion Brands",
+    "meta_title": "Shopify Inventory App for Fashion Brands | Verve AI",
+    "meta_description": "Verve AI is a Shopify inventory app built for fashion brands. AI-powered demand forecasting and automated purchase orders — free trial included.",
+    "hero_intro": "Fashion brands on Shopify need more than a basic inventory tracker — they need a forecasting engine that understands size runs, seasonal demand curves, and supplier lead times. Verve AI delivers exactly that, with AI demand forecasting and automated purchase orders built for how fashion brands actually operate."
+  },
+  "shopify-clothing-inventory-tracker": {
+    "slug": "shopify-clothing-inventory-tracker",
+    "keyword": "Shopify clothing inventory tracker",
+    "vertical": "apparel",
+    "page_type": "vertical_landing",
+    "h1": "Shopify Clothing Inventory Tracker",
+    "meta_title": "Shopify Clothing Inventory Tracker | Verve AI",
+    "meta_description": "Track and forecast clothing inventory on Shopify with Verve AI. AI-powered demand forecasts by variant and automated purchase order suggestions.",
+    "hero_intro": "Tracking clothing inventory on Shopify manually is a constant game of catch-up — checking stock levels, estimating what to reorder, and hoping you got the quantities right. Verve AI replaces this with AI-powered demand forecasting that tracks every variant and tells you exactly when and how much to reorder."
+  }
+}
