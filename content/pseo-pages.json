@@ -1074,5 +1074,115 @@
     "meta_title": "Inventory Management Watches & Accessories | Verve AI",
     "meta_description": "Inventory management for watches and accessories brands on Shopify. AI forecasting, gifting peaks, and automated purchase orders.",
     "hero_intro": "Watches and accessories brands on Shopify combine the characteristics of fine jewellery — high value per unit, gifting-driven demand peaks — with the complexity of fashion accessories, where trend cycles create rapid shifts in which SKUs are hot and which are not. Verve AI handles both dynamics simultaneously, giving watches and accessories brands on Shopify inventory forecasting that adapts to changing demand patterns and automates purchase orders before peaks arrive."
+  },
+
+  "inventory-management-home-goods-brands": {
+    "slug": "inventory-management-home-goods-brands",
+    "keyword": "inventory management for home goods brands",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Home Goods Brands",
+    "meta_title": "Inventory Management for Home Goods Brands | Verve AI",
+    "meta_description": "Long-horizon demand forecasting for home goods brands on Shopify. Plan seasonal buys months in advance and prevent dead stock.",
+    "hero_intro": "Home goods brands on Shopify face a planning challenge unlike most e-commerce categories — overseas lead times of 60 to 120 days mean your Christmas inventory decisions happen in August. Verve AI gives home goods brands the long-horizon demand forecasting and automated purchase orders needed to nail seasonal buys without the dead stock that comes from guessing at volume months in advance."
+  },
+
+  "home-goods-inventory-management-software": {
+    "slug": "home-goods-inventory-management-software",
+    "keyword": "home goods inventory management software",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Home Goods Inventory Management Software",
+    "meta_title": "Home Goods Inventory Management Software | Verve AI",
+    "meta_description": "Inventory management software for home goods brands. AI forecasting for 90-180 day horizons, seasonal planning, and automated POs.",
+    "hero_intro": "Home goods inventory management software needs to think further ahead than tools designed for faster-moving categories — with factory lead times running to four months, a forecast that only looks 30 days out is operationally useless. Verve AI generates demand forecasts up to 180 days forward for home goods brands on Shopify, giving you the runway to place the right purchase orders before your seasonal windows open."
+  },
+
+  "furniture-inventory-management-software": {
+    "slug": "furniture-inventory-management-software",
+    "keyword": "furniture inventory management software",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Furniture Inventory Management Software for Shopify",
+    "meta_title": "Furniture Inventory Management Software | Verve AI",
+    "meta_description": "AI furniture inventory management for Shopify stores. Long lead time planning, capital efficiency tracking, and automated POs.",
+    "hero_intro": "Furniture inventory management on Shopify requires planning at a scale and horizon that generic inventory tools can't accommodate — pieces with 90-day factory lead times, high storage cost implications for overstock, and seasonal demand patterns that must be anticipated months in advance. Verve AI is inventory management software built for these realities, giving furniture brands on Shopify the forecasting accuracy to buy the right quantities without paying warehouse costs for stock that takes too long to sell."
+  },
+
+  "homeware-inventory-management-software": {
+    "slug": "homeware-inventory-management-software",
+    "keyword": "homeware inventory management software",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Homeware Inventory Management Software for Shopify",
+    "meta_title": "Homeware Inventory Management Software | Verve AI",
+    "meta_description": "Homeware inventory management software with seasonal forecasting, long lead time planning, and automated purchase orders for Shopify.",
+    "hero_intro": "Homeware brands on Shopify sit at the intersection of seasonal demand and long overseas lead times — a combination that makes inventory planning both high-stakes and difficult. Verve AI is the homeware inventory management software that resolves this tension, using historical seasonal data to project demand months ahead and generating supplier purchase orders with timing that accounts for your longest lead times."
+  },
+
+  "home-decor-inventory-software": {
+    "slug": "home-decor-inventory-software",
+    "keyword": "home decor inventory software",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Home Decor Inventory Software for Shopify Brands",
+    "meta_title": "Home Decor Inventory Software | Verve AI",
+    "meta_description": "AI inventory software for home decor brands on Shopify. Seasonal sell-through tracking, long-horizon forecasting, and automated reorders.",
+    "hero_intro": "Home decor inventory software needs to understand that a Christmas cushion range and a year-round ceramic lamp are completely different inventory problems — one has a hard sell-through window that punishes over-buying, the other requires consistent availability throughout the year. Verve AI models both simultaneously for home decor brands on Shopify, applying the right forecasting logic to each product type in your catalogue."
+  },
+
+  "home-goods-inventory-app-shopify": {
+    "slug": "home-goods-inventory-app-shopify",
+    "keyword": "home goods inventory app Shopify",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Home Goods Inventory App for Shopify",
+    "meta_title": "Home Goods Inventory App Shopify | Verve AI",
+    "meta_description": "The Shopify inventory app for home goods brands. Long-horizon forecasting, seasonal planning, and automated purchase orders.",
+    "hero_intro": "Home goods brands on Shopify need an inventory app that thinks in seasons and lead times, not just current stock levels. Verve AI is the Shopify inventory app built for home goods, generating 90-to-180-day demand forecasts that give you the time to place overseas purchase orders before demand peaks arrive — and capital efficiency tracking that prevents seasonal dead stock from eating your margins."
+  },
+
+  "shopify-inventory-furniture-store": {
+    "slug": "shopify-inventory-furniture-store",
+    "keyword": "Shopify inventory management for furniture store",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Shopify Inventory Management for Furniture Stores",
+    "meta_title": "Shopify Inventory for Furniture Stores | Verve AI",
+    "meta_description": "Shopify inventory management for furniture stores. Long lead time forecasting, storage cost tracking, and automated purchase orders.",
+    "hero_intro": "Furniture stores on Shopify can't rely on the same inventory management approach as fast-moving product categories — pieces take months to arrive from overseas factories, storage costs make overstock painful, and seasonal demand peaks require planning that begins long before the selling season. Verve AI adds long-horizon demand forecasting and automated purchase order management to your Shopify furniture store."
+  },
+
+  "homeware-stock-management-shopify": {
+    "slug": "homeware-stock-management-shopify",
+    "keyword": "homeware stock management Shopify",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Homeware Stock Management for Shopify Brands",
+    "meta_title": "Homeware Stock Management Shopify | Verve AI",
+    "meta_description": "AI homeware stock management for Shopify. Forecast seasonal demand, avoid dead stock, and automate overseas supplier POs.",
+    "hero_intro": "Homeware stock management on Shopify is a long-game exercise — you're placing purchase orders today for products that won't arrive for three or four months, based on a forecast of what customers will want by the time those pieces land. Verve AI gives homeware brands on Shopify the forecasting accuracy to make those decisions confidently, with seasonal demand models updated weekly from your live Shopify sales data."
+  },
+
+  "demand-forecasting-home-goods": {
+    "slug": "demand-forecasting-home-goods",
+    "keyword": "demand forecasting for home goods brand",
+    "vertical": "home-goods",
+    "page_type": "feature",
+    "h1": "Demand Forecasting for Home Goods Brands",
+    "meta_title": "Demand Forecasting for Home Goods Brands | Verve AI",
+    "meta_description": "Long-horizon demand forecasting for home goods brands on Shopify. Plan 90-180 days ahead for seasonal peaks and overseas lead times.",
+    "hero_intro": "Demand forecasting for home goods brands requires a longer horizon than almost any other e-commerce category — you need to know what will sell in October before the summer is over, so you can place the factory order in time. Verve AI generates 90-to-180-day rolling demand forecasts for home goods brands on Shopify, combining historical seasonal patterns with current trading trends to give you a reliable buying plan across your entire catalogue."
+  },
+
+  "seasonal-demand-forecasting-homeware": {
+    "slug": "seasonal-demand-forecasting-homeware",
+    "keyword": "seasonal demand forecasting homeware brand",
+    "vertical": "home-goods",
+    "page_type": "feature",
+    "h1": "Seasonal Demand Forecasting for Homeware Brands",
+    "meta_title": "Seasonal Demand Forecasting Homeware | Verve AI",
+    "meta_description": "AI seasonal demand forecasting for homeware brands on Shopify. Plan spring refresh and Q4 gifting buys months in advance.",
+    "hero_intro": "Seasonal demand forecasting for homeware brands is one of the most consequential planning activities in e-commerce — get the spring refresh buy right and you clear it profitably; get it wrong and you spend the summer marking down. Verve AI models the seasonal demand curves for every product in your homeware catalogue, projecting peak volumes weeks in advance and timing purchase order recommendations to your overseas factory lead times."
   }
 }
