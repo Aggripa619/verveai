@@ -101,10 +101,10 @@ export default function PricingPage() {
           </p>
           <p className="text-center text-sm text-gray-500 mb-10">
             Built for{' '}
-            <a href="/inventory-management-for/apparel" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>apparel</a>,{' '}
-            <a href="/inventory-management-for/supplements" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>supplements</a>,{' '}
-            <a href="/inventory-management-for/beauty" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>beauty</a>,{' '}
-            <a href="/inventory-management-for/pet-supplies" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>pet supplies</a>, and{' '}
+            <a href="/inventory-management-for-clothing-stores" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>apparel</a>,{' '}
+            <a href="/inventory-management-supplement-brands" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>supplements</a>,{' '}
+            <a href="/inventory-management-beauty-brands" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>beauty</a>,{' '}
+            <a href="/inventory-management-pet-supply-brands" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>pet supplies</a>, and{' '}
             <a href="/inventory-management-for" className="underline hover:opacity-80 font-medium" style={{ color: 'rgb(0, 160, 133)' }}>8+ more verticals →</a>
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

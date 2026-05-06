@@ -94,14 +94,14 @@ export default function Footer() {
           <div>
             <p className="font-bold mb-4">By Industry</p>
             <ul className="flex flex-col gap-2 text-sm text-white/80">
-              <li><Link href="/inventory-management-for/apparel" className="hover:text-white transition-colors">Apparel</Link></li>
-              <li><Link href="/inventory-management-for/supplements" className="hover:text-white transition-colors">Supplements</Link></li>
-              <li><Link href="/inventory-management-for/beauty" className="hover:text-white transition-colors">Beauty</Link></li>
-              <li><Link href="/inventory-management-for/pet-supplies" className="hover:text-white transition-colors">Pet Supplies</Link></li>
-              <li><Link href="/inventory-management-for/jewellery" className="hover:text-white transition-colors">Jewellery</Link></li>
-              <li><Link href="/inventory-management-for/home-goods" className="hover:text-white transition-colors">Home Goods</Link></li>
-              <li><Link href="/inventory-management-for/food-and-beverage" className="hover:text-white transition-colors">Food & Beverage</Link></li>
-              <li><Link href="/inventory-management-for/sports-and-outdoor" className="hover:text-white transition-colors">Sports & Outdoor</Link></li>
+              <li><Link href="/inventory-management-for-clothing-stores" className="hover:text-white transition-colors">Apparel</Link></li>
+              <li><Link href="/inventory-management-supplement-brands" className="hover:text-white transition-colors">Supplements</Link></li>
+              <li><Link href="/inventory-management-beauty-brands" className="hover:text-white transition-colors">Beauty</Link></li>
+              <li><Link href="/inventory-management-pet-supply-brands" className="hover:text-white transition-colors">Pet Supplies</Link></li>
+              <li><Link href="/inventory-management-jewellery-shops" className="hover:text-white transition-colors">Jewellery</Link></li>
+              <li><Link href="/inventory-management-home-goods-brands" className="hover:text-white transition-colors">Home Goods</Link></li>
+              <li><Link href="/inventory-management-food-brands" className="hover:text-white transition-colors">Food & Beverage</Link></li>
+              <li><Link href="/inventory-management-sports-brands" className="hover:text-white transition-colors">Sports & Outdoor</Link></li>
             </ul>
           </div>
 

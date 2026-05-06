@@ -19,15 +19,16 @@ export const metadata: Metadata = {
   },
 }
 
-const TIER_LABELS: Record<string, string> = {
-  apparel: 'Apparel & Fashion',
-  supplements: 'Health & Supplements',
-  beauty: 'Beauty & Cosmetics',
-  'pet-supplies': 'Pet Supplies',
-  jewellery: 'Jewellery & Accessories',
-  'home-goods': 'Home Goods & Décor',
-  'food-and-beverage': 'Food & Beverage',
-  'sports-and-outdoor': 'Sports & Outdoor',
+// Lead URL for each vertical — points to the primary pSEO page
+const VERTICAL_LEAD_URL: Record<string, string> = {
+  apparel: '/inventory-management-for-clothing-stores',
+  supplements: '/inventory-management-supplement-brands',
+  beauty: '/inventory-management-beauty-brands',
+  'pet-supplies': '/inventory-management-pet-supply-brands',
+  jewellery: '/inventory-management-jewellery-shops',
+  'home-goods': '/inventory-management-home-goods-brands',
+  'food-and-beverage': '/inventory-management-food-brands',
+  'sports-and-outdoor': '/inventory-management-sports-brands',
 }
 
 export default function VerticalHubPage() {
@@ -60,7 +61,7 @@ export default function VerticalHubPage() {
             {verticals.map(({ slug, data }) => (
               <Link
                 key={slug}
-                href={`/inventory-management-for/${slug}`}
+                href={VERTICAL_LEAD_URL[slug] ?? `/inventory-management-for/${slug}`}
                 className="group flex flex-col gap-2 rounded-2xl p-6 bg-gray-50 border border-gray-100 hover:border-teal-200 hover:bg-teal-50/30 transition-all"
               >
                 <h2 className="font-bold text-gray-900 group-hover:text-teal-700 transition-colors">

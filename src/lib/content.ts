@@ -119,6 +119,33 @@ export function getAllVerticalPages(): { slug: string; data: VerticalData }[] {
     .filter(Boolean) as { slug: string; data: VerticalData }[]
 }
 
+// ─── pSEO pages (1-keyword-per-page) ─────────────────────────────────────────
+
+import type { PseoPageEntry } from '@/types/vertical'
+
+let pseoCache: Record<string, PseoPageEntry> | null = null
+
+function loadPseoPages(): Record<string, PseoPageEntry> {
+  if (pseoCache) return pseoCache
+  try {
+    const raw = fs.readFileSync(path.join(CONTENT_DIR, 'pseo-pages.json'), 'utf-8')
+    pseoCache = JSON.parse(raw) as Record<string, PseoPageEntry>
+    return pseoCache
+  } catch {
+    return {}
+  }
+}
+
+export function getPseoPage(slug: string): PseoPageEntry | null {
+  return loadPseoPages()[slug] ?? null
+}
+
+export function getAllPseoSlugs(): string[] {
+  return Object.keys(loadPseoPages()).sort()
+}
+
+// ─── Constants ───────────────────────────────────────────────────────────────
+
 export const SHOPIFY_URL = 'https://apps.shopify.com/verve-ai'
 export const WOOCOMMERCE_URL = 'https://wordpress.org/plugins/verve-ai-inventory-forecasting'
 export const TWITTER_URL = 'https://x.com/getverveai'

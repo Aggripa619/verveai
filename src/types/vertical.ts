@@ -33,3 +33,14 @@ export interface VerticalData {
   meta_description: string
   og_image?: string
 }
+
+export interface PseoPageEntry {
+  slug: string
+  keyword: string
+  vertical: string          // matches content/verticals/{vertical}.json
+  page_type: 'vertical_landing' | 'feature' | 'blog'
+  h1: string
+  meta_title: string        // ≤60 chars
+  meta_description: string  // ≤155 chars
+  hero_intro: string        // 2-3 sentences, keyword-matched
+}
