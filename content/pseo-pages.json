@@ -1272,5 +1272,115 @@
     "meta_title": "Inventory App for Home Textiles Brand | Verve AI",
     "meta_description": "Shopify inventory app for home textiles brands. Seasonal demand forecasting, colour and size variants, and automated POs.",
     "hero_intro": "Home textiles brands on Shopify — bedding, cushions, towels, throws — manage seasonal demand patterns and product variants that require the same kind of planning discipline as apparel, but with the longer lead times of overseas home goods manufacturing. Verve AI gives home textiles brands the Shopify inventory app they need: seasonal demand forecasting, variant-level tracking, and automated purchase orders timed to your factory lead times."
+  },
+
+  "inventory-management-food-brands": {
+    "slug": "inventory-management-food-brands",
+    "keyword": "inventory management for food brands",
+    "vertical": "food-and-beverage",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Food Brands",
+    "meta_title": "Inventory Management for Food Brands | Verve AI",
+    "meta_description": "Shelf life-aware inventory management for food brands on Shopify. Prevent write-offs, track batches, and automate purchase orders.",
+    "hero_intro": "Food brands on Shopify face an inventory problem that generic tools completely ignore — shelf life. Buying too much of a perishable product to buffer against stockouts doesn't protect you; it creates a write-off. Verve AI gives food brands inventory management that treats shelf life as a hard constraint in every reorder calculation, so you hold exactly what you can sell and no more."
+  },
+
+  "dtc-food-brand-inventory-management": {
+    "slug": "dtc-food-brand-inventory-management",
+    "keyword": "DTC food brand inventory management software",
+    "vertical": "food-and-beverage",
+    "page_type": "vertical_landing",
+    "h1": "DTC Food Brand Inventory Management Software",
+    "meta_title": "DTC Food Brand Inventory Management | Verve AI",
+    "meta_description": "Inventory management software for DTC food brands on Shopify. Shelf life constraints, batch tracking, and subscription demand planning.",
+    "hero_intro": "DTC food brands carry the full complexity of food inventory management — perishable shelf lives, subscription and one-time order demand stacked on top of each other, and regulatory lot tracking requirements — without the infrastructure that larger food businesses have to manage it. Verve AI is the inventory management software that brings all of this together for DTC food brands on Shopify in a single connected system."
+  },
+
+  "beverage-brand-inventory-management": {
+    "slug": "beverage-brand-inventory-management",
+    "keyword": "beverage brand inventory management software",
+    "vertical": "food-and-beverage",
+    "page_type": "vertical_landing",
+    "h1": "Beverage Brand Inventory Management Software",
+    "meta_title": "Beverage Brand Inventory Management | Verve AI",
+    "meta_description": "Inventory management for beverage brands on Shopify. Forecast demand, track batch codes, and automate purchase orders.",
+    "hero_intro": "Beverage brands on Shopify manage products with limited shelf lives, batch coding requirements, and demand patterns that swing sharply with seasons, promotions, and viral moments. Verve AI gives beverage brands inventory management software that accounts for all of this — shelf life-constrained reorder quantities, full batch traceability, and AI demand forecasting that adapts to your beverage category's trading patterns."
+  },
+
+  "food-drink-inventory-software-shopify": {
+    "slug": "food-drink-inventory-software-shopify",
+    "keyword": "food and drink inventory software Shopify",
+    "vertical": "food-and-beverage",
+    "page_type": "vertical_landing",
+    "h1": "Food and Drink Inventory Software for Shopify",
+    "meta_title": "Food and Drink Inventory Software Shopify | Verve AI",
+    "meta_description": "Shopify inventory software for food and drink brands. Shelf life forecasting, batch tracking, and automated purchase orders.",
+    "hero_intro": "Food and drink inventory software for Shopify needs to understand perishables — calculating reorder quantities against shelf life, tracking batch codes for compliance, and separating subscription demand from one-time purchases so you never over-stock a product that will expire before it sells. Verve AI is the food and drink inventory software that brings all of these requirements together in a single Shopify integration."
+  },
+
+  "food-brand-inventory-app-shopify": {
+    "slug": "food-brand-inventory-app-shopify",
+    "keyword": "food brand inventory app Shopify",
+    "vertical": "food-and-beverage",
+    "page_type": "vertical_landing",
+    "h1": "Food Brand Inventory App for Shopify",
+    "meta_title": "Food Brand Inventory App Shopify | Verve AI",
+    "meta_description": "The Shopify inventory app for food brands. AI shelf life forecasting, lot tracking, and automated purchase orders in minutes.",
+    "hero_intro": "Finding a Shopify inventory app that truly understands food is harder than it should be — most apps treat a jar of sauce the same way they treat a pair of trainers, with no concept of shelf life, batch compliance, or perishable stock limits. Verve AI is the food brand inventory app built for the specific realities of selling food on Shopify, with shelf life-aware forecasting and full batch traceability built in."
+  },
+
+  "shopify-inventory-food-store": {
+    "slug": "shopify-inventory-food-store",
+    "keyword": "Shopify inventory management for food store",
+    "vertical": "food-and-beverage",
+    "page_type": "vertical_landing",
+    "h1": "Shopify Inventory Management for Food Stores",
+    "meta_title": "Shopify Inventory Management Food Store | Verve AI",
+    "meta_description": "Shopify inventory management for food stores. Shelf life forecasting, lot tracking, and automated reorder suggestions.",
+    "hero_intro": "Shopify inventory management for a food store requires a fundamentally different approach to non-perishable categories — you need to know not just how much to order, but how much you can safely hold given your products' shelf lives and your projected sell-through rate. Verve AI adds this intelligence to your food store's Shopify account, with shelf life-constrained forecasting and automated purchase orders that protect your margins."
+  },
+
+  "ecommerce-food-stock-management-shopify": {
+    "slug": "ecommerce-food-stock-management-shopify",
+    "keyword": "ecommerce food stock management Shopify",
+    "vertical": "food-and-beverage",
+    "page_type": "vertical_landing",
+    "h1": "E-Commerce Food Stock Management on Shopify",
+    "meta_title": "E-Commerce Food Stock Management Shopify | Verve AI",
+    "meta_description": "AI food stock management for Shopify e-commerce. Shelf life constraints, batch tracking, and automated purchase orders.",
+    "hero_intro": "E-commerce food stock management on Shopify demands a level of precision that general-purpose inventory tools don't provide — every reorder decision needs to account for how long the product can be stored, what your actual sell-through rate looks like, and whether incoming stock will clear before it expires. Verve AI delivers this precision for food brands on Shopify, combining shelf life data with AI demand forecasting to calculate safe, accurate stock positions."
+  },
+
+  "demand-forecasting-dtc-food-brand": {
+    "slug": "demand-forecasting-dtc-food-brand",
+    "keyword": "demand forecasting for DTC food brand",
+    "vertical": "food-and-beverage",
+    "page_type": "feature",
+    "h1": "Demand Forecasting for DTC Food Brands",
+    "meta_title": "Demand Forecasting for DTC Food Brands | Verve AI",
+    "meta_description": "AI demand forecasting for DTC food brands on Shopify. Shelf life-aware reorder quantities, subscription demand, and seasonal spikes.",
+    "hero_intro": "Demand forecasting for DTC food brands needs to solve a problem that standard forecasting doesn't address — your reorder quantity isn't just limited by demand, it's limited by how much you can sell before the product expires. Verve AI builds demand forecasts for DTC food brands that incorporate shelf life as a hard constraint, so every reorder recommendation is sized to what your projected sales can actually clear in time."
+  },
+
+  "food-product-sales-forecasting": {
+    "slug": "food-product-sales-forecasting",
+    "keyword": "food product sales forecasting tool",
+    "vertical": "food-and-beverage",
+    "page_type": "feature",
+    "h1": "Food Product Sales Forecasting Tool for Shopify",
+    "meta_title": "Food Product Sales Forecasting Tool | Verve AI",
+    "meta_description": "AI food product sales forecasting for Shopify. Forecast seasonal demand, subscription uplift, and perishable stock limits.",
+    "hero_intro": "A food product sales forecasting tool that ignores shelf life isn't a forecasting tool — it's a stockout and write-off generator waiting to happen. Verve AI forecasts food product sales with shelf life built into every calculation, accounting for subscription demand, seasonal peaks like Christmas and summer BBQ season, and the hard ceiling on how much perishable stock your brand can safely carry at any point in time."
+  },
+
+  "inventory-management-perishable-food": {
+    "slug": "inventory-management-perishable-food",
+    "keyword": "inventory management for perishable food products",
+    "vertical": "food-and-beverage",
+    "page_type": "blog",
+    "h1": "Inventory Management for Perishable Food Products",
+    "meta_title": "Inventory Management Perishable Food | Verve AI",
+    "meta_description": "How Shopify food brands can manage perishable inventory — shelf life constraints, FIFO, batch tracking, and demand forecasting.",
+    "hero_intro": "Perishable food inventory management is one of the most demanding challenges in e-commerce — every reorder decision is bounded not just by demand and lead time, but by how long the product can be stored before it becomes unsellable. This guide covers the core strategies for managing perishable food inventory on Shopify, from shelf life-constrained reorder calculations to FIFO rotation and batch compliance tracking."
   }
 }
