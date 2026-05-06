@@ -1184,5 +1184,93 @@
     "meta_title": "Seasonal Demand Forecasting Homeware | Verve AI",
     "meta_description": "AI seasonal demand forecasting for homeware brands on Shopify. Plan spring refresh and Q4 gifting buys months in advance.",
     "hero_intro": "Seasonal demand forecasting for homeware brands is one of the most consequential planning activities in e-commerce — get the spring refresh buy right and you clear it profitably; get it wrong and you spend the summer marking down. Verve AI models the seasonal demand curves for every product in your homeware catalogue, projecting peak volumes weeks in advance and timing purchase order recommendations to your overseas factory lead times."
+  },
+
+  "purchase-order-automation-furniture": {
+    "slug": "purchase-order-automation-furniture",
+    "keyword": "purchase order automation furniture brand",
+    "vertical": "home-goods",
+    "page_type": "feature",
+    "h1": "Purchase Order Automation for Furniture Brands",
+    "meta_title": "Purchase Order Automation Furniture | Verve AI",
+    "meta_description": "Automate purchase orders for your furniture brand on Shopify. Verve AI times POs to your factory lead times automatically.",
+    "hero_intro": "Furniture brands placing purchase orders manually are operating with a dangerous margin for error — a single mistimed or mismeasured order placed with a 90-day factory lead time can leave you understocked during your peak season with no way to recover in time. Verve AI automates purchase order generation for furniture brands on Shopify, calculating the right quantities and the right timing based on your demand forecast and each supplier's actual lead time."
+  },
+
+  "managing-lead-times-furniture-brand": {
+    "slug": "managing-lead-times-furniture-brand",
+    "keyword": "managing long supplier lead times furniture brand",
+    "vertical": "home-goods",
+    "page_type": "blog",
+    "h1": "Managing Long Supplier Lead Times for Furniture Brands",
+    "meta_title": "Managing Supplier Lead Times Furniture | Verve AI",
+    "meta_description": "How furniture brands can manage 60-120 day supplier lead times — demand forecasting, buffer stock, and purchase order timing.",
+    "hero_intro": "Long supplier lead times are the defining inventory management challenge for furniture brands — with factories requiring 60 to 120 days' notice, every purchase order decision is made months before the selling season arrives. This guide covers how furniture brands on Shopify can manage this planning horizon systematically, using demand forecasting and supplier performance tracking to place the right orders at the right time."
+  },
+
+  "reducing-dead-stock-home-decor": {
+    "slug": "reducing-dead-stock-home-decor",
+    "keyword": "reducing dead stock home decor business",
+    "vertical": "home-goods",
+    "page_type": "blog",
+    "h1": "Reducing Dead Stock in Your Home Decor Business",
+    "meta_title": "Reducing Dead Stock Home Decor | Verve AI",
+    "meta_description": "How home decor brands can reduce dead stock — smarter seasonal buying, sell-through tracking, and AI demand forecasting on Shopify.",
+    "hero_intro": "Dead stock is one of the most persistent margin problems in the home decor category — seasonal ranges that didn't clear, trend-driven pieces that fell out of favour, and over-ambitious buys on slow-moving styles all contribute to capital tied up in stock that won't sell at full price. This guide covers the most effective strategies for reducing dead stock in a home decor business, from seasonal forecasting to buy quantity discipline."
+  },
+
+  "seasonal-inventory-planning-homeware": {
+    "slug": "seasonal-inventory-planning-homeware",
+    "keyword": "seasonal inventory planning for homeware brand",
+    "vertical": "home-goods",
+    "page_type": "blog",
+    "h1": "Seasonal Inventory Planning for Homeware Brands",
+    "meta_title": "Seasonal Inventory Planning Homeware | Verve AI",
+    "meta_description": "How homeware brands can plan seasonal inventory — spring refresh, Q4 gifting, and long-lead overseas buys — using AI forecasting.",
+    "hero_intro": "Seasonal inventory planning for homeware brands is a high-stakes exercise that begins months before the selling window opens. A spring refresh collection committed to a Chinese factory in January needs to be sized correctly before a single trend report from that season has been published. This guide walks through how homeware brands can approach seasonal inventory planning systematically, using historical demand data and long-horizon forecasting to make better buying decisions."
+  },
+
+  "inventory-software-dtc-home-brand": {
+    "slug": "inventory-software-dtc-home-brand",
+    "keyword": "inventory software for DTC home brand",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Software for DTC Home Brands",
+    "meta_title": "Inventory Software for DTC Home Brand | Verve AI",
+    "meta_description": "Inventory software for DTC home brands on Shopify. AI forecasting, seasonal planning, and automated purchase orders.",
+    "hero_intro": "DTC home brands on Shopify carry the full weight of inventory planning without the demand signal advantages of wholesale — no retailer sell-through data, no buyer relationships to help read the market, just your own Shopify analytics and your judgement. Verve AI gives DTC home brands the AI-powered demand forecasting and purchase order automation that transforms that data into confident buying decisions."
+  },
+
+  "inventory-management-interior-design-brand": {
+    "slug": "inventory-management-interior-design-brand",
+    "keyword": "inventory management for interior design brand",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Interior Design Brands",
+    "meta_title": "Inventory Management Interior Design Brand | Verve AI",
+    "meta_description": "AI inventory management for interior design brands on Shopify. Seasonal forecasting, long lead times, and automated POs.",
+    "hero_intro": "Interior design brands on Shopify operate across a wide product mix — furniture, lighting, textiles, and accessories — each sourced from different suppliers with different lead times and seasonal demand profiles. Verve AI gives interior design brands unified inventory management across their entire Shopify catalogue, with demand forecasting and purchase order automation tailored to the long planning horizons of home goods sourcing."
+  },
+
+  "stock-management-furniture-ecommerce": {
+    "slug": "stock-management-furniture-ecommerce",
+    "keyword": "stock management for furniture ecommerce Shopify",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Stock Management for Furniture E-Commerce on Shopify",
+    "meta_title": "Stock Management Furniture E-Commerce | Verve AI",
+    "meta_description": "AI stock management for furniture e-commerce on Shopify. Long-horizon demand forecasting, storage cost tracking, and PO automation.",
+    "hero_intro": "Stock management for furniture e-commerce on Shopify requires a different discipline to soft goods — pieces are expensive to hold, slow to sell relative to accessories, and impossible to restock quickly when you run out due to 90-day factory lead times. Verve AI gives furniture e-commerce brands on Shopify the demand forecasting and stock management tools to maintain the right inventory levels without tying up excessive capital in slow-moving pieces."
+  },
+
+  "inventory-app-home-textiles-brand": {
+    "slug": "inventory-app-home-textiles-brand",
+    "keyword": "inventory app for home textiles brand",
+    "vertical": "home-goods",
+    "page_type": "vertical_landing",
+    "h1": "Inventory App for Home Textiles Brands on Shopify",
+    "meta_title": "Inventory App for Home Textiles Brand | Verve AI",
+    "meta_description": "Shopify inventory app for home textiles brands. Seasonal demand forecasting, colour and size variants, and automated POs.",
+    "hero_intro": "Home textiles brands on Shopify — bedding, cushions, towels, throws — manage seasonal demand patterns and product variants that require the same kind of planning discipline as apparel, but with the longer lead times of overseas home goods manufacturing. Verve AI gives home textiles brands the Shopify inventory app they need: seasonal demand forecasting, variant-level tracking, and automated purchase orders timed to your factory lead times."
   }
 }
