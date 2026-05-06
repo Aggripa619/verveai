@@ -865,5 +865,115 @@
     "meta_title": "Stock Management for Pet Treats Brand | Verve AI",
     "meta_description": "AI stock management for pet treats brands on Shopify. Forecast demand, track SKU velocity, and automate reorders automatically.",
     "hero_intro": "Pet treats brands on Shopify juggle a wide range of SKUs — flavours, formats, and functional treat categories each with their own velocity and reorder rhythm. Verve AI manages this complexity automatically, tracking each treats SKU's demand individually and generating stock management recommendations that keep your bestsellers always available while preventing slow-moving flavours from accumulating into dead stock."
+  },
+
+  "inventory-management-jewellery-shops": {
+    "slug": "inventory-management-jewellery-shops",
+    "keyword": "inventory management for jewellery shops",
+    "vertical": "jewellery",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Jewellery Shops",
+    "meta_title": "Inventory Management for Jewellery Shops | Verve AI",
+    "meta_description": "AI inventory management for jewellery shops on Shopify. Low-volume forecasting, gifting season planning, and automated POs.",
+    "hero_intro": "Jewellery shops on Shopify face an inventory challenge unlike any other category — high-value items that sell slowly most of the year, then clear out in days around Valentine's Day and Christmas. Verve AI gives jewellery shops the precision demand forecasting they need to stock gifting peaks confidently and avoid tying up capital in slow-moving styles between events."
+  },
+
+  "jewellery-inventory-management-software": {
+    "slug": "jewellery-inventory-management-software",
+    "keyword": "jewellery inventory management software",
+    "vertical": "jewellery",
+    "page_type": "vertical_landing",
+    "h1": "Jewellery Inventory Management Software for Shopify",
+    "meta_title": "Jewellery Inventory Management Software | Verve AI",
+    "meta_description": "Purpose-built jewellery inventory management for Shopify. Low-volume SKU forecasting, gifting peaks, and lead time tracking.",
+    "hero_intro": "Generic inventory management software wasn't designed for jewellery — it applies the same demand models to a product selling two units per week as it does to one selling two hundred. Verve AI uses statistical methods calibrated for low-volume, high-value jewellery SKUs, giving merchants accurate reorder recommendations even for pieces that sell infrequently but carry significant margin."
+  },
+
+  "jewelry-inventory-management-software": {
+    "slug": "jewelry-inventory-management-software",
+    "keyword": "jewelry inventory management software",
+    "vertical": "jewellery",
+    "page_type": "vertical_landing",
+    "h1": "Jewelry Inventory Management Software",
+    "meta_title": "Jewelry Inventory Management Software | Verve AI",
+    "meta_description": "AI-powered jewelry inventory management for Shopify stores. Precision forecasting for low-volume SKUs and gifting season demand.",
+    "hero_intro": "Jewelry inventory management requires a different approach to standard e-commerce software — low unit volumes per SKU, high capital value per piece, and explosive demand spikes around Valentine's Day and Christmas that standard averages completely miss. Verve AI delivers inventory management built for jewelry businesses on Shopify, with statistical forecasting models designed specifically for low-volume, high-value product categories."
+  },
+
+  "accessories-inventory-management-software": {
+    "slug": "accessories-inventory-management-software",
+    "keyword": "accessories inventory management software",
+    "vertical": "jewellery",
+    "page_type": "vertical_landing",
+    "h1": "Accessories Inventory Management Software for Shopify",
+    "meta_title": "Accessories Inventory Management Software | Verve AI",
+    "meta_description": "Inventory management software for accessories brands on Shopify. AI forecasting, seasonal planning, and automated purchase orders.",
+    "hero_intro": "Accessories brands on Shopify span a wide range of product types — jewellery, watches, scarves, belts, and bags — each with different demand seasonality and reorder lead times. Verve AI gives accessories brands a single inventory management system that handles this diversity, with product-level demand forecasting and automated purchase orders connected directly to your Shopify store."
+  },
+
+  "inventory-software-jewellery-brand": {
+    "slug": "inventory-software-jewellery-brand",
+    "keyword": "inventory software for jewellery brand",
+    "vertical": "jewellery",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Software for Jewellery Brands",
+    "meta_title": "Inventory Software for Jewellery Brands | Verve AI",
+    "meta_description": "Inventory software for jewellery brands on Shopify. AI demand forecasting, supplier lead time tracking, and automated POs.",
+    "hero_intro": "Jewellery brands need inventory software that understands the economics of the category — slow daily sales with occasional sharp peaks, long supplier lead times with artisan makers, and high capital value tied up in stock that moves unpredictably. Verve AI is inventory software built for jewellery brands on Shopify, delivering precision forecasting and purchase order automation tailored to how jewellery actually sells."
+  },
+
+  "jewellery-inventory-app-shopify": {
+    "slug": "jewellery-inventory-app-shopify",
+    "keyword": "jewellery inventory app Shopify",
+    "vertical": "jewellery",
+    "page_type": "vertical_landing",
+    "h1": "Jewellery Inventory App for Shopify",
+    "meta_title": "Jewellery Inventory App Shopify | Verve AI",
+    "meta_description": "The Shopify inventory app for jewellery brands. Precision low-volume forecasting, gifting season planning, and automated POs.",
+    "hero_intro": "A jewellery inventory app for Shopify needs to do things that general-purpose apps don't — forecast demand for pieces that sell two or three units per week, plan stock builds for Valentine's Day six weeks in advance, and track supplier lead time variability across artisan makers with unpredictable capacity. Verve AI is the Shopify inventory app that handles all of this for jewellery brands."
+  },
+
+  "shopify-inventory-jewellery-store": {
+    "slug": "shopify-inventory-jewellery-store",
+    "keyword": "Shopify inventory management for jewellery store",
+    "vertical": "jewellery",
+    "page_type": "vertical_landing",
+    "h1": "Shopify Inventory Management for Jewellery Stores",
+    "meta_title": "Shopify Inventory for Jewellery Stores | Verve AI",
+    "meta_description": "Shopify inventory management for jewellery stores. AI forecasting, gifting season demand planning, and automated purchase orders.",
+    "hero_intro": "Shopify inventory management for a jewellery store needs to go far beyond tracking stock levels — it needs to forecast low-volume demand accurately, anticipate gifting season spikes weeks in advance, and generate purchase orders that account for the longer lead times typical of jewellery suppliers. Verve AI adds all of this intelligence to your Shopify jewellery store without requiring any spreadsheet work."
+  },
+
+  "jewelry-stock-management-shopify": {
+    "slug": "jewelry-stock-management-shopify",
+    "keyword": "jewelry stock management Shopify",
+    "vertical": "jewellery",
+    "page_type": "vertical_landing",
+    "h1": "Jewelry Stock Management on Shopify",
+    "meta_title": "Jewelry Stock Management Shopify | Verve AI",
+    "meta_description": "AI jewelry stock management for Shopify. Forecast low-volume demand, plan for gifting peaks, and automate reorders.",
+    "hero_intro": "Effective jewelry stock management on Shopify means knowing which pieces to reorder before they sell out, how much to build ahead of Valentine's Day and Christmas, and which slow-moving styles to stop reordering before they become dead stock. Verve AI gives jewelry brands on Shopify all of this visibility automatically, driven by AI demand forecasting from their actual Shopify sales history."
+  },
+
+  "demand-forecasting-jewellery-brand": {
+    "slug": "demand-forecasting-jewellery-brand",
+    "keyword": "demand forecasting for jewellery brand",
+    "vertical": "jewellery",
+    "page_type": "feature",
+    "h1": "Demand Forecasting for Jewellery Brands",
+    "meta_title": "Demand Forecasting for Jewellery Brands | Verve AI",
+    "meta_description": "AI demand forecasting for jewellery brands on Shopify. Precision low-volume forecasting and gifting season demand planning.",
+    "hero_intro": "Demand forecasting for jewellery brands requires statistical methods that work at low unit volumes — standard moving averages that work for high-velocity products become meaningless when a SKU sells two or three units per week. Verve AI uses probabilistic forecasting models calibrated for low-volume jewellery demand, giving brands the reorder accuracy needed to protect high-value stock and plan gifting season builds weeks in advance."
+  },
+
+  "gift-season-inventory-planning-jewellery": {
+    "slug": "gift-season-inventory-planning-jewellery",
+    "keyword": "gift season inventory planning jewellery",
+    "vertical": "jewellery",
+    "page_type": "feature",
+    "h1": "Gift Season Inventory Planning for Jewellery Brands",
+    "meta_title": "Gift Season Inventory Planning Jewellery | Verve AI",
+    "meta_description": "Plan jewellery inventory for Valentine's Day, Mother's Day, and Christmas. Verve AI forecasts gifting season demand and automates POs.",
+    "hero_intro": "Gifting seasons account for 40–60% of annual jewellery revenue — and the margin between a profitable peak and a stockout that drives customers to competitors is measured in weeks of lead time. Verve AI gives jewellery brands on Shopify gifting season demand forecasts by style, with purchase order recommendations timed to account for supplier lead time so stock arrives before the peak window opens."
   }
 }
