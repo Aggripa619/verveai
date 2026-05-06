@@ -777,5 +777,93 @@
     "meta_title": "Automate Purchase Orders Pet Supplier | Verve AI",
     "meta_description": "Automate purchase orders to pet suppliers from Shopify. Verve AI calculates reorder quantities and generates POs automatically.",
     "hero_intro": "Manually creating purchase orders for a pet supply catalogue with dozens of consumable SKUs and multiple suppliers is time-consuming and error-prone — and with lead times of 20–45 days, a delayed reorder decision means a guaranteed stockout. Verve AI automates the entire purchase order process for pet supply brands, calculating optimal reorder quantities from your Shopify demand forecast and generating supplier-ready POs without manual calculation."
+  },
+
+  "inventory-planning-pet-subscription-box": {
+    "slug": "inventory-planning-pet-subscription-box",
+    "keyword": "inventory planning for pet subscription box",
+    "vertical": "pet-supplies",
+    "page_type": "blog",
+    "h1": "Inventory Planning for Pet Subscription Boxes",
+    "meta_title": "Inventory Planning Pet Subscription Box | Verve AI",
+    "meta_description": "How to plan inventory for a pet subscription box business on Shopify — allocating committed stock and forecasting growth accurately.",
+    "hero_intro": "Pet subscription box businesses face a specific inventory planning challenge: you have committed future demand from active subscribers, but churn, new sign-ups, and product swaps mean the actual quantity you need is never exactly what your subscriber count suggests. This guide covers how to build accurate inventory plans for a pet subscription box business, from separating committed demand to forecasting the buffer you need for new subscriber growth."
+  },
+
+  "replenishment-consumable-pet-products": {
+    "slug": "replenishment-consumable-pet-products",
+    "keyword": "how to manage replenishment for consumable pet products",
+    "vertical": "pet-supplies",
+    "page_type": "blog",
+    "h1": "How to Manage Replenishment for Consumable Pet Products",
+    "meta_title": "Replenishment for Consumable Pet Products | Verve AI",
+    "meta_description": "A practical guide to managing replenishment for consumable pet products on Shopify — dynamic reorder points, lead times, and safety stock.",
+    "hero_intro": "Consumable pet products — food, treats, supplements — have one of the tightest replenishment tolerances in e-commerce. Customers buy on a rhythm, and when you stockout, they don't wait: they find another brand. This guide explains how to set up a replenishment system for consumable pet products that keeps you stocked continuously, using dynamic reorder points and AI demand forecasting rather than static minimum stock levels."
+  },
+
+  "preventing-stockouts-pet-food-shopify": {
+    "slug": "preventing-stockouts-pet-food-shopify",
+    "keyword": "preventing stockouts pet food store Shopify",
+    "vertical": "pet-supplies",
+    "page_type": "blog",
+    "h1": "Preventing Stockouts in Your Pet Food Store on Shopify",
+    "meta_title": "Preventing Stockouts Pet Food Shopify | Verve AI",
+    "meta_description": "How Shopify pet food stores can prevent stockouts using AI demand forecasting, dynamic safety stock, and automated reorder triggers.",
+    "hero_intro": "Stockouts in a pet food store are more costly than in almost any other e-commerce category — a loyal customer whose pet's regular food is out of stock will switch to a competitor and may never come back. This guide covers the most effective strategies for preventing stockouts in a Shopify pet food store, from dynamic safety stock calculation to automated reorder triggers that act before you reach zero."
+  },
+
+  "inventory-software-pet-food-brand": {
+    "slug": "inventory-software-pet-food-brand",
+    "keyword": "inventory software for pet food brand",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Software for Pet Food Brands",
+    "meta_title": "Inventory Software for Pet Food Brands | Verve AI",
+    "meta_description": "Inventory software built for pet food brands on Shopify. Recurring demand forecasting, automated reorders, and PO management.",
+    "hero_intro": "Pet food brands operate on some of the tightest reorder tolerances in e-commerce — high-frequency purchases from loyal customers who switch brands the moment you stockout. Verve AI gives pet food brands on Shopify inventory software that models the recurring purchase cycle of each SKU and generates automated reorder recommendations before stock reaches a critical level."
+  },
+
+  "inventory-management-dtc-pet-brand": {
+    "slug": "inventory-management-dtc-pet-brand",
+    "keyword": "inventory management for DTC pet brand",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for DTC Pet Brands",
+    "meta_title": "Inventory Management for DTC Pet Brand | Verve AI",
+    "meta_description": "AI inventory management for DTC pet brands on Shopify. Forecast recurring demand, automate reorders, and manage supplier POs.",
+    "hero_intro": "DTC pet brands are built on repeat purchase relationships — customers who trust your products for their pet's nutrition and health. Inventory management for a DTC pet brand needs to reflect this: consumables must never stockout, subscription demand must be allocated before one-time orders, and reorder decisions must be data-driven rather than instinctive. Verve AI delivers all of this directly from your Shopify data."
+  },
+
+  "inventory-app-pet-accessories-store": {
+    "slug": "inventory-app-pet-accessories-store",
+    "keyword": "inventory app for pet accessories store",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Inventory App for Pet Accessories Stores on Shopify",
+    "meta_title": "Inventory App for Pet Accessories Store | Verve AI",
+    "meta_description": "Shopify inventory app for pet accessories stores. AI demand forecasting, seasonal planning, and automated purchase orders.",
+    "hero_intro": "Pet accessories — leads, collars, beds, toys, travel gear — have very different inventory dynamics to pet food: demand is more seasonal, trend-driven, and event-linked. Verve AI's Shopify inventory app tracks these patterns for pet accessories stores, flagging seasonal build-up requirements and generating purchase order recommendations that reflect how accessories actually sell — not just how they sold last month."
+  },
+
+  "inventory-management-natural-pet-food": {
+    "slug": "inventory-management-natural-pet-food",
+    "keyword": "inventory management for natural pet food brand",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Natural Pet Food Brands",
+    "meta_title": "Inventory Management Natural Pet Food | Verve AI",
+    "meta_description": "Inventory management for natural pet food brands on Shopify. Short shelf lives, recurring demand, and automated reorders.",
+    "hero_intro": "Natural and raw pet food brands face a compounded inventory challenge — products with shorter shelf lives than conventional pet food, combined with the high-frequency replenishment cycles that define the consumables category. Verve AI gives natural pet food brands on Shopify demand forecasting that accounts for shelf life constraints and automated purchase orders sized to sell through every batch before it expires."
+  },
+
+  "stock-management-pet-treats-brand": {
+    "slug": "stock-management-pet-treats-brand",
+    "keyword": "stock management for pet treats brand",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Stock Management for Pet Treats Brands on Shopify",
+    "meta_title": "Stock Management for Pet Treats Brand | Verve AI",
+    "meta_description": "AI stock management for pet treats brands on Shopify. Forecast demand, track SKU velocity, and automate reorders automatically.",
+    "hero_intro": "Pet treats brands on Shopify juggle a wide range of SKUs — flavours, formats, and functional treat categories each with their own velocity and reorder rhythm. Verve AI manages this complexity automatically, tracking each treats SKU's demand individually and generating stock management recommendations that keep your bestsellers always available while preventing slow-moving flavours from accumulating into dead stock."
   }
 }
