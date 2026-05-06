@@ -667,5 +667,115 @@
     "meta_title": "Purchase Order Automation Skincare | Verve AI",
     "meta_description": "Automate purchase orders for your skincare brand on Shopify. Verve AI calculates reorder quantities from your demand forecast automatically.",
     "hero_intro": "Manually calculating reorder quantities for a skincare catalogue with hundreds of SKUs is a full-time job — and it's a job that introduces errors every time someone updates a spreadsheet formula or forgets to account for an upcoming campaign. Verve AI automates purchase order generation for skincare brands on Shopify, pulling your demand forecast, current stock levels, and supplier lead times together into ready-to-send POs."
+  },
+
+  "inventory-management-pet-supply-brands": {
+    "slug": "inventory-management-pet-supply-brands",
+    "keyword": "inventory management for pet supply brands",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Pet Supply Brands",
+    "meta_title": "Inventory Management for Pet Supply Brands | Verve AI",
+    "meta_description": "Stop stockouting on consumables. Verve AI gives pet supply brands on Shopify AI demand forecasting and automated POs.",
+    "hero_intro": "Pet supply brands on Shopify deal with one of the most unforgiving inventory challenges in e-commerce — loyal customers on tight replenishment cycles who will switch to a competitor the moment their pet's food or treats go out of stock. Verve AI gives pet supply brands demand forecasting built around recurring purchase patterns and automated purchase orders that keep consumables stocked before they run out."
+  },
+
+  "pet-supply-inventory-management-software": {
+    "slug": "pet-supply-inventory-management-software",
+    "keyword": "pet supply inventory management software",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Pet Supply Inventory Management Software",
+    "meta_title": "Pet Supply Inventory Management Software | Verve AI",
+    "meta_description": "Purpose-built pet supply inventory software for Shopify. AI forecasting for consumables, accessories, and subscription products.",
+    "hero_intro": "Pet supply inventory management software needs to handle a mix of high-frequency consumables and slower-moving accessories simultaneously — and generic tools that treat all SKUs the same consistently fail at both. Verve AI models the recurring demand patterns of your consumables separately from accessories and trend products, giving you accurate reorder recommendations across your entire Shopify catalogue."
+  },
+
+  "pet-store-inventory-software": {
+    "slug": "pet-store-inventory-software",
+    "keyword": "pet store inventory software",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Pet Store Inventory Software for Shopify",
+    "meta_title": "Pet Store Inventory Software | Verve AI",
+    "meta_description": "Inventory software for online pet stores on Shopify. AI demand forecasting, automated reorders, and purchase order management.",
+    "hero_intro": "Running an online pet store on Shopify means staying on top of hundreds of SKUs across food, treats, toys, and accessories — all with very different reorder rhythms. Verve AI is the inventory software that learns those rhythms automatically from your Shopify sales data and keeps your pet store stocked across every category without manual tracking."
+  },
+
+  "pet-product-stock-management": {
+    "slug": "pet-product-stock-management",
+    "keyword": "pet product stock management system",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Pet Product Stock Management System for Shopify",
+    "meta_title": "Pet Product Stock Management | Verve AI",
+    "meta_description": "AI-powered pet product stock management for Shopify. Dynamic reorder points, demand forecasting, and automated purchase orders.",
+    "hero_intro": "A pet product stock management system that works needs to understand how pet supply demand actually behaves — high-frequency consumables with predictable replenishment cycles sitting alongside seasonal accessories and trend-driven categories. Verve AI models all of these patterns automatically from your Shopify data and turns them into precise stock management recommendations you can act on immediately."
+  },
+
+  "pet-supply-inventory-app-shopify": {
+    "slug": "pet-supply-inventory-app-shopify",
+    "keyword": "pet supply inventory app Shopify",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Pet Supply Inventory App for Shopify",
+    "meta_title": "Pet Supply Inventory App Shopify | Verve AI",
+    "meta_description": "The Shopify inventory app built for pet supply brands. AI forecasting, automated POs, and dynamic reorder points for consumables.",
+    "hero_intro": "Pet supply brands need a Shopify inventory app that understands consumables — products with short replenishment cycles, loyal repeat customers, and zero tolerance for stockouts. Verve AI is built for this, with recurring demand forecasting that tracks each SKU's actual purchase rhythm and automated purchase orders that trigger before you reach zero stock."
+  },
+
+  "shopify-inventory-pet-store": {
+    "slug": "shopify-inventory-pet-store",
+    "keyword": "Shopify inventory management for pet store",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Shopify Inventory Management for Pet Stores",
+    "meta_title": "Shopify Inventory Management Pet Store | Verve AI",
+    "meta_description": "Shopify inventory management for pet stores. Verve AI forecasts consumable demand, automates reorders, and handles subscription stock.",
+    "hero_intro": "Shopify's built-in inventory tools track what you have — but they don't tell you what to reorder, when to reorder it, or how much to buy. Verve AI adds that layer to your pet store's Shopify account, combining demand forecasting with automated purchase orders so your consumables stay stocked and your accessories don't tie up cash you need elsewhere."
+  },
+
+  "pet-brand-stock-forecasting-shopify": {
+    "slug": "pet-brand-stock-forecasting-shopify",
+    "keyword": "pet brand stock forecasting Shopify",
+    "vertical": "pet-supplies",
+    "page_type": "vertical_landing",
+    "h1": "Stock Forecasting for Pet Brands on Shopify",
+    "meta_title": "Pet Brand Stock Forecasting Shopify | Verve AI",
+    "meta_description": "AI stock forecasting for pet brands on Shopify. Predict demand for consumables, accessories, and seasonal products accurately.",
+    "hero_intro": "Accurate stock forecasting is the difference between a pet brand that grows confidently and one that's constantly firefighting stockouts and overstock simultaneously. Verve AI gives pet brands on Shopify product-level demand forecasting built on their actual Shopify sales history — updated weekly, accounting for seasonality, and translating directly into purchase order recommendations."
+  },
+
+  "demand-forecasting-pet-food-brand": {
+    "slug": "demand-forecasting-pet-food-brand",
+    "keyword": "demand forecasting for pet food brand",
+    "vertical": "pet-supplies",
+    "page_type": "feature",
+    "h1": "Demand Forecasting for Pet Food Brands",
+    "meta_title": "Demand Forecasting for Pet Food Brands | Verve AI",
+    "meta_description": "AI demand forecasting for pet food brands on Shopify. Model recurring purchase patterns, seasonal spikes, and subscription demand.",
+    "hero_intro": "Pet food demand is highly predictable in its recurring structure — but the speed of that recurrence means even a small forecasting error compounds quickly into a stockout. Verve AI builds demand forecasts for pet food brands by modelling each SKU's replenishment cycle from your Shopify sales history, separating subscription demand from one-off purchases, and applying seasonal overlays to give you a 90-day rolling view of what to reorder and when."
+  },
+
+  "recurring-demand-forecasting-pet-supplies": {
+    "slug": "recurring-demand-forecasting-pet-supplies",
+    "keyword": "recurring demand forecasting pet supplies",
+    "vertical": "pet-supplies",
+    "page_type": "feature",
+    "h1": "Recurring Demand Forecasting for Pet Supplies",
+    "meta_title": "Recurring Demand Forecasting Pet Supplies | Verve AI",
+    "meta_description": "Forecast recurring demand for pet supply consumables on Shopify. Verve AI models replenishment cycles and automates reorders.",
+    "hero_intro": "Recurring demand is the defining characteristic of the pet supply category — customers buy the same food, the same treats, and the same supplements on a rhythm that's highly predictable once you know how to model it. Verve AI specialises in recurring demand forecasting for pet supply brands, using your Shopify order history to identify each SKU's replenishment cycle and build reorder triggers that match how your customers actually buy."
+  },
+
+  "automate-purchase-orders-pet-supplier": {
+    "slug": "automate-purchase-orders-pet-supplier",
+    "keyword": "automate purchase orders pet supplier",
+    "vertical": "pet-supplies",
+    "page_type": "feature",
+    "h1": "Automate Purchase Orders to Your Pet Suppliers",
+    "meta_title": "Automate Purchase Orders Pet Supplier | Verve AI",
+    "meta_description": "Automate purchase orders to pet suppliers from Shopify. Verve AI calculates reorder quantities and generates POs automatically.",
+    "hero_intro": "Manually creating purchase orders for a pet supply catalogue with dozens of consumable SKUs and multiple suppliers is time-consuming and error-prone — and with lead times of 20–45 days, a delayed reorder decision means a guaranteed stockout. Verve AI automates the entire purchase order process for pet supply brands, calculating optimal reorder quantities from your Shopify demand forecast and generating supplier-ready POs without manual calculation."
   }
 }
