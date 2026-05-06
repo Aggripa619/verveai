@@ -1470,5 +1470,214 @@
     "meta_title": "Stock Management for Drinks Brand Shopify | Verve AI",
     "meta_description": "AI stock management for drinks brands on Shopify. Shelf life forecasting, batch tracking, and automated purchase orders.",
     "hero_intro": "Drinks brands on Shopify manage stock with shelf life constraints, seasonal demand patterns, and subscription customers who expect consistent availability — all at once. Verve AI gives drinks brands on Shopify AI-powered stock management that accounts for product freshness windows, models seasonal demand curves from your actual sales history, and generates automated purchase orders that keep you stocked without over-committing to stock that won't sell before it expires."
+  },
+
+  "inventory-management-sports-brands": {
+    "slug": "inventory-management-sports-brands",
+    "keyword": "inventory management for sports brands",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Sports Brands",
+    "meta_title": "Inventory Management for Sports Brands | Verve AI",
+    "meta_description": "AI inventory management for sports brands on Shopify. Seasonal demand forecasting, variant-level tracking, and automated POs.",
+    "hero_intro": "Sports brands on Shopify carry one of the most complex inventory challenges in e-commerce — summer and winter product lines with completely different demand calendars, wide size and spec variant ranges, and seasonal transitions that require precise planning months in advance. Verve AI gives sports brands the demand forecasting and purchase order automation to manage this complexity without spreadsheets."
+  },
+
+  "sports-equipment-inventory-management": {
+    "slug": "sports-equipment-inventory-management",
+    "keyword": "sports equipment inventory management software",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Sports Equipment Inventory Management Software",
+    "meta_title": "Sports Equipment Inventory Management | Verve AI",
+    "meta_description": "Inventory management software for sports equipment brands on Shopify. Size-run forecasting, seasonal splits, and automated POs.",
+    "hero_intro": "Sports equipment inventory management requires variant-level precision that generic software doesn't provide — a cycling brand forecasting across 7 frame sizes needs different logic to a sports clothing brand forecasting across 5 sizes in 12 colourways. Verve AI handles both, building demand forecasts at the individual variant level for sports equipment brands on Shopify and generating size-specific reorder recommendations that reflect actual sell-through."
+  },
+
+  "outdoor-gear-inventory-management": {
+    "slug": "outdoor-gear-inventory-management",
+    "keyword": "outdoor gear inventory management software",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Outdoor Gear Inventory Management Software",
+    "meta_title": "Outdoor Gear Inventory Management | Verve AI",
+    "meta_description": "Inventory management software for outdoor gear brands on Shopify. Seasonal demand forecasting and automated purchase orders.",
+    "hero_intro": "Outdoor gear inventory management requires planning across multiple seasonal windows simultaneously — summer camping and hiking demand peaks while winter equipment needs to be ordered for the following season, all from the same Shopify account. Verve AI gives outdoor gear brands AI-powered inventory management with independently calibrated seasonal demand curves for every product in their catalogue."
+  },
+
+  "sporting-goods-inventory-software": {
+    "slug": "sporting-goods-inventory-software",
+    "keyword": "sporting goods inventory software",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Sporting Goods Inventory Software for Shopify",
+    "meta_title": "Sporting Goods Inventory Software | Verve AI",
+    "meta_description": "AI sporting goods inventory software for Shopify. Manage size variants, seasonal splits, and automate purchase orders.",
+    "hero_intro": "Sporting goods inventory software for Shopify needs to handle the scale and complexity of the category — hundreds of SKUs across multiple sports disciplines, extensive size and spec ranges, and hard seasonal demand patterns that require planning months ahead. Verve AI is the sporting goods inventory software that delivers variant-level demand forecasting and automated purchase orders built on your actual Shopify sales data."
+  },
+
+  "sports-brand-inventory-app-shopify": {
+    "slug": "sports-brand-inventory-app-shopify",
+    "keyword": "sports brand inventory app Shopify",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Sports Brand Inventory App for Shopify",
+    "meta_title": "Sports Brand Inventory App Shopify | Verve AI",
+    "meta_description": "The Shopify inventory app for sports brands. Seasonal demand forecasting, size-run tracking, and automated purchase orders.",
+    "hero_intro": "Sports brands need a Shopify inventory app that thinks seasonally — not one that averages summer and winter demand together into a meaningless monthly number. Verve AI is the inventory app built for sports brands, with seasonal demand segmentation that treats your summer and winter lines independently and generates purchase order recommendations timed to each season's opening window."
+  },
+
+  "shopify-inventory-outdoor-store": {
+    "slug": "shopify-inventory-outdoor-store",
+    "keyword": "Shopify inventory management for outdoor store",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Shopify Inventory Management for Outdoor Stores",
+    "meta_title": "Shopify Inventory for Outdoor Stores | Verve AI",
+    "meta_description": "Shopify inventory management for outdoor stores. Seasonal demand forecasting, variant-level tracking, and automated POs.",
+    "hero_intro": "Outdoor stores on Shopify manage one of the most diverse and seasonally complex catalogues in e-commerce — tents, sleeping bags, climbing gear, and kayaks all follow their own seasonal demand curves and require planning at very different lead times. Verve AI adds AI-powered demand forecasting and automated purchase order management to your outdoor store's Shopify account, handling the full complexity of the category in a single connected system."
+  },
+
+  "sporting-goods-stock-management-shopify": {
+    "slug": "sporting-goods-stock-management-shopify",
+    "keyword": "sporting goods stock management Shopify",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Sporting Goods Stock Management on Shopify",
+    "meta_title": "Sporting Goods Stock Management Shopify | Verve AI",
+    "meta_description": "AI sporting goods stock management for Shopify. Forecast seasonal demand, manage size variants, and automate reorders.",
+    "hero_intro": "Sporting goods stock management on Shopify is most challenging at the seasonal transitions — when you need to be building summer stock while winter is still selling, or planning winter buys before the summer data is fully in. Verve AI handles these overlapping seasonal cycles with separate demand models for each product group, giving sporting goods brands on Shopify the stock management confidence to make the right buying decisions at every point in the season."
+  },
+
+  "seasonal-demand-forecasting-sports-brand": {
+    "slug": "seasonal-demand-forecasting-sports-brand",
+    "keyword": "seasonal demand forecasting sports brand",
+    "vertical": "sports-and-outdoor",
+    "page_type": "feature",
+    "h1": "Seasonal Demand Forecasting for Sports Brands",
+    "meta_title": "Seasonal Demand Forecasting Sports Brand | Verve AI",
+    "meta_description": "AI seasonal demand forecasting for sports brands on Shopify. Independently model summer and winter product lines.",
+    "hero_intro": "Seasonal demand forecasting for sports brands is fundamentally different to most categories — you're not adjusting a single forecast up and down by season, you're running two or three completely separate demand models simultaneously for product lines that have near-zero demand overlap. Verve AI is built for this, applying independently calibrated seasonal curves to each product group in your sports brand's Shopify catalogue."
+  },
+
+  "outdoor-gear-sales-forecasting": {
+    "slug": "outdoor-gear-sales-forecasting",
+    "keyword": "outdoor gear sales forecasting tool",
+    "vertical": "sports-and-outdoor",
+    "page_type": "feature",
+    "h1": "Outdoor Gear Sales Forecasting Tool for Shopify",
+    "meta_title": "Outdoor Gear Sales Forecasting Tool | Verve AI",
+    "meta_description": "AI outdoor gear sales forecasting for Shopify. Seasonal demand curves, variant-level forecasting, and purchase order automation.",
+    "hero_intro": "Outdoor gear sales forecasting requires a tool that understands the hard start and end dates of each season — demand for a tent peaks sharply from April to August and then drops close to zero, which means averaging it across a 12-month period produces a forecast that's wrong in every month. Verve AI builds sales forecasts for outdoor gear with per-product seasonal curves, giving brands on Shopify the accuracy to place the right orders ahead of each season's opening."
+  },
+
+  "purchase-order-automation-sports-brand": {
+    "slug": "purchase-order-automation-sports-brand",
+    "keyword": "purchase order automation sports brand",
+    "vertical": "sports-and-outdoor",
+    "page_type": "feature",
+    "h1": "Purchase Order Automation for Sports Brands",
+    "meta_title": "Purchase Order Automation Sports Brand | Verve AI",
+    "meta_description": "Automate purchase orders for your sports brand on Shopify. Verve AI times POs to your seasonal windows and supplier lead times.",
+    "hero_intro": "Sports brands placing purchase orders manually face a compressing window every season — with supplier lead times of 45 to 90 days and hard seasonal demand calendars, a delayed order means arriving at the peak understocked with no time to recover. Verve AI automates purchase order generation for sports brands on Shopify, calculating seasonal buy quantities and timing POs to your suppliers' lead times so stock lands before the demand window opens."
+  },
+
+  "seasonal-inventory-sports-brand": {
+    "slug": "seasonal-inventory-sports-brand",
+    "keyword": "how to manage seasonal inventory sports brand",
+    "vertical": "sports-and-outdoor",
+    "page_type": "blog",
+    "h1": "How to Manage Seasonal Inventory for Sports Brands",
+    "meta_title": "Seasonal Inventory Management Sports Brand | Verve AI",
+    "meta_description": "A practical guide to managing seasonal inventory for sports brands — forecasting demand by season, timing orders, and clearing transition stock.",
+    "hero_intro": "Seasonal inventory management is the defining operational challenge for sports brands — with summer and winter product lines that barely overlap, you're essentially managing two separate businesses with one inventory system. This guide covers how sports brands on Shopify can build a seasonal inventory management process that plans each season independently, times supplier orders correctly, and clears transition stock before it becomes a margin problem."
+  },
+
+  "summer-winter-inventory-outdoor-brand": {
+    "slug": "summer-winter-inventory-outdoor-brand",
+    "keyword": "summer winter inventory split outdoor brand",
+    "vertical": "sports-and-outdoor",
+    "page_type": "blog",
+    "h1": "Managing the Summer/Winter Inventory Split for Outdoor Brands",
+    "meta_title": "Summer Winter Inventory Split Outdoor Brand | Verve AI",
+    "meta_description": "How outdoor brands manage the summer and winter inventory split — separate demand forecasting, transition stock, and seasonal PO timing.",
+    "hero_intro": "The summer/winter inventory split is the central challenge for outdoor brands — two completely different product catalogues sharing one Shopify account, requiring separate demand forecasts, separate buying calendars, and separate seasonal transition plans. This guide covers how outdoor brands can manage this split systematically, using seasonal demand segmentation to make the right buying decisions for each half of the catalogue independently."
+  },
+
+  "size-variants-sports-equipment-shopify": {
+    "slug": "size-variants-sports-equipment-shopify",
+    "keyword": "managing size variants sports equipment Shopify",
+    "vertical": "sports-and-outdoor",
+    "page_type": "blog",
+    "h1": "Managing Size Variants for Sports Equipment on Shopify",
+    "meta_title": "Size Variants Sports Equipment Shopify | Verve AI",
+    "meta_description": "How sports equipment brands can manage size variants on Shopify — variant-level forecasting, size run planning, and reorder accuracy.",
+    "hero_intro": "Managing size variants for sports equipment on Shopify is one of the most commonly under-solved inventory problems in the category — brands that average demand across sizes consistently stockout on their bestselling sizes while accumulating excess on their slowest-moving ones. This guide covers how to implement variant-level demand forecasting for sports equipment, so every size in your range is stocked accurately and your capital isn't tied up in the wrong sizes."
+  },
+
+  "inventory-software-fitness-equipment-brand": {
+    "slug": "inventory-software-fitness-equipment-brand",
+    "keyword": "inventory software for fitness equipment brand",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Software for Fitness Equipment Brands",
+    "meta_title": "Inventory Software Fitness Equipment Brand | Verve AI",
+    "meta_description": "Inventory software for fitness equipment brands on Shopify. AI demand forecasting, variant tracking, and automated purchase orders.",
+    "hero_intro": "Fitness equipment brands on Shopify manage a wide product mix — from high-ticket equipment with long lead times and slow daily velocity, to accessories and consumables that sell quickly and need frequent replenishment. Verve AI gives fitness equipment brands inventory software that handles both simultaneously, with the right forecasting logic applied to each product type in your Shopify catalogue."
+  },
+
+  "inventory-management-cycling-brand": {
+    "slug": "inventory-management-cycling-brand",
+    "keyword": "inventory management for cycling brand Shopify",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Cycling Brands on Shopify",
+    "meta_title": "Inventory Management Cycling Brand | Verve AI",
+    "meta_description": "AI inventory management for cycling brands on Shopify. Frame size forecasting, seasonal demand, and automated purchase orders.",
+    "hero_intro": "Cycling brands on Shopify manage some of the most demanding variant complexity in the sports category — frames in multiple sizes and materials, components with interchange compatibility, and accessories with wide size ranges — all sitting within a hard seasonal demand calendar. Verve AI gives cycling brands on Shopify variant-level demand forecasting and automated purchase orders that account for both the size complexity and the seasonal timing of cycling demand."
+  },
+
+  "inventory-app-running-gear-brand": {
+    "slug": "inventory-app-running-gear-brand",
+    "keyword": "inventory app for running gear brand",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Inventory App for Running Gear Brands on Shopify",
+    "meta_title": "Inventory App for Running Gear Brand | Verve AI",
+    "meta_description": "Shopify inventory app for running gear brands. Size-run forecasting, seasonal demand, and automated purchase orders.",
+    "hero_intro": "Running gear brands on Shopify sell products with extensive size ranges — shoes in 12 sizes and 4 widths, apparel in XS to XXL across multiple colourways — and demand that swings with race season calendars and weather patterns. Verve AI is the Shopify inventory app that forecasts at the individual size level for running gear brands, keeping your bestselling sizes consistently available without building excess on your slowest-moving ones."
+  },
+
+  "inventory-management-surf-brand": {
+    "slug": "inventory-management-surf-brand",
+    "keyword": "inventory management for surf brand Shopify",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Surf Brands on Shopify",
+    "meta_title": "Inventory Management Surf Brand | Verve AI",
+    "meta_description": "AI inventory management for surf brands on Shopify. Seasonal demand forecasting, size-run tracking, and automated purchase orders.",
+    "hero_intro": "Surf brands on Shopify operate with hard seasonal demand peaks, wide size ranges across wetsuits and boardshorts, and regional demand variation that makes forecasting more art than science without the right tools. Verve AI gives surf brands on Shopify AI-powered inventory management with seasonal demand modelling and variant-level forecasting, so you build the right stock ahead of your summer peak and don't carry excess through the off-season."
+  },
+
+  "stock-management-camping-gear-brand": {
+    "slug": "stock-management-camping-gear-brand",
+    "keyword": "stock management for camping gear brand",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Stock Management for Camping Gear Brands on Shopify",
+    "meta_title": "Stock Management Camping Gear Brand | Verve AI",
+    "meta_description": "AI stock management for camping gear brands on Shopify. Seasonal demand forecasting and automated purchase orders for outdoor gear.",
+    "hero_intro": "Camping gear brands on Shopify face a classic seasonal inventory challenge — demand concentrates heavily from March to August, with lead times from overseas suppliers that require buying decisions to be made in January or February. Verve AI gives camping gear brands on Shopify AI-powered stock management with seasonal demand forecasts that tell you exactly how much to order and when, so you arrive at the peak stocked and clear it profitably before the off-season begins."
+  },
+
+  "inventory-management-activewear-brand": {
+    "slug": "inventory-management-activewear-brand",
+    "keyword": "inventory management for activewear brand",
+    "vertical": "sports-and-outdoor",
+    "page_type": "vertical_landing",
+    "h1": "Inventory Management for Activewear Brands",
+    "meta_title": "Inventory Management for Activewear Brands | Verve AI",
+    "meta_description": "AI inventory management for activewear brands on Shopify. Size-run forecasting, seasonal demand, and automated purchase orders.",
+    "hero_intro": "Activewear brands on Shopify combine the variant complexity of apparel — sizes, colours, and styles multiplied across a wide range — with the seasonal demand patterns of the sports category. Verve AI gives activewear brands inventory management that forecasts at the size and colourway level, handles the New Year fitness spike and summer demand peaks separately, and generates automated purchase orders that keep your bestselling styles available throughout the season."
   }
 }
