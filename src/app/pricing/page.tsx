@@ -3,14 +3,14 @@ import CTAButton from '@/components/CTAButton'
 import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Verve AI - AI E-Commerce Forecasting Software',
+  title: 'Verve AI Pricing — $19.99/Month, Everything Included',
   description:
-    'Verve AI Forecasting helps e-commerce brands precisely predict demand—no spreadsheets, no guesswork. Smarter inventory planning starts here.',
+    'One flat plan at $19.99/month. AI demand forecasting, 24/7 AI Agent, multi-location stock management, supplier scorecards, and 10 built-in reports. 14-day free trial, no credit card required.',
   alternates: { canonical: 'https://www.getverveai.com/pricing' },
   openGraph: {
-    title: 'Verve AI - AI E-Commerce Forecasting Software',
+    title: 'Verve AI Pricing — $19.99/Month, Everything Included',
     description:
-      'Verve AI Forecasting helps e-commerce brands precisely predict demand—no spreadsheets, no guesswork. Smarter inventory planning starts here.',
+      'One flat plan at $19.99/month. AI demand forecasting, 24/7 AI Agent, multi-location stock management, supplier scorecards, and 10 built-in reports. 14-day free trial, no credit card required.',
     url: 'https://www.getverveai.com/pricing',
     type: 'website',
   },
@@ -54,7 +54,7 @@ export default function PricingPage() {
       <section className="bg-white py-16 text-center">
         <div className="max-w-2xl mx-auto px-4">
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Simple Pricing</h1>
-          <p className="text-lg text-gray-600">Sign up in minutes and connect your store within minutes.</p>
+          <p className="text-lg text-gray-600">One flat price. No GMV tiers. No onboarding fees. No annual lock-in.</p>
         </div>
       </section>
 
@@ -62,32 +62,41 @@ export default function PricingPage() {
       <section className="py-16">
         <div className="max-w-lg mx-auto px-4">
           <div className="bg-white rounded-3xl p-10 shadow-sm border border-gray-100 text-center">
-            <h3 className="text-xl text-gray-500 font-medium mb-2">Take Control of Your Inventory</h3>
-            <p className="text-4xl font-bold text-gray-900 mb-6">$24.99<span className="text-lg font-normal text-gray-500">/Month USD</span></p>
+            <h3 className="text-xl text-gray-500 font-medium mb-2">Everything Included. One Flat Price.</h3>
+            <p className="text-5xl font-bold text-gray-900 mb-1">$19.99</p>
+            <p className="text-lg text-gray-500 mb-2">/ month USD</p>
+            <p className="text-xs italic text-gray-400 mb-6">
+              Compare: enterprise tools start at $49–$500+/month and scale with your revenue. Verve doesn&apos;t.
+            </p>
             <ul className="flex flex-col gap-3 text-left mb-8">
               {[
-                'Free 14 day trial',
-                'Connect your store in minutes',
-                'Instant re-order suggestions',
-                'Variant level SKU forecasts',
-                'Customisable lead time data',
-                'Full Purchase Order management',
+                '14-day free trial — no credit card required',
+                'AI demand forecasts for every SKU & variant',
+                'AI Agent — 24/7 monitoring with automated alerts',
+                'Low stock, demand spike & dead stock notifications',
+                'Auto-generated purchase orders (approve in one click)',
+                'Inventory Health Dashboard',
+                'Multi-location stock management',
+                'Supplier scorecards & performance tracking',
+                '10 built-in reports + CSV export',
+                'Unlimited products & orders',
+                '30-day money-back guarantee',
               ].map((feature) => (
                 <li key={feature} className="flex items-start gap-2">
-                  <span style={{ color: 'rgb(0, 201, 167)' }} className="mt-0.5 text-lg">✓</span>
-                  <span>{feature}</span>
+                  <span style={{ color: 'rgb(0, 201, 167)' }} className="mt-0.5 text-lg flex-shrink-0">✓</span>
+                  <span className="text-gray-700">{feature}</span>
                 </li>
               ))}
             </ul>
             <div className="flex flex-col gap-3">
               <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external className="w-full">
-                For Shopify
+                Start Free Trial — Shopify
               </CTAButton>
               <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external className="w-full">
-                WooCommerce
+                Start Free Trial — WooCommerce
               </CTAButton>
             </div>
-            <p className="mt-4 text-sm text-gray-500 italic">Enjoy a 14 day free trial and set up in minutes</p>
+            <p className="mt-4 text-sm text-gray-500 italic">30-day money-back guarantee · Cancel anytime</p>
           </div>
         </div>
       </section>
@@ -107,12 +116,14 @@ export default function PricingPage() {
             <a href="/inventory-management-pet-supply-brands" className="underline hover:opacity-80" style={{ color: 'rgb(0, 160, 133)' }}>pet supplies</a>, and{' '}
             <a href="/inventory-management-for" className="underline hover:opacity-80 font-medium" style={{ color: 'rgb(0, 160, 133)' }}>8+ more verticals →</a>
           </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: 'Simple Pricing', desc: 'Easy monthly subscription, with no restriction on product count or order volume.' },
-              { title: 'No Hidden Fees', desc: 'Transparent pricing with no surprises.' },
-              { title: 'Risk-Free Trial', desc: 'Try all our AI forecasting features for free' },
-              { title: 'Cancel Anytime', desc: 'Cancel your plan at any time.' },
+              { title: 'Simple Pricing', desc: 'Easy monthly subscription with no restriction on product count or order volume.' },
+              { title: 'No Hidden Fees', desc: 'Transparent pricing with no surprises. What you see is what you pay.' },
+              { title: 'AI Agent Included', desc: '24/7 automated monitoring. Alerts, PO suggestions, and dead stock detection — no dashboard-checking required.' },
+              { title: 'Risk-Free Trial', desc: 'Try all features — including the AI Agent — free for 14 days.' },
+              { title: 'Cancel Anytime', desc: 'Cancel directly from your Shopify admin. No notice period, no fees.' },
+              { title: 'Built for SMBs', desc: 'Designed for 1–3 person teams running Shopify or WooCommerce stores. Not enterprise software.' },
             ].map(({ title, desc }) => (
               <div key={title} className="text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">
                 <h6 className="font-bold mb-2">{title}</h6>
@@ -126,7 +137,7 @@ export default function PricingPage() {
       {/* FAQ */}
       <section className="py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-10">Pricing - FAQ</h2>
+          <h2 className="text-3xl font-bold mb-10">Pricing FAQ</h2>
           <div className="flex flex-col gap-8">
             {faqs.map(({ q, a }) => (
               <div key={q}>
@@ -141,11 +152,11 @@ export default function PricingPage() {
       {/* Bottom CTA */}
       <section className="py-16 bg-white text-center">
         <div className="max-w-xl mx-auto px-4">
-          <p className="text-2xl font-bold italic mb-2">Say goodbye to spreadsheets and CSVs</p>
-          <p className="text-lg text-gray-600 italic mb-8">Enjoy a 14 day free trial and set up in minutes</p>
+          <p className="text-2xl font-bold mb-2">Most of the Features. None of the Price Tag.</p>
+          <p className="text-lg text-gray-600 mb-8">14-day free trial · No credit card required · Cancel anytime</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>For Shopify</CTAButton>
-            <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>WooCommerce</CTAButton>
+            <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>Start Free Trial — Shopify</CTAButton>
+            <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>Start Free Trial — WooCommerce</CTAButton>
           </div>
         </div>
       </section>

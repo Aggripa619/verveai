@@ -85,6 +85,9 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+          <p className="text-center text-sm font-medium mt-6" style={{ color: 'rgb(0, 201, 167)' }}>
+            Includes AI Agent — 24/7 monitoring, automated alerts, and one-click PO approvals.
+          </p>
         </div>
       </section>
 
@@ -234,7 +237,144 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 6. PLATFORM CAPABILITIES GRID ── */}
+      {/* ── 6. AI AGENT ── */}
+      <section className="py-20" style={{ backgroundColor: 'rgb(19, 33, 68)' }}>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          {/* Glow blobs */}
+          <div
+            className="absolute top-0 right-0 w-80 h-80 rounded-full opacity-10 blur-3xl pointer-events-none"
+            style={{ backgroundColor: 'rgb(128, 72, 245)', transform: 'translate(20%, -20%)' }}
+          />
+          <div
+            className="absolute bottom-0 left-0 w-80 h-80 rounded-full opacity-10 blur-3xl pointer-events-none"
+            style={{ backgroundColor: 'rgb(0, 201, 167)', transform: 'translate(-20%, 20%)' }}
+          />
+          <div className="text-center mb-12 relative">
+            <span
+              className="inline-block text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
+              style={{ backgroundColor: 'rgba(0,201,167,0.15)', color: 'rgb(0, 201, 167)' }}
+            >
+              AI Agent
+            </span>
+            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
+              Your 24/7 AI Inventory Manager
+            </h2>
+            <p className="text-lg max-w-2xl mx-auto" style={{ color: 'rgba(255,255,255,0.6)' }}>
+              Most merchants don&apos;t have time to check their inventory dashboard every day. Verve&apos;s AI Agent does it for you — watching every SKU around the clock and surfacing exactly what needs your attention, right when it matters.
+            </p>
+          </div>
+          <div className="grid lg:grid-cols-2 gap-10 items-start relative">
+            {/* Left: explanation */}
+            <div className="flex flex-col gap-6">
+              {[
+                {
+                  icon: '👁️',
+                  title: 'Always watching',
+                  body: 'Monitors velocity, stock levels, lead times, and supplier performance — automatically, every single day.',
+                },
+                {
+                  icon: '⚡',
+                  title: 'Flags issues before they cost you',
+                  body: 'Catches low stock before a stockout, spots demand spikes before you sell out, and surfaces dead stock before it ties up more cash.',
+                },
+                {
+                  icon: '✅',
+                  title: 'You stay in control',
+                  body: 'One-click approve a pre-built purchase order. Snooze what can wait. Dismiss what doesn\'t apply. Configure thresholds to match your business.',
+                },
+              ].map(({ icon, title, body }) => (
+                <div key={title} className="flex gap-4">
+                  <span className="text-2xl flex-shrink-0 mt-0.5">{icon}</span>
+                  <div>
+                    <h3 className="font-bold text-white mb-1">{title}</h3>
+                    <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>{body}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            {/* Right: agent card examples */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {[
+                {
+                  accent: 'rgb(0, 201, 167)',
+                  icon: '🔴',
+                  type: 'Low Stock Alert',
+                  title: 'Running Shorts (M)',
+                  body: '3 days of stock remaining · Reorder point reached · Suggested: 48 units',
+                  action: null,
+                },
+                {
+                  accent: 'rgb(128, 72, 245)',
+                  icon: '📈',
+                  type: 'Demand Spike',
+                  title: 'Protein Powder Vanilla',
+                  body: '+185% velocity vs 30-day avg · Stockout risk in 6 days',
+                  action: null,
+                },
+                {
+                  accent: 'rgb(0, 201, 167)',
+                  icon: '🛒',
+                  type: 'Reorder Ready',
+                  title: 'Blue Denim Jacket',
+                  body: '72 units · Est. cost $2,880 · Supplier prefilled',
+                  action: 'Approve PO →',
+                },
+                {
+                  accent: 'rgb(128, 72, 245)',
+                  icon: '🧊',
+                  type: 'Dead Stock',
+                  title: 'Winter Coat (XL)',
+                  body: '$4,200 tied up · No sales in 45 days · Action needed',
+                  action: null,
+                },
+              ].map(({ accent, icon, type, title, body, action }) => (
+                <div
+                  key={type}
+                  className="rounded-xl p-4 flex flex-col gap-2"
+                  style={{
+                    backgroundColor: 'rgba(255,255,255,0.06)',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                    borderLeft: `3px solid ${accent}`,
+                  }}
+                >
+                  <div className="flex items-center gap-2">
+                    <span className="text-base">{icon}</span>
+                    <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: accent }}>{type}</span>
+                  </div>
+                  <p className="text-sm font-bold text-white">{title}</p>
+                  <p className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.55)' }}>{body}</p>
+                  {action && (
+                    <button
+                      className="mt-1 self-start text-xs font-bold px-3 py-1.5 rounded-lg"
+                      style={{ backgroundColor: accent, color: 'white' }}
+                    >
+                      {action}
+                    </button>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="text-center mt-12 relative">
+            <p className="text-sm mb-6" style={{ color: 'rgba(255,255,255,0.5)' }}>
+              Configure thresholds to match your business. The agent learns your patterns.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
+                Start Free Trial — Shopify
+              </CTAButton>
+              <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
+                Start Free Trial — WooCommerce
+              </CTAButton>
+            </div>
+            <p className="text-sm mt-3" style={{ color: 'rgba(255,255,255,0.4)' }}>
+              14-day free trial · No credit card required
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 8. PLATFORM CAPABILITIES GRID ── */}
       <section className="py-20" style={{ backgroundColor: 'rgb(19, 33, 68)' }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Glow blobs */}
