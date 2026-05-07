@@ -5,14 +5,14 @@ import CTAButton from '@/components/CTAButton'
 import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Verve AI — Inventory Forecasting for Small & Medium Shopify Brands',
+  title: 'Verve AI — Inventory Forecasting That Fits Your Business',
   description:
     'AI demand forecasting built for independent Shopify and WooCommerce merchants. $19.99/month flat. 10-minute setup. No contracts, no CSM calls, no enterprise pricing.',
   alternates: {
     canonical: 'https://www.getverveai.com/',
   },
   openGraph: {
-    title: 'Verve AI — Inventory Forecasting for Small & Medium Shopify Brands',
+    title: 'Verve AI — Inventory Forecasting That Fits Your Business',
     description:
       'AI demand forecasting built for independent Shopify and WooCommerce merchants. $19.99/month flat. 10-minute setup. No contracts, no CSM calls, no enterprise pricing.',
     url: 'https://www.getverveai.com/',
@@ -56,10 +56,10 @@ export default function HomePage() {
           </div>
           <div className="order-1 lg:order-2 flex flex-col gap-6">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Most of the Features. None of the Price Tag.
+              Inventory Forecasting That Actually Fits Your Business.
             </h1>
             <p className="text-xl lg:text-2xl font-medium text-gray-700 leading-relaxed">
-              Verve AI gives independent Shopify and WooCommerce merchants AI-powered inventory forecasting — without the enterprise contracts, onboarding calls, or $500/month bills. $19.99/month. Set up yourself in 10 minutes.
+              AI-powered demand forecasting for Shopify and WooCommerce merchants who want clarity over chaos — without enterprise pricing or complexity.
             </p>
             <CTAPair />
           </div>
