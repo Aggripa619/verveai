@@ -130,8 +130,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 4. PAIN POINTS ── */}
-      <section className="py-16 bg-white">
+      {/* ── 4. SOLUTIONS ── */}
+      <section className="py-16" style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
             Take Control of Your Inventory — Without the Complexity
@@ -142,26 +142,33 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
             {[
               {
+                accent: 'rgb(0, 201, 167)',
                 title: 'Never run out of your best sellers',
                 body: 'Know exactly when to reorder — before you hit zero.',
               },
               {
+                accent: 'rgb(128, 72, 245)',
                 title: "Stop cash sitting in stock that won't sell",
                 body: 'Spot slow movers early and act before they become a write-off.',
               },
               {
+                accent: 'rgb(19, 33, 68)',
                 title: 'Ditch the spreadsheets',
                 body: 'Forecasts, reorder suggestions, and supplier data — always current, zero manual work.',
               },
-            ].map(({ title, body }) => (
-              <div key={title} className="bg-white rounded-2xl p-6 border border-gray-100">
+            ].map(({ accent, title, body }) => (
+              <div
+                key={title}
+                className="bg-white rounded-2xl p-8 text-left shadow-sm overflow-hidden"
+                style={{ borderTop: `4px solid ${accent}` }}
+              >
                 <div
-                  className="text-2xl font-bold mb-4"
-                  style={{ color: 'rgb(0, 201, 167)' }}
+                  className="text-4xl font-bold mb-5"
+                  style={{ color: accent }}
                 >
                   ✓
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">{title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{body}</p>
               </div>
             ))}
