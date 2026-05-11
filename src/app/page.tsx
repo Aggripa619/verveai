@@ -104,18 +104,18 @@ export default function HomePage() {
             {[
               {
                 icon: '🧑‍💼',
-                title: 'Independent merchants running 1–3 person teams',
-                body: "You're doing purchasing, ops, and customer service. Verve gives you the forecasting a 10-person team would have — without hiring them.",
+                title: 'Independent merchants with a small, lean team',
+                body: "You're doing purchasing, ops, and customer service. Verve gives you the forecasting a dedicated inventory team would have — without the headcount.",
               },
               {
                 icon: '📦',
-                title: 'Growing brands with 100–5,000 SKUs',
-                body: "Big enough to need real demand forecasting. Smart enough not to pay $500/month for it.",
+                title: 'Growing brands with a catalogue that\'s hard to manage manually',
+                body: "Big enough to need real demand forecasting. Smart enough not to pay enterprise prices for it.",
               },
               {
                 icon: '📈',
-                title: 'Stores doing $250k–$5M/year',
-                body: "Too big for spreadsheets, too small for Prediko. That's exactly who Verve was built for.",
+                title: 'Stores that have outgrown spreadsheets but not ready for complex enterprise software',
+                body: "You need accurate forecasting and clear inventory data — without the lengthy onboarding, steep learning curve, or enterprise price tag.",
               },
             ].map(({ icon, title, body }) => (
               <div key={title} className="bg-white rounded-2xl p-6 border border-gray-100 flex flex-col gap-3">
@@ -134,32 +134,32 @@ export default function HomePage() {
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Sound Familiar? You&apos;re Not Alone — and You Don&apos;t Need an Enterprise Budget to Fix It.
+            Take Control of Your Inventory — Without the Complexity
           </h2>
           <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-            These are the top three inventory problems killing margins for growing Shopify and WooCommerce merchants. Verve solves all three. Setup takes 10 minutes.
+            Verve gives growing Shopify and WooCommerce merchants the tools to stock smarter. No spreadsheets, no enterprise overhead, no guesswork.
           </p>
           <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
             {[
               {
-                title: 'Top sellers go out of stock',
-                body: 'You lose the sale, the customer goes elsewhere, and your ranking takes a hit.',
+                title: 'Never run out of your best sellers',
+                body: 'Know exactly when to reorder — before you hit zero.',
               },
               {
-                title: "Cash tied up in inventory that won't move",
-                body: 'Dead stock drains your working capital and eats warehouse space month after month.',
+                title: "Stop cash sitting in stock that won't sell",
+                body: 'Spot slow movers early and act before they become a write-off.',
               },
               {
-                title: 'Hours lost in spreadsheets every week',
-                body: "CSV exports, VLOOKUP formulas, outdated numbers — and you're still getting it wrong.",
+                title: 'Ditch the spreadsheets',
+                body: 'Forecasts, reorder suggestions, and supplier data — always current, zero manual work.',
               },
             ].map(({ title, body }) => (
-              <div key={title} className="bg-gray-50 rounded-2xl p-6 border border-red-50">
+              <div key={title} className="bg-white rounded-2xl p-6 border border-gray-100">
                 <div
-                  className="w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm mb-4"
-                  style={{ backgroundColor: 'rgb(239, 68, 68)' }}
+                  className="text-2xl font-bold mb-4"
+                  style={{ color: 'rgb(0, 201, 167)' }}
                 >
-                  ✕
+                  ✓
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{body}</p>
