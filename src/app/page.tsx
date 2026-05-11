@@ -86,7 +86,9 @@ export default function HomePage() {
             ))}
           </div>
           <p className="text-center text-sm font-medium mt-6" style={{ color: 'rgb(0, 201, 167)' }}>
-            Includes AI Agent — 24/7 monitoring, automated alerts, and one-click PO approvals.
+            <Link href="/why-verve-ai" className="hover:underline">
+              Includes AI Agent — 24/7 monitoring, automated alerts, and one-click PO approvals. →
+            </Link>
           </p>
         </div>
       </section>
@@ -188,7 +190,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 5. SOLUTION / HOW IT WORKS ── */}
+      {/* ── 5. HOW IT WORKS ── */}
       <section className="py-16" style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -244,450 +246,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 6. AI AGENT ── */}
-      <section className="py-20" style={{ backgroundColor: 'rgb(19, 33, 68)' }}>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          {/* Glow blobs */}
-          <div
-            className="absolute top-0 right-0 w-80 h-80 rounded-full opacity-10 blur-3xl pointer-events-none"
-            style={{ backgroundColor: 'rgb(128, 72, 245)', transform: 'translate(20%, -20%)' }}
-          />
-          <div
-            className="absolute bottom-0 left-0 w-80 h-80 rounded-full opacity-10 blur-3xl pointer-events-none"
-            style={{ backgroundColor: 'rgb(0, 201, 167)', transform: 'translate(-20%, 20%)' }}
-          />
-          <div className="text-center mb-12 relative">
-            <span
-              className="inline-block text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
-              style={{ backgroundColor: 'rgba(0,201,167,0.15)', color: 'rgb(0, 201, 167)' }}
-            >
-              AI Agent
-            </span>
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Your 24/7 AI Inventory Manager
-            </h2>
-            <p className="text-lg max-w-2xl mx-auto" style={{ color: 'rgba(255,255,255,0.6)' }}>
-              Most merchants don&apos;t have time to check their inventory dashboard every day. Verve&apos;s AI Agent does it for you — watching every SKU around the clock and surfacing exactly what needs your attention, right when it matters.
-            </p>
-          </div>
-          <div className="grid lg:grid-cols-2 gap-10 items-start relative">
-            {/* Left: explanation */}
-            <div className="flex flex-col gap-6">
-              {[
-                {
-                  icon: '👁️',
-                  title: 'Always watching',
-                  body: 'Monitors velocity, stock levels, lead times, and supplier performance — automatically, every single day.',
-                },
-                {
-                  icon: '⚡',
-                  title: 'Flags issues before they cost you',
-                  body: 'Catches low stock before a stockout, spots demand spikes before you sell out, and surfaces dead stock before it ties up more cash.',
-                },
-                {
-                  icon: '✅',
-                  title: 'You stay in control',
-                  body: 'One-click approve a pre-built purchase order. Snooze what can wait. Dismiss what doesn\'t apply. Configure thresholds to match your business.',
-                },
-              ].map(({ icon, title, body }) => (
-                <div key={title} className="flex gap-4">
-                  <span className="text-2xl flex-shrink-0 mt-0.5">{icon}</span>
-                  <div>
-                    <h3 className="font-bold text-white mb-1">{title}</h3>
-                    <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>{body}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            {/* Right: agent card examples */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {[
-                {
-                  accent: 'rgb(0, 201, 167)',
-                  icon: '🔴',
-                  type: 'Low Stock Alert',
-                  title: 'Running Shorts (M)',
-                  body: '3 days of stock remaining · Reorder point reached · Suggested: 48 units',
-                  action: null,
-                },
-                {
-                  accent: 'rgb(128, 72, 245)',
-                  icon: '📈',
-                  type: 'Demand Spike',
-                  title: 'Protein Powder Vanilla',
-                  body: '+185% velocity vs 30-day avg · Stockout risk in 6 days',
-                  action: null,
-                },
-                {
-                  accent: 'rgb(0, 201, 167)',
-                  icon: '🛒',
-                  type: 'Reorder Ready',
-                  title: 'Blue Denim Jacket',
-                  body: '72 units · Est. cost $2,880 · Supplier prefilled',
-                  action: 'Approve PO →',
-                },
-                {
-                  accent: 'rgb(128, 72, 245)',
-                  icon: '🧊',
-                  type: 'Dead Stock',
-                  title: 'Winter Coat (XL)',
-                  body: '$4,200 tied up · No sales in 45 days · Action needed',
-                  action: null,
-                },
-              ].map(({ accent, icon, type, title, body, action }) => (
-                <div
-                  key={type}
-                  className="rounded-xl p-4 flex flex-col gap-2"
-                  style={{
-                    backgroundColor: 'rgba(255,255,255,0.06)',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderLeft: `3px solid ${accent}`,
-                  }}
-                >
-                  <div className="flex items-center gap-2">
-                    <span className="text-base">{icon}</span>
-                    <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: accent }}>{type}</span>
-                  </div>
-                  <p className="text-sm font-bold text-white">{title}</p>
-                  <p className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.55)' }}>{body}</p>
-                  {action && (
-                    <button
-                      className="mt-1 self-start text-xs font-bold px-3 py-1.5 rounded-lg"
-                      style={{ backgroundColor: accent, color: 'white' }}
-                    >
-                      {action}
-                    </button>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="text-center mt-12 relative">
-            <p className="text-sm mb-6" style={{ color: 'rgba(255,255,255,0.5)' }}>
-              Configure thresholds to match your business. The agent learns your patterns.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
-                Start Free Trial — Shopify
-              </CTAButton>
-              <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
-                Start Free Trial — WooCommerce
-              </CTAButton>
-            </div>
-            <p className="text-sm mt-3" style={{ color: 'rgba(255,255,255,0.4)' }}>
-              14-day free trial · No credit card required
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 8. PLATFORM CAPABILITIES GRID ── */}
-      <section className="py-20" style={{ backgroundColor: 'rgb(19, 33, 68)' }}>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Glow blobs */}
-          <div className="relative">
-            <div
-              className="absolute top-0 left-0 w-96 h-96 rounded-full opacity-10 blur-3xl pointer-events-none"
-              style={{ backgroundColor: 'rgb(0, 201, 167)', transform: 'translate(-30%, -30%)' }}
-            />
-            <div
-              className="absolute bottom-0 right-0 w-96 h-96 rounded-full opacity-10 blur-3xl pointer-events-none"
-              style={{ backgroundColor: 'rgb(128, 72, 245)', transform: 'translate(30%, 30%)' }}
-            />
-          </div>
-          <div className="text-center mb-12 relative">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Everything Your Inventory Operations Need — In One App
-            </h2>
-            <p className="text-lg max-w-2xl mx-auto" style={{ color: 'rgba(255,255,255,0.6)' }}>
-              Enterprise inventory tools charge you $500/month for this feature set and assign you an onboarding manager. We built it all into one $19.99 app — and you can figure it out yourself on day one.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-6 relative">
-            {[
-              {
-                accent: 'rgb(0, 201, 167)',
-                title: 'Know Your Stock Health at a Glance',
-                bullets: [
-                  'Days of cover, healthy vs at-risk counts, and dead stock across your full catalogue',
-                  'Velocity alerts flag declining products before they become a problem',
-                  'Sell-through rate with confidence scoring and reconciliation flags',
-                  'At-risk stock ranked by urgency so you know what needs a decision today',
-                ],
-              },
-              {
-                accent: 'rgb(128, 72, 245)',
-                title: 'One Dashboard for Every Location',
-                bullets: [
-                  'Per-location forecasts, reorder points, and live stock levels',
-                  'One-click inventory pushes to Shopify across all your locations',
-                  'True network visibility across warehouses, stores, and 3PLs',
-                  'Receive purchase orders into the right location, reflected immediately in Shopify',
-                ],
-              },
-              {
-                accent: 'rgb(128, 72, 245)',
-                title: 'Know Which Suppliers Are Actually Performing',
-                bullets: [
-                  'Live scorecards: OTIF rate, fill rate, avg lead time, 90-day spend',
-                  'Lead-time trend chart — actual vs quoted across recent receipts',
-                  'Rank multiple suppliers per product (primary / secondary / backup)',
-                  'CSV pricelist import with cost change preview before you commit',
-                ],
-              },
-              {
-                accent: 'rgb(0, 201, 167)',
-                title: '10 Reports Built for Inventory Operators',
-                bullets: [
-                  'Stock Health: Inventory Valuation, Stock Movement, Dead Stock & Overstock, Stockout History',
-                  'Purchasing: PO History, Reorder Cadence, Supplier Performance',
-                  'Sales: Top/Bottom Performers, Velocity Trends, Sell-Through Rate',
-                  'All reports: date-range picker, CSV export, and confidence flags',
-                ],
-              },
-            ].map(({ accent, title, bullets }) => (
-              <div
-                key={title}
-                className="rounded-2xl p-8 flex flex-col gap-5"
-                style={{ backgroundColor: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}
-              >
-                <div className="h-1 rounded-full w-16" style={{ backgroundColor: accent }} />
-                <h3 className="text-xl font-bold text-white">{title}</h3>
-                <ul className="flex flex-col gap-2">
-                  {bullets.map((b) => (
-                    <li key={b} className="text-sm leading-relaxed flex gap-2" style={{ color: 'rgba(255,255,255,0.75)' }}>
-                      <span style={{ color: accent, flexShrink: 0 }}>→</span>
-                      {b}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-12 relative">
-            <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
-              Explore All Features — Shopify
-            </CTAButton>
-            <p className="text-sm mt-3" style={{ color: 'rgba(255,255,255,0.4)' }}>
-              WooCommerce?{' '}
-              <a
-                href={WOOCOMMERCE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:opacity-100 transition-opacity"
-                style={{ color: 'rgba(255,255,255,0.65)' }}
-              >
-                Install the plugin →
-              </a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 7. COMPETITOR COMPARISON TABLE ── */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Why Growing Merchants Choose Verve Over the Alternatives
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Enterprise tools are built for enterprise teams. Verve is built for you.
-            </p>
-          </div>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr>
-                  <th className="text-left py-4 pr-6 text-gray-500 font-semibold w-1/3"></th>
-                  <th className="text-center py-4 px-4 text-gray-500 font-semibold w-1/3">Enterprise Tools</th>
-                  <th className="text-center py-4 px-4 font-bold w-1/3 rounded-t-xl" style={{ backgroundColor: 'rgb(0, 201, 167)', color: 'white' }}>
-                    Verve AI
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  { feature: 'Monthly cost', enterprise: '$49–$500+ (GMV-tiered)', verve: '$19.99 flat' },
-                  { feature: 'Setup time', enterprise: 'Weeks (requires CSM)', verve: 'Under 10 minutes' },
-                  { feature: 'Contracts', enterprise: 'Annual lock-in common', verve: 'Month-to-month' },
-                  { feature: 'Onboarding', enterprise: 'Dedicated manager required', verve: 'Self-serve, no calls' },
-                  { feature: 'Pricing model', enterprise: 'Scales with your revenue', verve: 'Fixed — grow for free' },
-                  { feature: 'Trial', enterprise: 'Demo call first', verve: '14-day free trial, instant' },
-                  { feature: 'Cancellation', enterprise: 'Email + notice period', verve: 'Cancel in 60 seconds' },
-                ].map(({ feature, enterprise, verve }, i, arr) => (
-                  <tr
-                    key={feature}
-                    className={i < arr.length - 1 ? 'border-b border-gray-100' : ''}
-                  >
-                    <td className="py-4 pr-6 font-medium text-gray-700">{feature}</td>
-                    <td className="py-4 px-4 text-center text-gray-500">{enterprise}</td>
-                    <td
-                      className={`py-4 px-4 text-center font-semibold ${i === arr.length - 1 ? 'rounded-b-xl' : ''}`}
-                      style={{ backgroundColor: 'rgba(0, 201, 167, 0.08)', color: 'rgb(0, 150, 120)' }}
-                    >
-                      {verve}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-center text-gray-600 mt-8 mb-6 italic">
-            We built Verve for merchants who want real forecasting power without the enterprise tax.
-          </p>
-          <div className="flex justify-center">
-            <CTAPair />
-          </div>
-        </div>
-      </section>
-
-      {/* ── 8. COMPARISON (WITH / WITHOUT) ── */}
-      <section className="py-16" style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-10">With Verve vs. Going It Alone</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-2xl p-8 border border-green-100">
-              <h3 className="font-bold text-lg mb-4" style={{ color: 'rgb(0, 201, 167)' }}>
-                ✅ With Verve
-              </h3>
-              <ul className="flex flex-col gap-3 text-gray-800">
-                <li>✅ AI demand forecasts for every SKU — updated daily</li>
-                <li>✅ Inventory Health Dashboard with days of cover and risk scoring</li>
-                <li>✅ Supplier scorecards: OTIF, fill rate, lead-time trends, cost drift</li>
-                <li>✅ Multi-location stock visibility and one-click reorders</li>
-                <li>✅ 10 built-in reports — export any dataset to CSV in seconds</li>
-                <li>✅ Purchase orders auto-generated from reorder suggestions</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-2xl p-8 border border-red-50">
-              <h3 className="font-bold text-lg mb-4 text-gray-500">❌ Going It Alone</h3>
-              <ul className="flex flex-col gap-3 text-gray-800">
-                <li>❌ Manual reorder decisions from memory or outdated spreadsheets</li>
-                <li>❌ No visibility into which stock is healthy, at-risk, or dead</li>
-                <li>❌ No way to compare supplier reliability across orders</li>
-                <li>❌ Blind spots across multiple warehouses and locations</li>
-                <li>❌ Separate tools (or nothing) for purchasing, reporting, and suppliers</li>
-                <li>❌ Hours per week on CSVs that are stale by the time you open them</li>
-              </ul>
-            </div>
-          </div>
-          <div className="text-center mt-10">
-            <p className="text-lg font-semibold text-gray-800 mb-4">Ready to switch sides?</p>
-            <CTAPair />
-          </div>
-        </div>
-      </section>
-
-      {/* ── 9. REPORTS SPOTLIGHT ── */}
-      <section className="py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              10 Reports Built for Inventory Operators
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Stop pulling data from five different places. Every report you need to run a tight inventory operation — already built, date-ranged, and exportable.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              {
-                category: 'Stock Health',
-                color: 'rgb(0, 201, 167)',
-                reports: ['Inventory Valuation', 'Stock Movement', 'Dead Stock & Overstock', 'Stockout History'],
-                note: 'Confidence flags on every reconciled metric',
-              },
-              {
-                category: 'Purchasing',
-                color: 'rgb(128, 72, 245)',
-                reports: ['PO History', 'Reorder Cadence', 'Supplier Performance'],
-                note: 'Tracks lead-time trends and supplier reliability over time',
-              },
-              {
-                category: 'Sales',
-                color: 'rgb(19, 33, 68)',
-                reports: ['Top / Bottom Performers', 'Velocity Trends', 'Sell-Through Rate'],
-                note: 'Identify your 80/20 products and slow movers at a glance',
-              },
-            ].map(({ category, color, reports, note }) => (
-              <div key={category} className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                <span
-                  className="inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full text-white mb-4"
-                  style={{ backgroundColor: color }}
-                >
-                  {category}
-                </span>
-                <ul className="flex flex-col gap-2 mb-4">
-                  {reports.map((r) => (
-                    <li key={r} className="text-sm text-gray-700 flex gap-2">
-                      <span style={{ color }}>•</span>
-                      {r}
-                    </li>
-                  ))}
-                </ul>
-                <p className="text-xs text-gray-500 italic">{note}</p>
-              </div>
-            ))}
-          </div>
-          <p className="text-center text-sm text-gray-500 mt-8">
-            All 10 reports available on day one — no setup required.
-          </p>
-        </div>
-      </section>
-
-      {/* ── 10. SOCIAL PROOF / TESTIMONIALS ── */}
-      <section className="py-16" style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-2">Merchants Are Already Stocking Smarter</h2>
-          <p className="text-xl text-gray-600 mb-10">And spending less time doing it</p>
-
-          {/* Badge strip */}
-          <div className="flex flex-wrap justify-center items-center gap-4 mb-10">
-            <a href="https://www.producthunt.com/posts/verve-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-verve&#0045;ai" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1001054&theme=light"
-                alt="Verve AI on Product Hunt"
-                width={200}
-                height={44}
-              />
-            </a>
-            <div className="flex items-center gap-2 px-4 py-2 bg-white rounded-full border border-gray-200">
-              <span className="text-sm font-semibold text-gray-700">Shopify App Store</span>
-              <span style={{ color: 'rgb(0, 201, 167)' }}>★★★★★</span>
-            </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-white rounded-full border border-gray-200">
-              <span className="text-sm font-semibold text-gray-700">WordPress.org</span>
-              <span style={{ color: 'rgb(128, 72, 245)' }}>★★★★★</span>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 text-left mb-12">
-            <div className="bg-white rounded-2xl p-6 border border-gray-100 flex flex-col gap-4">
-              <p className="text-gray-700 italic leading-relaxed">
-                &ldquo;Keeping track of stock with always growing number of SKUs and vendors can be an absolute nightmare. I&apos;ve tried spreadsheets but it tends to add to the headache rather than fix it!&rdquo;
-              </p>
-              <p className="text-sm font-semibold text-gray-500">@HarryL · r/Shopify</p>
-            </div>
-            <div className="bg-white rounded-2xl p-6 border border-gray-100 flex flex-col gap-4">
-              <p className="text-gray-700 italic leading-relaxed">
-                &ldquo;We were built on Verve AI. It handles everything from demand forecasting to inventory management. The AI does all the heavy lifting.&rdquo;
-              </p>
-              <p className="text-sm font-semibold text-gray-500">Verified Shopify Merchant</p>
-            </div>
-            <div className="bg-white rounded-2xl p-6 border border-gray-100 flex flex-col gap-4">
-              <p className="text-gray-700 italic leading-relaxed">
-                &ldquo;Verve AI is the best forecasting app for Shopify. It&apos;s easy to use and the AI is spot on. I highly recommend it to any e-commerce merchant.&rdquo;
-              </p>
-              <p className="text-sm font-semibold text-gray-500">Verified WooCommerce Merchant</p>
-            </div>
-          </div>
-          <p className="text-lg font-semibold text-gray-800 mb-4">Join hundreds of merchants stocking smarter</p>
-          <CTAPair />
-        </div>
-      </section>
-
-      {/* ── 11. PRICING ── */}
+      {/* ── 6. PRICING ── */}
       <section className="py-16 bg-white">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">Simple, Transparent Pricing</h2>
@@ -709,6 +268,7 @@ export default function HomePage() {
                 'Supplier management & scorecards',
                 '10 built-in inventory reports + CSV export',
                 'Purchase order management',
+                'AI Agent — 24/7 monitoring & one-click PO approvals',
                 'Unlimited products & orders',
                 '30-day money-back guarantee',
               ].map((item) => (
@@ -731,7 +291,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 12. FAQ ── */}
+      {/* ── 7. FAQ ── */}
       <section className="py-16" style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Common Questions</h2>
@@ -776,7 +336,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 13. FINAL CTA ── */}
+      {/* ── 8. FINAL CTA ── */}
       <section
         className="py-20"
         style={{ background: 'linear-gradient(135deg, rgb(19, 33, 68) 0%, rgb(128, 72, 245) 100%)' }}

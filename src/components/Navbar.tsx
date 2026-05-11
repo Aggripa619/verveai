@@ -29,6 +29,9 @@ export default function Navbar() {
             <Link href="/about" className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
               About
             </Link>
+            <Link href="/why-verve-ai" className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
+              Why Verve AI
+            </Link>
           </nav>
 
           {/* CTA buttons */}
