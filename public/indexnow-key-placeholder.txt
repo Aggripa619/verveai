@@ -1,0 +1,12 @@
+REPLACE_THIS_FILE_WITH_YOUR_INDEXNOW_KEY_FILE
+
+Instructions:
+1. Go to https://www.bing.com/webmasters
+2. Add your site (www.getverveai.com) and verify ownership
+3. Go to Settings → API Access → IndexNow
+4. Copy your generated API key (e.g. "a1b2c3d4e5f6...")
+5. Rename this file to exactly that key value: a1b2c3d4e5f6....txt
+6. The file content should be just the key itself (one line, no spaces)
+7. Deploy the file (npm run build && npx vercel --prod from verveai/)
+8. Verify it's accessible at https://www.getverveai.com/a1b2c3d4e5f6....txt
+9. Set INDEXNOW_KEY=a1b2c3d4e5f6... and run: python ceo-system/submit-indexnow.py
