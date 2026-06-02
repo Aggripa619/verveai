@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import CTAButton from '@/components/CTAButton'
-import { SHOPIFY_URL } from '@/lib/content'
+import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'Interactive Demo — Verve AI',
@@ -59,9 +59,14 @@ export default function DemoPage() {
           <p className="text-gray-600 mb-8">
             14-day free trial. No credit card required.
           </p>
-          <CTAButton href={SHOPIFY_URL} variant="teal" size="lg">
-            Add to Shopify — It&apos;s Free to Try
-          </CTAButton>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
+              Add to Shopify — Free Trial
+            </CTAButton>
+            <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
+              Add to WooCommerce — Free Trial
+            </CTAButton>
+          </div>
         </div>
       </section>
     </>
