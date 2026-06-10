@@ -107,11 +107,18 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <p className="text-center text-sm font-medium mt-6" style={{ color: 'rgb(0, 201, 167)' }}>
-            <Link href="/why-verve-ai" className="hover:underline">
-              Includes AI Agent — 24/7 monitoring, automated alerts, and one-click PO approvals. →
-            </Link>
-          </p>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-x-6 gap-y-2 mt-6">
+            <p className="text-center text-sm font-medium" style={{ color: 'rgb(0, 201, 167)' }}>
+              <Link href="/why-verve-ai" className="hover:underline">
+                Includes AI Agent — 24/7 monitoring, automated alerts, and one-click PO approvals. →
+              </Link>
+            </p>
+            <p className="text-center text-sm font-medium text-gray-500">
+              <Link href="/blog/shopify-inventory-forecasting-app-comparison" className="hover:underline hover:text-gray-700">
+                Compare Verve AI vs Prediko, Assisty &amp; Forecastly →
+              </Link>
+            </p>
+          </div>
         </div>
       </section>
 

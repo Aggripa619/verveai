@@ -4,6 +4,7 @@ import { getAllBlogSlugs, getBlogPost, SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } 
 import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
 import SafetyStockCalculatorWrapper from '@/components/SafetyStockCalculatorWrapper'
+import ComparisonBanner from '@/components/ComparisonBanner'
 
 export async function generateStaticParams() {
   const slugs = getAllBlogSlugs()
@@ -79,6 +80,10 @@ export default async function BlogPostPage({
             <>
               {slug === 'safety-stock-calculator' && (
                 <InlineCTABanner message="Want safety stock calculated automatically for every SKU? Verve AI pulls live Shopify data and keeps your buffers up to date." />
+              )}
+
+              {(slug === 'demand-forecasting-tools' || slug === 'demand-forecasting-excel') && (
+                <ComparisonBanner />
               )}
 
               <div
