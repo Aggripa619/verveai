@@ -66,28 +66,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 1b. DEMO VIDEO ── */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
-            See Verve AI in Action
-          </h2>
-          <p className="text-lg text-gray-500 mb-10">
-            Watch how a Shopify merchant gets accurate inventory forecasts set up in under 10 minutes.
-          </p>
-          <div className="relative w-full rounded-2xl overflow-hidden shadow-xl" style={{ paddingTop: '56.25%' }}>
-            <iframe
-              src="https://player.vimeo.com/video/1196477526?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-              className="absolute inset-0 w-full h-full"
-              frameBorder="0"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-              referrerPolicy="strict-origin-when-cross-origin"
-              title="AI Inventory Assistant for Shopify Stores - Verve AI Demo"
-            />
-          </div>
-        </div>
-      </section>
-
       {/* ── 2. TRUST BAR ── */}
       <section className="py-10 bg-white border-y border-gray-100">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -271,6 +249,28 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-10">
             <CTAPair label="Get your first forecast in under 10 minutes" />
+          </div>
+        </div>
+      </section>
+
+      {/* ── 5b. DEMO VIDEO ── */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
+            See Verve AI in Action
+          </h2>
+          <p className="text-lg text-gray-500 mb-10">
+            Watch how a Shopify merchant gets accurate inventory forecasts set up in under 10 minutes.
+          </p>
+          <div className="relative w-full rounded-2xl overflow-hidden shadow-xl" style={{ paddingTop: '56.25%' }}>
+            <iframe
+              src="https://player.vimeo.com/video/1196477526?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+              className="absolute inset-0 w-full h-full"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              referrerPolicy="strict-origin-when-cross-origin"
+              title="AI Inventory Assistant for Shopify Stores - Verve AI Demo"
+            />
           </div>
         </div>
       </section>
