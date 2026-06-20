@@ -336,9 +336,9 @@ export default function ProductHuntPage() {
               </p>
               <div className="flex flex-wrap gap-3">
                 {[
-                  { label: '10 SKUs analysed', color: 'rgb(0, 201, 167)' },
-                  { label: 'Coverage status per variant', color: 'rgb(128, 72, 245)' },
-                  { label: 'Lead time demand forecast', color: 'rgb(19, 33, 68)' },
+                  { label: 'Coverage status per variant', color: 'rgb(0, 201, 167)' },
+                  { label: 'Lead time demand forecast', color: 'rgb(128, 72, 245)' },
+                  { label: 'Out of stock alerts', color: 'rgb(19, 33, 68)' },
                 ].map(({ label, color }) => (
                   <span
                     key={label}
@@ -349,9 +349,12 @@ export default function ProductHuntPage() {
                   </span>
                 ))}
               </div>
-              <div>
+              <div className="flex flex-wrap gap-4">
                 <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
                   Start Free Trial — Shopify
+                </CTAButton>
+                <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
+                  Start Free Trial — WooCommerce
                 </CTAButton>
               </div>
             </div>
