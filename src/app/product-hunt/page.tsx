@@ -419,7 +419,7 @@ export default function ProductHuntPage() {
       >
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col gap-8 items-center">
           <h2 className="text-3xl lg:text-5xl font-bold text-white leading-tight">
-            Inventory and Ops team, without the headcount.
+            Get Your First Actions In Minutes.
           </h2>
           <p className="text-lg max-w-xl" style={{ color: 'rgba(255,255,255,0.8)' }}>
             Join Shopify and WooCommerce merchants using Verve AI to forecast smarter, order less, and never miss a sale.
