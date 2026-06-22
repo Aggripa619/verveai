@@ -6,7 +6,7 @@ import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
 export const metadata: Metadata = {
   title: 'Verve AI — AI Inventory Agent for Shopify & WooCommerce | Product Hunt',
   description:
-    'Verve AI spots demand spikes, flags dead stock, and generates purchase orders — powered by AI. Try free for 14 days. No credit card required.',
+    'Verve AI spots demand spikes, flags dead stock, and generates purchase orders — powered by AI. Try free for 14 days.',
   robots: { index: false },
   alternates: { canonical: 'https://www.getverveai.com/product-hunt' },
   openGraph: {
@@ -38,7 +38,7 @@ function CTAPair({ label }: { label?: string }) {
           Start Free Trial — WooCommerce
         </CTAButton>
       </div>
-      <p className="text-sm text-gray-500">14-day free trial · No credit card required · Cancel anytime</p>
+      <p className="text-sm text-gray-500">14-day free trial · Cancel anytime</p>
     </div>
   )
 }
@@ -147,7 +147,7 @@ export default function ProductHuntPage() {
             {[
               { icon: '⚡', text: '10-minute setup' },
               { icon: '🆓', text: '14-day free trial' },
-              { icon: '💳', text: 'No credit card required' },
+              { icon: '📅', text: 'Month-to-month' },
               { icon: '📦', text: 'Cancel anytime' },
             ].map(({ icon, text }) => (
               <div
@@ -183,7 +183,7 @@ export default function ProductHuntPage() {
             {[
               { stat: '10 min', label: 'Setup Time', sub: 'No onboarding call needed' },
               { stat: '$19.99', label: 'Per Month Flat', sub: 'No GMV tiers. No per-SKU fees' },
-              { stat: '14-Day', label: 'Free Trial', sub: 'No credit card required' },
+              { stat: '14-Day', label: 'Free Trial', sub: 'Cancel anytime' },
               { stat: 'Month-to-Month', label: 'No Contracts', sub: 'Cancel in 60 seconds' },
             ].map(({ stat, label, sub }) => (
               <div key={label} className="flex flex-col gap-1">
