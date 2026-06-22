@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
 function CTAPair({ label }: { label?: string }) {
   return (
-    <div className="flex flex-col items-center gap-3">
+    <div className="flex flex-col items-center gap-3 text-center">
       {label && <p className="text-base font-semibold text-gray-700">{label}</p>}
       <div className="flex flex-wrap justify-center gap-4">
         <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
@@ -419,7 +419,7 @@ export default function ProductHuntPage() {
       >
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col gap-8 items-center">
           <h2 className="text-3xl lg:text-5xl font-bold text-white leading-tight">
-            Launch on Product Hunt.<br />Ship Inventory Confidence.
+            Inventory and Ops team, without the headcount.
           </h2>
           <p className="text-lg max-w-xl" style={{ color: 'rgba(255,255,255,0.8)' }}>
             Join Shopify and WooCommerce merchants using Verve AI to forecast smarter, order less, and never miss a sale.
