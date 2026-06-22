@@ -331,15 +331,6 @@ export default function ProductHuntPage() {
               </div>
             ))}
           </div>
-          <div className="mt-12 text-center">
-            <Image
-              src="https://framerusercontent.com/images/bHYogO2oCX4AlIIHhHXdwoJA.png"
-              alt="Verve AI Lead Time Coverage Analysis dashboard"
-              width={1200}
-              height={700}
-              className="w-full h-auto rounded-2xl shadow-2xl"
-            />
-          </div>
         </div>
       </section>
 
