@@ -135,7 +135,7 @@ export default function ProductHuntPage() {
           </span>
 
           <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-            Easy install, get your first actions in minutes.
+            Get Your First Actions In Minutes.
           </h1>
 
           <p className="text-xl text-gray-300 max-w-2xl leading-relaxed">
