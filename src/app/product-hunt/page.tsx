@@ -135,12 +135,11 @@ export default function ProductHuntPage() {
           </span>
 
           <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-            Install in&nbsp;10&nbsp;minutes.<br />
-            Get your first actions in&nbsp;minutes.
+            Easy install, get your first actions in minutes.
           </h1>
 
           <p className="text-xl text-gray-300 max-w-2xl leading-relaxed">
-            Verve AI connects to your Shopify or WooCommerce store and immediately starts watching every SKU for stockout risk, demand spikes, and dead stock — no CSV uploads, no onboarding call.
+            Connect your store and Verve immediately flags stockout risks, demand spikes, and dead stock — no CSV uploads, no onboarding call.
           </p>
 
           {/* Risk reducers */}
