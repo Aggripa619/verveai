@@ -173,17 +173,6 @@ export default function ProductHuntPage() {
 
           <p className="text-sm text-gray-400">Trusted by independent merchants. No enterprise contracts. No GMV tiers.</p>
 
-          {/* Hero screenshot */}
-          <div className="w-full max-w-3xl mt-4">
-            <Image
-              src="/screenshots/agent-feed.png"
-              alt="Verve AI Agent Feed — inventory recommendations from the autonomous AI agent"
-              width={1200}
-              height={800}
-              priority
-              className="w-full h-auto rounded-2xl shadow-2xl"
-            />
-          </div>
         </div>
       </section>
 
@@ -268,11 +257,8 @@ export default function ProductHuntPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Try It Yourself — No Sign-up Needed
+              Full product demo
             </h2>
-            <p className="text-gray-600">
-              Click through an interactive tour of the full product. Explore the Agent Feed, forecasting, and purchase orders at your own pace.
-            </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl bg-gray-50 p-2">
             <div style={{ position: 'relative', paddingTop: 'calc(49.26% + 80px)' }}>
