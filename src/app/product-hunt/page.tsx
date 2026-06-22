@@ -184,7 +184,7 @@ export default function ProductHuntPage() {
               { stat: '10 min', label: 'Setup Time', sub: 'No onboarding call needed' },
               { stat: '$19.99', label: 'Per Month Flat', sub: 'No GMV tiers. No per-SKU fees' },
               { stat: '14-Day', label: 'Free Trial', sub: 'Cancel anytime' },
-              { stat: 'Month-to-Month', label: 'No Contracts', sub: 'Cancel in 60 seconds' },
+              { stat: 'No Contract', label: 'Required', sub: 'Cancel in 60 seconds' },
             ].map(({ stat, label, sub }) => (
               <div key={label} className="flex flex-col gap-1">
                 <span className="text-2xl lg:text-3xl font-bold" style={{ color: 'rgb(0, 201, 167)' }}>
