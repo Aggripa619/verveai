@@ -85,10 +85,8 @@ const FEATURES = [
   'Dead stock & overstock exposure reports',
   'AI demand forecasting & lead time coverage',
   'Purchase order creation, tracking & receiving',
-  'Supplier catalogue with cost tracking',
+  'Supplier management with cost tracking',
   'Price change detection across POs',
-  'Sales velocity analysis (7-day vs 30-day)',
-  'Multi-variant SKU support',
   'Shopify & WooCommerce native',
 ]
 
