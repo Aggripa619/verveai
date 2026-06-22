@@ -120,35 +120,70 @@ export default function ProductHuntPage() {
     <div className="bg-white">
 
       {/* ── 1. HERO ── */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="order-2 lg:order-1">
-            <Image
-              src="https://framerusercontent.com/images/StWC6Ozq4IMVMqDQN0ZuXzZYq0A.png"
-              alt="Verve AI Agent Feed — inventory recommendations from the autonomous AI agent"
-              width={1024}
-              height={1024}
-              priority
-              className="w-full h-auto rounded-2xl shadow-xl"
-            />
-          </div>
-          <div className="order-1 lg:order-2 flex flex-col gap-6">
-            {/* PH badge */}
-            <div className="inline-flex items-center gap-2 self-start">
-              <span
-                className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full text-white"
-                style={{ backgroundColor: 'rgb(128, 72, 245)' }}
+      <section
+        className="py-16 lg:py-24"
+        style={{ background: 'linear-gradient(135deg, rgb(19,33,68) 0%, rgb(40,55,100) 100%)' }}
+      >
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col gap-8 items-center">
+
+          {/* PH badge */}
+          <span
+            className="text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full text-white"
+            style={{ backgroundColor: 'rgba(128,72,245,0.85)' }}
+          >
+            👋 Hey Product Hunter — welcome
+          </span>
+
+          <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
+            Install in&nbsp;10&nbsp;minutes.<br />
+            Get your first actions in&nbsp;minutes.
+          </h1>
+
+          <p className="text-xl text-gray-300 max-w-2xl leading-relaxed">
+            Verve AI connects to your Shopify or WooCommerce store and immediately starts watching every SKU for stockout risk, demand spikes, and dead stock — no CSV uploads, no onboarding call.
+          </p>
+
+          {/* Risk reducers */}
+          <div className="flex flex-wrap justify-center gap-4 text-sm font-semibold">
+            {[
+              { icon: '⚡', text: '10-minute setup' },
+              { icon: '🆓', text: '14-day free trial' },
+              { icon: '💳', text: 'No credit card required' },
+              { icon: '📦', text: 'Cancel anytime' },
+            ].map(({ icon, text }) => (
+              <div
+                key={text}
+                className="flex items-center gap-2 px-4 py-2 rounded-full text-white"
+                style={{ backgroundColor: 'rgba(255,255,255,0.1)' }}
               >
-                Featured on Product Hunt
-              </span>
-            </div>
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              The AI Inventory Agent for Shopify &amp; WooCommerce Stores
-            </h1>
-            <p className="text-xl font-medium text-gray-600 leading-relaxed">
-              Stop stockouts, eliminate dead stock, and ditch the spreadsheet — Verve&apos;s AI watches your inventory 24/7 and tells you exactly what to order and when.
-            </p>
-            <CTAPair />
+                <span>{icon}</span>
+                <span>{text}</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Dual CTA */}
+          <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
+            <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
+              Install Free — Shopify
+            </CTAButton>
+            <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
+              Install Free — WooCommerce
+            </CTAButton>
+          </div>
+
+          <p className="text-sm text-gray-400">Trusted by independent merchants. No enterprise contracts. No GMV tiers.</p>
+
+          {/* Hero screenshot */}
+          <div className="w-full max-w-3xl mt-4">
+            <Image
+              src="/screenshots/agent-feed.png"
+              alt="Verve AI Agent Feed — inventory recommendations from the autonomous AI agent"
+              width={1200}
+              height={800}
+              priority
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
       </section>
