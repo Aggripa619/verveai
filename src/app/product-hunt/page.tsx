@@ -147,7 +147,7 @@ export default function ProductHuntPage() {
             {[
               { icon: '⚡', text: '10-minute setup' },
               { icon: '🆓', text: '14-day free trial' },
-              { icon: '📅', text: 'Month-to-month' },
+              { icon: '📅', text: 'No Contract Required' },
               { icon: '📦', text: 'Cancel anytime' },
             ].map(({ icon, text }) => (
               <div
