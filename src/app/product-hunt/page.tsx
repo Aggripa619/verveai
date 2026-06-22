@@ -135,11 +135,11 @@ export default function ProductHuntPage() {
           </span>
 
           <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-            Get Your First Action In Minutes.
+            Get actionable insights in minutes.
           </h1>
 
           <p className="text-xl text-gray-300 max-w-2xl leading-relaxed">
-            Connect your store and Verve immediately flags stockout risks, demand spikes, and dead stock — no CSV uploads, no onboarding call.
+            Connect your store and Verve AI immediately flags stockout risks, demand spikes, and dead stock — no CSV uploads, no onboarding call.
           </p>
 
           {/* Risk reducers */}
