@@ -47,7 +47,7 @@ const REASONS = [
   {
     icon: '🚨',
     title: 'Never stock out on your best sellers',
-    body: "Verve's AI watches sales velocity around the clock. The moment a demand spike appears, you get an alert in your Agent Feed — with a suggested reorder quantity — before you run out.",
+    body: "Verve AI watches sales velocity around the clock. The moment a demand spike appears, you get an alert in your Agent Feed — with a suggested reorder quantity — before you run out.",
   },
   {
     icon: '💸',
