@@ -5,12 +5,24 @@ import { useState, useEffect, useRef } from 'react'
 interface EmailGateModalProps {
   toolSlug: string
   toolName: string
+  badgeLabel?: string
+  subtitle?: string
+  buttonLabel?: string
+  successTitle?: string
   onClose: () => void
 }
 
 type State = 'idle' | 'loading' | 'success' | 'error'
 
-export default function EmailGateModal({ toolSlug, toolName, onClose }: EmailGateModalProps) {
+export default function EmailGateModal({
+  toolSlug,
+  toolName,
+  badgeLabel = 'Free Template',
+  subtitle = "Enter your email and we'll send it straight through.",
+  buttonLabel = 'Get Free Template →',
+  successTitle = 'Opening your template…',
+  onClose,
+}: EmailGateModalProps) {
   const [email, setEmail] = useState('')
   const [name, setName] = useState('')
   const [state, setState] = useState<State>('idle')
@@ -86,7 +98,7 @@ export default function EmailGateModal({ toolSlug, toolName, onClose }: EmailGat
               >
                 ✓
               </div>
-              <h2 className="text-xl font-bold text-gray-900 mb-2">Opening your template…</h2>
+              <h2 className="text-xl font-bold text-gray-900 mb-2">{successTitle}</h2>
               <p className="text-gray-500 text-sm">
                 Your free {toolName} is opening in a new tab.
               </p>
@@ -98,13 +110,13 @@ export default function EmailGateModal({ toolSlug, toolName, onClose }: EmailGat
                   className="text-xs font-semibold uppercase tracking-widest mb-1"
                   style={{ color: 'rgb(0, 201, 167)' }}
                 >
-                  Free Template
+                  {badgeLabel}
                 </p>
                 <h2 className="text-2xl font-bold text-gray-900 leading-tight">
                   Get the {toolName}
                 </h2>
                 <p className="text-gray-500 text-sm mt-1">
-                  Enter your email and we'll send it straight through.
+                  {subtitle}
                 </p>
               </div>
 
@@ -151,7 +163,7 @@ export default function EmailGateModal({ toolSlug, toolName, onClose }: EmailGat
                   className="w-full rounded-full font-semibold text-white py-3 text-sm transition-all hover:scale-[1.02] disabled:opacity-60 disabled:scale-100"
                   style={{ background: 'linear-gradient(135deg, rgb(0, 201, 167), rgb(0, 160, 133))' }}
                 >
-                  {state === 'loading' ? 'Just a moment…' : 'Get Free Template →'}
+                  {state === 'loading' ? 'Just a moment…' : buttonLabel}
                 </button>
 
                 <p className="text-center text-xs text-gray-400">

@@ -8,13 +8,35 @@ import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
 import ReorderPointCalculatorWrapper from '@/components/ReorderPointCalculatorWrapper'
 
-const TOOL_URLS: Record<string, { href: string; name: string; emailGate?: boolean }> = {
+interface ToolConfig {
+  href: string
+  name: string
+  emailGate?: boolean
+  badgeLabel?: string
+  subtitle?: string
+  buttonLabel?: string
+  modalSubtitle?: string
+  modalButtonLabel?: string
+  successTitle?: string
+}
+
+const TOOL_URLS: Record<string, ToolConfig> = {
   'inventory-days-calculator':          { href: 'https://tool2.getverveai.com/', name: 'Inventory Days Calculator' },
-  'ecommerce-profit-margin-calculator': { href: 'https://tool1.getverveai.com/', name: 'Profit Margin Calculator' },
   'reorder-point-calculator':           { href: '#', name: 'Reorder Point Calculator', emailGate: true },
   'inventory-control-excel':            { href: '#', name: 'Inventory Control Template', emailGate: true },
   'sales-forecast-template':            { href: '#', name: 'Sales Forecast Template', emailGate: true },
   'cashflow-forecast-template':         { href: '#', name: 'Cashflow Forecast Template', emailGate: true },
+  'ecommerce-profit-margin-calculator': {
+    href: 'https://tool1.getverveai.com/',
+    name: 'Profit Margin Calculator',
+    emailGate: true,
+    badgeLabel: 'Free Calculator',
+    subtitle: 'Free eCommerce profit calculator — no software required.',
+    buttonLabel: 'Open Free Calculator →',
+    modalSubtitle: "Enter your email and we'll open it right up.",
+    modalButtonLabel: 'Open Free Calculator →',
+    successTitle: 'Opening your calculator…',
+  },
 }
 
 const NAV_LINES = new Set([
@@ -102,7 +124,18 @@ export default async function ToolPage({
 
   const TopCTA = () => {
     if (!toolConfig) return null
-    if (toolConfig.emailGate) return <EmailGateCTA toolSlug={slug} toolName={toolConfig.name} />
+    if (toolConfig.emailGate) return (
+      <EmailGateCTA
+        toolSlug={slug}
+        toolName={toolConfig.name}
+        badgeLabel={toolConfig.badgeLabel}
+        subtitle={toolConfig.subtitle}
+        buttonLabel={toolConfig.buttonLabel}
+        modalSubtitle={toolConfig.modalSubtitle}
+        modalButtonLabel={toolConfig.modalButtonLabel}
+        successTitle={toolConfig.successTitle}
+      />
+    )
     return <ToolCTA href={toolConfig.href} toolName={toolConfig.name} />
   }
 
@@ -117,7 +150,18 @@ export default async function ToolPage({
         </div>
       </div>
     )
-    if (toolConfig.emailGate) return <EmailGateCTA toolSlug={slug} toolName={toolConfig.name} />
+    if (toolConfig.emailGate) return (
+      <EmailGateCTA
+        toolSlug={slug}
+        toolName={toolConfig.name}
+        badgeLabel={toolConfig.badgeLabel}
+        subtitle={toolConfig.subtitle}
+        buttonLabel={toolConfig.buttonLabel}
+        modalSubtitle={toolConfig.modalSubtitle}
+        modalButtonLabel={toolConfig.modalButtonLabel}
+        successTitle={toolConfig.successTitle}
+      />
+    )
     return <ToolCTA href={toolConfig.href} toolName={toolConfig.name} />
   }
 

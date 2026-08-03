@@ -8,9 +8,24 @@ const EmailGateModal = dynamic(() => import('./EmailGateModal'), { ssr: false })
 interface EmailGateCTAProps {
   toolSlug: string
   toolName: string
+  badgeLabel?: string
+  subtitle?: string
+  buttonLabel?: string
+  modalSubtitle?: string
+  modalButtonLabel?: string
+  successTitle?: string
 }
 
-export default function EmailGateCTA({ toolSlug, toolName }: EmailGateCTAProps) {
+export default function EmailGateCTA({
+  toolSlug,
+  toolName,
+  badgeLabel = 'Free Template',
+  subtitle = 'Free Google Sheet — no software required.',
+  buttonLabel = 'Download Free Template →',
+  modalSubtitle,
+  modalButtonLabel,
+  successTitle,
+}: EmailGateCTAProps) {
   const [open, setOpen] = useState(false)
 
   return (
@@ -39,13 +54,13 @@ export default function EmailGateCTA({ toolSlug, toolName }: EmailGateCTAProps) 
           />
 
           <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: 'rgb(0, 201, 167)' }}>
-            Free Template
+            {badgeLabel}
           </p>
           <h3 className="text-2xl font-bold text-white leading-tight mb-2">
             Get the {toolName}
           </h3>
           <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.6)' }}>
-            Free Google Sheet — no software required.
+            {subtitle}
           </p>
 
           <button
@@ -57,7 +72,7 @@ export default function EmailGateCTA({ toolSlug, toolName }: EmailGateCTAProps) 
               boxShadow: '0 4px 20px rgba(0,0,0,0.25)',
             }}
           >
-            Download Free Template →
+            {buttonLabel}
           </button>
 
           <p className="mt-5 text-xs" style={{ color: 'rgba(255,255,255,0.35)' }}>
@@ -70,6 +85,10 @@ export default function EmailGateCTA({ toolSlug, toolName }: EmailGateCTAProps) 
         <EmailGateModal
           toolSlug={toolSlug}
           toolName={toolName}
+          badgeLabel={badgeLabel}
+          subtitle={modalSubtitle}
+          buttonLabel={modalButtonLabel}
+          successTitle={successTitle}
           onClose={() => setOpen(false)}
         />
       )}
