@@ -56,7 +56,7 @@ export default function EmailGateCTA({
           <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: 'rgb(0, 201, 167)' }}>
             {badgeLabel}
           </p>
-          <h3 className="text-2xl font-bold text-white leading-tight mb-2">
+          <h3 className="text-2xl font-bold leading-tight mb-2" style={{ color: 'white' }}>
             Get the {toolName}
           </h3>
           <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.6)' }}>
