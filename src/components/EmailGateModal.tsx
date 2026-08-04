@@ -62,9 +62,12 @@ export default function EmailGateModal({
       tool_slug: toolSlug,
       tool_name: toolName,
     })
-    setTimeout(() => {
+    // Must run synchronously off the submit event, not inside a setTimeout —
+    // a macrotask breaks the browser's user-activation link to the click and
+    // the popup gets silently blocked.
+    if (data.redirectUrl) {
       window.open(data.redirectUrl, '_blank', 'noopener,noreferrer')
-    }, 800)
+    }
   }
 
   return (

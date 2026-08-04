@@ -9,6 +9,7 @@ const SHEET_URLS: Record<string, string> = {
   'sales-forecast-template':   'https://docs.google.com/spreadsheets/d/1gdjpQOaCkQuYAnMN_hWkWBZdCplU4AyfxWP5Y4Vq5CM/edit?usp=drivesdk',
   'cashflow-forecast-template':'https://docs.google.com/spreadsheets/d/1pwJcHzAPcxTcuXhi897NdonHj9pXmCNmClMvCM8YEoc/edit?usp=drivesdk',
   'ecommerce-profit-margin-calculator': 'https://tool1.getverveai.com/',
+  'inventory-days-calculator': 'https://tool2.getverveai.com/',
 }
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/

@@ -21,7 +21,6 @@ interface ToolConfig {
 }
 
 const TOOL_URLS: Record<string, ToolConfig> = {
-  'inventory-days-calculator':          { href: 'https://tool2.getverveai.com/', name: 'Inventory Days Calculator' },
   'reorder-point-calculator':           { href: '#', name: 'Reorder Point Calculator', emailGate: true },
   'inventory-control-excel':            { href: '#', name: 'Inventory Control Template', emailGate: true },
   'sales-forecast-template':            { href: '#', name: 'Sales Forecast Template', emailGate: true },
@@ -32,6 +31,17 @@ const TOOL_URLS: Record<string, ToolConfig> = {
     emailGate: true,
     badgeLabel: 'Free Calculator',
     subtitle: 'Free eCommerce profit calculator — no software required.',
+    buttonLabel: 'Open Free Calculator →',
+    modalSubtitle: "Enter your email and we'll open it right up.",
+    modalButtonLabel: 'Open Free Calculator →',
+    successTitle: 'Opening your calculator…',
+  },
+  'inventory-days-calculator': {
+    href: 'https://tool2.getverveai.com/',
+    name: 'Inventory Days Calculator',
+    emailGate: true,
+    badgeLabel: 'Free Calculator',
+    subtitle: 'Free inventory days calculator — no software required.',
     buttonLabel: 'Open Free Calculator →',
     modalSubtitle: "Enter your email and we'll open it right up.",
     modalButtonLabel: 'Open Free Calculator →',
