@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getSupabase } from '@/lib/supabase'
+import { getSupabaseAdmin } from '@/lib/supabase'
 import { sendFollowUpStep } from '@/lib/sendFollowUp'
 
 const INTERACTIVE_TOOLS = new Set(['safety-stock-calculator', 'reorder-point-calculator'])
@@ -31,7 +31,13 @@ export async function POST(req: NextRequest) {
   const cleanEmail = email.toLowerCase().trim()
   const cleanName = name?.trim() || null
 
-  const { data, error } = await getSupabase()
+  // Uses the service-role client (not the public anon client): we need the
+  // inserted row's id back for the follow-up email log, and the anon role's
+  // RLS policy only grants INSERT on tool_leads, not SELECT — chaining
+  // .select() on an anon insert fails RLS even though the insert itself
+  // would succeed. Request validation above (email format, toolSlug
+  // allowlist) still applies regardless of which client performs the write.
+  const { data, error } = await getSupabaseAdmin()
     .from('tool_leads')
     .insert({
       email: cleanEmail,
