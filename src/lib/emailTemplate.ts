@@ -59,3 +59,11 @@ export function ctaButtonHtml(href: string, label: string, variant: 'teal' | 'pu
   const bg = variant === 'teal' ? 'rgb(0,201,167)' : 'rgb(128,72,245)'
   return `<a href="${href}" style="display:inline-block;background-color:${bg};color:#ffffff;font-weight:600;font-size:14px;padding:12px 24px;border-radius:9999px;text-decoration:none;">${label}</a>`
 }
+
+// A single standalone CTA sitting between paragraphs (unlike ctaButtonHtml,
+// which is also used inside trialButtons()'s table where margin is handled
+// differently) — carries the same 16px bottom margin as p() so the gap
+// after it matches the gap between paragraphs instead of collapsing to 0.
+export function ctaBlockHtml(href: string, label: string, variant: 'teal' | 'purple' = 'teal'): string {
+  return `<div style="margin:0 0 16px 0;">${ctaButtonHtml(href, label, variant)}</div>`
+}

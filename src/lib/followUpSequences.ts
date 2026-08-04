@@ -1,5 +1,5 @@
 import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
-import { ctaButtonHtml } from '@/lib/emailTemplate'
+import { ctaButtonHtml, ctaBlockHtml } from '@/lib/emailTemplate'
 
 export interface SequenceStep {
   day: number
@@ -16,7 +16,7 @@ export interface ToolSequence {
 const p = (html: string) => `<p style="margin:0 0 16px 0;">${html}</p>`
 
 const trialButtons = () => `
-  <table role="presentation" cellpadding="0" cellspacing="0" style="margin:8px 0 4px 0;">
+  <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 16px 0;">
     <tr>
       <td style="padding-right:8px;">${ctaButtonHtml(SHOPIFY_URL, 'Shopify — Free Trial', 'teal')}</td>
       <td>${ctaButtonHtml(WOOCOMMERCE_URL, 'WooCommerce — Free Trial', 'purple')}</td>
@@ -38,7 +38,7 @@ export const FOLLOW_UP_SEQUENCES: Record<string, ToolSequence> = {
         bodyHtml: ({ firstName, toolUrl }) => `
           ${p(`Hi ${firstName},`)}
           ${p('Thanks for grabbing the Profit Margin Calculator — here’s your link (bookmark it, you’ll probably use it more than once):')}
-          ${ctaButtonHtml(toolUrl, 'Open the Calculator →', 'teal')}
+          ${ctaBlockHtml(toolUrl, 'Open the Calculator →', 'teal')}
           ${p('Quick tip: start with your Landed COGS on the first tab. Most merchants underestimate this by 15–20% because they forget to factor in freight, duties, and warehousing — which throws off every margin calculation downstream.')}
           ${p('Once you’ve got that number, the Profit Calculator tab shows your real margin after transaction fees, CAC, and refunds — the stuff that quietly eats into “healthy” margins.')}
           ${p('Talk soon,<br>The Verve AI team')}
@@ -81,7 +81,7 @@ export const FOLLOW_UP_SEQUENCES: Record<string, ToolSequence> = {
         bodyHtml: ({ firstName, toolUrl }) => `
           ${p(`Hi ${firstName},`)}
           ${p('Thanks for grabbing the Inventory Days Calculator — here’s your link:')}
-          ${ctaButtonHtml(toolUrl, 'Open the Calculator →', 'teal')}
+          ${ctaBlockHtml(toolUrl, 'Open the Calculator →', 'teal')}
           ${p('Quick tip: run this monthly for your top 20% of SKUs by revenue — that’s where inventory days swings matter most for cash flow. Compare your result against the industry benchmarks table on the same page to see if you’re running lean or sitting on excess stock.')}
           ${p('Talk soon,<br>The Verve AI team')}
           ${p('<span style="font-size:13px;color:rgb(107,114,128);">P.S. If you’re on Shopify or WooCommerce, Verve AI can calculate this automatically for every SKU — no manual entry. More on that soon.</span>')}
@@ -123,7 +123,7 @@ export const FOLLOW_UP_SEQUENCES: Record<string, ToolSequence> = {
         bodyHtml: ({ firstName, toolUrl }) => `
           ${p(`Hi ${firstName},`)}
           ${p('Thanks for grabbing the Reorder Point Calculator — here’s your link:')}
-          ${ctaButtonHtml(toolUrl, 'Open the Calculator →', 'teal')}
+          ${ctaBlockHtml(toolUrl, 'Open the Calculator →', 'teal')}
           ${p('Quick tip: recalculate your reorder points whenever demand shifts, lead times change, or you update your safety stock — stale reorder points are one of the most common causes of stockouts.')}
           ${p('Talk soon,<br>The Verve AI team')}
           ${p('<span style="font-size:13px;color:rgb(107,114,128);">P.S. If you’re on Shopify or WooCommerce, Verve AI can calculate reorder points automatically for every SKU — no manual entry. More on that soon.</span>')}
@@ -165,7 +165,7 @@ export const FOLLOW_UP_SEQUENCES: Record<string, ToolSequence> = {
         bodyHtml: ({ firstName, toolUrl }) => `
           ${p(`Hi ${firstName},`)}
           ${p('Thanks for grabbing the Safety Stock Calculator — here’s your link:')}
-          ${ctaButtonHtml(toolUrl, 'Open the Calculator →', 'teal')}
+          ${ctaBlockHtml(toolUrl, 'Open the Calculator →', 'teal')}
           ${p('Quick tip: your service level target matters more than most people think — going from 95% to 99% roughly doubles your required buffer. Start at 95% unless stockouts are especially costly for that SKU.')}
           ${p('Talk soon,<br>The Verve AI team')}
           ${p('<span style="font-size:13px;color:rgb(107,114,128);">P.S. If you’re on Shopify or WooCommerce, Verve AI can calculate safety stock automatically for every SKU — no manual entry. More on that soon.</span>')}
@@ -207,7 +207,7 @@ export const FOLLOW_UP_SEQUENCES: Record<string, ToolSequence> = {
         bodyHtml: ({ firstName, toolUrl }) => `
           ${p(`Hi ${firstName},`)}
           ${p('Thanks for grabbing the Inventory Control Template — here’s your copy:')}
-          ${ctaButtonHtml(toolUrl, 'Open the Template →', 'teal')}
+          ${ctaBlockHtml(toolUrl, 'Open the Template →', 'teal')}
           ${p('Quick tip: make a copy to your own Google Drive before editing (File → Make a copy) so your changes save properly.')}
           ${p('Talk soon,<br>The Verve AI team')}
           ${p('<span style="font-size:13px;color:rgb(107,114,128);">P.S. If you’re on Shopify or WooCommerce, Verve AI can keep this updated automatically from your live sales data — no manual entry. More on that soon.</span>')}
@@ -249,7 +249,7 @@ export const FOLLOW_UP_SEQUENCES: Record<string, ToolSequence> = {
         bodyHtml: ({ firstName, toolUrl }) => `
           ${p(`Hi ${firstName},`)}
           ${p('Thanks for grabbing the Sales Forecast Template — here’s your copy:')}
-          ${ctaButtonHtml(toolUrl, 'Open the Template →', 'teal')}
+          ${ctaBlockHtml(toolUrl, 'Open the Template →', 'teal')}
           ${p('Quick tip: make a copy to your own Google Drive before editing (File → Make a copy), and update it at least monthly — forecasts go stale fast during seasonal swings.')}
           ${p('Talk soon,<br>The Verve AI team')}
           ${p('<span style="font-size:13px;color:rgb(107,114,128);">P.S. If you’re on Shopify or WooCommerce, Verve AI can forecast demand automatically from your live sales data — no manual entry. More on that soon.</span>')}
@@ -291,7 +291,7 @@ export const FOLLOW_UP_SEQUENCES: Record<string, ToolSequence> = {
         bodyHtml: ({ firstName, toolUrl }) => `
           ${p(`Hi ${firstName},`)}
           ${p('Thanks for grabbing the Cashflow Forecast Template — here’s your copy:')}
-          ${ctaButtonHtml(toolUrl, 'Open the Template →', 'teal')}
+          ${ctaBlockHtml(toolUrl, 'Open the Template →', 'teal')}
           ${p('Quick tip: make a copy to your own Google Drive before editing (File → Make a copy), and revisit it monthly — cash timing shifts fast around inventory purchases and seasonal spikes.')}
           ${p('Talk soon,<br>The Verve AI team')}
           ${p('<span style="font-size:13px;color:rgb(107,114,128);">P.S. If you’re on Shopify or WooCommerce, Verve AI can help you plan purchasing around your real cash position — no manual entry. More on that soon.</span>')}
