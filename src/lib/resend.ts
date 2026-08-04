@@ -1,0 +1,18 @@
+import { Resend } from 'resend'
+
+let _client: Resend | null = null
+
+export function getResend(): Resend {
+  if (!_client) {
+    const key = process.env.RESEND_API_KEY
+    if (!key) throw new Error('RESEND_API_KEY must be set')
+    _client = new Resend(key)
+  }
+  return _client
+}
+
+export function getEmailFrom(): string {
+  const from = process.env.EMAIL_FROM
+  if (!from) throw new Error('EMAIL_FROM must be set')
+  return from
+}

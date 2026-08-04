@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSupabase } from '@/lib/supabase'
+import { sendFollowUpStep } from '@/lib/sendFollowUp'
 
 const INTERACTIVE_TOOLS = new Set(['safety-stock-calculator', 'reorder-point-calculator'])
 
@@ -27,16 +28,30 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Unknown tool.' }, { status: 400 })
   }
 
-  const { error } = await getSupabase().from('tool_leads').insert({
-    email: email.toLowerCase().trim(),
-    name: name?.trim() || null,
-    tool_slug: toolSlug,
-    tool_name: toolName,
-  })
+  const cleanEmail = email.toLowerCase().trim()
+  const cleanName = name?.trim() || null
+
+  const { data, error } = await getSupabase()
+    .from('tool_leads')
+    .insert({
+      email: cleanEmail,
+      name: cleanName,
+      tool_slug: toolSlug,
+      tool_name: toolName,
+    })
+    .select('id')
+    .single()
 
   if (error) {
     console.error('Supabase error:', error)
     return NextResponse.json({ error: error.message, code: error.code }, { status: 500 })
+  }
+
+  // Best-effort: a follow-up email failing should never break lead capture.
+  try {
+    await sendFollowUpStep({ leadId: data.id, email: cleanEmail, name: cleanName, toolSlug, day: 0 })
+  } catch (sendError) {
+    console.error('Follow-up email (day 0) failed:', sendError)
   }
 
   return NextResponse.json({ success: true, ...(redirectUrl ? { redirectUrl } : {}) })
