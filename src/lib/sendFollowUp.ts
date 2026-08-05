@@ -35,12 +35,30 @@ export async function sendFollowUpStep({ leadId, email, name, toolSlug, day }: S
   const bodyHtml = step.bodyHtml({ firstName, toolUrl: sequence.toolUrl })
   const html = renderEmailHtml({ preheader: step.subject, bodyHtml, leadId })
 
-  await getResend().emails.send({
+  // Tags come back on webhook events (see api/webhooks/resend/route.ts) so
+  // opens/clicks can be matched back to a lead + step without a DB lookup.
+  const { data: sendResult, error: sendErr } = await getResend().emails.send({
     from: getEmailFrom(),
     to: email,
     subject: step.subject,
     html,
+    tags: [
+      { name: 'lead_id', value: leadId },
+      { name: 'tool_slug', value: toolSlug },
+      { name: 'sequence_step', value: String(day) },
+    ],
   })
+
+  if (sendErr) throw sendErr
+
+  if (sendResult?.id) {
+    const { error: logError } = await getSupabaseAdmin()
+      .from('email_sends')
+      .update({ resend_email_id: sendResult.id })
+      .eq('lead_id', leadId)
+      .eq('sequence_step', day)
+    if (logError) console.error('Failed to record resend_email_id:', logError)
+  }
 
   return 'sent'
 }
