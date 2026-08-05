@@ -27,7 +27,7 @@ export async function GET(req: NextRequest) {
   }
 
   const configuredSlugs = Object.keys(FOLLOW_UP_SEQUENCES)
-  const laterDays = SEQUENCE_DAYS.filter((d) => d > 0)
+  const laterDays = SEQUENCE_DAYS.filter((d) => d > 0).sort((a, b) => a - b)
 
   if (configuredSlugs.length === 0 || laterDays.length === 0) {
     return NextResponse.json({ sent: 0, skipped: 0, candidates: 0, note: 'no sequences configured' })
@@ -67,35 +67,41 @@ export async function GET(req: NextRequest) {
   let skippedCount = 0
   let cappedCount = 0
 
+  // At most one step per lead per run — a lead that's overdue for both day-5
+  // and day-15 (e.g. a backlog of leads from before this system existed)
+  // only gets the earliest missing one now; the next day's run catches up
+  // the rest. Otherwise someone could receive two marketing emails minutes
+  // apart the first time the cron catches up an old lead.
+  //
   // Leads are ordered oldest-first, so once the cap is hit we keep scanning
   // (cheap — no more API calls) just to report an accurate deferred count;
   // the leads that actually got sent are always the longest-overdue ones.
   for (const lead of leads ?? []) {
     const ageDays = (now - new Date(lead.created_at).getTime()) / DAY_MS
 
-    for (const day of laterDays) {
-      if (ageDays < day) continue
-      if (alreadySent.has(`${lead.id}:${day}`)) continue
+    const dueDay = laterDays.find(
+      (day) => ageDays >= day && !alreadySent.has(`${lead.id}:${day}`)
+    )
+    if (dueDay === undefined) continue
 
-      if (sentCount >= MAX_SENDS_PER_RUN) {
-        cappedCount++
-        continue
-      }
+    if (sentCount >= MAX_SENDS_PER_RUN) {
+      cappedCount++
+      continue
+    }
 
-      try {
-        const result = await sendFollowUpStep({
-          leadId: lead.id,
-          email: lead.email,
-          name: lead.name,
-          toolSlug: lead.tool_slug,
-          day,
-        })
-        if (result === 'sent') sentCount++
-        else skippedCount++
-      } catch (err) {
-        console.error(`Follow-up day-${day} failed for lead ${lead.id}:`, err)
-        skippedCount++
-      }
+    try {
+      const result = await sendFollowUpStep({
+        leadId: lead.id,
+        email: lead.email,
+        name: lead.name,
+        toolSlug: lead.tool_slug,
+        day: dueDay,
+      })
+      if (result === 'sent') sentCount++
+      else skippedCount++
+    } catch (err) {
+      console.error(`Follow-up day-${dueDay} failed for lead ${lead.id}:`, err)
+      skippedCount++
     }
   }
 
