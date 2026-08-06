@@ -58,7 +58,7 @@ export default async function PseoPage({
     url: SITE_URL,
     offers: {
       '@type': 'Offer',
-      price: '24.99',
+      price: '19.99',
       priceCurrency: 'USD',
     },
     sameAs: [
