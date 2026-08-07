@@ -2,15 +2,24 @@ import type { PseoPageEntry, VerticalData } from '@/types/vertical'
 import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
 import CTAButton from '@/components/CTAButton'
+import RelatedPseoLinks from '@/components/pseo/RelatedPseoLinks'
 import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
 
 interface Props {
   page: PseoPageEntry
   vertical: VerticalData
   schemas: object[]
+  siblings: { slug: string; h1: string }[]
+  relatedReading: { slug: string; title: string }[]
 }
 
-export default function VerticalLandingPageTemplate({ page, vertical, schemas }: Props) {
+export default function VerticalLandingPageTemplate({
+  page,
+  vertical,
+  schemas,
+  siblings,
+  relatedReading,
+}: Props) {
   return (
     <>
       {schemas.map((schema, i) => (
@@ -167,6 +176,12 @@ export default function VerticalLandingPageTemplate({ page, vertical, schemas }:
                 ))}
               </div>
             </section>
+
+            <RelatedPseoLinks
+              verticalName={vertical.vertical_name}
+              siblings={siblings}
+              relatedReading={relatedReading}
+            />
 
             {/* ── Final CTA ── */}
             <BlogCTA />

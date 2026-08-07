@@ -1,6 +1,14 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { getAllBlogSlugs, getBlogPost, SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } from '@/lib/content'
+import Link from 'next/link'
+import {
+  getAllBlogSlugs,
+  getBlogPost,
+  getRelatedBlogPosts,
+  SHOPIFY_URL,
+  WOOCOMMERCE_URL,
+  SITE_URL,
+} from '@/lib/content'
 import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
 import SafetyStockCalculatorWrapper from '@/components/SafetyStockCalculatorWrapper'
@@ -65,6 +73,8 @@ export default async function BlogPostPage({
   const post = getBlogPost(slug)
   if (!post) notFound()
 
+  const relatedPosts = getRelatedBlogPosts(slug)
+
   let firstHalf = ''
   let secondHalf = ''
 
@@ -126,6 +136,24 @@ export default async function BlogPostPage({
                   })}
               </div>
             </>
+          )}
+
+          {relatedPosts.length > 0 && (
+            <section className="mt-12 pt-8 border-t border-gray-200">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Related Articles</h2>
+              <ul className="grid sm:grid-cols-2 gap-3">
+                {relatedPosts.map((r) => (
+                  <li key={r.slug}>
+                    <Link
+                      href={`/blog/${r.slug}`}
+                      className="block rounded-lg border border-gray-200 p-4 text-gray-800 hover:border-teal-300 hover:bg-teal-50/30 transition-colors"
+                    >
+                      {r.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
           )}
 
           <BlogCTA />

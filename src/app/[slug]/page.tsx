@@ -4,6 +4,8 @@ import {
   getAllPseoSlugs,
   getPseoPage,
   getVerticalPage,
+  getSiblingPseoPages,
+  getRelatedReadingForVertical,
   SITE_URL,
 } from '@/lib/content'
 import VerticalLandingPageTemplate from '@/components/pseo/VerticalLandingPageTemplate'
@@ -49,6 +51,9 @@ export default async function PseoPage({
   const vertical = getVerticalPage(page.vertical)
   if (!vertical) notFound()
 
+  const siblings = getSiblingPseoPages(slug)
+  const relatedReading = getRelatedReadingForVertical(vertical.related_blog_slugs)
+
   const softwareAppSchema = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -87,6 +92,8 @@ export default async function PseoPage({
         page={page}
         vertical={vertical}
         schemas={[softwareAppSchema, faqSchema]}
+        siblings={siblings}
+        relatedReading={relatedReading}
       />
     )
   }
@@ -97,6 +104,8 @@ export default async function PseoPage({
         page={page}
         vertical={vertical}
         schemas={[softwareAppSchema, faqSchema]}
+        siblings={siblings}
+        relatedReading={relatedReading}
       />
     )
   }
@@ -106,6 +115,8 @@ export default async function PseoPage({
       page={page}
       vertical={vertical}
       schemas={[faqSchema]}
+      siblings={siblings}
+      relatedReading={relatedReading}
     />
   )
 }

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getAllVerticalPages, SITE_URL } from '@/lib/content'
+import { getAllVerticalPages, VERTICAL_FLAGSHIP_SLUGS, SITE_URL } from '@/lib/content'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
@@ -17,18 +17,6 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/inventory-management-for`,
     type: 'website',
   },
-}
-
-// Lead URL for each vertical — points to the primary pSEO page
-const VERTICAL_LEAD_URL: Record<string, string> = {
-  apparel: '/inventory-management-for-clothing-stores',
-  supplements: '/inventory-management-supplement-brands',
-  beauty: '/inventory-management-beauty-brands',
-  'pet-supplies': '/inventory-management-pet-supply-brands',
-  jewellery: '/inventory-management-jewellery-shops',
-  'home-goods': '/inventory-management-home-goods-brands',
-  'food-and-beverage': '/inventory-management-food-brands',
-  'sports-and-outdoor': '/inventory-management-sports-brands',
 }
 
 export default function VerticalHubPage() {
@@ -61,7 +49,7 @@ export default function VerticalHubPage() {
             {verticals.map(({ slug, data }) => (
               <Link
                 key={slug}
-                href={VERTICAL_LEAD_URL[slug] ?? `/inventory-management-for/${slug}`}
+                href={`/${VERTICAL_FLAGSHIP_SLUGS[slug] ?? slug}`}
                 className="group flex flex-col gap-2 rounded-2xl p-6 bg-gray-50 border border-gray-100 hover:border-teal-200 hover:bg-teal-50/30 transition-all"
               >
                 <h2 className="font-bold text-gray-900 group-hover:text-teal-700 transition-colors">

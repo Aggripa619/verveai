@@ -2,12 +2,15 @@ import type { PseoPageEntry, VerticalData } from '@/types/vertical'
 import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
 import CTAButton from '@/components/CTAButton'
+import RelatedPseoLinks from '@/components/pseo/RelatedPseoLinks'
 import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
 
 interface Props {
   page: PseoPageEntry
   vertical: VerticalData
   schemas: object[]
+  siblings: { slug: string; h1: string }[]
+  relatedReading: { slug: string; title: string }[]
 }
 
 const HOW_IT_WORKS = [
@@ -28,7 +31,13 @@ const HOW_IT_WORKS = [
   },
 ]
 
-export default function FeaturePageTemplate({ page, vertical, schemas }: Props) {
+export default function FeaturePageTemplate({
+  page,
+  vertical,
+  schemas,
+  siblings,
+  relatedReading,
+}: Props) {
   return (
     <>
       {schemas.map((schema, i) => (
@@ -162,6 +171,12 @@ export default function FeaturePageTemplate({ page, vertical, schemas }: Props) 
                 ))}
               </div>
             </section>
+
+            <RelatedPseoLinks
+              verticalName={vertical.vertical_name}
+              siblings={siblings}
+              relatedReading={relatedReading}
+            />
 
             {/* ── Final CTA ── */}
             <BlogCTA />

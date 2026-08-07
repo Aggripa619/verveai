@@ -1,14 +1,23 @@
 import type { PseoPageEntry, VerticalData } from '@/types/vertical'
 import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
+import RelatedPseoLinks from '@/components/pseo/RelatedPseoLinks'
 
 interface Props {
   page: PseoPageEntry
   vertical: VerticalData
   schemas: object[]
+  siblings: { slug: string; h1: string }[]
+  relatedReading: { slug: string; title: string }[]
 }
 
-export default function BlogPageTemplate({ page, vertical, schemas }: Props) {
+export default function BlogPageTemplate({
+  page,
+  vertical,
+  schemas,
+  siblings,
+  relatedReading,
+}: Props) {
   return (
     <>
       {schemas.map((schema, i) => (
@@ -129,6 +138,12 @@ export default function BlogPageTemplate({ page, vertical, schemas }: Props) {
                 </div>
               </section>
             )}
+
+            <RelatedPseoLinks
+              verticalName={vertical.vertical_name}
+              siblings={siblings}
+              relatedReading={relatedReading}
+            />
 
             {/* ── Final CTA ── */}
             <BlogCTA />
