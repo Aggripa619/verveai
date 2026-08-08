@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import CTAButton from '@/components/CTAButton'
 import { SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } from '@/lib/content'
 
-const TITLE = 'Stocky Alternative for Shopify — Migrate Before It Shuts Down (Aug 31)'
+const TITLE = 'Stocky Alternative for Shopify — Migrate Before Aug 31, 2026'
 const DESCRIPTION =
   "Shopify is shutting down Stocky on August 31, 2026. See the official shutdown timeline, a side-by-side feature comparison, and a step-by-step migration guide to Verve AI's demand forecasting and purchase order automation."
 
