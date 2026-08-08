@@ -18,6 +18,21 @@
       "title": "High SKU Count Across Shades",
       "description": "A single lip colour in 30 shades creates 30 individual demand signals to manage. Most beauty brands track this in spreadsheets, which means slow-moving shades stay on order while fast-moving ones stockout — all within the same product.",
       "icon": "🎨"
+    },
+    {
+      "title": "New Launch Demand Uncertainty",
+      "description": "A brand-new SKU has no sales history to forecast from, yet the initial stock order has to be placed before launch day based on little more than a guess. Getting it wrong either strands cash in unsold launch inventory or means selling out within hours of the biggest marketing push the product will ever get.",
+      "icon": "🚀"
+    },
+    {
+      "title": "Formula Reformulation & Discontinuation Waste",
+      "description": "When a formula is updated or a line is discontinued, every unit of the old version on hand becomes obsolete almost overnight. Without advance planning, brands are left holding stock that can no longer be sold at full price, or sometimes sold at all.",
+      "icon": "🔄"
+    },
+    {
+      "title": "Gifting & Bundle Set Seasonality",
+      "description": "Q4 and Valentine's Day gift sets consume individual component SKUs at a completely different rate than those products sell standalone, and sets typically need to be pre-built weeks ahead of the season. Getting the component mix wrong means a popular set sells out while its individual pieces sit in stock.",
+      "icon": "🎀"
     }
   ],
   "feature_mapping": [
@@ -35,6 +50,21 @@
       "pain": "High SKU Count Across Shades",
       "feature": "Shade-Level Variant Forecasting",
       "description": "Verve AI forecasts demand at the individual shade and variant level across your entire beauty catalogue. Rather than spreading a product-level forecast evenly across shades, the system tracks each shade's own velocity curve and generates separate reorder recommendations — so your bestselling shades never stockout while slow ones stop being over-ordered."
+    },
+    {
+      "pain": "New Launch Demand Uncertainty",
+      "feature": "New Product Launch Forecasting",
+      "description": "Verve AI estimates initial launch inventory by comparing a new SKU against the early sales curves of similar past launches in your catalogue, factoring in category, price point, and planned marketing spend. Once real sales data starts coming in, the forecast recalibrates within days rather than waiting for a full sales cycle to complete."
+    },
+    {
+      "pain": "Formula Reformulation & Discontinuation Waste",
+      "feature": "Discontinuation & Transition Planning",
+      "description": "Verve AI lets you flag a SKU as being phased out ahead of time, so the forecast automatically tapers recommended reorder quantities toward zero as the transition date approaches, instead of continuing to suggest restocking a formula you're about to retire — reducing the stranded stock left over when the new version launches."
+    },
+    {
+      "pain": "Gifting & Bundle Set Seasonality",
+      "feature": "Gift Set & Bundle Demand Planning",
+      "description": "Verve AI decomposes gift set and bundle sales back into their individual component SKUs, so a component's forecast reflects both its standalone sales and its consumption inside every set it's part of — and flags the pre-build lead time needed to have sets ready before Q4 or Valentine's Day demand hits."
     }
   ],
   "social_proof_quote": "An influencer featured one of our serums on a Tuesday night and we were out of stock by Thursday morning — since installing Verve AI, a spike like that now triggers an automatic reorder alert within two hours and we've never missed a window like that again.",
@@ -62,6 +92,66 @@
     {
       "question": "Does Verve AI integrate with both Shopify and WooCommerce for beauty stores?",
       "answer": "Yes. Verve AI is available as a native Shopify app and as a WooCommerce plugin, so it works whichever platform your beauty store runs on. The inventory forecasting, automated purchase orders, and demand sensing features work identically on both platforms. If you operate your beauty brand across multiple channels or are considering a platform migration, Verve AI can support both simultaneously."
+    },
+    {
+      "question": "How does Verve AI forecast demand for a completely new product with no sales history?",
+      "answer": "Verve AI compares a new launch against the early sales curves of similar products already in your catalogue — matched by category, price point, and any planned marketing spend — to estimate initial stock requirements. As soon as real orders start coming in for the new SKU, the model recalibrates against actual performance within days, so the forecast improves quickly rather than staying locked to the pre-launch estimate."
+    },
+    {
+      "question": "Can Verve AI help manage inventory when we discontinue or reformulate a product?",
+      "answer": "Yes. You can flag a SKU as being phased out ahead of its actual discontinuation date, and Verve AI will automatically taper its recommended reorder quantities toward zero as that date approaches, rather than continuing to suggest restocking a formula you're retiring. This significantly reduces the leftover stock that typically gets stranded when a new formula launches."
+    },
+    {
+      "question": "How does Verve AI handle gift sets and bundles during Q4 or Valentine's Day?",
+      "answer": "Verve AI decomposes gift set and bundle sales back into their individual component SKUs, so each component's forecast reflects both its standalone demand and how much of it gets consumed by every set it appears in. Because sets typically need to be pre-built ahead of the season, the forecast also accounts for the lead time required to have sets ready before Q4 or Valentine's Day demand actually hits."
+    },
+    {
+      "question": "Can Verve AI account for different regional demand if we sell beauty products internationally?",
+      "answer": "Yes. If your Shopify setup segments sales by region or market, Verve AI can forecast demand separately for each, since shade preferences, seasonal gifting occasions, and even regulatory shelf-life requirements can differ significantly between markets. This avoids a single blended global forecast masking a shade that's a bestseller in one region and a slow mover in another."
+    },
+    {
+      "question": "Does Verve AI help decide when to run a promotion to clear slow-moving shades?",
+      "answer": "Yes. Verve AI flags SKUs where projected sell-through won't clear current stock before expiry or before a planned reformulation, giving you visibility early enough to run a targeted promotion or bundle the slow mover with a bestseller — turning a shade that was heading toward a write-off into recovered revenue instead."
+    }
+  ],
+  "how_it_works_pool": [
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Connect your Shopify store",
+          "desc": "Verve AI syncs your order history, current stock levels, and every shade or formula variant automatically — no manual spreadsheet work required."
+        },
+        {
+          "step": "02",
+          "title": "AI monitors velocity and shelf life together",
+          "desc": "Verve AI tracks sales speed in real time to catch influencer-driven spikes early, while also modelling shelf life so slow-moving shades don't sit until they expire."
+        },
+        {
+          "step": "03",
+          "title": "Get shade-level reorder and markdown alerts",
+          "desc": "Review purchase order quantities broken out by shade, plus early warnings on stock heading toward expiry so you can promote or discount it before it's a write-off."
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Link your product and variant catalogue",
+          "desc": "Verve AI pulls your full shade, formula, and bundle structure directly from Shopify, including how bundles map back to individual component SKUs."
+        },
+        {
+          "step": "02",
+          "title": "Track demand spikes and seasonal builds",
+          "desc": "The system flags unusual velocity the moment it starts — a viral moment or a gifting-season ramp — and calculates the reorder or pre-build quantity needed to keep up."
+        },
+        {
+          "step": "03",
+          "title": "Approve purchase orders before you run out",
+          "desc": "Get a ranked list of what to reorder first, sized to real demand at the shade and bundle-component level, ready to approve in one click."
+        }
+      ]
     }
   ],
   "related_blog_slugs": [

@@ -18,6 +18,21 @@
       "title": "Multi-Location Stock Transfers",
       "description": "Stock imbalances across multiple Shopify locations — one warehouse overstocked on large sizes while another is out — cost apparel brands lost sales even when total inventory is sufficient to fulfil demand.",
       "icon": "🏭"
+    },
+    {
+      "title": "Sample & Pre-Order Lead Time Blind Spots",
+      "description": "Wholesale and pre-order commitments have to be locked in months before a style ships, using nothing but early sample reactions and last year's numbers. Guessing wrong on a pre-order quantity either strands cash in unsold stock or leaves a bestseller under-bought for the season.",
+      "icon": "🗓️"
+    },
+    {
+      "title": "Markdown Timing Guesswork",
+      "description": "Discount too early and you cannibalise full-price sales on a style that would have sold through anyway. Discount too late and you're clearing stock at a steeper loss than necessary. Most brands time markdowns on gut feel rather than actual sell-through trajectory.",
+      "icon": "🏷️"
+    },
+    {
+      "title": "Returns & Size-Exchange Inventory Drag",
+      "description": "Apparel return rates of 20-30% are common, and most of that volume is exchanges for a different size rather than true churn. If your demand signal doesn't separate a same-item size swap from a fresh sale, your forecasts overstate demand for whichever size customers tried first.",
+      "icon": "↩️"
     }
   ],
   "feature_mapping": [
@@ -35,6 +50,21 @@
       "pain": "Multi-Location Stock Transfers",
       "feature": "Multi-Location Inventory Intelligence",
       "description": "Verve AI surfaces stock imbalances across all your Shopify locations in one dashboard, flagging transfers that would prevent stockouts at high-demand locations. You see which sizes need moving, from where to where, and what the cost of inaction is in lost sales."
+    },
+    {
+      "pain": "Sample & Pre-Order Lead Time Blind Spots",
+      "feature": "Pre-Season Buy Planning",
+      "description": "Verve AI blends prior-season variant-level performance with early signals from your current bestsellers to recommend pre-order and wholesale commitment quantities before the cutoff, so your buy plan is grounded in actual sell-through data instead of a single sample reaction."
+    },
+    {
+      "pain": "Markdown Timing Guesswork",
+      "feature": "Markdown Timing Recommendations",
+      "description": "Verve AI tracks each style's actual sell-through against its forecasted curve and flags the point where a line is falling behind plan — the moment a markdown will recover the most margin. You get a specific recommended discount window per style instead of a blanket end-of-season sale."
+    },
+    {
+      "pain": "Returns & Size-Exchange Inventory Drag",
+      "feature": "Returns-Adjusted Demand Signals",
+      "description": "Verve AI nets same-item size exchanges out of your raw sales data before forecasting, so a customer who ordered a Medium and exchanged for a Large shows up as one true sale, not two. Your reorder quantities reflect what actually left your warehouse for good."
     }
   ],
   "social_proof_quote": "Before Verve AI, we'd review our size run buys in a spreadsheet the night before placing a PO — now the reorder quantities come pre-filled based on actual velocity and we've cut our end-of-season markdowns by almost a third.",
@@ -62,6 +92,66 @@
     {
       "question": "How long does it take to set up Verve AI for an apparel store with hundreds of SKUs?",
       "answer": "Most apparel merchants are fully set up within one business day. Verve AI connects directly to your Shopify store and pulls historical sales, inventory, and purchase order data automatically — there is no manual data entry or spreadsheet importing required. The forecasting models begin generating demand signals immediately, and you can review your first reorder recommendations the same day you install the app."
+    },
+    {
+      "question": "Does Verve AI account for returns and exchanges when calculating true demand?",
+      "answer": "Yes. Verve AI identifies same-item size and colour exchanges and nets them out of your raw sales data, so a Medium returned for a Large doesn't get counted as two separate purchases. This matters most for apparel brands, where a large share of returns are exchanges rather than true refunds — without this adjustment, forecasts would systematically overstate demand for whichever size or colour customers happen to try first."
+    },
+    {
+      "question": "Can Verve AI help decide when to start marking down a style?",
+      "answer": "Yes. Verve AI compares each style's actual sell-through to its forecasted curve throughout the season and flags the point where a line is tracking meaningfully behind plan — the window where a markdown recovers the most margin before the loss compounds. You get a specific, style-by-style recommendation rather than a single blanket sale date across your whole catalogue."
+    },
+    {
+      "question": "How does Verve AI handle pre-season buying and wholesale commitments?",
+      "answer": "Verve AI blends your prior-season variant-level sell-through with early signals from current bestsellers to recommend pre-order and wholesale buy quantities ahead of supplier cutoff dates. Instead of committing based on a single sample reaction or last year's total, you get a variant-level recommendation grounded in how similar styles actually performed."
+    },
+    {
+      "question": "Does Verve AI work for apparel brands that sell wholesale as well as direct-to-consumer?",
+      "answer": "Yes. Verve AI forecasts demand across your Shopify DTC channel and factors in known wholesale commitments when calculating how much total stock to buy and hold back. This helps prevent a common failure mode where a brand oversells DTC inventory that was already earmarked to fulfil a wholesale order."
+    },
+    {
+      "question": "Can I set different reorder rules for core styles versus seasonal/fashion styles?",
+      "answer": "Yes. Verve AI lets you flag core, always-in-stock styles separately from seasonal or trend-driven pieces, and applies different forecasting logic to each — core styles get steady replenishment reorder points, while seasonal styles get sell-through-curve forecasting that accounts for their limited selling window."
+    }
+  ],
+  "how_it_works_pool": [
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Connect your Shopify store",
+          "desc": "Verve AI syncs your full order history, current stock levels, and every size/colour variant automatically — no CSV exports or manual SKU mapping."
+        },
+        {
+          "step": "02",
+          "title": "AI models your size-run and seasonal patterns",
+          "desc": "Verve AI builds a demand model for every variant, learning which sizes sell fastest per style and how demand rises and falls across your seasonal calendar."
+        },
+        {
+          "step": "03",
+          "title": "Get variant-level reorder and buy recommendations",
+          "desc": "Review purchase order quantities broken out by size and colour, adjust for upcoming pre-season commitments, and approve orders before you run out of your bestselling sizes."
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Link your product catalogue and variant data",
+          "desc": "Verve AI pulls in your full style, size, and colour matrix directly from Shopify, along with historical sell-through by location — nothing to re-enter or reconcile."
+        },
+        {
+          "step": "02",
+          "title": "Track sell-through against your seasonal plan",
+          "desc": "As the season trades, Verve AI compares real sales velocity to each style's forecasted curve and flags lines running ahead or behind — early enough to act on markdowns or reorders."
+        },
+        {
+          "step": "03",
+          "title": "Act on markdown and replenishment signals",
+          "desc": "Get a ranked list of styles to reorder, transfer between locations, or start discounting, with the reasoning and expected impact shown for each recommendation."
+        }
+      ]
     }
   ],
   "related_blog_slugs": [

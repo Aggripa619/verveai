@@ -3,7 +3,12 @@ import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
 import CTAButton from '@/components/CTAButton'
 import RelatedPseoLinks from '@/components/pseo/RelatedPseoLinks'
-import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
+import {
+  SHOPIFY_URL,
+  WOOCOMMERCE_URL,
+  getPainFeatureSelection,
+  getFaqSelection,
+} from '@/lib/content'
 
 interface Props {
   page: PseoPageEntry
@@ -20,6 +25,9 @@ export default function VerticalLandingPageTemplate({
   siblings,
   relatedReading,
 }: Props) {
+  const { painPoints, featureMapping } = getPainFeatureSelection(vertical, page.slug, 3)
+  const faqItems = getFaqSelection(vertical, page.slug, 5)
+
   return (
     <>
       {schemas.map((schema, i) => (
@@ -58,6 +66,12 @@ export default function VerticalLandingPageTemplate({
         <article className="bg-white py-2">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 
+            {page.deep_dive && (
+              <section className="my-10">
+                <p className="text-gray-700 leading-relaxed">{page.deep_dive}</p>
+              </section>
+            )}
+
             {/* ── Pain Points ── */}
             <section className="my-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">
@@ -67,7 +81,7 @@ export default function VerticalLandingPageTemplate({
                 Why off-the-shelf Shopify inventory tools fall short in your category.
               </p>
               <div className="grid md:grid-cols-3 gap-6">
-                {vertical.pain_points.map((pain) => (
+                {painPoints.map((pain) => (
                   <div
                     key={pain.title}
                     className="bg-white rounded-2xl p-6 border border-red-50"
@@ -95,7 +109,7 @@ export default function VerticalLandingPageTemplate({
                 How Verve AI Solves These Problems
               </h2>
               <div className="flex flex-col gap-8">
-                {vertical.feature_mapping.map((item) => (
+                {featureMapping.map((item) => (
                   <div key={item.feature}>
                     <div
                       className="h-0.5 w-10 rounded-full mb-3"
@@ -165,10 +179,10 @@ export default function VerticalLandingPageTemplate({
                 Frequently Asked Questions: Inventory Management for {vertical.vertical_name}
               </h2>
               <div className="flex flex-col">
-                {vertical.faq.map((item, i) => (
+                {faqItems.map((item, i) => (
                   <div
                     key={item.question}
-                    className={`py-6 ${i < vertical.faq.length - 1 ? 'border-b border-gray-200' : ''}`}
+                    className={`py-6 ${i < faqItems.length - 1 ? 'border-b border-gray-200' : ''}`}
                   >
                     <h3 className="font-bold text-lg text-gray-900 mb-2">{item.question}</h3>
                     <p className="text-gray-600 leading-relaxed">{item.answer}</p>

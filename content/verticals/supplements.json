@@ -18,6 +18,21 @@
       "title": "Regulatory Batch Compliance",
       "description": "Lot tracking requirements for supplement brands mean you need to know which batches are allocated to which orders. Without this visibility in your Shopify inventory system, a recall or compliance query becomes an hours-long manual investigation.",
       "icon": "📋"
+    },
+    {
+      "title": "Ingredient & Formulation Sourcing Delays",
+      "description": "Finished-goods lead times only tell half the story when a key raw ingredient is back-ordered or a formulation requires a specific supplier. A reorder placed on schedule can still arrive late if the underlying ingredient supply chain wasn't accounted for separately.",
+      "icon": "🧪"
+    },
+    {
+      "title": "Multi-SKU Bundle & Stack Inventory Drag",
+      "description": "Bundles and stacks sell as one SKU on the storefront but consume several component SKUs at different rates than those components sell standalone. Without visibility into that split, a popular bundle can quietly drain a component's stock while its own product page still shows healthy inventory.",
+      "icon": "🎁"
+    },
+    {
+      "title": "Influencer & Marketing-Driven Demand Spikes",
+      "description": "A single affiliate post or influencer mention can move more units in a day than a typical week of baseline sales, with no advance warning in historical sales data. Brands relying on trailing averages routinely get caught out of stock right as a campaign is driving its most traffic.",
+      "icon": "📣"
     }
   ],
   "feature_mapping": [
@@ -35,6 +50,21 @@
       "pain": "Regulatory Batch Compliance",
       "feature": "Lot & Batch Traceability",
       "description": "Verve AI maintains a full batch and lot audit trail within your Shopify inventory, so you can answer a compliance query or recall notice in minutes. Every inbound purchase order records batch numbers and expiry dates, and every outbound order is linked to the specific batch it fulfilled — giving you the traceability that supplement regulations demand."
+    },
+    {
+      "pain": "Ingredient & Formulation Sourcing Delays",
+      "feature": "Supplier Lead Time Intelligence",
+      "description": "Verve AI tracks lead times per supplier and, where formulations depend on a specific ingredient source, factors that constraint into reorder timing separately from standard finished-goods lead times — so a purchase order goes out early enough to absorb a slower ingredient supply chain rather than assuming every product replenishes at the same speed."
+    },
+    {
+      "pain": "Multi-SKU Bundle & Stack Inventory Drag",
+      "feature": "Bundle-Aware Component Forecasting",
+      "description": "Verve AI decomposes bundle and stack sales back into their individual component SKUs when forecasting demand, so a component's true consumption rate includes every bundle it's part of, not just its standalone sales. This prevents the common failure where a component looks well-stocked in isolation while bundle sales are quietly depleting it."
+    },
+    {
+      "pain": "Influencer & Marketing-Driven Demand Spikes",
+      "feature": "Campaign & Spike Detection",
+      "description": "Verve AI monitors sales velocity continuously and flags a spike as it forms — not just after it's shown up in a weekly or monthly report. You can also flag a planned campaign or influencer push in advance so the forecast anticipates the uplift, or let the system detect an unplanned spike in real time and recalculate reorder urgency immediately."
     }
   ],
   "social_proof_quote": "We had a batch expiry write-off every quarter before Verve AI — now the system flags batches that won't sell through before they expire and we've had zero write-offs in eight months.",
@@ -62,6 +92,66 @@
     {
       "question": "How accurate are Verve AI's demand forecasts for supplement products with large seasonal swings?",
       "answer": "Verve AI models seasonal demand patterns specific to each product in your Shopify catalogue, using your full sales history to identify recurring peaks and troughs. For supplement brands, this typically captures the January wellness spike, the summer sports nutrition uptick, and Q4 gifting demand. The model is updated weekly as new sales data flows in, so forecasts for the next 90 days reflect your most recent trading patterns — not just last year's seasonal shape."
+    },
+    {
+      "question": "Can Verve AI account for raw ingredient sourcing lead times separately from finished product lead times?",
+      "answer": "Yes. Where a formulation depends on a specific ingredient supplier with its own lead time, Verve AI can factor that constraint into when a purchase order needs to be placed, rather than assuming every product in your catalogue replenishes at the same speed. This helps prevent the scenario where a finished-goods reorder is placed on time but still arrives late because the ingredient behind it was back-ordered."
+    },
+    {
+      "question": "Does Verve AI handle bundles and stacks that combine multiple SKUs?",
+      "answer": "Yes. Verve AI decomposes bundle and stack sales back into the individual component SKUs when calculating demand, so a component's forecast reflects every bundle it appears in, not just its standalone sales. This prevents a common blind spot where a component looks adequately stocked in isolation while bundle sales are quietly depleting it faster than expected."
+    },
+    {
+      "question": "Can Verve AI react quickly if an influencer post causes a sudden demand spike?",
+      "answer": "Yes. Verve AI monitors sales velocity continuously, not just on a weekly or monthly cycle, so an unusual spike in demand gets flagged as it's happening. You can also proactively flag a known campaign or influencer partnership in advance so the forecast anticipates the uplift and adjusts reorder recommendations before the stock actually runs low."
+    },
+    {
+      "question": "Does Verve AI work for supplement brands selling internationally with different regulatory batch requirements?",
+      "answer": "Yes. Verve AI tracks batch and lot data at the level of detail needed to support compliance queries across markets, and forecasts demand separately by sales channel or region if your Shopify setup segments them that way. This means a brand shipping the same formulation under different regulatory batch requirements in multiple markets can still maintain full traceability for each."
+    },
+    {
+      "question": "How does Verve AI handle products with variable potency or strength tiers (e.g. different dosages)?",
+      "answer": "Verve AI treats each potency or dosage tier as its own variant with an independent demand forecast, the same way it handles size or colour variants in other product categories. This means a 500mg and a 1000mg version of the same formulation get separate reorder recommendations based on how each is actually selling, rather than a single blended estimate across both."
+    }
+  ],
+  "how_it_works_pool": [
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Connect your Shopify store",
+          "desc": "Verve AI syncs your order history, current stock levels, and batch/lot data automatically — no manual spreadsheet imports or CSV exports needed."
+        },
+        {
+          "step": "02",
+          "title": "AI models expiry, subscriptions, and seasonal spikes",
+          "desc": "Verve AI builds a demand model for every SKU that accounts for FIFO shelf life, recurring subscription volume, and known seasonal peaks like January and Q4."
+        },
+        {
+          "step": "03",
+          "title": "Get expiry-safe reorder recommendations",
+          "desc": "Review purchase order quantities that keep you stocked without buying more than you can sell through before a batch expires, and approve orders in one click."
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Link your order and batch history",
+          "desc": "Verve AI pulls your full Shopify sales, stock, and lot/batch records directly from your store, building the traceability chain automatically as new orders come in."
+        },
+        {
+          "step": "02",
+          "title": "Track sell-through against shelf life",
+          "desc": "As stock moves, Verve AI compares actual sell-through to each batch's expiry date and flags any batch at risk of not clearing in time."
+        },
+        {
+          "step": "03",
+          "title": "Act on compliance and reorder alerts",
+          "desc": "Get a prioritised list of at-risk batches to move first, plus purchase order recommendations sized to your real subscription and seasonal demand."
+        }
+      ]
     }
   ],
   "related_blog_slugs": [

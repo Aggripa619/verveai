@@ -3,7 +3,13 @@ import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
 import CTAButton from '@/components/CTAButton'
 import RelatedPseoLinks from '@/components/pseo/RelatedPseoLinks'
-import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
+import {
+  SHOPIFY_URL,
+  WOOCOMMERCE_URL,
+  getPainFeatureSelection,
+  getFaqSelection,
+  getHowItWorksVariant,
+} from '@/lib/content'
 
 interface Props {
   page: PseoPageEntry
@@ -13,7 +19,8 @@ interface Props {
   relatedReading: { slug: string; title: string }[]
 }
 
-const HOW_IT_WORKS = [
+// Fallback only — used if a vertical hasn't been given a how_it_works_pool yet.
+const DEFAULT_HOW_IT_WORKS = [
   {
     step: '01',
     title: 'Connect your Shopify store',
@@ -38,6 +45,10 @@ export default function FeaturePageTemplate({
   siblings,
   relatedReading,
 }: Props) {
+  const { featureMapping } = getPainFeatureSelection(vertical, page.slug, 3)
+  const faqItems = getFaqSelection(vertical, page.slug, 4)
+  const howItWorks = getHowItWorksVariant(vertical, page.slug)?.steps ?? DEFAULT_HOW_IT_WORKS
+
   return (
     <>
       {schemas.map((schema, i) => (
@@ -76,6 +87,12 @@ export default function FeaturePageTemplate({
         <article className="bg-white py-2">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 
+            {page.deep_dive && (
+              <section className="my-10">
+                <p className="text-gray-700 leading-relaxed">{page.deep_dive}</p>
+              </section>
+            )}
+
             {/* ── Feature Spotlight ── */}
             <section
               className="my-12 rounded-2xl p-8"
@@ -85,7 +102,7 @@ export default function FeaturePageTemplate({
                 How Verve AI Handles This for {vertical.vertical_name} Brands
               </h2>
               <div className="flex flex-col gap-8">
-                {vertical.feature_mapping.map((item) => (
+                {featureMapping.map((item) => (
                   <div key={item.feature}>
                     <div
                       className="h-0.5 w-10 rounded-full mb-3"
@@ -110,7 +127,7 @@ export default function FeaturePageTemplate({
             <section className="my-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-8">How It Works</h2>
               <div className="flex flex-col gap-8">
-                {HOW_IT_WORKS.map((s) => (
+                {howItWorks.map((s) => (
                   <div key={s.step} className="flex gap-5">
                     <div
                       className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white"
@@ -160,10 +177,10 @@ export default function FeaturePageTemplate({
                 Common Questions
               </h2>
               <div className="flex flex-col">
-                {vertical.faq.slice(0, 4).map((item, i) => (
+                {faqItems.map((item, i) => (
                   <div
                     key={item.question}
-                    className={`py-6 ${i < 3 ? 'border-b border-gray-200' : ''}`}
+                    className={`py-6 ${i < faqItems.length - 1 ? 'border-b border-gray-200' : ''}`}
                   >
                     <h3 className="font-bold text-lg text-gray-900 mb-2">{item.question}</h3>
                     <p className="text-gray-600 leading-relaxed">{item.answer}</p>

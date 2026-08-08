@@ -18,6 +18,21 @@
       "title": "Bulky SKU Storage Costs",
       "description": "Furniture and larger homeware items carry storage cost implications that smaller product categories don't. Holding excess stock of a sofa or a dining table isn't just a working capital problem — it's a physical warehouse cost that compounds every week the item sits unsold.",
       "icon": "📐"
+    },
+    {
+      "title": "Container & Freight Consolidation Constraints",
+      "description": "Ocean freight economics push brands toward full-container or consolidated shipment minimums, which means a purchase order decision isn't just about how much of one SKU to buy — it's about filling a container efficiently across several SKUs at once, often locking in months of stock in a single commitment.",
+      "icon": "📦"
+    },
+    {
+      "title": "Breakage & Damage-in-Transit Loss",
+      "description": "Fragile décor and homeware items routinely arrive with a portion of the shipment damaged, which means the units you ordered aren't the units you actually have sellable. Without visibility into typical breakage rates, purchase order quantities consistently fall short of what's needed to hit a sell-through target.",
+      "icon": "💔"
+    },
+    {
+      "title": "Multi-SKU Room Set / Collection Coordination",
+      "description": "Coordinated collections — a dining set, a matching bedding range — need every component in stock at the same time to sell as intended. If one piece in a set runs out while the others remain available, the whole collection effectively stops converting even though most of it is still on the shelf.",
+      "icon": "🛋️"
     }
   ],
   "feature_mapping": [
@@ -35,6 +50,21 @@
       "pain": "Bulky SKU Storage Costs",
       "feature": "Capital Efficiency Reporting",
       "description": "Verve AI calculates days-of-cover and inventory turnover for every SKU in your Shopify catalogue, with particular emphasis on your high-storage-cost items. For bulky furniture and homeware, you can see at a glance which products are tying up the most warehouse space relative to their sales velocity — and prioritise these for tighter reorder management or promotional activity to improve capital efficiency."
+    },
+    {
+      "pain": "Container & Freight Consolidation Constraints",
+      "feature": "Freight Consolidation Planning",
+      "description": "Verve AI surfaces which SKUs are approaching reorder timing together, so you can plan a purchase order that fills a container or consolidated shipment efficiently across multiple products at once — rather than making each SKU's reorder decision in isolation and ending up with a freight commitment that doesn't match what your demand forecast actually calls for."
+    },
+    {
+      "pain": "Breakage & Damage-in-Transit Loss",
+      "feature": "Damage-Adjusted Stock Accuracy",
+      "description": "Verve AI lets you record typical breakage or damage rates per supplier or product category, and factors that loss into purchase order quantities so the number you order accounts for the sellable units you'll actually receive — instead of discovering the shortfall only after a shipment arrives and a portion of it has to be written off."
+    },
+    {
+      "pain": "Multi-SKU Room Set / Collection Coordination",
+      "feature": "Collection & Set Coordination Forecasting",
+      "description": "Verve AI lets you group SKUs that sell as a coordinated collection and flags when one component's stock is running ahead of its counterparts, so you can align reorder timing across the whole set. This prevents the common failure where one piece of a matching range runs out while the rest sits fully stocked, quietly stalling conversion on the whole collection."
     }
   ],
   "social_proof_quote": "We used to finalise our Christmas homeware buy in September based on gut feel and last year's numbers — now Verve AI runs the demand forecast in July and tells us exactly what to order from each factory, and our dead stock after Christmas has dropped by more than half.",
@@ -62,6 +92,66 @@
     {
       "question": "We're a small homeware brand with limited buying budget — can Verve AI help us prioritise which SKUs to reorder first?",
       "answer": "Yes. Verve AI includes a budget-aware purchase order planner that ranks your reorder recommendations by urgency and commercial impact. You can input your available buying budget for the period and the system will allocate it across your highest-priority reorders first — the SKUs closest to stockout on your fastest-selling lines — so you protect revenue on your best products even when capital is constrained. Lower-priority reorders are queued for the next buying cycle."
+    },
+    {
+      "question": "Can Verve AI help plan orders around container or freight minimums?",
+      "answer": "Yes. Verve AI surfaces which SKUs are approaching their reorder point around the same time, so you can plan a purchase order that consolidates multiple products into a single container or shipment efficiently, rather than triggering separate freight commitments SKU by SKU. This helps align freight economics with what your demand forecast is actually calling for, instead of over-ordering just to hit a container minimum."
+    },
+    {
+      "question": "Does Verve AI account for breakage or damage during overseas shipping?",
+      "answer": "Yes. You can record a typical breakage or damage rate per supplier or product category, and Verve AI factors that into purchase order quantities so the amount you order accounts for the sellable units you'll actually receive. This prevents the common shortfall where an order looked sufficient on paper but a portion arrived damaged and had to be written off."
+    },
+    {
+      "question": "Can Verve AI coordinate stock levels across products that are sold as a matching set or collection?",
+      "answer": "Yes. You can group SKUs that make up a coordinated collection, and Verve AI flags when one component is running ahead of the others in sell-through, so you can align reorder timing across the whole set. This helps prevent a common issue where one piece of a matching range sells out while the rest of the collection remains in stock, quietly stalling sales on products that are technically still available."
+    },
+    {
+      "question": "How does Verve AI handle a new home décor collection with no sales history?",
+      "answer": "Verve AI estimates initial demand for a new collection by comparing it against the early sales curves of similar past launches — matched by category, price point, and seasonal timing — and recalibrates as real orders come in. Given the long lead times typical in home goods sourcing, this early estimate is what informs the initial production order before any live sales data exists."
+    },
+    {
+      "question": "Does Verve AI help decide when to discount seasonal décor before it becomes dead stock?",
+      "answer": "Yes. Verve AI tracks actual sell-through against the expected seasonal curve for every décor line and flags a product early if it's tracking behind plan — while there's still enough of the selling season left to run a promotion or bundle it with faster-moving items, rather than discovering the shortfall only after the season has effectively ended."
+    }
+  ],
+  "how_it_works_pool": [
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Connect your Shopify store",
+          "desc": "Verve AI syncs your order history, current stock levels, and supplier lead times automatically — built to handle 60-120 day overseas planning horizons."
+        },
+        {
+          "step": "02",
+          "title": "AI builds a 90-180 day forward forecast",
+          "desc": "Verve AI projects demand months ahead using your seasonal sales history, so long-lead-time purchase decisions are grounded in data instead of guesswork."
+        },
+        {
+          "step": "03",
+          "title": "Get purchase orders timed to arrive before peak",
+          "desc": "Review reorder quantities and timing that account for your suppliers' real lead times and reliability, so stock lands before your seasonal window opens, not after."
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Link your catalogue and supplier profiles",
+          "desc": "Verve AI pulls in your full SKU range along with each supplier's lead time and delivery history, including consolidated shipment and container patterns."
+        },
+        {
+          "step": "02",
+          "title": "Track seasonal sell-through and capital efficiency",
+          "desc": "The system compares actual sell-through to your seasonal forecast and flags both stock heading toward a dead-stock outcome and bulky SKUs tying up excess warehouse space."
+        },
+        {
+          "step": "03",
+          "title": "Act on freight-efficient reorder recommendations",
+          "desc": "Get a purchase order plan that groups SKUs sensibly for container efficiency and reflects real breakage rates, ready to review and approve."
+        }
+      ]
     }
   ],
   "related_blog_slugs": [

@@ -6,6 +6,7 @@ import {
   getVerticalPage,
   getSiblingPseoPages,
   getRelatedReadingForVertical,
+  getFaqSelection,
   SITE_URL,
 } from '@/lib/content'
 import VerticalLandingPageTemplate from '@/components/pseo/VerticalLandingPageTemplate'
@@ -73,10 +74,17 @@ export default async function PseoPage({
     description: page.meta_description,
   }
 
+  // Match whatever FAQ subset the page actually renders (see the page_type
+  // branches below) so the FAQPage structured data doesn't diverge from the
+  // visible content — was previously the full vertical FAQ pool regardless
+  // of page_type, duplicating the same content-sharing bug in the schema.
+  const faqCountByPageType = { vertical_landing: 5, feature: 4, blog: 3 } as const
+  const faqForSchema = getFaqSelection(vertical, slug, faqCountByPageType[page.page_type])
+
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: vertical.faq.map((item) => ({
+    mainEntity: faqForSchema.map((item) => ({
       '@type': 'Question',
       name: item.question,
       acceptedAnswer: {

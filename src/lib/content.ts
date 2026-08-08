@@ -275,6 +275,92 @@ export function getSiblingPseoPages(slug: string, count = 5): { slug: string; h1
   return picked.map((s) => ({ slug: s, h1: pages[s]?.h1 ?? s }))
 }
 
+// ─── Deterministic per-page content selection (pSEO duplicate-content fix) ──
+// Every page in a vertical used to render the vertical's ENTIRE pain_points /
+// feature_mapping / faq pool, so pages sharing a vertical were near-identical.
+// These pick a different, stable (no randomness — required since
+// generateStaticParams pre-renders all 155 pages at build time) subset per
+// page, based on the page's index within its (vertical, page_type) group —
+// same idiom as getSiblingPseoPages above (sort slugs, find index, modular
+// arithmetic). If a vertical's pool hasn't been expanded past the original
+// 3/3/5 size yet, selectPoolWindow's pool.length <= count guard just returns
+// the full pool, so this is safe to ship before every vertical has new content.
+
+function nCr(n: number, r: number): number {
+  if (r < 0 || r > n) return 0
+  let result = 1
+  for (let i = 0; i < r; i++) result = (result * (n - i)) / (i + 1)
+  return Math.round(result)
+}
+
+// Combination (0-based indices into an n-item pool) at lexicographic `index`.
+function combinationAtIndex(n: number, r: number, index: number): number[] {
+  const result: number[] = []
+  let start = 0
+  let remaining = r
+  let idx = index
+  while (remaining > 0) {
+    for (let c = start; c <= n - remaining; c++) {
+      const countWithThisFirst = nCr(n - c - 1, remaining - 1)
+      if (idx < countWithThisFirst) {
+        result.push(c)
+        start = c + 1
+        remaining -= 1
+        break
+      }
+      idx -= countWithThisFirst
+    }
+  }
+  return result
+}
+
+function selectPoolWindow<T>(pool: T[], seedIndex: number, count: number): T[] {
+  if (pool.length <= count) return pool
+  const total = nCr(pool.length, count)
+  const comboIndex = ((seedIndex % total) + total) % total
+  return combinationAtIndex(pool.length, count, comboIndex).map((i) => pool[i])
+}
+
+function pageGroupSeedIndex(slug: string): number {
+  const pages = loadPseoPages()
+  const current = pages[slug]
+  if (!current) return 0
+  const groupSlugs = Object.keys(pages)
+    .filter((s) => pages[s].vertical === current.vertical && pages[s].page_type === current.page_type)
+    .sort()
+  return Math.max(0, groupSlugs.indexOf(slug))
+}
+
+export function getPainFeatureSelection(
+  vertical: VerticalData,
+  slug: string,
+  count: number
+): { painPoints: VerticalData['pain_points']; featureMapping: VerticalData['feature_mapping'] } {
+  const seedIndex = pageGroupSeedIndex(slug)
+  return {
+    painPoints: selectPoolWindow(vertical.pain_points, seedIndex, count),
+    featureMapping: selectPoolWindow(vertical.feature_mapping, seedIndex, count),
+  }
+}
+
+// Offset seed so a page's FAQ selection doesn't move in lockstep with its
+// pain/feature selection — widens the effective number of distinct
+// visible-content permutations per vertical without growing pool sizes further.
+export function getFaqSelection(vertical: VerticalData, slug: string, count: number): VerticalData['faq'] {
+  const seedIndex = pageGroupSeedIndex(slug)
+  return selectPoolWindow(vertical.faq, seedIndex + 3, count)
+}
+
+export function getHowItWorksVariant(
+  vertical: VerticalData,
+  slug: string
+): NonNullable<VerticalData['how_it_works_pool']>[number] | null {
+  const pool = vertical.how_it_works_pool
+  if (!pool || pool.length === 0) return null
+  const seedIndex = pageGroupSeedIndex(slug)
+  return pool[seedIndex % pool.length]
+}
+
 // Resolves the (already-authored but previously unused) vertical.related_blog_slugs
 // field into real blog links, dropping any slug that doesn't resolve to a post.
 export function getRelatedReadingForVertical(

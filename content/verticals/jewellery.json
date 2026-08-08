@@ -18,6 +18,21 @@
       "title": "Supplier Lead Time Variability",
       "description": "Artisan, handmade, and imported jewellery suppliers often have unpredictable lead times that stretch from 4 to 12 weeks. A purchase order placed in November may arrive after Christmas if supplier capacity is constrained — making timing precision critical.",
       "icon": "🔗"
+    },
+    {
+      "title": "Custom & Made-to-Order Piece Planning",
+      "description": "Brands that mix ready-to-ship stock with custom or made-to-order pieces have to plan two very different inventory models at once — component and material stock for custom work, and finished-piece stock for immediate sale — without clear visibility into which is driving revenue at any given time.",
+      "icon": "✍️"
+    },
+    {
+      "title": "Precious Metal & Stone Price Volatility",
+      "description": "Gold, silver, and gemstone prices can shift materially between the time a purchase order is placed and when it's paid for, changing the real economics of a reorder decision. Buying too far ahead of a price dip, or too late after a spike, erodes margin on every affected piece.",
+      "icon": "📉"
+    },
+    {
+      "title": "Insurance & Loss Risk on High-Value Stock",
+      "description": "Carrying more high-value inventory than necessary doesn't just tie up capital — it increases insurance costs and concentrates loss risk from theft or damage. Every unit held beyond what's actually needed to meet demand is added exposure, not just added cost.",
+      "icon": "🔒"
     }
   ],
   "feature_mapping": [
@@ -35,6 +50,21 @@
       "pain": "Supplier Lead Time Variability",
       "feature": "Lead Time Tracking & Buffer Calculation",
       "description": "Verve AI records actual versus promised lead times for each supplier over time, building a statistical model of their delivery variability. When calculating your reorder point, the system uses your supplier's historical lead time range — not just their quoted average — adding the appropriate safety buffer so a delayed delivery doesn't translate directly into a stockout during your most important trading period."
+    },
+    {
+      "pain": "Custom & Made-to-Order Piece Planning",
+      "feature": "Made-to-Order Production Planning",
+      "description": "Verve AI tracks ready-to-ship and made-to-order demand as separate signals, so component and material stock needed for custom work gets forecast independently from finished-piece inventory. This gives you visibility into which model is actually driving revenue and prevents either side from being under-resourced because the other consumed the buying attention."
+    },
+    {
+      "pain": "Precious Metal & Stone Price Volatility",
+      "feature": "Material Cost-Aware Reorder Timing",
+      "description": "Verve AI factors your typical reorder cadence against known material cost trends so you can see the trade-off between ordering now versus waiting, when material prices are shifting. Combined with demand urgency for each SKU, this helps you time purchase orders to avoid buying a large batch right before a cost spike erodes the margin."
+    },
+    {
+      "pain": "Insurance & Loss Risk on High-Value Stock",
+      "feature": "Concentration Risk Visibility",
+      "description": "Verve AI surfaces exactly how much capital and risk exposure is tied up in stock beyond what's needed to meet forecasted demand, by SKU and by location. This gives you a clear basis for right-sizing high-value inventory — holding enough to serve real demand without carrying excess stock that adds insurance cost and loss exposure with no offsetting sales benefit."
     }
   ],
   "social_proof_quote": "We used to place one big Christmas order based on last year's sales and hope for the best — Verve AI now gives us a gifting season forecast by style in October so we can place the right order with each supplier in time for them to deliver before peak.",
@@ -62,6 +92,66 @@
     {
       "question": "Does Verve AI support multi-location inventory for jewellery brands with both online and physical stores?",
       "answer": "Yes. Verve AI connects to all your Shopify locations and tracks inventory across your online store and any physical retail locations linked to Shopify. For jewellery brands, this is particularly useful for identifying stock that is sitting idle at one location while another faces a stockout risk — the system surfaces transfer recommendations so your high-value stock is always where demand is highest."
+    },
+    {
+      "question": "Does Verve AI help plan inventory for made-to-order or custom pieces?",
+      "answer": "Yes. Verve AI tracks demand for ready-to-ship and made-to-order pieces as separate signals, so material and component stock needed to fulfil custom orders is forecast independently from finished-piece inventory held for immediate sale. This gives you visibility into which side of the business is actually driving revenue and prevents one from being under-resourced because buying attention went to the other."
+    },
+    {
+      "question": "Can Verve AI factor in precious metal or gemstone price changes when recommending reorder timing?",
+      "answer": "Verve AI factors your typical reorder cadence against known material cost trends alongside demand urgency for each SKU, so you can see the trade-off between reordering now versus waiting when material prices are moving. This helps avoid the common margin erosion that happens when a large batch is bought right before a cost increase, or held back too long during a price dip that later reverses."
+    },
+    {
+      "question": "How does Verve AI help reduce insurance and risk exposure from carrying high-value stock?",
+      "answer": "Verve AI shows exactly how much capital and risk exposure is tied up in stock beyond what's actually needed to meet forecasted demand, broken down by SKU and location. This gives you a clear, data-backed basis for right-sizing high-value inventory holdings — carrying enough to serve real demand without unnecessary excess that adds insurance cost and concentration risk with no corresponding sales benefit."
+    },
+    {
+      "question": "Can Verve AI forecast demand for a brand new jewellery collection with no sales history?",
+      "answer": "Yes. Verve AI estimates initial demand for a new collection by comparing it against the early sales patterns of similar past launches in your catalogue — matched by price point, material, and style category — and recalibrates as real sales data comes in, which is especially useful for timing an initial production run correctly given typically long jewellery supplier lead times."
+    },
+    {
+      "question": "Does Verve AI account for engraving or personalization lead times?",
+      "answer": "Yes. If personalization or engraving adds processing time before a piece can ship, Verve AI can factor that into fulfilment planning alongside supplier lead times, particularly important ahead of gifting peaks where the combined lead time — restock plus personalization — determines the last date an order can be placed and still arrive before the event."
+    }
+  ],
+  "how_it_works_pool": [
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Connect your Shopify store",
+          "desc": "Verve AI syncs your order history, current stock levels, and supplier data automatically — including low-volume SKUs that generic tools usually can't forecast."
+        },
+        {
+          "step": "02",
+          "title": "AI models low-volume demand and gifting peaks",
+          "desc": "Verve AI applies statistical methods built for intermittent, low-unit-volume demand and layers in your historical Valentine's Day, Mother's Day, and Christmas uplift by style."
+        },
+        {
+          "step": "03",
+          "title": "Get reorder timing built around long lead times",
+          "desc": "Review purchase order recommendations sized and timed to arrive before your gifting peaks, accounting for each supplier's real lead time reliability, not just their quoted average."
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Link your product and supplier data",
+          "desc": "Verve AI pulls in your full SKU catalogue and supplier lead time history directly from Shopify, including artisan and overseas suppliers with variable delivery times."
+        },
+        {
+          "step": "02",
+          "title": "Track capital exposure and stockout risk together",
+          "desc": "The system flags both sides of the risk: high-value SKUs approaching a stockout, and excess stock tying up capital and insurance exposure beyond what demand requires."
+        },
+        {
+          "step": "03",
+          "title": "Act on gifting-season and reorder alerts",
+          "desc": "Get a prioritised view of what to reorder ahead of Valentine's Day, Mother's Day, or Christmas, timed against real supplier delivery performance."
+        }
+      ]
     }
   ],
   "related_blog_slugs": [

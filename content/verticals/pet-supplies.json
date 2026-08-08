@@ -18,6 +18,21 @@
       "title": "Seasonal & Trend-Driven Spikes",
       "description": "Pet travel accessories, seasonal treats, and trending product categories see demand spikes that are difficult to anticipate from average monthly sales data alone. Spreadsheet-based reordering misses these windows, leaving revenue on the table during peak periods.",
       "icon": "📈"
+    },
+    {
+      "title": "Multi-Pet Household Bundle Complexity",
+      "description": "Bundles and multi-packs sized for different breeds, weights, or numbers of pets create a layer of variant complexity most inventory tools ignore — a large-breed bundle consumes component SKUs at a different ratio than a small-breed one, and getting that mix wrong leaves one bundle overstocked while another sells out.",
+      "icon": "🐕"
+    },
+    {
+      "title": "Perishable & Fresh Food Shelf Life",
+      "description": "Fresh, refrigerated, or minimally-processed pet food carries the same tight shelf-life pressure as human food, but without the same category-standard tools to manage it. Over-buying a batch that doesn't sell through fast enough means a write-off, not just a slow month.",
+      "icon": "🧊"
+    },
+    {
+      "title": "Recall & Ingredient Sourcing Risk",
+      "description": "Pet food recalls happen more often than most categories, and when one hits, brands need to know instantly which batches contain the affected ingredient and which orders they went to. Without lot-level traceability, a recall becomes a scramble instead of a controlled, fast response.",
+      "icon": "🔍"
     }
   ],
   "feature_mapping": [
@@ -35,6 +50,21 @@
       "pain": "Seasonal & Trend-Driven Spikes",
       "feature": "Seasonal Uplift Forecasting",
       "description": "Verve AI applies historical seasonal patterns to each SKU's demand forecast, automatically increasing reorder recommendations ahead of summer travel accessory peaks, Christmas gifting, and other recurring high-demand periods in the pet category. When a trend-driven spike emerges outside the seasonal pattern, the real-time velocity monitoring triggers an alert so you can respond before stock runs out."
+    },
+    {
+      "pain": "Multi-Pet Household Bundle Complexity",
+      "feature": "Multi-Pack & Bundle Demand Planning",
+      "description": "Verve AI decomposes bundle and multi-pack sales back into their individual component SKUs, so a large-breed bundle and a small-breed bundle each contribute accurately to the demand forecast for the components they actually consume — preventing one size variant from quietly running short while another looks adequately stocked."
+    },
+    {
+      "pain": "Perishable & Fresh Food Shelf Life",
+      "feature": "Perishable Shelf-Life Forecasting",
+      "description": "Verve AI forecasts sell-through against the specific shelf life of fresh and refrigerated product lines, flagging any batch that won't clear before its expiry date. This lets you size purchase orders for perishable SKUs to what will realistically sell through in time, rather than applying the same buffer logic used for shelf-stable products."
+    },
+    {
+      "pain": "Recall & Ingredient Sourcing Risk",
+      "feature": "Ingredient Lot Traceability",
+      "description": "Verve AI records lot and batch data against every inbound purchase order and links each outbound Shopify order to the batch it fulfilled from, so if a recall notice comes in for a specific ingredient or supplier lot, you can identify every affected order and customer within minutes instead of manually cross-referencing supplier records."
     }
   ],
   "social_proof_quote": "We were stockoutting on our top three food SKUs every other month despite them being our most predictable sellers — Verve AI set dynamic reorder points based on our actual replenishment cycle and we haven't had a consumable stockout in over six months.",
@@ -62,6 +92,66 @@
     {
       "question": "How long does it take for Verve AI to learn our pet brand's demand patterns?",
       "answer": "Verve AI begins generating demand forecasts as soon as it connects to your Shopify store and imports your historical sales data. For consumable SKUs with consistent purchase patterns, accurate forecasts are typically available within the first week. For seasonal or trend-driven SKUs, the system improves its accuracy over the first 30 to 60 days as it calibrates to your specific product mix and customer behaviour. Most pet supply merchants see meaningful reorder accuracy improvements within the first month."
+    },
+    {
+      "question": "Does Verve AI track shelf life for fresh or refrigerated pet food?",
+      "answer": "Yes. Verve AI records shelf life and expiry data for perishable product lines and forecasts sell-through against it the same way it does for other expiry-sensitive categories, flagging any batch that's at risk of not clearing in time. This lets you size purchase orders for fresh or refrigerated SKUs to what will realistically sell through before expiry, rather than applying the same buffer logic used for shelf-stable dry food or treats."
+    },
+    {
+      "question": "Can Verve AI help with ingredient lot tracking in case of a recall?",
+      "answer": "Yes. Verve AI records lot and batch numbers against every inbound purchase order and links every outbound Shopify order to the batch it was fulfilled from. If a recall notice comes in for a specific ingredient or supplier lot, you can identify every affected batch and every order it went to within minutes, rather than manually searching through supplier invoices and fulfilment records."
+    },
+    {
+      "question": "How does Verve AI handle multi-pack or bundle sizes (e.g. different bag sizes per breed)?",
+      "answer": "Verve AI decomposes bundle and multi-pack sales back into their individual component SKUs, so a large-breed bundle and a small-breed bundle each contribute correctly to the demand forecast for the components they consume. This prevents a common failure mode where one size variant runs short because its consumption inside bundles wasn't accounted for alongside its standalone sales."
+    },
+    {
+      "question": "Does Verve AI account for different reorder needs across food, treats, and accessories in the same store?",
+      "answer": "Yes. Verve AI forecasts each SKU independently, so a high-frequency consumable like food or treats gets dynamic, tightly-set reorder points based on its replenishment cycle, while a slower-moving accessory or toy gets forecasting logic suited to its own, much less frequent, demand pattern — all managed from the same connected Shopify integration rather than separate systems per category."
+    },
+    {
+      "question": "Can Verve AI forecast demand for a new pet product line with no sales history?",
+      "answer": "Yes. Verve AI estimates initial demand for a new product line by comparing it against the early sales curves of similar existing products in your catalogue — matched by category and price point — and recalibrates quickly once real sales data starts coming in, typically within the first couple of weeks after launch."
+    }
+  ],
+  "how_it_works_pool": [
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Connect your Shopify store",
+          "desc": "Verve AI syncs your order history, current stock levels, and subscription order data automatically — no manual exports or spreadsheet work needed."
+        },
+        {
+          "step": "02",
+          "title": "AI models replenishment cycles and seasonal peaks",
+          "desc": "Verve AI learns the repeat-purchase rhythm for every consumable SKU and layers in seasonal demand for travel accessories, gifting, and other recurring peaks."
+        },
+        {
+          "step": "03",
+          "title": "Get dynamic reorder points and PO recommendations",
+          "desc": "Review reorder points that update automatically as demand shifts, and approve purchase orders sized to keep consumables in stock without over-buying slower items."
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Link your product catalogue and subscription data",
+          "desc": "Verve AI pulls in your full SKU range, including bundle and multi-pack structures, plus your subscription commitments directly from Shopify."
+        },
+        {
+          "step": "02",
+          "title": "Track consumable velocity and shelf life together",
+          "desc": "The system monitors how fast consumables are moving and, for perishable lines, checks that projected sell-through will clear stock before it expires."
+        },
+        {
+          "step": "03",
+          "title": "Act on reorder and traceability alerts",
+          "desc": "Get purchase order recommendations prioritised by urgency, with full batch traceability ready if a recall or compliance question ever comes up."
+        }
+      ]
     }
   ],
   "related_blog_slugs": [

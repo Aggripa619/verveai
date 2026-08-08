@@ -18,6 +18,21 @@
       "title": "Hybrid Dropship Fulfilment",
       "description": "Many sports and outdoor brands mix held inventory with dropship products, particularly for specialist or low-velocity equipment. Without integrated visibility across both fulfilment methods, merchants lose track of true available inventory and make reorder decisions on incomplete stock pictures.",
       "icon": "🚚"
+    },
+    {
+      "title": "Technical Spec & Performance Grade Complexity",
+      "description": "Equipment is often differentiated by performance tier — beginner, intermediate, and pro-level skis or bikes, for example — and each tier attracts a genuinely different customer with a different buying pattern. Treating a beginner-tier product and a pro-tier product as interchangeable in demand terms consistently misjudges both.",
+      "icon": "⚙️"
+    },
+    {
+      "title": "Event & Race Calendar-Driven Demand",
+      "description": "Demand for running shoes spikes ahead of marathon season, ski gear spikes around resort opening weekends — these aren't smooth seasonal ramps, they're sharp, date-specific surges tied to an external calendar that a generic monthly seasonality model doesn't capture accurately.",
+      "icon": "🏁"
+    },
+    {
+      "title": "Rental & Demo Fleet vs Retail Stock Allocation",
+      "description": "Brands running a demo or rental fleet alongside retail sales have to split inventory allocation between the two, and demo units that come back with wear can't always be resold as new — a distinction most inventory systems don't track, leading to inaccurate available-to-sell counts.",
+      "icon": "🔁"
     }
   ],
   "feature_mapping": [
@@ -35,6 +50,21 @@
       "pain": "Hybrid Dropship Fulfilment",
       "feature": "Unified Held & Dropship Inventory View",
       "description": "Verve AI integrates with your Shopify store to give you a single inventory dashboard covering both your held warehouse stock and your dropship arrangements. Demand forecasts factor in the fulfilment method for each product — held inventory gets standard reorder logic, while dropship products are flagged when demand is trending above supplier capacity. You always see the complete picture before making a sourcing decision."
+    },
+    {
+      "pain": "Technical Spec & Performance Grade Complexity",
+      "feature": "Performance Tier Demand Modeling",
+      "description": "Verve AI forecasts each performance tier as its own demand signal rather than blending beginner, intermediate, and pro-level variants of a product into one curve, since each tier attracts a genuinely different buyer with a different purchase rhythm. This keeps entry-level bestsellers from being under-ordered because a slower-moving pro-tier variant pulled the blended average down."
+    },
+    {
+      "pain": "Event & Race Calendar-Driven Demand",
+      "feature": "Event Calendar Demand Planning",
+      "description": "Verve AI lets you flag known event dates — marathon season, ski resort opening weekends, major race calendars — so the forecast builds in the sharp, date-specific demand surge these events cause rather than treating them as part of a smooth seasonal ramp, giving you purchase order timing that accounts for exactly when the spike will hit."
+    },
+    {
+      "pain": "Rental & Demo Fleet vs Retail Stock Allocation",
+      "feature": "Demo Fleet & Retail Allocation Planning",
+      "description": "Verve AI tracks demo and rental fleet stock separately from retail-ready inventory, so returned demo units with wear don't get counted as available-to-sell new stock. This keeps your true retail stock position accurate and lets you forecast replacement demand for the demo fleet independently from customer-facing sales."
     }
   ],
   "social_proof_quote": "We'd always either go into summer with too much winter kit still on hand or run out of key cycling lines in May because we under-bought in January — Verve AI's seasonal split forecasting has completely fixed that and our stock efficiency across both seasons is measurably better.",
@@ -62,6 +92,66 @@
     {
       "question": "Does Verve AI work for sports brands that sell across both Shopify and wholesale channels?",
       "answer": "Yes. Verve AI can incorporate wholesale order demand alongside your Shopify direct-to-consumer sales when generating demand forecasts and purchase order recommendations. Wholesale orders — which are often placed seasonally and in large volumes — are treated as forward demand commitments that reduce the available inventory for DTC fulfilment. This gives you a unified view of total demand against total supply, so you know exactly how much stock to order to cover both channels without double-counting or running short on either."
+    },
+    {
+      "question": "Does Verve AI account for different performance tiers (beginner vs pro-level equipment)?",
+      "answer": "Yes. Verve AI forecasts each performance tier as its own demand signal rather than blending beginner, intermediate, and pro-level variants into a single curve, since each tier tends to attract a genuinely different buyer with a different purchase rhythm. This prevents a fast-moving entry-level product from being under-ordered because a slower pro-tier variant of the same product line pulled down a blended average."
+    },
+    {
+      "question": "Can Verve AI plan inventory around specific events like marathons or ski season openers?",
+      "answer": "Yes. You can flag known event dates — a marathon calendar, resort opening weekends, major race series — and Verve AI builds the sharp, date-specific demand surge these events cause directly into the forecast, rather than treating them as part of a smooth monthly seasonal ramp. This gives you purchase order timing calculated against exactly when the spike is expected to hit, not just a general seasonal estimate."
+    },
+    {
+      "question": "Does Verve AI help manage inventory split between rental/demo fleets and retail stock?",
+      "answer": "Yes. Verve AI tracks demo and rental fleet stock separately from retail-ready inventory, so a returned demo unit with wear doesn't get counted as available-to-sell new stock. This keeps your true retail stock position accurate and lets you forecast replacement demand for the demo fleet independently from customer-facing sales demand."
+    },
+    {
+      "question": "How does Verve AI handle crossover products that sell in both summer and winter?",
+      "answer": "Verve AI can model crossover products — like base layers or trail running shoes with year-round appeal — with their own demand curve distinct from purely summer or purely winter SKUs, rather than forcing them into one seasonal group or the other. This avoids under-ordering a genuinely year-round product during what would otherwise look like an off-season lull for a strictly seasonal item."
+    },
+    {
+      "question": "Can Verve AI forecast demand for a brand new outdoor gear line with no sales history?",
+      "answer": "Yes. Verve AI estimates initial demand for a new product line by comparing it against the early sales curves of similar existing products in your catalogue — matched by category, price point, and seasonal timing — and recalibrates as real sales data comes in, which is particularly useful given the typically long 45-90 day supplier lead times in this category."
+    }
+  ],
+  "how_it_works_pool": [
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Connect your Shopify store",
+          "desc": "Verve AI syncs your order history, current stock levels, and full variant range automatically — no manual work needed to keep summer and winter lines separated."
+        },
+        {
+          "step": "02",
+          "title": "AI models seasonal splits and variant demand",
+          "desc": "Verve AI builds independent demand curves for summer, winter, and crossover products, and forecasts every size and spec variant individually rather than as a blended average."
+        },
+        {
+          "step": "03",
+          "title": "Get season-timed reorder recommendations",
+          "desc": "Review purchase order quantities sized per variant and timed to each product's own seasonal window, ready to approve before the next demand spike hits."
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Link your catalogue and fulfilment data",
+          "desc": "Verve AI pulls in your full SKU and variant range, including held and dropship fulfilment types and any demo or rental fleet stock you track separately."
+        },
+        {
+          "step": "02",
+          "title": "Track seasonal transitions and event spikes",
+          "desc": "The system monitors sell-through against your seasonal forecast and flags event-driven demand surges — like marathon season or resort openings — as they approach."
+        },
+        {
+          "step": "03",
+          "title": "Act on variant-level and seasonal alerts",
+          "desc": "Get a prioritised list of what to reorder, sized to real per-variant demand across both your held and dropship inventory."
+        }
+      ]
     }
   ],
   "related_blog_slugs": [

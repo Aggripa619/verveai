@@ -18,6 +18,21 @@
       "title": "Lot & Batch Compliance",
       "description": "Food brands face regulatory requirements to track which batch of product was sold to which customer. Without batch-level traceability baked into your Shopify inventory workflow, a food safety query or product recall becomes a forensic exercise across multiple systems instead of a 30-second lookup.",
       "icon": "🏷️"
+    },
+    {
+      "title": "Ingredient Sourcing & Seasonal Availability",
+      "description": "Raw ingredients tied to harvest seasons or specific suppliers aren't available year-round at consistent cost or quality, which means production planning has to account for a sourcing calendar the finished-goods sales forecast alone doesn't capture. Missing that window can delay a batch by months, not weeks.",
+      "icon": "🌾"
+    },
+    {
+      "title": "Temperature-Controlled & Cold Chain Logistics",
+      "description": "Refrigerated and frozen products add constraints that standard inventory planning doesn't account for — limited cold storage capacity, shorter effective shelf life once out of controlled conditions, and stricter timing on both inbound receiving and outbound fulfilment.",
+      "icon": "❄️"
+    },
+    {
+      "title": "Recipe & SKU Proliferation from Limited Editions",
+      "description": "Frequent limited-edition flavours and seasonal releases have no sales history to forecast from, yet the initial production run has to be sized before launch. Getting it wrong either strands ingredients and packaging on a flavour that didn't resonate, or means selling out of a hit release within days with no ability to make more in time.",
+      "icon": "🎉"
     }
   ],
   "feature_mapping": [
@@ -35,6 +50,21 @@
       "pain": "Lot & Batch Compliance",
       "feature": "Full Batch Traceability",
       "description": "Verve AI records batch and lot numbers for every inbound purchase order and links them to the outbound Shopify orders they fulfilled. If you receive a food safety query, a customer complaint about a specific production run, or a regulatory request for batch distribution records, you can pull the complete chain in seconds — which products came from which batch, when they were received, and which orders they shipped with."
+    },
+    {
+      "pain": "Ingredient Sourcing & Seasonal Availability",
+      "feature": "Ingredient Availability Planning",
+      "description": "Verve AI lets you flag seasonal or supplier-constrained ingredients so production-related purchase orders account for sourcing windows, not just finished-goods demand. This helps you commit to a production run early enough to catch a harvest or supplier availability window rather than discovering the ingredient constraint after the demand forecast has already called for a reorder."
+    },
+    {
+      "pain": "Temperature-Controlled & Cold Chain Logistics",
+      "feature": "Cold Chain-Aware Stock Planning",
+      "description": "Verve AI factors cold storage capacity and the shorter effective shelf life of refrigerated or frozen SKUs into reorder recommendations, so purchase order quantities respect the physical and time constraints of cold chain logistics rather than treating a frozen product the same way as a shelf-stable one."
+    },
+    {
+      "pain": "Recipe & SKU Proliferation from Limited Editions",
+      "feature": "Limited Edition Launch Forecasting",
+      "description": "Verve AI estimates initial production quantities for a new limited-edition flavour by comparing it against the early sales curves of similar past releases in your catalogue, then recalibrates rapidly as real orders come in — helping you size a launch run closer to actual demand instead of a guess made with no comparable data."
     }
   ],
   "social_proof_quote": "Our previous system had no concept of shelf life — it would tell us to buy three months of a sauce that expires in four and a half months, and we'd end up writing off a full pallet. Verve AI caps our reorder quantities at what we can actually sell before the best-before date and our write-offs are down to almost nothing.",
@@ -62,6 +92,66 @@
     {
       "question": "Can Verve AI help a DTC food brand manage both made-to-order and held inventory products?",
       "answer": "Yes. Verve AI supports mixed inventory models where some products are produced or bought in advance and held in stock, while others are made or ordered only when a customer purchase is confirmed. Each product type gets appropriate reorder logic — held inventory products get standard demand-driven reorder points, while made-to-order products are tracked separately to ensure production lead times align with order volumes. Both are visible in the same Verve AI dashboard connected to your Shopify store."
+    },
+    {
+      "question": "Does Verve AI account for seasonal ingredient availability when planning production?",
+      "answer": "Yes. You can flag ingredients that are seasonal or supplier-constrained, and Verve AI factors that sourcing window into production-related purchase order timing, alongside the finished-goods demand forecast. This helps you commit to a production run early enough to catch a harvest window or a supplier's limited availability period, rather than discovering the constraint only after your sales forecast has already called for a reorder."
+    },
+    {
+      "question": "Can Verve AI handle products that require cold chain / refrigerated storage?",
+      "answer": "Yes. Verve AI factors cold storage capacity limits and the typically shorter effective shelf life of refrigerated or frozen products into its reorder recommendations, so purchase order quantities for cold chain SKUs respect those physical and timing constraints rather than being treated the same as shelf-stable products."
+    },
+    {
+      "question": "How does Verve AI forecast demand for limited-edition or seasonal flavor releases?",
+      "answer": "Verve AI estimates initial production quantities for a new limited-edition release by comparing it against the early sales curves of similar past launches in your catalogue — matched by category, price point, and seasonal timing — and recalibrates quickly once real orders start coming in. This helps size a launch run closer to actual demand rather than guessing with no historical data for that specific flavour or release."
+    },
+    {
+      "question": "Does Verve AI support co-packers or contract manufacturers?",
+      "answer": "Yes. Verve AI can track lead times and generate purchase order recommendations for co-packer and contract manufacturing relationships the same way it does for direct suppliers, including batch and lot data for the finished goods they produce on your behalf, so traceability requirements are met regardless of who physically manufactures the product."
+    },
+    {
+      "question": "Can Verve AI help calculate how much raw ingredient to order versus finished goods?",
+      "answer": "Yes. Where a production run depends on specific raw ingredients, Verve AI can factor ingredient lead times and seasonal availability into the purchase order timeline separately from finished-goods demand, so an ingredient order goes out early enough to support a production run sized to your actual forecasted demand."
+    }
+  ],
+  "how_it_works_pool": [
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Connect your Shopify store",
+          "desc": "Verve AI syncs your order history, current stock levels, and batch/lot data automatically — no manual spreadsheet work needed."
+        },
+        {
+          "step": "02",
+          "title": "AI models shelf life, subscriptions, and seasonality",
+          "desc": "Verve AI builds a demand model for every SKU that respects shelf-life limits, separates subscription from one-time demand, and layers in seasonal peaks like summer BBQ season and Q4 gifting."
+        },
+        {
+          "step": "03",
+          "title": "Get shelf-life-safe reorder recommendations",
+          "desc": "Review purchase order quantities capped at what you can realistically sell through before expiry, and approve orders that keep subscription fulfilment covered."
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "step": "01",
+          "title": "Link your product, batch, and supplier data",
+          "desc": "Verve AI pulls in your full SKU range, lot/batch history, and supplier lead times — including co-packers and ingredient-constrained products."
+        },
+        {
+          "step": "02",
+          "title": "Track sell-through against expiry and capacity",
+          "desc": "The system compares projected sell-through to shelf life and cold storage capacity, flagging any batch at risk of not clearing in time."
+        },
+        {
+          "step": "03",
+          "title": "Act on production and reorder alerts",
+          "desc": "Get purchase order recommendations sized to real demand, with full batch traceability ready if a food safety question or recall ever comes up."
+        }
+      ]
     }
   ],
   "related_blog_slugs": [
