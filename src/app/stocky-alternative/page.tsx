@@ -4,7 +4,7 @@ import { SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } from '@/lib/content'
 
 const TITLE = 'Stocky Alternative for Shopify — Migrate Before Aug 31, 2026'
 const DESCRIPTION =
-  "Shopify is shutting down Stocky on August 31, 2026. See the official shutdown timeline, a side-by-side feature comparison, and a step-by-step migration guide to Verve AI's demand forecasting and purchase order automation."
+  "Looking for a Shopify Stocky replacement? Shopify is discontinuing Stocky on August 31, 2026. See the shutdown timeline, a side-by-side feature comparison, and a step-by-step migration guide to Verve AI's demand forecasting and purchase order automation."
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -88,6 +88,10 @@ const faqs: { q: string; a: string }[] = [
     q: 'Does Verve AI work with WooCommerce as well as Shopify?',
     a: "Yes. Verve AI is available as a native Shopify app and as a WooCommerce plugin, unlike Stocky which was Shopify-exclusive.",
   },
+  {
+    q: 'What to use instead of Stocky?',
+    a: "Verve AI is the most direct replacement — it covers the same demand forecasting and purchase order recommendations Stocky provided, plus SKU/variant-level forecasting and WooCommerce support Stocky never had. If you only need basic reorder suggestions rather than a dedicated forecasting tool, Shopify's own native options (Sidekick AI, purchase orders in Shopify Admin) are a lighter-weight alternative.",
+  },
 ]
 
 const faqSchema = {
@@ -119,15 +123,16 @@ export default function StockyAlternativePage() {
               className="text-sm font-semibold uppercase tracking-widest mb-3"
               style={{ color: 'rgb(239, 68, 68)' }}
             >
-              Stocky Shutdown — August 31, 2026
+              Stocky Shutdown Date: August 31, 2026
             </p>
             <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
               Stocky is Shutting Down August 31, 2026 — Here&apos;s Your Replacement
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Shopify is discontinuing Stocky, its built-in demand forecasting and purchase order
-              tool for POS Pro merchants. If you rely on Stocky to decide what to reorder, you need
-              a replacement in place before it stops working.
+              Stocky shutting down doesn&apos;t have to mean scrambling in August. Shopify&apos;s
+              built-in demand forecasting and purchase order tool for POS Pro merchants is being
+              retired, and if you rely on it to decide what to reorder, you need a replacement in
+              place before it stops working.
             </p>
             <p className="text-sm text-gray-500 italic mb-8">Last verified: August 2026</p>
             <div className="flex flex-wrap gap-4">
@@ -153,8 +158,10 @@ export default function StockyAlternativePage() {
                 What&apos;s Actually Happening to Stocky
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Shopify has confirmed a firm shutdown timeline for Stocky, its inventory
-                forecasting and purchase order tool bundled with Shopify POS Pro. According to{' '}
+                <span className="font-semibold">Stocky app discontinued</span> — here&apos;s
+                Shopify&apos;s official timeline, confirmed stage by stage. Shopify has confirmed a
+                firm shutdown timeline for Stocky, its inventory forecasting and purchase order
+                tool bundled with Shopify POS Pro. According to{' '}
                 <a
                   href="https://help.shopify.com/en/manual/products/inventory/transitioning-from-stocky"
                   target="_blank"
