@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSupabaseAdmin } from '@/lib/supabase'
 import { sendFollowUpStep } from '@/lib/sendFollowUp'
+import { sendGa4LeadEvent, parseGa4ClientIdFromCookie } from '@/lib/ga4'
+import { randomUUID } from 'crypto'
 
 const INTERACTIVE_TOOLS = new Set(['safety-stock-calculator', 'reorder-point-calculator'])
 
@@ -58,6 +60,18 @@ export async function POST(req: NextRequest) {
     await sendFollowUpStep({ leadId: data.id, email: cleanEmail, name: cleanName, toolSlug, day: 0 })
   } catch (sendError) {
     console.error('Follow-up email (day 0) failed:', sendError)
+  }
+
+  // Best-effort: records this conversion directly with GA4 server-side, so it
+  // doesn't depend on the GTM container's own tag configuration (see
+  // src/lib/ga4.ts for why). No-ops if GA4_MEASUREMENT_ID/GA4_API_SECRET
+  // aren't set, and must never break lead capture if it fails.
+  try {
+    const gaClientId =
+      parseGa4ClientIdFromCookie(req.cookies.get('_ga')?.value) ?? randomUUID()
+    await sendGa4LeadEvent({ clientId: gaClientId, toolSlug, toolName })
+  } catch (gaError) {
+    console.error('GA4 server-side conversion event failed:', gaError)
   }
 
   return NextResponse.json({ success: true, ...(redirectUrl ? { redirectUrl } : {}) })
