@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import CTAButton from '@/components/CTAButton'
 import { SHOPIFY_URL, WOOCOMMERCE_URL, SITE_URL } from '@/lib/content'
 
-const TITLE = 'Stocky Alternative for Shopify — Migrate Before Aug 31, 2026'
+const TITLE = 'Stocky Alternative for Shopify — Stocky Has Shut Down'
 const DESCRIPTION =
-  "Looking for a Shopify Stocky replacement? Shopify is discontinuing Stocky on August 31, 2026. See the shutdown timeline, a side-by-side feature comparison, and a step-by-step migration guide to Verve AI's demand forecasting and purchase order automation."
+  "Looking for a Shopify Stocky replacement? Shopify discontinued Stocky on August 31, 2026. See what happened, a side-by-side feature comparison, and a step-by-step migration guide to Verve AI's demand forecasting and purchase order automation."
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const comparisonRows: { label: string; stocky: string; verve: string }[] = [
   {
     label: 'Status',
-    stocky: 'Shutting down Aug 31, 2026 — delisted from the App Store since Feb 2, 2026',
+    stocky: 'Shut down Aug 31, 2026 — delisted from the App Store since Feb 2, 2026',
     verve: 'Actively developed, available now',
   },
   {
@@ -77,8 +77,8 @@ const faqs: { q: string; a: string }[] = [
     a: "No. Verve AI's demand forecasts are built from your Shopify order history directly — not from Stocky's exported files — so you can connect your store and start forecasting immediately, with no import step required.",
   },
   {
-    q: 'What happens to my Stocky data after August 31, 2026?',
-    a: "According to Shopify's own migration guide, Stocky and all of its APIs stop working entirely on August 31, 2026. Shopify provides read-only access to export your data for at least 90 days afterward, but nothing is migrated automatically — you need to export what you want to keep before the deadline.",
+    q: 'What happens to my Stocky data now that Stocky has shut down?',
+    a: "According to Shopify's own migration guide, Stocky and all of its APIs stopped working entirely on August 31, 2026. Shopify is providing read-only access to export your data for at least 90 days afterward, but nothing was migrated automatically — if you haven't already exported what you want to keep, do it now rather than waiting for that window to close.",
   },
   {
     q: 'Can I export my supplier list from Stocky?',
@@ -123,18 +123,19 @@ export default function StockyAlternativePage() {
               className="text-sm font-semibold uppercase tracking-widest mb-3"
               style={{ color: 'rgb(239, 68, 68)' }}
             >
-              Stocky Shutdown Date: August 31, 2026
+              Stocky Shutdown Date: August 31, 2026 — Now Complete
             </p>
             <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              Stocky is Shutting Down August 31, 2026 — Here&apos;s Your Replacement
+              Stocky Shut Down on August 31, 2026 — Here&apos;s Your Replacement
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Stocky shutting down doesn&apos;t have to mean scrambling in August. Shopify&apos;s
-              built-in demand forecasting and purchase order tool for POS Pro merchants is being
-              retired, and if you rely on it to decide what to reorder, you need a replacement in
-              place before it stops working.
+              Stocky shutting down didn&apos;t have to mean scrambling — but if you haven&apos;t
+              replaced it yet, the clock has already run out. Shopify&apos;s built-in demand
+              forecasting and purchase order tool for POS Pro merchants was fully retired on
+              August 31, 2026, and if you relied on it to decide what to reorder, you need a
+              replacement in place now.
             </p>
-            <p className="text-sm text-gray-500 italic mb-8">Last verified: August 2026</p>
+            <p className="text-sm text-gray-500 italic mb-8">Last verified: September 2026</p>
             <div className="flex flex-wrap gap-4">
               <CTAButton href={SHOPIFY_URL} variant="teal" size="lg" external>
                 Start Free Trial — Shopify
@@ -158,10 +159,10 @@ export default function StockyAlternativePage() {
                 What&apos;s Actually Happening to Stocky
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                <span className="font-semibold">Stocky app discontinued</span> — here&apos;s
-                Shopify&apos;s official timeline, confirmed stage by stage. Shopify has confirmed a
-                firm shutdown timeline for Stocky, its inventory forecasting and purchase order
-                tool bundled with Shopify POS Pro. According to{' '}
+                The <span className="font-semibold">Stocky app discontinued</span> for good on
+                August 31, 2026, following the staged timeline Shopify announced for it — its
+                inventory forecasting and purchase order tool bundled with Shopify POS Pro.
+                According to{' '}
                 <a
                   href="https://help.shopify.com/en/manual/products/inventory/transitioning-from-stocky"
                   target="_blank"
@@ -192,15 +193,17 @@ export default function StockyAlternativePage() {
                   className="rounded-xl p-5 border"
                   style={{ backgroundColor: 'rgba(239, 68, 68, 0.04)', borderColor: 'rgba(239, 68, 68, 0.15)' }}
                 >
-                  <p className="font-bold text-gray-900 mb-1">August 31, 2026</p>
+                  <p className="font-bold text-gray-900 mb-1">August 31, 2026 — Complete Shutdown</p>
                   <p className="text-sm text-gray-600">
-                    Complete shutdown. Stocky and all of its APIs stop working entirely. Shopify
-                    provides read-only access to export your data for at least 90 days afterward.
+                    Stocky and all of its APIs stopped working entirely. Shopify is providing
+                    read-only access to export your data for at least 90 days afterward — likely
+                    into late November 2026, though the exact cutoff isn&apos;t published, so
+                    export what you need as soon as possible rather than waiting.
                   </p>
                 </div>
               </div>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Two details are easy to miss but matter for planning your migration: supplier
+                Two details were easy to miss but still matter now: supplier
                 records{' '}
                 <span className="font-semibold">cannot</span> be exported from Stocky at all, and
                 historical purchase orders can&apos;t be imported into Shopify&apos;s native
@@ -275,8 +278,8 @@ export default function StockyAlternativePage() {
                 {[
                   {
                     n: '1',
-                    title: 'Export what you want to keep from Stocky before Aug 31',
-                    body: "Follow Shopify's own instructions to export completed purchase order reports, stocktake history, and historical cost data as CSVs. Note: supplier records can't be exported — write those down separately if you want a backup.",
+                    title: 'Export what you want to keep from Stocky while read-only access lasts',
+                    body: "Stocky shut down on August 31, 2026, but Shopify's own instructions say read-only export access remains available for at least 90 days afterward. Export completed purchase order reports, stocktake history, and historical cost data as CSVs now if you haven't already. Note: supplier records can't be exported — write those down separately if you want a backup.",
                   },
                   {
                     n: '2',
@@ -361,7 +364,7 @@ export default function StockyAlternativePage() {
 
             {/* Final CTA */}
             <section className="my-12 text-center rounded-2xl p-10" style={{ backgroundColor: 'rgb(19, 33, 68)' }}>
-              <p className="text-2xl font-bold text-white mb-2">Don&apos;t Wait Until August 31</p>
+              <p className="text-2xl font-bold text-white mb-2">Stocky Has Shut Down — Don&apos;t Wait to Replace It</p>
               <p className="text-white/70 mb-8">
                 Set up your replacement now — most merchants are fully forecasting within a day.
               </p>
