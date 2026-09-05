@@ -118,8 +118,17 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/10 text-right">
-          <p className="text-sm text-white/60">Copyright © 2026 Verve AI. All rights reserved.</p>
+        <div className="mt-10 pt-6 border-t border-white/10 flex flex-col-reverse sm:flex-row items-center justify-between gap-4">
+          <a href="https://tools.cafe" target="_blank" rel="noopener" className="shrink-0">
+            <img
+              src="https://tools.cafe/b/light.svg"
+              alt="Featured on tools.cafe"
+              width={256}
+              height={80}
+              className="h-auto w-[160px] sm:w-[200px] max-w-full"
+            />
+          </a>
+          <p className="text-sm text-white/60 text-center sm:text-right">Copyright © 2026 Verve AI. All rights reserved.</p>
         </div>
       </div>
     </footer>
