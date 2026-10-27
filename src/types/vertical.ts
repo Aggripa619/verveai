@@ -62,4 +62,5 @@ export interface PseoPageEntry {
   meta_description: string  // ≤155 chars
   hero_intro: string        // 2-3 sentences, keyword-matched
   deep_dive?: string        // ~100-180 words, genuinely page-specific (not vertical-generic)
+  noindex?: boolean         // thin page: rendered noindex,follow, left out of sitemap and sibling links
 }

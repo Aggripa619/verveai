@@ -254,8 +254,10 @@ export function getSiblingPseoPages(slug: string, count = 5): { slug: string; h1
   const current = pages[slug]
   if (!current) return []
 
+  // Noindex pages stay in the ring only as the current page (so they still
+  // link out); they're never picked as a link target.
   const verticalSlugs = Object.keys(pages)
-    .filter((s) => pages[s].vertical === current.vertical)
+    .filter((s) => pages[s].vertical === current.vertical && (s === slug || !pages[s].noindex))
     .sort()
 
   const n = verticalSlugs.length
@@ -372,6 +374,28 @@ export function getRelatedReadingForVertical(
       return post ? { slug, title: post.title } : null
     })
     .filter(Boolean) as { slug: string; title: string }[]
+}
+
+// Blog posts used to have zero links to pSEO pages, leaving most of them
+// reachable only via the sitemap (and "Crawled - currently not indexed").
+// content/blog-industry-links.json hand-maps each topically related post to
+// the pSEO pages worth recovering (2026-10-27 index-recovery pass).
+let industryLinksCache: Record<string, string[]> | null = null
+
+export function getIndustryLinksForBlogPost(slug: string): { slug: string; h1: string }[] {
+  if (!industryLinksCache) {
+    try {
+      industryLinksCache = JSON.parse(
+        fs.readFileSync(path.join(CONTENT_DIR, 'blog-industry-links.json'), 'utf-8')
+      ) as Record<string, string[]>
+    } catch {
+      industryLinksCache = {}
+    }
+  }
+  const pages = loadPseoPages()
+  return (industryLinksCache[slug] ?? [])
+    .filter((s) => pages[s] && !pages[s].noindex)
+    .map((s) => ({ slug: s, h1: pages[s].h1 }))
 }
 
 // ─── Constants ───────────────────────────────────────────────────────────────

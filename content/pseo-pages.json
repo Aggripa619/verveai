@@ -47,42 +47,6 @@
     "deep_dive": "Clothing inventory management involves more moving parts than most software accounts for: receiving shipments against a purchase order, reconciling counts after a sample sale or in-store return, and knowing which of dozens of active styles actually need attention this week. Generic inventory software treats a clothing SKU the same way it treats any other product — a single number that goes up or down. Verve AI treats every size-colour combination as its own demand signal, so the software actually reflects how clothing sells: Small Red moving faster than Large Red, a colourway quietly outperforming the one you expected to be the hero piece. That distinction is what turns inventory software from a counting tool into a buying decision tool.",
     "deep_dive_tier": "authored"
   },
-  "clothing-store-inventory-app-shopify": {
-    "slug": "clothing-store-inventory-app-shopify",
-    "keyword": "clothing store inventory app Shopify",
-    "vertical": "apparel",
-    "page_type": "vertical_landing",
-    "h1": "Inventory App for Clothing Stores on Shopify",
-    "meta_title": "Clothing Store Inventory App for Shopify | Verve AI",
-    "meta_description": "Verve AI is the inventory app clothing stores on Shopify use for demand forecasting and automated purchase orders. Set up in minutes.",
-    "hero_intro": "Clothing stores on Shopify juggle hundreds of variants, seasonal shifts, and supplier lead times — all while trying to keep shelves stocked and avoid tying up cash in slow-moving styles. Verve AI is the inventory app that fixes this, turning your Shopify order history into accurate forecasts and automated purchase orders.",
-    "deep_dive": "A clothing store running Shopify — whether purely online or syncing with a physical location via Shopify POS — needs an inventory app that understands two things a generic stock tracker doesn't: that demand for a style is really a demand curve split across sizes, and that a stockout on your best colourway costs you the sale permanently, not just until the next shipment. Verve AI connects to your Shopify store (and any POS locations) and builds a demand forecast for every variant you carry, then converts that forecast directly into a purchase order you can review and approve. It's built to replace the habit of checking stock levels reactively with a system that tells you what to reorder before you're already out.",
-    "deep_dive_tier": "authored"
-  },
-  "shopify-inventory-app-fashion-brands": {
-    "slug": "shopify-inventory-app-fashion-brands",
-    "keyword": "Shopify inventory app for fashion brands",
-    "vertical": "apparel",
-    "page_type": "vertical_landing",
-    "h1": "The Shopify Inventory App for Fashion Brands",
-    "meta_title": "Shopify Inventory App for Fashion Brands | Verve AI",
-    "meta_description": "Verve AI is a Shopify inventory app built for fashion brands. AI-powered demand forecasting and automated purchase orders — free trial included.",
-    "hero_intro": "Fashion brands on Shopify need more than a basic inventory tracker — they need a forecasting engine that understands size runs, seasonal demand curves, and supplier lead times. Verve AI delivers exactly that, with AI demand forecasting and automated purchase orders built for how fashion brands actually operate.",
-    "deep_dive": "Most fashion brands on Shopify are already running several apps — for email, reviews, upsells — and the last thing an inventory tool should add is more manual maintenance. Verve AI connects to your existing Shopify store and pulls your order history, stock levels, and variant data automatically, with no CSV exports or ongoing data entry required to keep it current. What it adds to your existing app stack is the piece none of the others cover: AI demand forecasting at the SKU level and automated purchase order recommendations, built specifically around how fashion inventory behaves — seasonal curves, size-run imbalances, and the lead times that make timing a reorder correctly so consequential.",
-    "deep_dive_tier": "authored"
-  },
-  "shopify-clothing-inventory-tracker": {
-    "slug": "shopify-clothing-inventory-tracker",
-    "keyword": "Shopify clothing inventory tracker",
-    "vertical": "apparel",
-    "page_type": "vertical_landing",
-    "h1": "Shopify Clothing Inventory Tracker",
-    "meta_title": "Shopify Clothing Inventory Tracker | Verve AI",
-    "meta_description": "Track and forecast clothing inventory on Shopify with Verve AI. AI-powered demand forecasts by variant and automated purchase order suggestions.",
-    "hero_intro": "Tracking clothing inventory on Shopify manually is a constant game of catch-up — checking stock levels, estimating what to reorder, and hoping you got the quantities right. Verve AI replaces this with AI-powered demand forecasting that tracks every variant and tells you exactly when and how much to reorder.",
-    "deep_dive": "A basic inventory tracker tells you how many units of a SKU are left — it doesn't tell you whether that's two weeks of stock or two days, or which of your dozens of active variants need a reorder placed this week versus next month. Verve AI goes a step further than tracking: it builds a demand forecast for every size and colour combination from your Shopify sales history, so instead of a static count, you get a projected stockout date and a recommended reorder quantity for each variant. It's the difference between checking a number and knowing what to do about it — built for clothing sellers who've outgrown manually scanning stock levels to decide what to buy next.",
-    "deep_dive_tier": "authored"
-  },
   "demand-forecasting-apparel-brands": {
     "slug": "demand-forecasting-apparel-brands",
     "keyword": "demand forecasting for apparel brands",
@@ -131,18 +95,6 @@
     "deep_dive": "Building a purchase order manually for a clothing brand means cross-referencing current stock, estimating demand for the weeks a reorder will take to arrive, and repeating that calculation across every size and colour in a style — a process that eats hours and is easy to get wrong under time pressure. Verve AI automates the entire chain: it forecasts demand at the variant level from your Shopify sales history, factors in your actual supplier lead times, and generates a ready-to-approve purchase order with quantities broken out by size and colour. You review and confirm rather than build from scratch, which turns a task that used to take an afternoon into a five-minute check before the order goes out.",
     "deep_dive_tier": "authored"
   },
-  "purchase-order-software-apparel": {
-    "slug": "purchase-order-software-apparel",
-    "keyword": "purchase order software for apparel",
-    "vertical": "apparel",
-    "page_type": "feature",
-    "h1": "Purchase Order Software for Apparel Brands",
-    "meta_title": "Purchase Order Software for Apparel Brands | Verve AI",
-    "meta_description": "Verve AI gives apparel brands purpose-built purchase order software on Shopify. Forecast demand, set lead times, and generate POs automatically.",
-    "hero_intro": "Apparel brands need purchase order software that understands the complexity of size runs, colourways, and seasonal lead times — not a generic tool bolted onto a spreadsheet. Verve AI is purpose-built purchase order software for apparel on Shopify, linking AI demand forecasts directly to your supplier ordering workflow.",
-    "deep_dive": "Purchase order software built for general retail typically treats a reorder as a single line item: product, quantity, done. Apparel doesn't work that way — a single PO for one style might need a different quantity for every size and colour combination, calculated against different sell-through rates and a shared supplier lead time. Verve AI generates purchase orders that reflect that complexity automatically: quantities are broken out by variant based on AI demand forecasts built from your Shopify sales history, so the PO you review is already sized correctly per size and colourway rather than a single number you have to manually split across a size run yourself.",
-    "deep_dive_tier": "authored"
-  },
   "how-to-prevent-stockouts-clothing-store": {
     "slug": "how-to-prevent-stockouts-clothing-store",
     "keyword": "how to prevent stockouts clothing store",
@@ -179,18 +131,6 @@
     "deep_dive": "The core challenge in managing size and colour variants on Shopify is that native inventory tools show you a count per variant but no signal about whether that count is healthy or already too low relative to how fast it's selling. A style with six sizes and four colours creates 24 individual demand curves to track, and doing that manually in a spreadsheet doesn't scale much past a handful of active styles. Verve AI forecasts demand for every variant independently, learning that — for example — Medium Black sells at a different rate than Small Black within the same style, and surfaces which specific variants need a reorder before you'd otherwise notice from a spot-check of stock levels.",
     "deep_dive_tier": "authored"
   },
-  "shopify-variant-inventory-clothing": {
-    "slug": "shopify-variant-inventory-clothing",
-    "keyword": "Shopify variant inventory management clothing",
-    "vertical": "apparel",
-    "page_type": "vertical_landing",
-    "h1": "Shopify Variant Inventory Management for Clothing",
-    "meta_title": "Shopify Variant Inventory Management | Verve AI",
-    "meta_description": "Verve AI gives clothing brands on Shopify true variant-level inventory management. Forecast demand by size and colour — no spreadsheets needed.",
-    "hero_intro": "Shopify's native inventory tools track stock at the variant level, but they don't tell you which variants to reorder or how many to buy. Verve AI gives clothing brands true variant-level inventory intelligence — forecasting demand by size and colour, flagging reorder points, and generating purchase orders before stockouts occur.",
-    "deep_dive": "Shopify tracks inventory at the variant level by default — you can see exactly how many Medium Blues you have left at any moment. What it doesn't do is tell you whether that count is a problem, because it has no model of how fast that specific variant is actually selling relative to its size-run siblings. Verve AI adds that missing layer: true variant-level demand intelligence that forecasts each size and colour combination independently, flags which ones are heading toward a stockout, and recommends reorder quantities that reflect the real split in how a style sells — not an assumption that every size moves at the same rate.",
-    "deep_dive_tier": "authored"
-  },
   "inventory-management-boutique-clothing": {
     "slug": "inventory-management-boutique-clothing",
     "keyword": "inventory management for boutique clothing store",
@@ -201,18 +141,6 @@
     "meta_description": "Boutique clothing stores need smart inventory management without enterprise complexity. Verve AI gives boutiques AI forecasting and automated POs on Shopify.",
     "hero_intro": "Boutique clothing stores have unique inventory challenges — curated selections, limited quantities, and customers who expect their favourite styles to always be in stock. Verve AI gives boutique owners the demand forecasting and purchase order automation they need to stay stocked without overcommitting to slow-moving styles.",
     "deep_dive": "Boutique clothing stores operate on thinner margins for error than larger retailers — a curated assortment means each style carries more weight, and a stockout on a customer's go-to piece can cost a relationship built over years, not just one sale. At the same time, boutiques can't afford to tie up limited cash in slow-moving stock the way a bigger buyer might absorb the loss. Verve AI is built to work at boutique scale: it forecasts demand for every style and variant you carry from your Shopify sales history, so reorder decisions are grounded in actual velocity rather than a hunch about what \"usually\" sells, and you can hold enough of your bestsellers without over-committing to the rest of the range.",
-    "deep_dive_tier": "authored"
-  },
-  "inventory-software-dtc-apparel": {
-    "slug": "inventory-software-dtc-apparel",
-    "keyword": "inventory software for DTC apparel brand",
-    "vertical": "apparel",
-    "page_type": "vertical_landing",
-    "h1": "Inventory Software for DTC Apparel Brands",
-    "meta_title": "Inventory Software for DTC Apparel Brands | Verve AI",
-    "meta_description": "DTC apparel brands need inventory software that scales with demand. Verve AI delivers AI forecasting and automated purchase orders built for Shopify.",
-    "hero_intro": "DTC apparel brands face a unique inventory challenge — no wholesale buffer, direct exposure to demand volatility, and customers who expect fast fulfilment. Verve AI gives DTC apparel brands the inventory software they need to forecast demand accurately and automate purchase orders before stockouts hurt conversions.",
-    "deep_dive": "DTC apparel brands carry more inventory risk per unit than brands with a wholesale buffer to absorb miscalculations — every buying decision is a direct bet on your own demand forecast, with ad spend actively driving traffic to product pages that need to stay in stock to convert. Verve AI forecasts demand at the variant level from your Shopify sales history, so purchase order quantities reflect actual size and colourway velocity rather than a single blended estimate across the whole style. For a DTC brand, that precision matters directly to the bottom line: understocking a bestseller wastes the ad spend that drove the traffic in the first place, and overstocking ties up cash you need for the next drop.",
     "deep_dive_tier": "authored"
   },
   "inventory-management-streetwear-brand": {
@@ -239,18 +167,6 @@
     "deep_dive": "Luxury fashion inventory carries a different risk profile than mass-market apparel: overstock isn't just a cash-flow problem, it's a brand-positioning problem, since markdowns and clearance racks actively erode the perceived exclusivity that justifies the price point in the first place. But understocking a piece that a high-value, often waitlist-driven customer wants can mean losing that relationship entirely. Verve AI is built for that low-volume, high-stakes balance — forecasting demand at the individual SKU level from your Shopify sales history so you can hold precisely enough stock to serve real demand without ever needing the markdown rack to clear excess, on styles where every unit matters.",
     "deep_dive_tier": "authored"
   },
-  "inventory-app-fast-fashion-shopify": {
-    "slug": "inventory-app-fast-fashion-shopify",
-    "keyword": "inventory app for fast fashion Shopify",
-    "vertical": "apparel",
-    "page_type": "vertical_landing",
-    "h1": "Inventory App for Fast Fashion Brands on Shopify",
-    "meta_title": "Inventory App for Fast Fashion Shopify | Verve AI",
-    "meta_description": "Fast fashion moves fast — your inventory app should too. Verve AI gives fast fashion brands on Shopify AI-powered forecasting and automated purchase orders.",
-    "hero_intro": "Fast fashion brands on Shopify move at a pace that makes manual inventory management impossible — styles turn over rapidly, demand signals need to be acted on immediately, and restocking windows are short. Verve AI is the inventory app built for this pace, with real-time demand forecasting and one-click purchase orders.",
-    "deep_dive": "Fast fashion runs on a different clock than the rest of retail: a drop can sell out within days, a restock decision has to be made almost immediately, and by the time a weekly inventory review would normally happen, the opportunity is often gone. An inventory app built for fast fashion on Shopify needs to surface demand spikes as they happen, not on a lag. Verve AI monitors sales velocity continuously and flags anomalies — a style selling meaningfully faster than its forecast — the moment they emerge, then recalculates reorder recommendations in real time so you can place a fast-turnaround PO while the trend is still live, instead of finding out it sold out after the fact in your Shopify admin.",
-    "deep_dive_tier": "authored"
-  },
   "inventory-management-supplement-brands": {
     "slug": "inventory-management-supplement-brands",
     "keyword": "inventory management for supplement brands",
@@ -263,18 +179,6 @@
     "deep_dive": "Supplement brands carry a specific combination of constraints that most inventory tools weren't designed around at once: products with a hard expiry date, subscription orders that create predictable recurring demand on top of one-time sales, and regulatory batch-tracking requirements that turn a simple stock count into a compliance record. Verve AI was built around that combination — it forecasts demand at the SKU level from your Shopify sales history, models subscription and one-time demand separately, and maintains a full batch and lot audit trail automatically, so the same system that tells you what to reorder can also answer a compliance question in minutes rather than an afternoon of manual cross-referencing. Most generic inventory software treats a bottle of supplements the same way it treats a t-shirt — no concept of batch expiry, lot compliance, or subscription-layered demand — which is exactly the gap purpose-built supplement inventory management software needs to close.",
     "deep_dive_tier": "authored"
   },
-  "health-supplement-stock-management": {
-    "slug": "health-supplement-stock-management",
-    "keyword": "health supplement stock management",
-    "vertical": "supplements",
-    "page_type": "vertical_landing",
-    "h1": "Health Supplement Stock Management for Shopify Brands",
-    "meta_title": "Health Supplement Stock Management | Verve AI",
-    "meta_description": "Smarter stock management for health supplement brands. Verve AI forecasts demand, tracks expiry, and automates POs on Shopify.",
-    "hero_intro": "Health supplement stock management is a balancing act — hold too little and you lose sales; hold too much and batches expire before they sell. Verve AI gives Shopify supplement brands a smarter approach, using your actual sales history and lead times to calculate exactly how much stock to carry and when to reorder.",
-    "deep_dive": "Stock management for health supplements is a genuine balancing act in a way most retail categories aren't: carrying too little risks losing subscription customers who expect their product to always be available, while carrying too much risks a batch expiring before it sells — turning inventory into a write-off instead of revenue. Verve AI calculates the specific reorder point and quantity for each SKU using your actual sales velocity, supplier lead time, and remaining shelf life on current stock, so the buying decision isn't a guess between two bad outcomes but a number grounded in how the product is actually selling.",
-    "deep_dive_tier": "authored"
-  },
   "nutraceutical-inventory-software": {
     "slug": "nutraceutical-inventory-software",
     "keyword": "nutraceutical inventory software",
@@ -285,7 +189,8 @@
     "meta_description": "Nutraceutical inventory software with expiry tracking, batch compliance, and AI demand forecasting. Built for Shopify brands.",
     "hero_intro": "Nutraceutical brands operate under stricter inventory requirements than most e-commerce categories — batch traceability, expiry management, and regulatory lot tracking are non-negotiable. Verve AI is the Shopify inventory software that meets these requirements head-on, giving nutraceutical brands FIFO-aware stock management and forecasting in one connected system.",
     "deep_dive": "Nutraceutical brands operate under inventory requirements that go beyond what most e-commerce inventory software handles — full batch traceability, expiry-driven FIFO rotation, and lot records that need to be retrievable instantly if a compliance question or recall ever comes up. Verve AI treats these as first-class requirements rather than an add-on: every purchase order records batch numbers and expiry dates, every Shopify order is linked back to the specific lot it fulfilled, and the same data powers demand forecasts that keep you from over-buying stock you can't sell through before it expires.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "supplement-inventory-app-shopify": {
     "slug": "supplement-inventory-app-shopify",
@@ -335,18 +240,6 @@
     "deep_dive": "Demand forecasting for supplement brands has to solve a harder problem than most e-commerce categories: subscription orders create a demand floor that's already partly locked in, seasonal peaks like January can be several times baseline volume, and every purchase order decision is constrained by how much shelf life is left on the stock you're buying. Verve AI models subscription and one-time demand as separate signals, layers in your specific seasonal pattern from historical Shopify sales, and updates the forecast weekly — so the 90-day outlook you're buying against reflects your actual current trajectory, not a static assumption made at the start of the quarter.",
     "deep_dive_tier": "authored"
   },
-  "health-product-forecasting-shopify": {
-    "slug": "health-product-forecasting-shopify",
-    "keyword": "health product sales forecasting Shopify",
-    "vertical": "supplements",
-    "page_type": "feature",
-    "h1": "Health Product Sales Forecasting for Shopify",
-    "meta_title": "Health Product Sales Forecasting Shopify | Verve AI",
-    "meta_description": "Forecast health product sales on Shopify with AI. Verve AI models seasonal demand, subscription uplift, and reorder timing.",
-    "hero_intro": "Accurate sales forecasting for health products on Shopify means accounting for subscription renewal patterns, campaign-driven spikes, and the hard seasonality of the wellness calendar. Verve AI analyses your full Shopify order history to build product-level forecasts that give you the confidence to place the right purchase orders — weeks before your stock runs out.",
-    "deep_dive": "Sales forecasting for health products only becomes useful once it accounts for the parts of demand that are predictable versus the parts that spike unexpectedly — subscription renewals compound steadily and can be forecast with real confidence, while a viral moment or a seasonal campaign can move volume well outside any trailing average. Verve AI builds both into its model from your Shopify order history: a reliable base forecast from recurring and steady demand, plus continuous monitoring for velocity spikes that need an immediate reorder response rather than waiting for the next scheduled review.",
-    "deep_dive_tier": "authored"
-  },
   "purchase-orders-supplement-supplier": {
     "slug": "purchase-orders-supplement-supplier",
     "keyword": "purchase orders supplement supplier",
@@ -357,7 +250,8 @@
     "meta_description": "Automate purchase orders to your supplement suppliers from Shopify. Verve AI calculates reorder quantities and timing automatically.",
     "hero_intro": "Placing purchase orders to supplement suppliers without a data-driven system means guessing — and guessing with a 30–60 day lead time means you either over-order and risk expiry write-offs, or under-order and run out. Verve AI calculates exactly how much to reorder from each supplier and when, based on your Shopify demand forecast, current stock levels, and supplier lead times.",
     "deep_dive": "Placing a purchase order to a supplement supplier without a demand-driven system means splitting the difference between two costly mistakes: over-order and risk an expiry write-off given lead times that often run 30 to 60 days, or under-order and run out while the next batch is still weeks away. Verve AI removes the guesswork by calculating the specific quantity to order from each supplier based on your Shopify demand forecast, current stock and remaining shelf life, and that supplier's actual lead time — so the PO you send reflects a real number, not a rounded-up estimate meant to cover uncertainty.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "supplement-inventory-expiry-tracking": {
     "slug": "supplement-inventory-expiry-tracking",
@@ -383,42 +277,6 @@
     "deep_dive": "FIFO — selling older batches before newer ones — sounds simple in principle but is genuinely hard to enforce manually once you're carrying more than a handful of active SKUs, because it requires knowing which batch is oldest at the moment an order ships, not just how much total stock you have. Verve AI tracks batch and expiry data automatically from your Shopify purchase order and fulfilment history, so FIFO rotation isn't something your team has to remember to do — the system already knows which batch should ship next and flags any batch that's falling behind its expected sell-through pace before it becomes a write-off.",
     "deep_dive_tier": "authored"
   },
-  "subscription-inventory-planning-supplements": {
-    "slug": "subscription-inventory-planning-supplements",
-    "keyword": "subscription inventory planning supplement DTC",
-    "vertical": "supplements",
-    "page_type": "blog",
-    "h1": "Subscription Inventory Planning for DTC Supplement Brands",
-    "meta_title": "Subscription Inventory Planning Supplements | Verve AI",
-    "meta_description": "How DTC supplement brands can plan inventory for subscription products — separating recurring demand from one-time sales for accurate forecasting.",
-    "hero_intro": "Subscription products change the inventory planning equation for DTC supplement brands in a fundamental way — you have a known, committed demand floor that grows every month as new subscribers sign up. This guide explains how to separate subscription demand from one-time purchase demand in your forecasting, and why blending the two leads to consistently inaccurate reorder decisions.",
-    "deep_dive": "The core shift subscription products introduce for DTC supplement brands is that a meaningful share of next month's demand is already known — it's sitting in your subscriber base as committed future orders, not a projection. Blending that committed demand with one-time purchase demand into a single forecast understates how predictable part of your business actually is, and typically leads to either buffer stock that's larger than necessary or a reorder that doesn't fully account for subscriber renewal timing. Verve AI forecasts the two streams separately from your Shopify order data, so inventory planning reflects what you actually owe subscribers plus a realistic estimate of new demand, rather than one blended number.",
-    "deep_dive_tier": "authored"
-  },
-  "forecast-demand-supplement-subscriptions": {
-    "slug": "forecast-demand-supplement-subscriptions",
-    "keyword": "how to forecast demand for supplement subscriptions",
-    "vertical": "supplements",
-    "page_type": "blog",
-    "h1": "How to Forecast Demand for Supplement Subscriptions",
-    "meta_title": "Forecast Demand for Supplement Subscriptions | Verve AI",
-    "meta_description": "Step-by-step guide to forecasting demand for supplement subscription products on Shopify — including churn, upsell, and seasonal adjustments.",
-    "hero_intro": "Forecasting demand for supplement subscription products requires a different methodology to standard e-commerce inventory planning. Your committed recurring orders provide a predictable base, but churn, new sign-up rates, and seasonal promotion uplift all affect the actual demand you need to stock for. This guide walks through how to build a reliable subscription demand forecast for your Shopify supplement store.",
-    "deep_dive": "Forecasting demand for a supplement subscription program means separating three different signals that a standard forecast would blend together: the committed base from existing subscribers who are due for their next shipment, the expected churn that will reduce that base slightly each cycle, and the new sign-up rate that's growing it. Verve AI models subscription demand from your actual Shopify subscription and order data rather than treating it as generic recurring revenue, so the forecast reflects your program's real trajectory — including how a promotion that drives a sign-up spike will show up in demand roughly one shipment cycle later.",
-    "deep_dive_tier": "authored"
-  },
-  "inventory-software-sports-nutrition": {
-    "slug": "inventory-software-sports-nutrition",
-    "keyword": "inventory software for sports nutrition brand",
-    "vertical": "supplements",
-    "page_type": "vertical_landing",
-    "h1": "Inventory Software for Sports Nutrition Brands",
-    "meta_title": "Inventory Software for Sports Nutrition | Verve AI",
-    "meta_description": "Inventory software built for sports nutrition brands on Shopify. AI forecasting, batch tracking, and automated POs — all in one app.",
-    "hero_intro": "Sports nutrition brands face some of the sharpest demand seasonality in the supplement category — summer bulk season, January resolution peaks, and major event calendars all drive spikes that require inventory to be planned weeks in advance. Verve AI gives sports nutrition brands on Shopify the forecasting tools to stay ahead of demand without carrying excess stock between peaks.",
-    "deep_dive": "Sports nutrition carries some of the sharpest seasonality in the supplement category — a summer bulking push, the January resolution spike, and demand tied to specific event calendars like marathon season, all compressed into windows where being out of stock costs real revenue and being overstocked between peaks ties up cash for months. Verve AI models these seasonal curves from your own Shopify sales history rather than a generic industry assumption, so purchase orders are timed to build stock ahead of a known peak and pull back once it passes, instead of carrying flat, year-round inventory levels that are wrong for most of the calendar.",
-    "deep_dive_tier": "authored"
-  },
   "inventory-management-protein-powder-brand": {
     "slug": "inventory-management-protein-powder-brand",
     "keyword": "inventory management for protein powder brand",
@@ -431,18 +289,6 @@
     "deep_dive": "Protein powder inventory is unusually complex for a single product category — most brands carry the same formulation across multiple flavours and container sizes, and flavour preference alone can create a 3x difference in sell-through rate between your top and bottom performer. A single blended forecast across the whole product line misses this entirely. Verve AI forecasts demand at the individual flavour-and-size variant level from your Shopify sales history, so a reorder reflects the fact that Chocolate 2lb might need restocking weeks before Unflavoured 5lb does, and tracks batch expiry against each variant's specific sell-through pace.",
     "deep_dive_tier": "authored"
   },
-  "inventory-management-wellness-brand": {
-    "slug": "inventory-management-wellness-brand",
-    "keyword": "inventory management for wellness brand Shopify",
-    "vertical": "supplements",
-    "page_type": "vertical_landing",
-    "h1": "Inventory Management for Wellness Brands on Shopify",
-    "meta_title": "Inventory Management for Wellness Brands | Verve AI",
-    "meta_description": "AI inventory management for wellness brands on Shopify. Forecast demand, track expiry, and automate purchase orders with Verve AI.",
-    "hero_intro": "Wellness brands on Shopify sell products that span multiple supplement categories — from vitamins and adaptogens to functional foods and beauty supplements — each with its own demand patterns and shelf life considerations. Verve AI handles this complexity, delivering demand forecasting and automated purchase orders across your full wellness catalogue in one connected Shopify integration.",
-    "deep_dive": "Wellness brands often span several supplement sub-categories at once — vitamins, adaptogens, functional foods, beauty-from-within products — each of which behaves differently: different seasonality, different typical basket size, different shelf life. Verve AI doesn't apply one demand model across a catalogue like that; it forecasts every SKU from your actual Shopify sales history, so an adaptogen blend with a slow, steady sell-through gets treated differently from a beauty supplement that spikes around gifting season, all inside one connected view instead of separate spreadsheets per category.",
-    "deep_dive_tier": "authored"
-  },
   "dtc-supplement-replenishment-software": {
     "slug": "dtc-supplement-replenishment-software",
     "keyword": "DTC supplement replenishment software",
@@ -453,7 +299,8 @@
     "meta_description": "Automated replenishment software for DTC supplement brands. Verve AI forecasts demand and generates purchase orders from your Shopify data.",
     "hero_intro": "DTC supplement brands need replenishment software that understands the unique dynamics of selling direct — subscription demand layered on top of one-time purchases, campaign-driven spikes, and the tight cash flow that makes over-ordering as damaging as running out. Verve AI is the replenishment software built for DTC supplement brands, with AI-driven forecasts and one-click purchase orders from your Shopify data.",
     "deep_dive": "DTC supplement brands run on tighter cash-flow margins than wholesale-backed brands — every unit purchased is a direct bet funded by the brand itself, with no distributor buffer to absorb a bad call. Replenishment software for this model needs to separate the predictable, compounding demand of subscribers from the more volatile one-time-purchase demand driven by ads and campaigns, because blending the two into a single average understates how much of your future demand is already committed. Verve AI forecasts both streams independently from your Shopify order history, so replenishment quantities reflect what you actually owe your subscriber base plus a realistic estimate of new-customer volume — not a single number that risks either stranding cash in excess stock or running dry mid-campaign.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-vitamin-brand": {
     "slug": "inventory-management-vitamin-brand",
@@ -527,30 +374,6 @@
     "deep_dive": "Stock management across a large beauty catalogue means tracking three different things at once for every SKU: how fast it's actually selling right now, how much shelf life is left on the batch you're holding, and whether a reorder placed today will arrive before either a stockout or an expiry date hits first. Verve AI calculates all three from your Shopify sales and inventory history automatically, so instead of manually cross-referencing spreadsheets across a catalogue that can run into the thousands of SKUs, you get a single prioritised view of which products need attention and why.",
     "deep_dive_tier": "authored"
   },
-  "beauty-brand-inventory-app-shopify": {
-    "slug": "beauty-brand-inventory-app-shopify",
-    "keyword": "beauty brand inventory app Shopify",
-    "vertical": "beauty",
-    "page_type": "vertical_landing",
-    "h1": "Beauty Brand Inventory App for Shopify",
-    "meta_title": "Beauty Brand Inventory App Shopify | Verve AI",
-    "meta_description": "The Shopify inventory app built for beauty brands. AI demand forecasting, shade-level tracking, and automated purchase orders.",
-    "hero_intro": "Beauty brands need an inventory app that can keep pace with the speed of the category — real-time demand sensing for viral moments, shade-level forecasting across large ranges, and automated purchase orders that respond to your data rather than your memory. Verve AI is the Shopify inventory app built for exactly this, with no spreadsheets required.",
-    "deep_dive": "Beauty demand moves faster than the review cycle most inventory apps are built around — a product can go from steady seller to sold-out within a single viral news cycle, and by the time a weekly stock review would normally happen, the window to reorder and cash in on the moment is often already closing. Verve AI is built to operate on that timescale: it watches sales velocity continuously rather than on a fixed schedule, flags a spike the moment it starts forming, and recalculates reorder urgency in real time so the app is telling you what to do today, not summarising what happened last week.",
-    "deep_dive_tier": "authored"
-  },
-  "shopify-inventory-cosmetics-brand": {
-    "slug": "shopify-inventory-cosmetics-brand",
-    "keyword": "Shopify inventory app for cosmetics brand",
-    "vertical": "beauty",
-    "page_type": "vertical_landing",
-    "h1": "Shopify Inventory App for Cosmetics Brands",
-    "meta_title": "Shopify Inventory App for Cosmetics | Verve AI",
-    "meta_description": "Verve AI is the Shopify inventory app built for cosmetics brands. Shade-level forecasting, expiry management, and automated POs.",
-    "hero_intro": "Cosmetics brands on Shopify need an inventory app that understands the nuances of the beauty category — not a general-purpose tool that treats a 50-shade foundation range as 50 identical products. Verve AI tracks each shade individually, learns demand patterns at the variant level, and generates purchase order recommendations that reflect how your cosmetics catalogue actually sells.",
-    "deep_dive": "A 50-shade foundation range isn't 50 versions of the same product from a demand-forecasting standpoint — it's 50 independent products that happen to share packaging, each with its own sell-through rate and its own risk of either stocking out or sitting unsold until it expires. Verve AI tracks every shade in your Shopify catalogue as its own demand signal, so the purchase order it generates reflects the real spread in how a range actually sells, rather than a single blended forecast that overstocks your slowest shades while understocking your bestsellers.",
-    "deep_dive_tier": "authored"
-  },
   "demand-forecasting-beauty-brand": {
     "slug": "demand-forecasting-beauty-brand",
     "keyword": "demand forecasting beauty brand",
@@ -561,18 +384,6 @@
     "meta_description": "AI demand forecasting for beauty brands on Shopify. Detect influencer spikes, forecast shade-level demand, and plan launches accurately.",
     "hero_intro": "Demand forecasting for beauty brands requires a system that can handle both the predictable — Mother's Day, Q4 gifting, Valentine's Day — and the completely unpredictable, like a product going viral overnight. Verve AI monitors your Shopify sales velocity in real time and updates forecasts dynamically, giving beauty brands the accuracy they need to place the right purchase orders even in a category that never stands still.",
     "deep_dive": "Demand forecasting for a beauty brand has to hold two very different kinds of signal at once — the predictable seasonal peaks around Mother's Day, Valentine's Day, and Q4 gifting, and the genuinely unpredictable spikes that come from a viral moment with zero warning in historical data. Verve AI handles both from the same model: seasonal patterns are built into the baseline forecast from your Shopify sales history, while continuous velocity monitoring catches an unplanned spike as it's happening, so the forecast you're buying against reflects both what you can plan for and what you can't.",
-    "deep_dive_tier": "authored"
-  },
-  "skincare-sales-forecasting-tool": {
-    "slug": "skincare-sales-forecasting-tool",
-    "keyword": "skincare sales forecasting tool",
-    "vertical": "beauty",
-    "page_type": "feature",
-    "h1": "Skincare Sales Forecasting Tool for Shopify",
-    "meta_title": "Skincare Sales Forecasting Tool | Verve AI",
-    "meta_description": "AI-powered skincare sales forecasting for Shopify. Forecast by product, shade, and season — and generate purchase orders automatically.",
-    "hero_intro": "Skincare sales forecasting needs to account for ingredient trends, launch halo effects, influencer-driven velocity changes, and the hard seasonality of the category — winter barrier creams, summer SPF, and the gifting spikes that bookend the year. Verve AI is the skincare sales forecasting tool that pulls all of this together from your Shopify data and translates it into purchase order recommendations you can act on immediately.",
-    "deep_dive": "Skincare sales forecasting has to account for more moving parts than most categories at once — ingredient and formulation trends, the halo effect a launch has on adjacent products, influencer-driven velocity changes, and hard seasonal patterns like winter barrier creams and summer SPF. Verve AI pulls all of these signals from your actual Shopify sales history rather than treating them as separate manual adjustments, producing a forecast that already accounts for seasonality and recent velocity shifts and translates directly into a purchase order recommendation you can act on immediately.",
     "deep_dive_tier": "authored"
   },
   "inventory-planning-influencer-campaigns-beauty": {
@@ -609,7 +420,8 @@
     "meta_description": "How beauty brands on Shopify can manage product expiry dates, prevent write-offs, and buy only what they can sell within shelf life.",
     "hero_intro": "Expiry management is one of the most underappreciated margin protectors in the beauty category. A shade that falls out of trend, a formula that gets reformulated, or simply an over-ambitious buy quantity can leave you with stock that expires before it sells — turning a profitable product into a write-off. This guide covers how beauty brands on Shopify can manage product expiry systematically and avoid the write-offs that erode annual margins.",
     "deep_dive": "Expiry write-offs in beauty inventory almost always trace back to the same root cause: a buy quantity that was sized before anyone had visibility into how fast that specific shade or formula would actually sell, and no system flagging the mismatch until the stock was already sitting unsold with its shelf life running out. Verve AI closes that gap by forecasting sell-through against remaining shelf life for every SKU automatically, surfacing at-risk stock while there's still time to promote, bundle, or discount it — turning expiry management from a periodic manual audit into a standing, automatic check.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "high-sku-beauty-brand-inventory": {
     "slug": "high-sku-beauty-brand-inventory",
@@ -621,18 +433,6 @@
     "meta_description": "How beauty brands with 500+ SKUs can manage inventory without spreadsheets — using AI forecasting to track demand at the variant level.",
     "hero_intro": "When your beauty brand reaches 500, 1,000, or 2,000+ active SKUs, spreadsheet-based inventory management doesn't just become inefficient — it becomes a source of constant errors, missed reorders, and compounding dead stock. This guide covers how high-SKU beauty brands can implement AI-driven inventory management that scales with catalogue size rather than against it.",
     "deep_dive": "The point where spreadsheet-based inventory management stops working for a beauty brand isn't really about SKU count — it's about the fact that manual review time scales linearly with catalogue size while the time available to catch a problem doesn't. At 2,000 active SKUs, a weekly manual review simply can't give every shade and formula the attention it needs before a slow mover becomes dead stock or a fast mover stocks out. Verve AI forecasts every SKU independently and continuously, so catalogue growth doesn't require a proportional increase in manual review time to keep inventory decisions accurate.",
-    "deep_dive_tier": "authored"
-  },
-  "inventory-software-dtc-skincare": {
-    "slug": "inventory-software-dtc-skincare",
-    "keyword": "inventory software for DTC skincare brand",
-    "vertical": "beauty",
-    "page_type": "vertical_landing",
-    "h1": "Inventory Software for DTC Skincare Brands",
-    "meta_title": "Inventory Software for DTC Skincare | Verve AI",
-    "meta_description": "Inventory software built for DTC skincare brands on Shopify. AI forecasting, expiry management, and automated purchase orders.",
-    "hero_intro": "DTC skincare brands operate on tighter margins and faster product cycles than almost any other e-commerce category — and inventory software that can't keep pace with that reality becomes a liability. Verve AI is built specifically for DTC skincare brands, delivering AI-powered demand forecasting and purchase order automation directly from your Shopify sales data.",
-    "deep_dive": "DTC skincare brands typically launch and iterate faster than almost any other beauty category, which means inventory software needs to keep up with hero product launches, formula updates, and campaign-driven spikes without a long lead time to recalibrate. Verve AI forecasts from your live Shopify sales data and updates continuously as new orders come in, so a new hero product's early performance starts informing its own forecast within days, and a campaign-driven spike gets caught and reacted to while it's still happening rather than in a retrospective monthly report.",
     "deep_dive_tier": "authored"
   },
   "inventory-management-indie-beauty-brand": {
@@ -657,7 +457,8 @@
     "meta_description": "Inventory management for hair care brands on Shopify. AI forecasting at the variant level, automated reorders, and shelf life tracking.",
     "hero_intro": "Hair care brands on Shopify manage a wide and complex range — shampoos, conditioners, treatments, and styling products across multiple formulations for different hair types, each with its own demand pattern and shelf life. Verve AI gives hair care brands AI-powered demand forecasting at the variant level and automated purchase orders so you maintain availability across your full range without overstocking slow-moving formulas.",
     "deep_dive": "Hair care ranges typically span several genuinely different product types — shampoos and conditioners with steady, repeat-purchase demand, treatments and masks that sell more sporadically, and styling products tied to trend cycles — each of which behaves differently enough that a single blended forecast across the range misses real signal. Verve AI forecasts every SKU independently from your Shopify sales history, so a steady-selling everyday shampoo gets treated differently from a treatment product with a slower, trend-driven curve, all inside one connected view rather than separate assumptions per product type.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-makeup-brand": {
     "slug": "inventory-management-makeup-brand",
@@ -707,30 +508,6 @@
     "deep_dive": "Pet supply brands operate under a demand pattern that rewards precision and punishes guesswork more than most categories — customers on a genuine replenishment rhythm who will switch to a competitor's subscription the moment a stockout breaks that rhythm, with very little forgiveness for a missed reorder. Verve AI models each consumable SKU's actual replenishment cycle from your Shopify order history and sets dynamic reorder points that update as that cycle shifts, so purchase orders go out early enough to maintain the continuous availability pet supply customers expect, rather than reacting once stock has already run critically low. The right pet supply inventory management software has to handle high-frequency consumables and slower-moving accessories simultaneously — generic tools that treat every SKU the same way consistently fail at both.",
     "deep_dive_tier": "authored"
   },
-  "pet-store-inventory-software": {
-    "slug": "pet-store-inventory-software",
-    "keyword": "pet store inventory software",
-    "vertical": "pet-supplies",
-    "page_type": "vertical_landing",
-    "h1": "Pet Store Inventory Software for Shopify",
-    "meta_title": "Pet Store Inventory Software | Verve AI",
-    "meta_description": "Inventory software for online pet stores on Shopify. AI demand forecasting, automated reorders, and purchase order management.",
-    "hero_intro": "Running an online pet store on Shopify means staying on top of hundreds of SKUs across food, treats, toys, and accessories — all with very different reorder rhythms. Verve AI is the inventory software that learns those rhythms automatically from your Shopify sales data and keeps your pet store stocked across every category without manual tracking.",
-    "deep_dive": "An online pet store typically carries several product categories that behave completely differently — food and treats on a tight, predictable replenishment cycle, toys and accessories driven more by seasonality and trends, and sometimes subscription boxes layering committed future demand on top of everything else. Verve AI learns each SKU's actual pattern from your Shopify sales history automatically, so a single connected system handles the fast-moving consumables and the slower seasonal accessories correctly, without needing separate manual processes or spreadsheets per category. Shopify's built-in inventory tools are a good starting point for a pet store — they'll tell you what you have — but they won't tell you what to reorder, when, or how much, which is the gap dedicated pet store inventory software needs to close.",
-    "deep_dive_tier": "authored"
-  },
-  "pet-product-stock-management": {
-    "slug": "pet-product-stock-management",
-    "keyword": "pet product stock management system",
-    "vertical": "pet-supplies",
-    "page_type": "vertical_landing",
-    "h1": "Pet Product Stock Management System for Shopify",
-    "meta_title": "Pet Product Stock Management | Verve AI",
-    "meta_description": "AI-powered pet product stock management for Shopify. Dynamic reorder points, demand forecasting, and automated purchase orders.",
-    "hero_intro": "A pet product stock management system that works needs to understand how pet supply demand actually behaves — high-frequency consumables with predictable replenishment cycles sitting alongside seasonal accessories and trend-driven categories. Verve AI models all of these patterns automatically from your Shopify data and turns them into precise stock management recommendations you can act on immediately.",
-    "deep_dive": "Effective stock management for a pet product catalogue has to run two different playbooks simultaneously: tight, high-frequency reorder logic for consumables where a stockout costs a loyal customer, and much more conservative, seasonally-aware logic for accessories and toys where over-buying ties up cash for months. Verve AI applies the right model to each SKU automatically based on how it actually sells, rather than forcing food, treats, and accessories through the same demand-forecasting assumptions — so the recommendations you act on are correctly calibrated to what each category actually needs.",
-    "deep_dive_tier": "authored"
-  },
   "pet-supply-inventory-app-shopify": {
     "slug": "pet-supply-inventory-app-shopify",
     "keyword": "pet supply inventory app Shopify",
@@ -741,18 +518,6 @@
     "meta_description": "The Shopify inventory app built for pet supply brands. AI forecasting, automated POs, and dynamic reorder points for consumables.",
     "hero_intro": "Pet supply brands need a Shopify inventory app that understands consumables — products with short replenishment cycles, loyal repeat customers, and zero tolerance for stockouts. Verve AI is built for this, with recurring demand forecasting that tracks each SKU's actual purchase rhythm and automated purchase orders that trigger before you reach zero stock.",
     "deep_dive": "The core requirement for a pet supply inventory app is understanding that consumables aren't like other retail products — customers buy on a genuine, trackable rhythm, and a stockout doesn't just cost one sale, it risks losing a repeat customer for good. Verve AI is built around that reality: it tracks each SKU's actual purchase rhythm from your Shopify order history, sets reorder points that account for it, and triggers a purchase order recommendation with enough lead time to maintain continuous availability, rather than treating every product the same way a generic inventory app would.",
-    "deep_dive_tier": "authored"
-  },
-  "pet-brand-stock-forecasting-shopify": {
-    "slug": "pet-brand-stock-forecasting-shopify",
-    "keyword": "pet brand stock forecasting Shopify",
-    "vertical": "pet-supplies",
-    "page_type": "vertical_landing",
-    "h1": "Stock Forecasting for Pet Brands on Shopify",
-    "meta_title": "Pet Brand Stock Forecasting Shopify | Verve AI",
-    "meta_description": "AI stock forecasting for pet brands on Shopify. Predict demand for consumables, accessories, and seasonal products accurately.",
-    "hero_intro": "Accurate stock forecasting is the difference between a pet brand that grows confidently and one that's constantly firefighting stockouts and overstock simultaneously. Verve AI gives pet brands on Shopify product-level demand forecasting built on their actual Shopify sales history — updated weekly, accounting for seasonality, and translating directly into purchase order recommendations.",
-    "deep_dive": "Pet brands often face stockouts and overstock at the same time across different parts of their catalogue — consumables running dry because reorders were placed too late, while seasonal accessories sit unsold because they were bought too early or too deep. Verve AI forecasts every SKU independently from your Shopify sales history, updating weekly and accounting for each product's own seasonality, so the purchase order recommendations reflect what's actually happening in each part of your catalogue rather than a single blended assumption across very different product types.",
     "deep_dive_tier": "authored"
   },
   "demand-forecasting-pet-food-brand": {
@@ -767,18 +532,6 @@
     "deep_dive": "Pet food demand is unusually predictable in its recurring structure, but that same predictability is exactly why a forecasting error compounds so quickly — when customers reorder every few weeks like clockwork, a stockout doesn't just cost the current sale, it breaks the pattern that keeps them coming back. Verve AI models each SKU's replenishment cycle from your Shopify sales history, separates subscription demand from one-off purchases so neither distorts the other, and layers in seasonal overlays, producing a 90-day rolling forecast that updates as new sales data arrives rather than staying fixed at the start of a period.",
     "deep_dive_tier": "authored"
   },
-  "recurring-demand-forecasting-pet-supplies": {
-    "slug": "recurring-demand-forecasting-pet-supplies",
-    "keyword": "recurring demand forecasting pet supplies",
-    "vertical": "pet-supplies",
-    "page_type": "feature",
-    "h1": "Recurring Demand Forecasting for Pet Supplies",
-    "meta_title": "Recurring Demand Forecasting Pet Supplies | Verve AI",
-    "meta_description": "Forecast recurring demand for pet supply consumables on Shopify. Verve AI models replenishment cycles and automates reorders.",
-    "hero_intro": "Recurring demand is the defining characteristic of the pet supply category — customers buy the same food, the same treats, and the same supplements on a rhythm that's highly predictable once you know how to model it. Verve AI specialises in recurring demand forecasting for pet supply brands, using your Shopify order history to identify each SKU's replenishment cycle and build reorder triggers that match how your customers actually buy.",
-    "deep_dive": "Recurring demand is what makes pet supplies genuinely forecastable in a way many retail categories aren't — customers buy the same food, treats, and supplements on a rhythm that, once identified, predicts future orders with real confidence. The challenge is identifying that rhythm accurately per SKU and turning it into a reorder trigger before the cycle repeats. Verve AI does this directly from your Shopify order history, learning each product's specific replenishment cadence and setting reorder points that fire early enough to keep pace with how your actual customers buy, rather than a generic assumption applied across your whole catalogue.",
-    "deep_dive_tier": "authored"
-  },
   "automate-purchase-orders-pet-supplier": {
     "slug": "automate-purchase-orders-pet-supplier",
     "keyword": "automate purchase orders pet supplier",
@@ -789,7 +542,8 @@
     "meta_description": "Automate purchase orders to pet suppliers from Shopify. Verve AI calculates reorder quantities and generates POs automatically.",
     "hero_intro": "Manually creating purchase orders for a pet supply catalogue with dozens of consumable SKUs and multiple suppliers is time-consuming and error-prone — and with lead times of 20–45 days, a delayed reorder decision means a guaranteed stockout. Verve AI automates the entire purchase order process for pet supply brands, calculating optimal reorder quantities from your Shopify demand forecast and generating supplier-ready POs without manual calculation.",
     "deep_dive": "With pet supply lead times commonly running 20 to 45 days, a delayed purchase order decision on a fast-moving consumable translates almost directly into a stockout — there's very little slack to absorb a late call. Verve AI removes the manual calculation step entirely: it forecasts demand for every SKU from your Shopify sales history, factors in each supplier's specific lead time, and generates a supplier-ready purchase order automatically, so the reorder goes out based on real, current demand rather than whenever someone gets time to build the calculation manually.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-planning-pet-subscription-box": {
     "slug": "inventory-planning-pet-subscription-box",
@@ -801,7 +555,8 @@
     "meta_description": "How to plan inventory for a pet subscription box business on Shopify — allocating committed stock and forecasting growth accurately.",
     "hero_intro": "Pet subscription box businesses face a specific inventory planning challenge: you have committed future demand from active subscribers, but churn, new sign-ups, and product swaps mean the actual quantity you need is never exactly what your subscriber count suggests. This guide covers how to build accurate inventory plans for a pet subscription box business, from separating committed demand to forecasting the buffer you need for new subscriber growth.",
     "deep_dive": "A pet subscription box's real demand isn't simply \"number of subscribers\" — it's that number adjusted for expected churn before the next cycle, plus new sign-ups still coming in, plus any product swaps subscribers are entitled to choose between. Treating subscriber count as a fixed number overstates or understates true committed demand almost every cycle. Verve AI forecasts subscription demand from your actual Shopify subscription and order data, accounting for churn and growth trends specific to your program, so inventory planning reflects what you're actually going to need to fulfil rather than a rough headcount-based estimate.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "replenishment-consumable-pet-products": {
     "slug": "replenishment-consumable-pet-products",
@@ -813,54 +568,6 @@
     "meta_description": "A practical guide to managing replenishment for consumable pet products on Shopify — dynamic reorder points, lead times, and safety stock.",
     "hero_intro": "Consumable pet products — food, treats, supplements — have one of the tightest replenishment tolerances in e-commerce. Customers buy on a rhythm, and when you stockout, they don't wait: they find another brand. This guide explains how to set up a replenishment system for consumable pet products that keeps you stocked continuously, using dynamic reorder points and AI demand forecasting rather than static minimum stock levels.",
     "deep_dive": "Consumable pet products operate on some of the tightest replenishment tolerances in e-commerce, because customers don't wait when they hit a stockout — they simply find another brand for their pet's next order. A static minimum stock level set once and left alone can't keep up with a growing or shifting customer base. Verve AI replaces that static approach with dynamic reorder points calculated from your actual Shopify sales history, recalculated regularly as demand shifts, so the system that decides when to reorder stays accurate as your business grows rather than needing manual updates.",
-    "deep_dive_tier": "authored"
-  },
-  "preventing-stockouts-pet-food-shopify": {
-    "slug": "preventing-stockouts-pet-food-shopify",
-    "keyword": "preventing stockouts pet food store Shopify",
-    "vertical": "pet-supplies",
-    "page_type": "blog",
-    "h1": "Preventing Stockouts in Your Pet Food Store on Shopify",
-    "meta_title": "Preventing Stockouts Pet Food Shopify | Verve AI",
-    "meta_description": "How Shopify pet food stores can prevent stockouts using AI demand forecasting, dynamic safety stock, and automated reorder triggers.",
-    "hero_intro": "Stockouts in a pet food store are more costly than in almost any other e-commerce category — a loyal customer whose pet's regular food is out of stock will switch to a competitor and may never come back. This guide covers the most effective strategies for preventing stockouts in a Shopify pet food store, from dynamic safety stock calculation to automated reorder triggers that act before you reach zero.",
-    "deep_dive": "A pet food stockout is one of the most damaging failures a Shopify store can have — a customer whose pet's regular food isn't available doesn't wait around, they switch brands immediately, and getting that customer back once they've found an alternative is expensive if it happens at all. Preventing it requires reorder points that reflect actual, current sales velocity rather than a static minimum set once and forgotten. Verve AI recalculates dynamic safety stock levels for every SKU from your Shopify sales history and triggers a reorder recommendation with enough lead time to act before stock reaches a critical level, not after.",
-    "deep_dive_tier": "authored"
-  },
-  "inventory-software-pet-food-brand": {
-    "slug": "inventory-software-pet-food-brand",
-    "keyword": "inventory software for pet food brand",
-    "vertical": "pet-supplies",
-    "page_type": "vertical_landing",
-    "h1": "Inventory Software for Pet Food Brands",
-    "meta_title": "Inventory Software for Pet Food Brands | Verve AI",
-    "meta_description": "Inventory software built for pet food brands on Shopify. Recurring demand forecasting, automated reorders, and PO management.",
-    "hero_intro": "Pet food brands operate on some of the tightest reorder tolerances in e-commerce — high-frequency purchases from loyal customers who switch brands the moment you stockout. Verve AI gives pet food brands on Shopify inventory software that models the recurring purchase cycle of each SKU and generates automated reorder recommendations before stock reaches a critical level.",
-    "deep_dive": "Pet food brands work with some of the tightest reorder tolerances in e-commerce: customers buy on a predictable cycle, but that same predictability means a forecasting error compounds fast, since the next purchase is only weeks away and there's no slack for a late reorder. Verve AI models each SKU's specific replenishment rhythm from your Shopify sales history and generates a reorder recommendation before stock reaches a level that risks missing the next expected order cycle — turning a category where timing precision matters enormously into a system you don't have to track manually.",
-    "deep_dive_tier": "authored"
-  },
-  "inventory-management-dtc-pet-brand": {
-    "slug": "inventory-management-dtc-pet-brand",
-    "keyword": "inventory management for DTC pet brand",
-    "vertical": "pet-supplies",
-    "page_type": "vertical_landing",
-    "h1": "Inventory Management for DTC Pet Brands",
-    "meta_title": "Inventory Management for DTC Pet Brand | Verve AI",
-    "meta_description": "AI inventory management for DTC pet brands on Shopify. Forecast recurring demand, automate reorders, and manage supplier POs.",
-    "hero_intro": "DTC pet brands are built on repeat purchase relationships — customers who trust your products for their pet's nutrition and health. Inventory management for a DTC pet brand needs to reflect this: consumables must never stockout, subscription demand must be allocated before one-time orders, and reorder decisions must be data-driven rather than instinctive. Verve AI delivers all of this directly from your Shopify data.",
-    "deep_dive": "A DTC pet brand's business is built on trust — a customer's pet depends on the same food or supplement being available every time they reorder, which makes a stockout more damaging than a typical missed sale; it's a broken promise that sends a loyal customer looking for an alternative. Verve AI treats consumable stockout prevention as the priority it deserves for this model: subscription demand is allocated before one-time orders, reorder points update dynamically as your customer base grows, and purchase order recommendations are generated automatically from your actual Shopify sales history rather than a fixed monthly estimate.",
-    "deep_dive_tier": "authored"
-  },
-  "inventory-app-pet-accessories-store": {
-    "slug": "inventory-app-pet-accessories-store",
-    "keyword": "inventory app for pet accessories store",
-    "vertical": "pet-supplies",
-    "page_type": "vertical_landing",
-    "h1": "Inventory App for Pet Accessories Stores on Shopify",
-    "meta_title": "Inventory App for Pet Accessories Store | Verve AI",
-    "meta_description": "Shopify inventory app for pet accessories stores. AI demand forecasting, seasonal planning, and automated purchase orders.",
-    "hero_intro": "Pet accessories — leads, collars, beds, toys, travel gear — have very different inventory dynamics to pet food: demand is more seasonal, trend-driven, and event-linked. Verve AI's Shopify inventory app tracks these patterns for pet accessories stores, flagging seasonal build-up requirements and generating purchase order recommendations that reflect how accessories actually sell — not just how they sold last month.",
-    "deep_dive": "Pet accessories behave almost nothing like pet food from an inventory-planning standpoint — instead of a tight, predictable replenishment cycle, demand for leads, beds, and travel gear is shaped by seasonality, trends, and events like a new puppy season or a summer travel spike. A forecasting system built around consumables' recurring-purchase logic will misjudge accessories badly. Verve AI models each SKU's actual behaviour from your Shopify sales history rather than applying one demand pattern across your whole catalogue, so accessory reorders are timed to seasonal build-up windows instead of the fixed replenishment cadence that works for food and treats.",
     "deep_dive_tier": "authored"
   },
   "inventory-management-natural-pet-food": {
@@ -885,7 +592,8 @@
     "meta_description": "AI stock management for pet treats brands on Shopify. Forecast demand, track SKU velocity, and automate reorders automatically.",
     "hero_intro": "Pet treats brands on Shopify juggle a wide range of SKUs — flavours, formats, and functional treat categories each with their own velocity and reorder rhythm. Verve AI manages this complexity automatically, tracking each treats SKU's demand individually and generating stock management recommendations that keep your bestsellers always available while preventing slow-moving flavours from accumulating into dead stock.",
     "deep_dive": "Treats brands typically carry more SKU variety than food brands — different flavours, formats, and functional categories, each selling at a meaningfully different rate — which makes a single blended reorder assumption particularly costly: bestselling flavours stockout while niche ones quietly accumulate into dead stock. Verve AI forecasts every treats SKU independently from your Shopify sales history, so a fast-moving flavour gets a reorder recommendation sized to its actual velocity while a slower niche variant doesn't get over-bought into stock that sits for months.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-jewellery-shops": {
     "slug": "inventory-management-jewellery-shops",
@@ -933,7 +641,8 @@
     "meta_description": "Inventory management software for accessories brands on Shopify. AI forecasting, seasonal planning, and automated purchase orders.",
     "hero_intro": "Accessories brands on Shopify span a wide range of product types — jewellery, watches, scarves, belts, and bags — each with different demand seasonality and reorder lead times. Verve AI gives accessories brands a single inventory management system that handles this diversity, with product-level demand forecasting and automated purchase orders connected directly to your Shopify store.",
     "deep_dive": "Accessories brands often carry a genuinely mixed catalogue — jewellery, watches, scarves, belts, bags — where each product type has a different demand rhythm, a different seasonal pattern, and a different acceptable lead time. Software that applies one demand model across all of it inevitably gets some categories wrong. Verve AI forecasts every SKU independently from your Shopify sales history, so a watch's slower, higher-value sales pattern is treated differently from a scarf's faster, trend-driven one, all inside a single connected system rather than separate spreadsheets per product type.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "jewellery-inventory-app-shopify": {
     "slug": "jewellery-inventory-app-shopify",
@@ -959,18 +668,6 @@
     "deep_dive": "Tracking stock levels is the easy part of running a jewellery store on Shopify — the harder problem is forecasting demand accurately at low sales volumes, anticipating a gifting-season spike weeks before it hits, and timing purchase orders around supplier lead times that can run into months. Verve AI adds all three capabilities directly on top of your existing Shopify data: statistical forecasting built for low-volume jewellery SKUs, gifting-season demand curves from your own sales history, and lead-time-aware reorder recommendations, with no spreadsheet work required to maintain any of it.",
     "deep_dive_tier": "authored"
   },
-  "jewelry-stock-management-shopify": {
-    "slug": "jewelry-stock-management-shopify",
-    "keyword": "jewelry stock management Shopify",
-    "vertical": "jewellery",
-    "page_type": "vertical_landing",
-    "h1": "Jewelry Stock Management on Shopify",
-    "meta_title": "Jewelry Stock Management Shopify | Verve AI",
-    "meta_description": "AI jewelry stock management for Shopify. Forecast low-volume demand, plan for gifting peaks, and automate reorders.",
-    "hero_intro": "Effective jewelry stock management on Shopify means knowing which pieces to reorder before they sell out, how much to build ahead of Valentine's Day and Christmas, and which slow-moving styles to stop reordering before they become dead stock. Verve AI gives jewelry brands on Shopify all of this visibility automatically, driven by AI demand forecasting from their actual Shopify sales history.",
-    "deep_dive": "Good jewelry stock management on Shopify comes down to three specific decisions made correctly and repeatedly: which pieces to reorder before they run out, how much extra stock to build ahead of Valentine's Day and Christmas, and which slow-moving styles to stop reordering before they tie up capital as dead stock. Verve AI generates all three from your actual Shopify sales history automatically — low-volume demand forecasting for reorder timing, seasonal uplift modelling for gifting peaks, and clear visibility into which styles are genuinely underperforming versus simply low-frequency but healthy sellers.",
-    "deep_dive_tier": "authored"
-  },
   "demand-forecasting-jewellery-brand": {
     "slug": "demand-forecasting-jewellery-brand",
     "keyword": "demand forecasting for jewellery brand",
@@ -981,42 +678,6 @@
     "meta_description": "AI demand forecasting for jewellery brands on Shopify. Precision low-volume forecasting and gifting season demand planning.",
     "hero_intro": "Demand forecasting for jewellery brands requires statistical methods that work at low unit volumes — standard moving averages that work for high-velocity products become meaningless when a SKU sells two or three units per week. Verve AI uses probabilistic forecasting models calibrated for low-volume jewellery demand, giving brands the reorder accuracy needed to protect high-value stock and plan gifting season builds weeks in advance.",
     "deep_dive": "Demand forecasting for jewellery brands needs to work at a scale where standard retail forecasting methods stop being useful — a SKU selling two or three units a week doesn't generate enough data for a simple moving average to mean anything, but it still needs an accurate reorder recommendation, especially given the capital tied up in each unit. Verve AI applies probabilistic forecasting models built specifically for low-volume demand, modelling the genuine likelihood of a sale over your supplier's lead time rather than smoothing sparse data into a misleading average — giving jewellery brands the reorder accuracy needed to protect high-value stock and plan gifting-season builds weeks ahead.",
-    "deep_dive_tier": "authored"
-  },
-  "gift-season-inventory-planning-jewellery": {
-    "slug": "gift-season-inventory-planning-jewellery",
-    "keyword": "gift season inventory planning jewellery",
-    "vertical": "jewellery",
-    "page_type": "feature",
-    "h1": "Gift Season Inventory Planning for Jewellery Brands",
-    "meta_title": "Gift Season Inventory Planning Jewellery | Verve AI",
-    "meta_description": "Plan jewellery inventory for Valentine's Day, Mother's Day, and Christmas. Verve AI forecasts gifting season demand and automates POs.",
-    "hero_intro": "Gifting seasons account for 40–60% of annual jewellery revenue — and the margin between a profitable peak and a stockout that drives customers to competitors is measured in weeks of lead time. Verve AI gives jewellery brands on Shopify gifting season demand forecasts by style, with purchase order recommendations timed to account for supplier lead time so stock arrives before the peak window opens.",
-    "deep_dive": "With gifting seasons driving 40 to 60% of annual jewellery revenue in the span of a few weeks, the gap between a well-stocked peak and a costly stockout comes down almost entirely to how many weeks of lead time you build into your planning. Verve AI calculates a gifting-season demand forecast by style using your own historical uplift data, then times the resulting purchase order recommendation against your supplier's actual lead time — including their historical reliability, not just their quoted delivery window — so the stock you need is ordered early enough to arrive before the peak actually opens.",
-    "deep_dive_tier": "authored"
-  },
-  "inventory-tracking-high-value-jewellery": {
-    "slug": "inventory-tracking-high-value-jewellery",
-    "keyword": "inventory tracking high value jewellery items",
-    "vertical": "jewellery",
-    "page_type": "blog",
-    "h1": "Inventory Tracking for High-Value Jewellery Items",
-    "meta_title": "Inventory Tracking High Value Jewellery | Verve AI",
-    "meta_description": "How jewellery brands can track high-value inventory accurately on Shopify — preventing stockouts on key pieces and avoiding over-buying.",
-    "hero_intro": "Tracking inventory for high-value jewellery items requires a level of precision that standard Shopify inventory tools don't provide — a single miscalculation on a £500 ring means either a lost sale during a gifting peak or thousands of pounds in capital tied up in unsold stock. This guide covers how jewellery brands on Shopify can implement accurate inventory tracking for their highest-value pieces.",
-    "deep_dive": "Tracking inventory accurately for high-value jewellery pieces matters more than for most products, because the cost of getting a single SKU wrong is measured in real capital — either a lost sale on a piece worth hundreds of pounds during a gifting peak, or thousands tied up in stock that isn't moving. Standard Shopify stock counts show you what you have, but not whether that level is actually appropriate given how the piece is genuinely selling. Verve AI adds that layer: demand forecasting calibrated for low-volume, high-value SKUs, so tracking translates into a specific, accurate reorder decision rather than just a number to monitor.",
-    "deep_dive_tier": "authored"
-  },
-  "jewellery-inventory-planning-christmas": {
-    "slug": "jewellery-inventory-planning-christmas",
-    "keyword": "how to plan jewellery inventory for Christmas",
-    "vertical": "jewellery",
-    "page_type": "blog",
-    "h1": "How to Plan Jewellery Inventory for Christmas",
-    "meta_title": "Plan Jewellery Inventory for Christmas | Verve AI",
-    "meta_description": "Step-by-step guide to planning jewellery inventory for Christmas — timing purchase orders, forecasting demand by style, and setting safety stock.",
-    "hero_intro": "Christmas is the highest-stakes trading period for jewellery brands, and it requires inventory planning to begin in September or October at the latest — especially when supplier lead times run to 8–12 weeks. This guide walks through exactly how to plan jewellery inventory for Christmas, from forecasting demand by style to timing purchase orders so stock arrives before the peak window opens.",
-    "deep_dive": "Christmas inventory planning for jewellery has to start earlier than most brands expect, because supplier lead times of 8 to 12 weeks push the effective planning deadline back into September or early October — long before the seasonal sales data that would normally inform a buy decision is available. Verve AI solves this by forecasting Christmas demand per style from your previous years' gifting-season sales patterns rather than waiting for current-season signal, generating a purchase order recommendation timed against your specific suppliers' lead times so stock reliably arrives before the peak window rather than after it's already passed.",
     "deep_dive_tier": "authored"
   },
   "valentines-inventory-planning-jewellery": {
@@ -1077,7 +738,8 @@
     "meta_description": "Shopify inventory app for fashion accessories brands. AI demand forecasting, seasonal planning, and automated purchase orders.",
     "hero_intro": "Fashion accessories brands on Shopify — jewellery, scarves, belts, bags, and hats — manage trend-driven demand patterns that move faster than seasonal planning cycles can keep up with. Verve AI is the inventory app that tracks these patterns in real time, updating demand forecasts as your accessories catalogue evolves and generating purchase order recommendations that reflect current sell-through rather than last season's averages.",
     "deep_dive": "Fashion accessories move on trend cycles that can shift faster than a seasonal planning calendar accounts for — a style that's selling well this month can slow within weeks as the trend moves on, and a forecast anchored to last season's averages misses that shift entirely. Verve AI updates its demand model continuously from your live Shopify sales data, so the forecast reflects current sell-through rather than a fixed seasonal assumption, catching a trend accelerating or fading in time to adjust reorder quantities before you're stuck with excess stock or missing a fast mover.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "stock-management-silver-jewellery-shopify": {
     "slug": "stock-management-silver-jewellery-shopify",
@@ -1089,7 +751,8 @@
     "meta_description": "AI stock management for silver jewellery brands on Shopify. Forecast demand by style, plan gifting peaks, and automate reorders.",
     "hero_intro": "Silver jewellery brands on Shopify carry wide ranges of styles — rings, necklaces, earrings, and bracelets — each with their own demand velocity and reorder timing. Verve AI gives silver jewellery brands AI-powered stock management at the individual style level, so you always know which pieces to reorder, how much to buy ahead of Valentine's Day and Christmas, and which slow-moving styles to stop restocking.",
     "deep_dive": "A silver jewellery range spanning rings, necklaces, earrings, and bracelets typically has more velocity variation between styles than it first appears — some pieces sell steadily every week, others move only a handful of units a month, and a single blended reorder rule across the whole range gets both groups wrong. Verve AI forecasts every style independently from your Shopify sales history, so a fast-moving ring gets reordered on a tighter cycle while a genuinely slow style gets flagged to stop restocking before it becomes dead stock, rather than both being treated the same way.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-watches-accessories": {
     "slug": "inventory-management-watches-accessories",
@@ -1101,7 +764,8 @@
     "meta_description": "Inventory management for watches and accessories brands on Shopify. AI forecasting, gifting peaks, and automated purchase orders.",
     "hero_intro": "Watches and accessories brands on Shopify combine the characteristics of fine jewellery — high value per unit, gifting-driven demand peaks — with the complexity of fashion accessories, where trend cycles create rapid shifts in which SKUs are hot and which are not. Verve AI handles both dynamics simultaneously, giving watches and accessories brands on Shopify inventory forecasting that adapts to changing demand patterns and automates purchase orders before peaks arrive.",
     "deep_dive": "Watches and accessories sit at an unusual intersection — the high per-unit value and gifting-driven demand spikes of fine jewellery, combined with the faster trend cycles of fashion accessories where popularity can shift within a season. Verve AI is built to handle both dynamics from the same system: low-volume statistical forecasting for high-value, infrequently-selling pieces, and more responsive, trend-aware forecasting for faster-moving accessory lines, so neither product type gets the wrong demand model applied to it.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-home-goods-brands": {
     "slug": "inventory-management-home-goods-brands",
@@ -1127,30 +791,6 @@
     "deep_dive": "Furniture inventory decisions carry a scale of consequence most e-commerce categories don't — a single miscalculated purchase order, made against a 90-day factory lead time, can mean either months of storage cost on unsold pieces or a stockout during your peak season with no way to recover before it passes. Verve AI forecasts demand for every furniture SKU from your Shopify sales history and projects it forward across the full lead-time horizon, so the purchase order you place today reflects what you'll actually need three months from now, not a guess extrapolated from last month's sales.",
     "deep_dive_tier": "authored"
   },
-  "homeware-inventory-management-software": {
-    "slug": "homeware-inventory-management-software",
-    "keyword": "homeware inventory management software",
-    "vertical": "home-goods",
-    "page_type": "vertical_landing",
-    "h1": "Homeware Inventory Management Software for Shopify",
-    "meta_title": "Homeware Inventory Management Software | Verve AI",
-    "meta_description": "Homeware inventory management software with seasonal forecasting, long lead time planning, and automated purchase orders for Shopify.",
-    "hero_intro": "Homeware brands on Shopify sit at the intersection of seasonal demand and long overseas lead times — a combination that makes inventory planning both high-stakes and difficult. Verve AI is the homeware inventory management software that resolves this tension, using historical seasonal data to project demand months ahead and generating supplier purchase orders with timing that accounts for your longest lead times.",
-    "deep_dive": "Homeware inventory planning sits at the intersection of two pressures that pull in opposite directions: seasonal demand that can spike sharply for a short window, and overseas lead times long enough that the purchase order has to go out before that spike is even visible in current sales data. Verve AI resolves that tension by projecting demand forward using your historical seasonal patterns rather than waiting for real-time signal, then timing the resulting purchase order recommendation against your suppliers' actual lead times so the stock lands in time to matter.",
-    "deep_dive_tier": "authored"
-  },
-  "home-decor-inventory-software": {
-    "slug": "home-decor-inventory-software",
-    "keyword": "home decor inventory software",
-    "vertical": "home-goods",
-    "page_type": "vertical_landing",
-    "h1": "Home Decor Inventory Software for Shopify Brands",
-    "meta_title": "Home Decor Inventory Software | Verve AI",
-    "meta_description": "AI inventory software for home decor brands on Shopify. Seasonal sell-through tracking, long-horizon forecasting, and automated reorders.",
-    "hero_intro": "Home decor inventory software needs to understand that a Christmas cushion range and a year-round ceramic lamp are completely different inventory problems — one has a hard sell-through window that punishes over-buying, the other requires consistent availability throughout the year. Verve AI models both simultaneously for home decor brands on Shopify, applying the right forecasting logic to each product type in your catalogue.",
-    "deep_dive": "A Christmas cushion range and a year-round ceramic lamp are fundamentally different inventory problems even though they might sit on the same shelf — one has a hard sell-through deadline that punishes over-buying severely, the other needs steady, consistent availability with no seasonal cliff. Verve AI forecasts every SKU according to its own actual demand pattern from your Shopify sales history, applying seasonal sell-through logic to the products that need it and steady-state replenishment logic to the ones that don't, rather than a single approach applied across your whole décor catalogue.",
-    "deep_dive_tier": "authored"
-  },
   "home-goods-inventory-app-shopify": {
     "slug": "home-goods-inventory-app-shopify",
     "keyword": "home goods inventory app Shopify",
@@ -1173,18 +813,6 @@
     "meta_description": "Shopify inventory management for furniture stores. Long lead time forecasting, storage cost tracking, and automated purchase orders.",
     "hero_intro": "Furniture stores on Shopify can't rely on the same inventory management approach as fast-moving product categories — pieces take months to arrive from overseas factories, storage costs make overstock painful, and seasonal demand peaks require planning that begins long before the selling season. Verve AI adds long-horizon demand forecasting and automated purchase order management to your Shopify furniture store.",
     "deep_dive": "Furniture doesn't behave like faster-moving product categories from an inventory standpoint — pieces are expensive to hold, slower to sell relative to smaller accessories, and effectively impossible to restock quickly once you're out, given factory lead times that commonly run to 90 days or more. Verve AI adds long-horizon demand forecasting directly on top of your Shopify furniture store's existing data, projecting what you'll need months ahead and generating purchase order recommendations timed to arrive before a stockout, rather than after one has already cost you sales.",
-    "deep_dive_tier": "authored"
-  },
-  "homeware-stock-management-shopify": {
-    "slug": "homeware-stock-management-shopify",
-    "keyword": "homeware stock management Shopify",
-    "vertical": "home-goods",
-    "page_type": "vertical_landing",
-    "h1": "Homeware Stock Management for Shopify Brands",
-    "meta_title": "Homeware Stock Management Shopify | Verve AI",
-    "meta_description": "AI homeware stock management for Shopify. Forecast seasonal demand, avoid dead stock, and automate overseas supplier POs.",
-    "hero_intro": "Homeware stock management on Shopify is a long-game exercise — you're placing purchase orders today for products that won't arrive for three or four months, based on a forecast of what customers will want by the time those pieces land. Verve AI gives homeware brands on Shopify the forecasting accuracy to make those decisions confidently, with seasonal demand models updated weekly from your live Shopify sales data.",
-    "deep_dive": "Homeware stock management is inherently a long-game decision — the purchase order you place today is a bet on what customers will want in three or four months, once the stock actually arrives from an overseas factory. Verve AI makes that bet more informed by building the forecast from your own historical seasonal sales patterns, updated weekly as new orders come in, so the projection you're buying against reflects your most recent trading trends layered onto the seasonal shape your store has actually shown in past years.",
     "deep_dive_tier": "authored"
   },
   "demand-forecasting-home-goods": {
@@ -1221,7 +849,8 @@
     "meta_description": "Automate purchase orders for your furniture brand on Shopify. Verve AI times POs to your factory lead times automatically.",
     "hero_intro": "Furniture brands placing purchase orders manually are operating with a dangerous margin for error — a single mistimed or mismeasured order placed with a 90-day factory lead time can leave you understocked during your peak season with no way to recover in time. Verve AI automates purchase order generation for furniture brands on Shopify, calculating the right quantities and the right timing based on your demand forecast and each supplier's actual lead time.",
     "deep_dive": "A single mistimed or mis-sized furniture purchase order carries real weight given typical 90-day factory lead times — there's very little room to correct course once the order is placed, and getting it wrong means either a stockout during your peak season or capital tied up in slow-moving pieces for months. Verve AI automates the calculation entirely: it forecasts demand from your Shopify sales history, factors in each supplier's actual lead time, and generates a purchase order sized and timed to arrive when you'll actually need the stock, removing the manual guesswork from a decision with this much downside risk.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "managing-lead-times-furniture-brand": {
     "slug": "managing-lead-times-furniture-brand",
@@ -1245,19 +874,8 @@
     "meta_description": "How home decor brands can reduce dead stock — smarter seasonal buying, sell-through tracking, and AI demand forecasting on Shopify.",
     "hero_intro": "Dead stock is one of the most persistent margin problems in the home decor category — seasonal ranges that didn't clear, trend-driven pieces that fell out of favour, and over-ambitious buys on slow-moving styles all contribute to capital tied up in stock that won't sell at full price. This guide covers the most effective strategies for reducing dead stock in a home decor business, from seasonal forecasting to buy quantity discipline.",
     "deep_dive": "Dead stock in home décor almost always traces back to a buying decision made too far ahead of real demand signal, without a system in place to catch a line falling behind its expected sell-through pace before the season closes and the window to act is gone. Reducing it requires tracking actual sell-through against a seasonal forecast throughout the selling window, not just reviewing results after the fact. Verve AI does this automatically from your Shopify sales history, flagging a seasonal line that's tracking behind plan while there's still time to promote, bundle, or scale back the next buy — rather than discovering the shortfall in a post-season review.",
-    "deep_dive_tier": "authored"
-  },
-  "seasonal-inventory-planning-homeware": {
-    "slug": "seasonal-inventory-planning-homeware",
-    "keyword": "seasonal inventory planning for homeware brand",
-    "vertical": "home-goods",
-    "page_type": "blog",
-    "h1": "Seasonal Inventory Planning for Homeware Brands",
-    "meta_title": "Seasonal Inventory Planning Homeware | Verve AI",
-    "meta_description": "How homeware brands can plan seasonal inventory — spring refresh, Q4 gifting, and long-lead overseas buys — using AI forecasting.",
-    "hero_intro": "Seasonal inventory planning for homeware brands is a high-stakes exercise that begins months before the selling window opens. A spring refresh collection committed to a Chinese factory in January needs to be sized correctly before a single trend report from that season has been published. This guide walks through how homeware brands can approach seasonal inventory planning systematically, using historical demand data and long-horizon forecasting to make better buying decisions.",
-    "deep_dive": "A spring refresh collection committed to an overseas factory in January has to be sized correctly before a single piece of current-season trend data exists — which means seasonal inventory planning for homeware brands has to lean heavily on historical demand patterns rather than real-time signal. Verve AI builds that forecast from your own past seasonal sales data, projecting how the upcoming season is likely to shape up based on how previous ones actually played out, and translates that projection directly into purchase order quantities and timing sized to your specific supplier lead times.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-software-dtc-home-brand": {
     "slug": "inventory-software-dtc-home-brand",
@@ -1281,19 +899,8 @@
     "meta_description": "AI inventory management for interior design brands on Shopify. Seasonal forecasting, long lead times, and automated POs.",
     "hero_intro": "Interior design brands on Shopify operate across a wide product mix — furniture, lighting, textiles, and accessories — each sourced from different suppliers with different lead times and seasonal demand profiles. Verve AI gives interior design brands unified inventory management across their entire Shopify catalogue, with demand forecasting and purchase order automation tailored to the long planning horizons of home goods sourcing.",
     "deep_dive": "Interior design brands typically source across a genuinely wide mix — furniture, lighting, textiles, accessories — each with a different supplier, a different lead time, and a different seasonal demand shape, which makes a single unified inventory view harder to maintain manually as the catalogue grows. Verve AI forecasts every SKU independently based on its own actual sales pattern and supplier lead time from your Shopify data, so a furniture piece with a 90-day lead time and a fast-moving accessory with a 20-day one both get purchase order timing calculated correctly, inside one connected system.",
-    "deep_dive_tier": "authored"
-  },
-  "stock-management-furniture-ecommerce": {
-    "slug": "stock-management-furniture-ecommerce",
-    "keyword": "stock management for furniture ecommerce Shopify",
-    "vertical": "home-goods",
-    "page_type": "vertical_landing",
-    "h1": "Stock Management for Furniture E-Commerce on Shopify",
-    "meta_title": "Stock Management Furniture E-Commerce | Verve AI",
-    "meta_description": "AI stock management for furniture e-commerce on Shopify. Long-horizon demand forecasting, storage cost tracking, and PO automation.",
-    "hero_intro": "Stock management for furniture e-commerce on Shopify requires a different discipline to soft goods — pieces are expensive to hold, slow to sell relative to accessories, and impossible to restock quickly when you run out due to 90-day factory lead times. Verve AI gives furniture e-commerce brands on Shopify the demand forecasting and stock management tools to maintain the right inventory levels without tying up excessive capital in slow-moving pieces.",
-    "deep_dive": "Furniture stock management runs on different economics than soft goods — every unit held costs real warehouse space, sell-through is naturally slower given the price point, and a 90-day factory lead time means a stockout can't simply be resolved with a quick reorder. Verve AI forecasts demand for each furniture SKU from your Shopify sales history and projects it across your actual lead-time horizon, so purchase order quantities reflect a genuine balance between not tying up excess capital in slow-moving pieces and not running out of the ones that are actually selling.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-app-home-textiles-brand": {
     "slug": "inventory-app-home-textiles-brand",
@@ -1305,7 +912,8 @@
     "meta_description": "Shopify inventory app for home textiles brands. Seasonal demand forecasting, colour and size variants, and automated POs.",
     "hero_intro": "Home textiles brands on Shopify — bedding, cushions, towels, throws — manage seasonal demand patterns and product variants that require the same kind of planning discipline as apparel, but with the longer lead times of overseas home goods manufacturing. Verve AI gives home textiles brands the Shopify inventory app they need: seasonal demand forecasting, variant-level tracking, and automated purchase orders timed to your factory lead times.",
     "deep_dive": "Home textiles carry the same variant complexity as apparel — size, colour, pattern combinations across bedding, cushions, and throws — but with the added constraint of overseas manufacturing lead times that leave far less room to correct a miscalculated buy. Verve AI forecasts demand at the individual variant level from your Shopify sales history, the same way it would for a clothing brand, but with purchase order timing calculated against your specific factory lead times, so a reorder for a fast-moving pattern goes out early enough to actually arrive before the current stock runs dry.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-food-brands": {
     "slug": "inventory-management-food-brands",
@@ -1343,18 +951,6 @@
     "deep_dive": "Beverage inventory sits under three pressures at once — a shelf life that limits how far ahead you can safely buy, batch coding requirements that make traceability non-negotiable, and demand that can swing sharply around a season, a promotion, or an unplanned viral moment. Verve AI forecasts every SKU from your Shopify sales history with shelf life built in as a hard constraint on reorder quantity, while also tracking batch data automatically and monitoring for demand spikes in real time, so beverage brands get all three requirements from one connected system instead of separate manual processes.",
     "deep_dive_tier": "authored"
   },
-  "food-drink-inventory-software-shopify": {
-    "slug": "food-drink-inventory-software-shopify",
-    "keyword": "food and drink inventory software Shopify",
-    "vertical": "food-and-beverage",
-    "page_type": "vertical_landing",
-    "h1": "Food and Drink Inventory Software for Shopify",
-    "meta_title": "Food and Drink Inventory Software Shopify | Verve AI",
-    "meta_description": "Shopify inventory software for food and drink brands. Shelf life forecasting, batch tracking, and automated purchase orders.",
-    "hero_intro": "Food and drink inventory software for Shopify needs to understand perishables — calculating reorder quantities against shelf life, tracking batch codes for compliance, and separating subscription demand from one-time purchases so you never over-stock a product that will expire before it sells. Verve AI is the food and drink inventory software that brings all of these requirements together in a single Shopify integration.",
-    "deep_dive": "Food and drink inventory software has to solve three problems together that most general retail software doesn't even attempt: capping reorder quantities against shelf life so nothing expires unsold, maintaining batch-level traceability for compliance, and separating subscription demand from one-time purchases so neither distorts the other's forecast. Verve AI handles all three from the same Shopify-connected system, so a food brand isn't stitching together separate tools or manual spreadsheets to cover what a single piece of software should already do.",
-    "deep_dive_tier": "authored"
-  },
   "food-brand-inventory-app-shopify": {
     "slug": "food-brand-inventory-app-shopify",
     "keyword": "food brand inventory app Shopify",
@@ -1379,30 +975,6 @@
     "deep_dive": "A food store's inventory question isn't just \"how much should I order\" — it's \"how much can I safely hold given how long this product stays sellable and how fast it's actually moving,\" and Shopify's native tools don't answer the second half of that question at all. Verve AI adds shelf-life-constrained forecasting directly on top of your existing Shopify data, so purchase order recommendations reflect both projected demand and the hard ceiling your product's expiry date puts on safe stock levels, protecting margin on both the stockout side and the write-off side.",
     "deep_dive_tier": "authored"
   },
-  "ecommerce-food-stock-management-shopify": {
-    "slug": "ecommerce-food-stock-management-shopify",
-    "keyword": "ecommerce food stock management Shopify",
-    "vertical": "food-and-beverage",
-    "page_type": "vertical_landing",
-    "h1": "E-Commerce Food Stock Management on Shopify",
-    "meta_title": "E-Commerce Food Stock Management Shopify | Verve AI",
-    "meta_description": "AI food stock management for Shopify e-commerce. Shelf life constraints, batch tracking, and automated purchase orders.",
-    "hero_intro": "E-commerce food stock management on Shopify demands a level of precision that general-purpose inventory tools don't provide — every reorder decision needs to account for how long the product can be stored, what your actual sell-through rate looks like, and whether incoming stock will clear before it expires. Verve AI delivers this precision for food brands on Shopify, combining shelf life data with AI demand forecasting to calculate safe, accurate stock positions.",
-    "deep_dive": "Getting food stock management right on Shopify means every reorder calculation has to answer a question generic inventory tools don't ask: will this stock actually sell through before it expires? A reorder that's correctly sized by demand alone but ignores shelf life can still result in a write-off. Verve AI combines shelf life data with demand forecasting for every SKU, capping recommended stock positions at what your projected sales can clear in time, so the purchase order you approve is safe on both fronts at once.",
-    "deep_dive_tier": "authored"
-  },
-  "demand-forecasting-dtc-food-brand": {
-    "slug": "demand-forecasting-dtc-food-brand",
-    "keyword": "demand forecasting for DTC food brand",
-    "vertical": "food-and-beverage",
-    "page_type": "feature",
-    "h1": "Demand Forecasting for DTC Food Brands",
-    "meta_title": "Demand Forecasting for DTC Food Brands | Verve AI",
-    "meta_description": "AI demand forecasting for DTC food brands on Shopify. Shelf life-aware reorder quantities, subscription demand, and seasonal spikes.",
-    "hero_intro": "Demand forecasting for DTC food brands needs to solve a problem that standard forecasting doesn't address — your reorder quantity isn't just limited by demand, it's limited by how much you can sell before the product expires. Verve AI builds demand forecasts for DTC food brands that incorporate shelf life as a hard constraint, so every reorder recommendation is sized to what your projected sales can actually clear in time.",
-    "deep_dive": "Standard demand forecasting stops short of what DTC food brands actually need, because it optimises for meeting demand without accounting for the fact that a reorder quantity is also bounded by shelf life — buying enough to prevent a stockout is only safe if that stock will genuinely sell through before it expires. Verve AI builds shelf life into the forecast itself as a hard constraint, so every reorder recommendation reflects both sides of the equation: enough stock to meet projected demand, capped at what can realistically clear before the product's expiry date.",
-    "deep_dive_tier": "authored"
-  },
   "food-product-sales-forecasting": {
     "slug": "food-product-sales-forecasting",
     "keyword": "food product sales forecasting tool",
@@ -1425,18 +997,6 @@
     "meta_description": "How Shopify food brands can manage perishable inventory — shelf life constraints, FIFO, batch tracking, and demand forecasting.",
     "hero_intro": "Perishable food inventory management is one of the most demanding challenges in e-commerce — every reorder decision is bounded not just by demand and lead time, but by how long the product can be stored before it becomes unsellable. This guide covers the core strategies for managing perishable food inventory on Shopify, from shelf life-constrained reorder calculations to FIFO rotation and batch compliance tracking.",
     "deep_dive": "Perishable food inventory management is genuinely harder than most retail categories because every reorder decision is bounded by three things at once — projected demand, supplier lead time, and how long the product can actually be stored before it's unsellable. Getting any one of the three wrong creates a real cost: a stockout, a late delivery, or a write-off. Verve AI calculates reorder quantities that respect all three simultaneously from your Shopify sales and batch history, so purchase orders are sized to what will genuinely sell through in time rather than a generic buffer built for non-perishable products.",
-    "deep_dive_tier": "authored"
-  },
-  "food-expiry-dates-shopify-inventory": {
-    "slug": "food-expiry-dates-shopify-inventory",
-    "keyword": "managing food expiry dates in Shopify inventory",
-    "vertical": "food-and-beverage",
-    "page_type": "blog",
-    "h1": "Managing Food Expiry Dates in Your Shopify Inventory",
-    "meta_title": "Food Expiry Dates Shopify Inventory | Verve AI",
-    "meta_description": "How to manage food expiry dates in Shopify inventory — batch tracking, FIFO rotation, and shelf life-aware reorder quantities.",
-    "hero_intro": "Managing food expiry dates in Shopify inventory requires systems and processes that go beyond what native Shopify provides. Without expiry date tracking at the batch level, food brands can't reliably implement FIFO rotation, can't calculate safe reorder quantities, and can't respond to compliance queries without manual cross-referencing across multiple systems. This guide covers how to manage food expiry dates in Shopify inventory effectively.",
-    "deep_dive": "Shopify's native inventory tools track how many units of a product you have — they have no concept of when that stock expires, which means FIFO rotation, safe reorder quantities, and compliance queries all have to be handled manually outside the platform. Verve AI adds expiry date tracking directly into your Shopify inventory data, recording it against every batch automatically and using it to cap reorder recommendations and prioritise which stock should ship first, so expiry management becomes a built-in part of the system instead of a separate manual process.",
     "deep_dive_tier": "authored"
   },
   "inventory-planning-food-subscription-box": {
@@ -1497,7 +1057,8 @@
     "meta_description": "Inventory software for DTC coffee brands on Shopify. Freshness-aware forecasting, subscription demand, and automated reorders.",
     "hero_intro": "DTC coffee brands on Shopify sell a product where freshness is a competitive differentiator — holding too much roasted coffee defeats the purpose of selling direct. Verve AI gives DTC coffee brands inventory software that calculates reorder quantities against your freshness window, models subscription demand separately from one-time purchases, and generates automated purchase orders that keep your Shopify coffee store consistently stocked with fresh product.",
     "deep_dive": "Freshness is a genuine competitive advantage for DTC coffee brands, which makes over-buying a direct threat to the value proposition itself — holding too much roasted coffee for too long undermines the exact promise that justifies selling direct instead of through a retailer with older stock. Verve AI calculates reorder quantities against your specific freshness window rather than a generic shelf-life buffer, models subscription demand separately from one-time purchases so recurring orders are always covered, and keeps purchase orders sized to what will actually move while it's still fresh.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-artisan-food-brand": {
     "slug": "inventory-management-artisan-food-brand",
@@ -1509,19 +1070,8 @@
     "meta_description": "Inventory management for artisan food brands on Shopify. Small-batch forecasting, shelf life tracking, and automated purchase orders.",
     "hero_intro": "Artisan food brands on Shopify produce in small batches where every production run is a significant capital commitment — over-producing means write-offs, under-producing means stockouts during your most important trading periods. Verve AI gives artisan food brands demand forecasting built around small-batch production constraints, with shelf life-aware reorder quantities and automated purchase orders sized to what your production schedule can actually deliver.",
     "deep_dive": "Small-batch artisan production makes every purchase order a meaningfully larger capital and time commitment relative to overall output than it would be for a mass-market brand — over-producing wastes scarce production capacity on a run that won't sell through, while under-producing means missing your most important trading windows entirely. Verve AI forecasts demand at the SKU level from your Shopify sales history and sizes reorder recommendations to what a small-batch production schedule can realistically deliver, respecting both shelf life limits and the reality that you can't simply scale up a run overnight.",
-    "deep_dive_tier": "authored"
-  },
-  "stock-management-drinks-brand-shopify": {
-    "slug": "stock-management-drinks-brand-shopify",
-    "keyword": "stock management for drinks brand Shopify",
-    "vertical": "food-and-beverage",
-    "page_type": "vertical_landing",
-    "h1": "Stock Management for Drinks Brands on Shopify",
-    "meta_title": "Stock Management for Drinks Brand Shopify | Verve AI",
-    "meta_description": "AI stock management for drinks brands on Shopify. Shelf life forecasting, batch tracking, and automated purchase orders.",
-    "hero_intro": "Drinks brands on Shopify manage stock with shelf life constraints, seasonal demand patterns, and subscription customers who expect consistent availability — all at once. Verve AI gives drinks brands on Shopify AI-powered stock management that accounts for product freshness windows, models seasonal demand curves from your actual sales history, and generates automated purchase orders that keep you stocked without over-committing to stock that won't sell before it expires.",
-    "deep_dive": "Drinks brands manage several pressures on stock decisions simultaneously — shelf life that limits how far ahead you can buy, seasonal demand swings around summer and gifting periods, and subscription customers who expect consistent availability regardless of the season. Verve AI models all three from your Shopify sales history in one system: shelf-life-capped reorder quantities, seasonal demand curves built from your own historical trading patterns, and dual-channel forecasting that keeps subscription fulfilment covered before allocating stock to one-time orders.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-sports-brands": {
     "slug": "inventory-management-sports-brands",
@@ -1533,30 +1083,6 @@
     "meta_description": "AI inventory management for sports brands on Shopify. Seasonal demand forecasting, variant-level tracking, and automated POs.",
     "hero_intro": "Sports brands on Shopify carry one of the most complex inventory challenges in e-commerce — summer and winter product lines with completely different demand calendars, wide size and spec variant ranges, and seasonal transitions that require precise planning months in advance. Verve AI gives sports brands the demand forecasting and purchase order automation to manage this complexity without spreadsheets.",
     "deep_dive": "Sports brands carry more inventory complexity stacked on top of each other than almost any other category — summer and winter product lines with near-zero demand overlap, wide size and spec variant ranges within each, and seasonal transitions that require purchase orders placed months before the season they're serving. Verve AI handles all three layers simultaneously: independent demand curves per season, variant-level forecasting within each product line, and purchase order timing calculated against your specific supplier lead times, replacing a spreadsheet process that struggles to keep up with this much moving complexity at once.",
-    "deep_dive_tier": "authored"
-  },
-  "sports-equipment-inventory-management": {
-    "slug": "sports-equipment-inventory-management",
-    "keyword": "sports equipment inventory management software",
-    "vertical": "sports-and-outdoor",
-    "page_type": "vertical_landing",
-    "h1": "Sports Equipment Inventory Management Software",
-    "meta_title": "Sports Equipment Inventory Management | Verve AI",
-    "meta_description": "Inventory management software for sports equipment brands on Shopify. Size-run forecasting, seasonal splits, and automated POs.",
-    "hero_intro": "Sports equipment inventory management requires variant-level precision that generic software doesn't provide — a cycling brand forecasting across 7 frame sizes needs different logic to a sports clothing brand forecasting across 5 sizes in 12 colourways. Verve AI handles both, building demand forecasts at the individual variant level for sports equipment brands on Shopify and generating size-specific reorder recommendations that reflect actual sell-through.",
-    "deep_dive": "A cycling brand forecasting demand across 7 frame sizes needs genuinely different logic to an apparel brand forecasting across 5 sizes in 12 colourways — the variant structures and typical sell-through patterns aren't interchangeable, yet generic inventory software often applies the same demand model regardless of category. Verve AI forecasts at the individual variant level for whatever structure your catalogue actually has, building reorder recommendations that reflect real sell-through per size or spec rather than a flat assumption imported from a different type of product entirely.",
-    "deep_dive_tier": "authored"
-  },
-  "outdoor-gear-inventory-management": {
-    "slug": "outdoor-gear-inventory-management",
-    "keyword": "outdoor gear inventory management software",
-    "vertical": "sports-and-outdoor",
-    "page_type": "vertical_landing",
-    "h1": "Outdoor Gear Inventory Management Software",
-    "meta_title": "Outdoor Gear Inventory Management | Verve AI",
-    "meta_description": "Inventory management software for outdoor gear brands on Shopify. Seasonal demand forecasting and automated purchase orders.",
-    "hero_intro": "Outdoor gear inventory management requires planning across multiple seasonal windows simultaneously — summer camping and hiking demand peaks while winter equipment needs to be ordered for the following season, all from the same Shopify account. Verve AI gives outdoor gear brands AI-powered inventory management with independently calibrated seasonal demand curves for every product in their catalogue.",
-    "deep_dive": "Outdoor gear brands are effectively running two separate seasonal businesses through one Shopify account — summer camping and hiking gear peaking while winter equipment purchase orders are already being planned for the following season — and applying one demand model across both consistently gets the timing wrong on at least one side. Verve AI applies independently calibrated seasonal curves to each product group from your own sales history, so summer and winter buying decisions are each grounded in their own trading pattern rather than a single blended assumption spanning a catalogue that behaves nothing alike month to month.",
     "deep_dive_tier": "authored"
   },
   "sporting-goods-inventory-software": {
@@ -1571,18 +1097,6 @@
     "deep_dive": "Sporting goods inventory spans hundreds of SKUs across multiple disciplines, extensive size and spec ranges within each, and demand patterns that require planning months ahead of the actual selling season — a combination of scale and seasonality that most inventory software wasn't built to handle together. Verve AI forecasts every variant independently from your Shopify sales history and applies seasonal timing specific to each product category, so purchase order recommendations reflect both the real size-level demand split and the calendar timing your category actually needs.",
     "deep_dive_tier": "authored"
   },
-  "sports-brand-inventory-app-shopify": {
-    "slug": "sports-brand-inventory-app-shopify",
-    "keyword": "sports brand inventory app Shopify",
-    "vertical": "sports-and-outdoor",
-    "page_type": "vertical_landing",
-    "h1": "Sports Brand Inventory App for Shopify",
-    "meta_title": "Sports Brand Inventory App Shopify | Verve AI",
-    "meta_description": "The Shopify inventory app for sports brands. Seasonal demand forecasting, size-run tracking, and automated purchase orders.",
-    "hero_intro": "Sports brands need a Shopify inventory app that thinks seasonally — not one that averages summer and winter demand together into a meaningless monthly number. Verve AI is the inventory app built for sports brands, with seasonal demand segmentation that treats your summer and winter lines independently and generates purchase order recommendations timed to each season's opening window.",
-    "deep_dive": "Averaging summer and winter demand together into a single monthly number produces a forecast that's meaningless for either season — it understates the summer peak, overstates winter's off-season lull, and gets the purchase order timing wrong for both. Verve AI segments your catalogue by actual seasonal demand pattern from your Shopify sales history and applies independent forecasting to each group, so purchase order recommendations are timed to each product line's own opening window rather than a blended average that fits neither season well.",
-    "deep_dive_tier": "authored"
-  },
   "shopify-inventory-outdoor-store": {
     "slug": "shopify-inventory-outdoor-store",
     "keyword": "Shopify inventory management for outdoor store",
@@ -1595,18 +1109,6 @@
     "deep_dive": "An outdoor store's catalogue — tents, sleeping bags, climbing gear, kayaks — spans products with genuinely different seasonal windows and different acceptable lead times, which makes a single inventory approach across the whole range a poor fit regardless of how it's configured. Verve AI adds demand forecasting that respects those differences directly on top of your existing Shopify data, applying the right seasonal curve and lead-time logic to each product category, so a purchase order for summer camping gear and one for winter climbing equipment are each timed and sized correctly rather than following the same generic rule.",
     "deep_dive_tier": "authored"
   },
-  "sporting-goods-stock-management-shopify": {
-    "slug": "sporting-goods-stock-management-shopify",
-    "keyword": "sporting goods stock management Shopify",
-    "vertical": "sports-and-outdoor",
-    "page_type": "vertical_landing",
-    "h1": "Sporting Goods Stock Management on Shopify",
-    "meta_title": "Sporting Goods Stock Management Shopify | Verve AI",
-    "meta_description": "AI sporting goods stock management for Shopify. Forecast seasonal demand, manage size variants, and automate reorders.",
-    "hero_intro": "Sporting goods stock management on Shopify is most challenging at the seasonal transitions — when you need to be building summer stock while winter is still selling, or planning winter buys before the summer data is fully in. Verve AI handles these overlapping seasonal cycles with separate demand models for each product group, giving sporting goods brands on Shopify the stock management confidence to make the right buying decisions at every point in the season.",
-    "deep_dive": "The hardest moments in sporting goods stock management are the seasonal transitions — needing to build summer stock while winter product is still selling through, or committing to a winter buy before the current summer season's data is even fully in. Verve AI applies separate demand models to each product group rather than one blended forecast across the whole catalogue, so a summer buying decision doesn't get distorted by winter sell-through noise, and vice versa, giving you confidence at exactly the points in the calendar where forecasting typically gets hardest.",
-    "deep_dive_tier": "authored"
-  },
   "seasonal-demand-forecasting-sports-brand": {
     "slug": "seasonal-demand-forecasting-sports-brand",
     "keyword": "seasonal demand forecasting sports brand",
@@ -1617,18 +1119,6 @@
     "meta_description": "AI seasonal demand forecasting for sports brands on Shopify. Independently model summer and winter product lines.",
     "hero_intro": "Seasonal demand forecasting for sports brands is fundamentally different to most categories — you're not adjusting a single forecast up and down by season, you're running two or three completely separate demand models simultaneously for product lines that have near-zero demand overlap. Verve AI is built for this, applying independently calibrated seasonal curves to each product group in your sports brand's Shopify catalogue.",
     "deep_dive": "Seasonal forecasting for sports brands isn't a matter of adjusting one demand curve up and down by month — it's running two or three genuinely separate demand models at once for product lines with almost no overlap in when they sell. Verve AI applies independently calibrated seasonal curves to each product group in your catalogue from your own Shopify sales history, so a summer product's forecast is never distorted by winter sales patterns bleeding into the same blended model, and each group gets purchase order timing suited to its own actual season.",
-    "deep_dive_tier": "authored"
-  },
-  "outdoor-gear-sales-forecasting": {
-    "slug": "outdoor-gear-sales-forecasting",
-    "keyword": "outdoor gear sales forecasting tool",
-    "vertical": "sports-and-outdoor",
-    "page_type": "feature",
-    "h1": "Outdoor Gear Sales Forecasting Tool for Shopify",
-    "meta_title": "Outdoor Gear Sales Forecasting Tool | Verve AI",
-    "meta_description": "AI outdoor gear sales forecasting for Shopify. Seasonal demand curves, variant-level forecasting, and purchase order automation.",
-    "hero_intro": "Outdoor gear sales forecasting requires a tool that understands the hard start and end dates of each season — demand for a tent peaks sharply from April to August and then drops close to zero, which means averaging it across a 12-month period produces a forecast that's wrong in every month. Verve AI builds sales forecasts for outdoor gear with per-product seasonal curves, giving brands on Shopify the accuracy to place the right orders ahead of each season's opening.",
-    "deep_dive": "Averaging a tent's demand across a full 12-month period produces a forecast that's wrong for essentially every month, since real demand is concentrated sharply between April and August and close to zero the rest of the year — a smooth average simply doesn't reflect how the product actually sells. Verve AI builds per-product seasonal curves directly from your Shopify sales history instead of relying on a flat annual average, so the forecast for each outdoor gear SKU reflects its actual demand shape and gives you accurate purchase order timing ahead of its specific season opening.",
     "deep_dive_tier": "authored"
   },
   "purchase-order-automation-sports-brand": {
@@ -1655,18 +1145,6 @@
     "deep_dive": "Running summer and winter product lines with almost no demand overlap effectively means operating two separate businesses through one inventory system, and treating them as one blended forecast consistently produces the wrong buying decision for at least one side. Managing this well means planning each season independently, timing supplier orders to each product group's own calendar, and catching transition stock early enough to clear it before it becomes a margin problem. Verve AI builds that separation directly into its forecasting from your Shopify sales history, rather than requiring a manual split maintained across spreadsheets.",
     "deep_dive_tier": "authored"
   },
-  "summer-winter-inventory-outdoor-brand": {
-    "slug": "summer-winter-inventory-outdoor-brand",
-    "keyword": "summer winter inventory split outdoor brand",
-    "vertical": "sports-and-outdoor",
-    "page_type": "blog",
-    "h1": "Managing the Summer/Winter Inventory Split for Outdoor Brands",
-    "meta_title": "Summer Winter Inventory Split Outdoor Brand | Verve AI",
-    "meta_description": "How outdoor brands manage the summer and winter inventory split — separate demand forecasting, transition stock, and seasonal PO timing.",
-    "hero_intro": "The summer/winter inventory split is the central challenge for outdoor brands — two completely different product catalogues sharing one Shopify account, requiring separate demand forecasts, separate buying calendars, and separate seasonal transition plans. This guide covers how outdoor brands can manage this split systematically, using seasonal demand segmentation to make the right buying decisions for each half of the catalogue independently.",
-    "deep_dive": "The summer/winter split isn't a minor seasonal adjustment for outdoor brands — it's effectively two separate product catalogues, two separate demand forecasts, and two separate buying calendars running through the same Shopify account, and managing them with one blended system inevitably gets the timing wrong on one side or the other. Verve AI segments your catalogue by actual seasonal demand pattern and applies independent forecasting and purchase order timing to each group, so summer and winter buying decisions are each grounded in their own trading history rather than a single average that fits neither well.",
-    "deep_dive_tier": "authored"
-  },
   "size-variants-sports-equipment-shopify": {
     "slug": "size-variants-sports-equipment-shopify",
     "keyword": "managing size variants sports equipment Shopify",
@@ -1677,7 +1155,8 @@
     "meta_description": "How sports equipment brands can manage size variants on Shopify — variant-level forecasting, size run planning, and reorder accuracy.",
     "hero_intro": "Managing size variants for sports equipment on Shopify is one of the most commonly under-solved inventory problems in the category — brands that average demand across sizes consistently stockout on their bestselling sizes while accumulating excess on their slowest-moving ones. This guide covers how to implement variant-level demand forecasting for sports equipment, so every size in your range is stocked accurately and your capital isn't tied up in the wrong sizes.",
     "deep_dive": "Averaging demand evenly across a size range is one of the most common — and costly — mistakes in sports equipment inventory, because it guarantees stockouts on the bestselling sizes while quietly accumulating excess on the ones that rarely move. The fix is forecasting each size independently rather than as a fraction of a product-level total. Verve AI does this from your Shopify sales history automatically, building a separate velocity curve per variant so your reorder recommendations reflect how each specific size is actually selling, not an assumption that demand splits evenly across the range.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-software-fitness-equipment-brand": {
     "slug": "inventory-software-fitness-equipment-brand",
@@ -1689,7 +1168,8 @@
     "meta_description": "Inventory software for fitness equipment brands on Shopify. AI demand forecasting, variant tracking, and automated purchase orders.",
     "hero_intro": "Fitness equipment brands on Shopify manage a wide product mix — from high-ticket equipment with long lead times and slow daily velocity, to accessories and consumables that sell quickly and need frequent replenishment. Verve AI gives fitness equipment brands inventory software that handles both simultaneously, with the right forecasting logic applied to each product type in your Shopify catalogue.",
     "deep_dive": "Fitness equipment brands typically carry two very different inventory profiles in one catalogue — high-ticket equipment with long lead times and low daily sales velocity, and consumables or accessories that sell quickly and need frequent replenishment — and a single reorder rule applied to both inevitably gets one of them wrong. Verve AI forecasts every SKU according to its own actual sales pattern from your Shopify history, applying low-volume precision logic to slow-moving equipment and standard high-frequency reorder logic to fast-moving accessories, inside one connected system.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-cycling-brand": {
     "slug": "inventory-management-cycling-brand",
@@ -1701,7 +1181,8 @@
     "meta_description": "AI inventory management for cycling brands on Shopify. Frame size forecasting, seasonal demand, and automated purchase orders.",
     "hero_intro": "Cycling brands on Shopify manage some of the most demanding variant complexity in the sports category — frames in multiple sizes and materials, components with interchange compatibility, and accessories with wide size ranges — all sitting within a hard seasonal demand calendar. Verve AI gives cycling brands on Shopify variant-level demand forecasting and automated purchase orders that account for both the size complexity and the seasonal timing of cycling demand.",
     "deep_dive": "Cycling inventory combines some of the sharpest variant complexity in sports retail — frame sizes, materials, component compatibility, accessory sizing — with a hard seasonal demand calendar that peaks through summer and drops sharply in winter. A forecast that doesn't separate these dimensions ends up wrong on both fronts: over-ordering slow frame sizes while missing the seasonal ramp entirely. Verve AI forecasts every variant independently and applies seasonal timing on top, so a purchase order for cycling stock reflects both which specific size or spec is actually selling and when the season calls for it to be in stock.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-app-running-gear-brand": {
     "slug": "inventory-app-running-gear-brand",
@@ -1713,7 +1194,8 @@
     "meta_description": "Shopify inventory app for running gear brands. Size-run forecasting, seasonal demand, and automated purchase orders.",
     "hero_intro": "Running gear brands on Shopify sell products with extensive size ranges — shoes in 12 sizes and 4 widths, apparel in XS to XXL across multiple colourways — and demand that swings with race season calendars and weather patterns. Verve AI is the Shopify inventory app that forecasts at the individual size level for running gear brands, keeping your bestselling sizes consistently available without building excess on your slowest-moving ones.",
     "deep_dive": "Running gear demand isn't just seasonal, it's calendar-driven in a way most inventory apps don't account for — sales spike ahead of specific race dates and weather windows, not on a smooth monthly curve, and a shoe's 12-size, 4-width range means a blended forecast across the whole product line consistently gets individual sizes wrong. Verve AI forecasts every size and width independently from your Shopify sales history and lets you flag known race calendar events so the forecast anticipates the surge, keeping bestselling sizes in stock through your peak periods without over-ordering the sizes that rarely move.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-surf-brand": {
     "slug": "inventory-management-surf-brand",
@@ -1725,19 +1207,8 @@
     "meta_description": "AI inventory management for surf brands on Shopify. Seasonal demand forecasting, size-run tracking, and automated purchase orders.",
     "hero_intro": "Surf brands on Shopify operate with hard seasonal demand peaks, wide size ranges across wetsuits and boardshorts, and regional demand variation that makes forecasting more art than science without the right tools. Verve AI gives surf brands on Shopify AI-powered inventory management with seasonal demand modelling and variant-level forecasting, so you build the right stock ahead of your summer peak and don't carry excess through the off-season.",
     "deep_dive": "Surf inventory planning has to account for a hard seasonal peak, wide size ranges across wetsuits and boardshorts, and regional demand differences that a single national average obscures — a combination that pushes most brands toward forecasting by instinct rather than data. Verve AI forecasts every SKU and variant from your actual Shopify sales history, applying seasonal demand curves specific to your trading pattern rather than a generic assumption, so stock is built ahead of your summer peak at the right size mix and doesn't sit unsold through the off-season.",
-    "deep_dive_tier": "authored"
-  },
-  "stock-management-camping-gear-brand": {
-    "slug": "stock-management-camping-gear-brand",
-    "keyword": "stock management for camping gear brand",
-    "vertical": "sports-and-outdoor",
-    "page_type": "vertical_landing",
-    "h1": "Stock Management for Camping Gear Brands on Shopify",
-    "meta_title": "Stock Management Camping Gear Brand | Verve AI",
-    "meta_description": "AI stock management for camping gear brands on Shopify. Seasonal demand forecasting and automated purchase orders for outdoor gear.",
-    "hero_intro": "Camping gear brands on Shopify face a classic seasonal inventory challenge — demand concentrates heavily from March to August, with lead times from overseas suppliers that require buying decisions to be made in January or February. Verve AI gives camping gear brands on Shopify AI-powered stock management with seasonal demand forecasts that tell you exactly how much to order and when, so you arrive at the peak stocked and clear it profitably before the off-season begins.",
-    "deep_dive": "Camping gear demand concentrates heavily into a five-month window from March to August, but overseas supplier lead times push the actual buying decision back into January or February — well before any current-season sales data exists to inform it. Verve AI builds that forecast from your historical seasonal sales pattern rather than waiting for real-time signal, calculating exactly how much to order and when the purchase order needs to go out to land in time for the season, so you arrive at your peak properly stocked instead of reacting to demand that's already outpaced supply.",
-    "deep_dive_tier": "authored"
+    "deep_dive_tier": "authored",
+    "noindex": true
   },
   "inventory-management-activewear-brand": {
     "slug": "inventory-management-activewear-brand",

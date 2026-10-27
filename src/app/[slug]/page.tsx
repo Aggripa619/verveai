@@ -28,6 +28,7 @@ export async function generateMetadata({
   return {
     title: page.meta_title,
     description: page.meta_description,
+    ...(page.noindex && { robots: { index: false, follow: true } }),
     alternates: {
       canonical: `${SITE_URL}/${slug}`,
     },

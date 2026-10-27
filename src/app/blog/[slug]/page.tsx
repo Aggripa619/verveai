@@ -5,6 +5,7 @@ import {
   getAllBlogSlugs,
   getBlogPost,
   getRelatedBlogPosts,
+  getIndustryLinksForBlogPost,
   SHOPIFY_URL,
   WOOCOMMERCE_URL,
   SITE_URL,
@@ -74,6 +75,7 @@ export default async function BlogPostPage({
   if (!post) notFound()
 
   const relatedPosts = getRelatedBlogPosts(slug)
+  const industryLinks = getIndustryLinksForBlogPost(slug)
 
   let firstHalf = ''
   let secondHalf = ''
@@ -136,6 +138,24 @@ export default async function BlogPostPage({
                   })}
               </div>
             </>
+          )}
+
+          {industryLinks.length > 0 && (
+            <section className="mt-12 pt-8 border-t border-gray-200">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Applying This in Your Industry</h2>
+              <ul className="grid sm:grid-cols-2 gap-3">
+                {industryLinks.map((p) => (
+                  <li key={p.slug}>
+                    <Link
+                      href={`/${p.slug}`}
+                      className="block rounded-lg border border-gray-200 p-4 text-gray-800 hover:border-teal-300 hover:bg-teal-50/30 transition-colors"
+                    >
+                      {p.h1}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
           )}
 
           {relatedPosts.length > 0 && (

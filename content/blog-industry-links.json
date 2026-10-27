@@ -1,0 +1,192 @@
+{
+  "apparel-demand-forecasting": [
+    "demand-forecasting-apparel-brands",
+    "clothing-sales-forecasting-shopify"
+  ],
+  "automatic-stock-replenishment": [
+    "inventory-software-snack-brand",
+    "inventory-management-natural-pet-food"
+  ],
+  "bulk-edit-inventory-on-shopify": [
+    "inventory-app-natural-beauty-brand",
+    "shopify-inventory-supplement-store"
+  ],
+  "consignment-stock": [
+    "inventory-management-handmade-jewellery"
+  ],
+  "continue-selling-when-out-of-stock-shopify": [
+    "supplement-stockout-prevention-shopify"
+  ],
+  "days-inventory-outstanding": [
+    "shopify-inventory-furniture-store"
+  ],
+  "demand-forecasting-ecommerce": [
+    "demand-forecasting-apparel-brands"
+  ],
+  "demand-forecasting-new-products": [
+    "inventory-management-indie-beauty-brand",
+    "inventory-management-hot-sauce-brand"
+  ],
+  "demand-forecasting-tools": [
+    "supplement-inventory-app-shopify"
+  ],
+  "demand-forecasting-with-ai": [
+    "demand-forecasting-supplement-brands"
+  ],
+  "demand-sensing-process-guide": [
+    "demand-forecasting-supplement-brands"
+  ],
+  "demand-variability-explained": [
+    "skincare-inventory-management-software",
+    "seasonal-demand-forecasting-homeware"
+  ],
+  "e-commerce-sales-forecasting-using-machine-learning": [
+    "clothing-sales-forecasting-shopify"
+  ],
+  "ecommerce-forecasting": [
+    "clothing-sales-forecasting-shopify"
+  ],
+  "forecasting-demand-planning": [
+    "seasonal-demand-forecasting-homeware"
+  ],
+  "forecasting-vs-demand-planning": [
+    "seasonal-inventory-sports-brand"
+  ],
+  "how-to-add-variant-product-on-shopify": [
+    "managing-size-colour-variants-shopify"
+  ],
+  "how-to-calculate-reorder-point": [
+    "managing-lead-times-furniture-brand",
+    "supplier-lead-times-jewellery-brand"
+  ],
+  "inventory-audit-template": [
+    "batch-lot-tracking-food-shopify",
+    "inventory-management-handmade-jewellery"
+  ],
+  "inventory-discrepancy": [
+    "batch-lot-tracking-food-shopify"
+  ],
+  "inventory-flow": [
+    "inventory-management-indie-beauty-brand",
+    "inventory-management-hot-sauce-brand"
+  ],
+  "inventory-forecasting-and-planning": [
+    "seasonal-inventory-sports-brand"
+  ],
+  "inventory-forecasting-tools-technology": [
+    "supplement-inventory-app-shopify"
+  ],
+  "inventory-management-fundamentals": [
+    "cosmetics-inventory-management-software",
+    "jewellery-inventory-app-shopify"
+  ],
+  "inventory-management-metrics": [
+    "skincare-inventory-management-software"
+  ],
+  "inventory-replenishment-process": [
+    "inventory-management-natural-pet-food"
+  ],
+  "inventory-report-example": [
+    "batch-lot-tracking-food-shopify"
+  ],
+  "inventory-turnover-ratio-days": [
+    "inventory-management-perishable-food",
+    "supplement-inventory-expiry-tracking"
+  ],
+  "inventory-velocity": [
+    "inventory-management-makeup-brand",
+    "supplement-inventory-expiry-tracking"
+  ],
+  "managing-shopify-purchase-orders": [
+    "supplier-lead-times-jewellery-brand"
+  ],
+  "multichannel-inventory-control-software": [
+    "cosmetics-inventory-management-software",
+    "supplement-inventory-app-shopify"
+  ],
+  "obsolete-stock": [
+    "inventory-app-natural-beauty-brand",
+    "inventory-management-perishable-food",
+    "supplement-inventory-expiry-tracking"
+  ],
+  "out-of-stock-inventory-shopify": [
+    "supplement-stockout-prevention-shopify"
+  ],
+  "overstock-inventory": [
+    "skincare-inventory-management-software",
+    "inventory-management-perishable-food"
+  ],
+  "predict-stock-levels-using-ai": [
+    "demand-forecasting-supplement-brands"
+  ],
+  "reorder-level-formula": [
+    "managing-lead-times-furniture-brand"
+  ],
+  "replenishment-of-stock": [
+    "inventory-management-hot-sauce-brand"
+  ],
+  "replenishment-planning": [
+    "inventory-management-natural-pet-food"
+  ],
+  "restocking-inventory-on-shopify": [
+    "food-brand-inventory-app-shopify",
+    "shopify-inventory-furniture-store"
+  ],
+  "retail-e-commerce-operations": [
+    "inventory-management-indie-beauty-brand",
+    "inventory-software-snack-brand"
+  ],
+  "safety-stock-calculator": [
+    "managing-lead-times-furniture-brand"
+  ],
+  "seasonal-demand-forecasting": [
+    "seasonal-demand-forecasting-homeware",
+    "seasonal-inventory-sports-brand"
+  ],
+  "shopify-abc-product-analysis": [
+    "inventory-management-makeup-brand"
+  ],
+  "shopify-available-vs-on-hand": [
+    "food-brand-inventory-app-shopify",
+    "shopify-inventory-supplement-store"
+  ],
+  "shopify-essential-knowledge": [
+    "inventory-app-natural-beauty-brand"
+  ],
+  "shopify-inventory-forecasting-app-comparison": [
+    "cosmetics-inventory-management-software",
+    "jewellery-inventory-app-shopify"
+  ],
+  "shopify-merchandising": [
+    "jewellery-inventory-app-shopify"
+  ],
+  "shopify-multiple-warehouses": [
+    "food-brand-inventory-app-shopify",
+    "shopify-inventory-furniture-store"
+  ],
+  "shopify-plus-inventory-management": [
+    "shopify-inventory-supplement-store"
+  ],
+  "shopify-variant-limit": [
+    "managing-size-colour-variants-shopify"
+  ],
+  "sku-forecasting": [
+    "demand-forecasting-apparel-brands"
+  ],
+  "stock-turnover-ratio": [
+    "inventory-software-snack-brand"
+  ],
+  "stockout-costs": [
+    "supplement-stockout-prevention-shopify"
+  ],
+  "supply-chain-edi": [
+    "supplier-lead-times-jewellery-brand"
+  ],
+  "what-is-sku-shopify": [
+    "managing-size-colour-variants-shopify",
+    "inventory-management-makeup-brand"
+  ],
+  "wip-inventory": [
+    "inventory-management-handmade-jewellery"
+  ]
+}

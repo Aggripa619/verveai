@@ -31,9 +31,68 @@ export const LEGACY_PATHS: Record<string, string> = {
   '/supplement-inventory-management-software': '/inventory-management-supplement-brands',
   '/skincare-inventory-management-shopify': '/skincare-inventory-management-software',
   '/pet-supply-inventory-management-software': '/inventory-management-pet-supply-brands',
-  '/shopify-inventory-pet-store': '/pet-store-inventory-software',
+  '/shopify-inventory-pet-store': '/inventory-management-pet-supply-brands',
   '/inventory-software-jewellery-brand': '/jewellery-inventory-management-software',
   '/home-goods-inventory-management-software': '/inventory-management-home-goods-brands',
+
+  // Index-recovery pruning (2026-10-27): thin pSEO pages (<10 GSC impressions
+  // in 6 months, "Crawled - currently not indexed" since May) that were
+  // phrasing variants of a stronger same-intent sibling, merged into it.
+  // Distinct-but-thin pages were set noindex instead (pseo-pages.json).
+  // apparel
+  '/clothing-store-inventory-app-shopify': '/clothing-inventory-management-software',
+  '/shopify-clothing-inventory-tracker': '/clothing-inventory-management-software',
+  '/shopify-inventory-app-fashion-brands': '/inventory-management-for-fashion-brands',
+  '/inventory-app-fast-fashion-shopify': '/inventory-management-for-fashion-brands',
+  '/shopify-variant-inventory-clothing': '/managing-size-colour-variants-shopify',
+  '/inventory-software-dtc-apparel': '/inventory-management-for-apparel-brands',
+  '/purchase-order-software-apparel': '/automated-purchase-orders-clothing',
+  // beauty
+  '/shopify-inventory-cosmetics-brand': '/cosmetics-inventory-management-software',
+  '/beauty-brand-inventory-app-shopify': '/inventory-management-beauty-brands',
+  '/inventory-software-dtc-skincare': '/skincare-inventory-management-software',
+  '/skincare-sales-forecasting-tool': '/demand-forecasting-beauty-brand',
+  // food & beverage
+  '/food-drink-inventory-software-shopify': '/inventory-management-food-brands',
+  '/stock-management-drinks-brand-shopify': '/beverage-brand-inventory-management',
+  '/ecommerce-food-stock-management-shopify': '/shopify-inventory-food-store',
+  '/demand-forecasting-dtc-food-brand': '/food-product-sales-forecasting',
+  '/food-expiry-dates-shopify-inventory': '/inventory-management-perishable-food',
+  // home goods
+  '/homeware-stock-management-shopify': '/inventory-management-home-goods-brands',
+  '/homeware-inventory-management-software': '/inventory-management-home-goods-brands',
+  '/home-decor-inventory-software': '/inventory-management-home-goods-brands',
+  '/stock-management-furniture-ecommerce': '/furniture-inventory-management-software',
+  '/seasonal-inventory-planning-homeware': '/seasonal-demand-forecasting-homeware',
+  // jewellery
+  '/jewelry-stock-management-shopify': '/jewelry-inventory-management-software',
+  '/gift-season-inventory-planning-jewellery': '/demand-forecasting-jewellery-brand',
+  '/jewellery-inventory-planning-christmas': '/demand-forecasting-jewellery-brand',
+  '/inventory-tracking-high-value-jewellery': '/inventory-software-fine-jewellery-brand',
+  // pet supplies
+  '/pet-store-inventory-software': '/inventory-management-pet-supply-brands',
+  '/pet-product-stock-management': '/inventory-management-pet-supply-brands',
+  '/inventory-management-dtc-pet-brand': '/inventory-management-pet-supply-brands',
+  '/inventory-app-pet-accessories-store': '/pet-supply-inventory-app-shopify',
+  '/inventory-software-pet-food-brand': '/inventory-management-natural-pet-food',
+  '/recurring-demand-forecasting-pet-supplies': '/demand-forecasting-pet-food-brand',
+  '/pet-brand-stock-forecasting-shopify': '/demand-forecasting-pet-food-brand',
+  '/preventing-stockouts-pet-food-shopify': '/replenishment-consumable-pet-products',
+  // sports & outdoor
+  '/sports-brand-inventory-app-shopify': '/inventory-management-sports-brands',
+  '/sporting-goods-stock-management-shopify': '/sporting-goods-inventory-software',
+  '/sports-equipment-inventory-management': '/sporting-goods-inventory-software',
+  '/outdoor-gear-inventory-management': '/shopify-inventory-outdoor-store',
+  '/stock-management-camping-gear-brand': '/shopify-inventory-outdoor-store',
+  '/outdoor-gear-sales-forecasting': '/seasonal-demand-forecasting-sports-brand',
+  '/summer-winter-inventory-outdoor-brand': '/seasonal-inventory-sports-brand',
+  // supplements
+  '/health-supplement-stock-management': '/inventory-management-supplement-brands',
+  '/health-product-forecasting-shopify': '/demand-forecasting-supplement-brands',
+  '/forecast-demand-supplement-subscriptions': '/demand-forecasting-supplement-brands',
+  '/subscription-inventory-planning-supplements': '/demand-forecasting-supplement-brands',
+  '/inventory-management-wellness-brand': '/health-product-inventory-shopify',
+  '/inventory-software-sports-nutrition': '/inventory-management-protein-powder-brand',
 }
 
 // Blog content once had protocol-less links (href="www.getverveai.com/blog/x"),
