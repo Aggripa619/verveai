@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import CTAButton from '@/components/CTAButton'
-import DemoRequestForm from '@/components/DemoRequestForm'
 import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
 
 export const metadata: Metadata = {
@@ -67,23 +66,6 @@ export default function DemoPage() {
             <CTAButton href={WOOCOMMERCE_URL} variant="purple" size="lg" external>
               Add to WooCommerce — Free Trial
             </CTAButton>
-          </div>
-        </div>
-      </section>
-
-      {/* Demo request */}
-      <section id="book-a-demo" className="py-16 lg:py-20 bg-white">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
-              Prefer a live walkthrough?
-            </h2>
-            <p className="text-gray-600">
-              Book a demo and we&apos;ll show you Verve AI forecasting your own catalogue.
-            </p>
-          </div>
-          <div className="rounded-2xl border border-gray-200 shadow-sm p-6 sm:p-8">
-            <DemoRequestForm />
           </div>
         </div>
       </section>

@@ -5,13 +5,13 @@
 // on the client — the browser only has to reach our own API. Requires
 // GA4_MEASUREMENT_ID ("G-XXXXXXXXXX") and GA4_API_SECRET (GA4 Admin -> Data
 // Streams -> [web stream] -> Measurement Protocol API secrets) as environment
-// variables. Every sender silently no-ops if either is unset — conversion
-// capture (leads, demo requests) must never depend on this succeeding.
+// variables. Every sender silently no-ops if either is unset — lead capture
+// must never depend on this succeeding.
 //
-// Conversion events sent from here (mark each as a Key Event in GA4 Admin):
-//   generate_lead  — tool / calculator email gate (api/dl)
-//   install_click  — Shopify / WooCommerce install-or-trial click (api/track)
-//   demo_request   — /demo request form (api/demo-request)
+// Sent from here: generate_lead (tool / calculator email gate, api/dl).
+// Clicks out to the Shopify App Store / WordPress.org are tracked in GA4
+// itself (Shopify_Listing_Click / WooCommerce_Listing_Click, created from
+// enhanced-measurement outbound `click` events), not by this code.
 
 import type { NextRequest } from 'next/server'
 import { randomUUID } from 'crypto'
