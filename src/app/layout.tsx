@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import InstallClickTracker from '@/components/InstallClickTracker'
+import { SHOPIFY_URL, WOOCOMMERCE_URL } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'Verve AI - AI E-Commerce Forecasting Software',
@@ -46,6 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <InstallClickTracker shopifyUrl={SHOPIFY_URL} woocommerceUrl={WOOCOMMERCE_URL} />
       </body>
     </html>
   )

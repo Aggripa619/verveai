@@ -1,31 +1,22 @@
 // Server-side GA4 conversion tracking via the Measurement Protocol.
 //
-// Why this exists: the client-side dataLayer.push({event: 'email_gate_submit', ...})
-// in EmailGateModal.tsx has fired correctly since it was added — the gap GA4's
-// own Conversions report shows isn't missing client-side code, it's that GTM
-// container GTM-KP49WHM6 needs its own configuration (a GA4 Event tag mapped to
-// this dataLayer event, and that event marked as a Key Event in GA4) before GA4
-// will count it — configuration this codebase can't reach, since it lives in
-// the Google Tag Manager / Google Analytics admin UIs, not in a file here.
+// Why server-side: conversions recorded here don't depend on the GTM
+// container's tag configuration (GTM-KP49WHM6) or survive-the-ad-blocker luck
+// on the client — the browser only has to reach our own API. Requires
+// GA4_MEASUREMENT_ID ("G-XXXXXXXXXX") and GA4_API_SECRET (GA4 Admin -> Data
+// Streams -> [web stream] -> Measurement Protocol API secrets) as environment
+// variables. Every sender silently no-ops if either is unset — conversion
+// capture (leads, demo requests) must never depend on this succeeding.
 //
-// This sends the same conversion directly to GA4's collection endpoint from
-// the server, independent of GTM entirely, so the conversion is recorded even
-// if the GTM-side tag is never configured. Requires GA4_MEASUREMENT_ID (the
-// "G-XXXXXXXXXX" ID for the GA4 property) and GA4_API_SECRET (GA4 Admin ->
-// Data Streams -> [your web stream] -> Measurement Protocol API secrets ->
-// Create) as environment variables. Silently no-ops if either is unset --
-// lead capture must never depend on this succeeding.
+// Conversion events sent from here (mark each as a Key Event in GA4 Admin):
+//   generate_lead  — tool / calculator email gate (api/dl)
+//   install_click  — Shopify / WooCommerce install-or-trial click (api/track)
+//   demo_request   — /demo request form (api/demo-request)
+
+import type { NextRequest } from 'next/server'
+import { randomUUID } from 'crypto'
 
 const MEASUREMENT_PROTOCOL_URL = 'https://www.google-analytics.com/mp/collect'
-
-interface Ga4LeadEventParams {
-  /** GA4 client_id -- read from the browser's `_ga` cookie when available, so
-   *  the server-side hit ties back to the same session as the visitor's
-   *  browsing activity, rather than looking like a brand new anonymous user. */
-  clientId: string
-  toolSlug: string
-  toolName: string
-}
 
 /** Extracts the GA4 client_id from a raw `_ga` cookie value like
  *  "GA1.1.1234567890.1234567890" -> "1234567890.1234567890". Returns null if
@@ -37,7 +28,44 @@ export function parseGa4ClientIdFromCookie(gaCookieValue: string | undefined): s
   return `${parts[2]}.${parts[3]}`
 }
 
-export async function sendGa4LeadEvent({ clientId, toolSlug, toolName }: Ga4LeadEventParams): Promise<void> {
+/** Extracts the current session_id from the property's `_ga_<ID>` cookie.
+ *  Handles both formats: "GS1.1.1730000000.3.1...." and
+ *  "GS2.1.s1730000000$o3$g1$t...". Without a session_id, GA4 can't join a
+ *  server-side event to the visitor's session, so it shows as "Unassigned"
+ *  traffic instead of the channel that actually drove the conversion. */
+export function parseGa4SessionIdFromCookie(sessionCookieValue: string | undefined): string | null {
+  if (!sessionCookieValue) return null
+  const parts = sessionCookieValue.split('.')
+  if (parts.length < 3) return null
+  if (parts[0] === 'GS2') {
+    const match = parts.slice(2).join('.').match(/^s(\d+)/)
+    return match ? match[1] : null
+  }
+  return /^\d+$/.test(parts[2]) ? parts[2] : null
+}
+
+interface Ga4Identity {
+  clientId: string
+  sessionId: string | null
+}
+
+/** Reads the visitor's GA4 client_id + session_id from the request cookies,
+ *  falling back to a random client_id when the visitor has no `_ga` cookie
+ *  (consent declined, blocked, or first hit). */
+export function ga4IdentityFromRequest(req: NextRequest): Ga4Identity {
+  const measurementId = process.env.GA4_MEASUREMENT_ID ?? ''
+  const sessionCookieName = `_ga_${measurementId.replace(/^G-/, '')}`
+  return {
+    clientId: parseGa4ClientIdFromCookie(req.cookies.get('_ga')?.value) ?? randomUUID(),
+    sessionId: parseGa4SessionIdFromCookie(req.cookies.get(sessionCookieName)?.value),
+  }
+}
+
+export async function sendGa4Event(
+  identity: Ga4Identity,
+  name: string,
+  params: Record<string, string>
+): Promise<void> {
   const measurementId = process.env.GA4_MEASUREMENT_ID
   const apiSecret = process.env.GA4_API_SECRET
   if (!measurementId || !apiSecret) return // Not configured -- skip silently.
@@ -48,13 +76,16 @@ export async function sendGa4LeadEvent({ clientId, toolSlug, toolName }: Ga4Lead
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      client_id: clientId,
+      client_id: identity.clientId,
       events: [
         {
-          name: 'generate_lead',
+          name,
           params: {
-            tool_slug: toolSlug,
-            tool_name: toolName,
+            ...params,
+            // Both are needed for GA4 to attribute the event to the
+            // visitor's existing session (and its traffic source).
+            ...(identity.sessionId ? { session_id: identity.sessionId } : {}),
+            engagement_time_msec: '1',
           },
         },
       ],
