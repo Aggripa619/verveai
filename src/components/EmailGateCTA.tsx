@@ -14,6 +14,7 @@ interface EmailGateCTAProps {
   modalSubtitle?: string
   modalButtonLabel?: string
   successTitle?: string
+  successMessage?: string
 }
 
 export default function EmailGateCTA({
@@ -25,6 +26,7 @@ export default function EmailGateCTA({
   modalSubtitle,
   modalButtonLabel,
   successTitle,
+  successMessage,
 }: EmailGateCTAProps) {
   const [open, setOpen] = useState(false)
 
@@ -89,6 +91,7 @@ export default function EmailGateCTA({
           subtitle={modalSubtitle}
           buttonLabel={modalButtonLabel}
           successTitle={successTitle}
+          successMessage={successMessage}
           onClose={() => setOpen(false)}
         />
       )}

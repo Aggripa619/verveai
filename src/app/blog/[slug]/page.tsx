@@ -14,6 +14,7 @@ import BlogCTA from '@/components/BlogCTA'
 import InlineCTABanner from '@/components/InlineCTABanner'
 import SafetyStockCalculatorWrapper from '@/components/SafetyStockCalculatorWrapper'
 import ComparisonBanner from '@/components/ComparisonBanner'
+import EmailGateCTA from '@/components/EmailGateCTA'
 
 export async function generateStaticParams() {
   const slugs = getAllBlogSlugs()
@@ -103,7 +104,25 @@ export default async function BlogPostPage({
                 dangerouslySetInnerHTML={{ __html: firstHalf }}
               />
 
-              {slug === 'safety-stock-calculator' ? <SafetyStockCalculatorWrapper /> : <BlogCTA />}
+              {slug === 'safety-stock-calculator' ? (
+                <SafetyStockCalculatorWrapper />
+              ) : slug === 'demand-forecasting-excel' ? (
+                // ~39% of all organic search clicks land on this post (GSC, Oct 2026).
+                <div id="free-template" className="scroll-mt-24">
+                  <EmailGateCTA
+                    toolSlug="demand-forecast-excel-template"
+                    toolName="Demand Forecasting Excel Template"
+                    subtitle="Moving average, exponential smoothing, FORECAST.LINEAR and seasonal ETS side by side, plus safety stock and reorder point. Paste in your sales and go."
+                    buttonLabel="Download the Free Excel Template →"
+                    modalSubtitle="Enter your email and the .xlsx downloads straight away. We'll email you a copy too."
+                    modalButtonLabel="Download Template →"
+                    successTitle="Downloading your template…"
+                    successMessage="Check your downloads folder for Verve-AI-Demand-Forecast-Template.xlsx. We've emailed you the link too."
+                  />
+                </div>
+              ) : (
+                <BlogCTA />
+              )}
 
               {slug === 'safety-stock-calculator' && <BlogCTA />}
 

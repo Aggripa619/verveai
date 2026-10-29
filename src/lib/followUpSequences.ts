@@ -323,6 +323,48 @@ export const FOLLOW_UP_SEQUENCES: Record<string, ToolSequence> = {
       },
     ],
   },
+  'demand-forecast-excel-template': {
+    toolName: 'Demand Forecasting Excel Template',
+    toolUrl: 'https://www.getverveai.com/downloads/f7c2a91e4b3d/Verve-AI-Demand-Forecast-Template.xlsx',
+    steps: [
+      {
+        day: 0,
+        subject: 'Here’s your Demand Forecasting Excel Template',
+        bodyHtml: ({ firstName, toolUrl }) => `
+          ${p(`Hi ${firstName},`)}
+          ${p('Thanks for grabbing the Demand Forecasting Excel Template — here’s your download link (handy if the first download didn’t open):')}
+          ${ctaBlockHtml(toolUrl, 'Download the Template →', 'teal')}
+          ${p('Quick tip: paste 24 months of sales for one product into the yellow cells on the Forecast tab, then check the Accuracy row — the method with the lowest % fits your history best. If your product has a big Q4 peak, compare against the Seasonal ETS column too (needs Excel 2016 or later).')}
+          ${p('Talk soon,<br>The Verve AI team')}
+          ${p('<span style="font-size:13px;color:rgb(107,114,128);">P.S. If you’re on Shopify or WooCommerce, Verve AI forecasts every SKU automatically from your live sales data — no copy-pasting. More on that soon.</span>')}
+        `,
+      },
+      {
+        day: 5,
+        subject: 'Forecasting one SKU at a time doesn’t scale',
+        bodyHtml: ({ firstName }) => `
+          ${p(`Hi ${firstName},`)}
+          ${p('You’ve got the Excel template forecasting a product — nice work.')}
+          ${p('Here’s the catch: the template handles one SKU per copy. Repeating that for every product and variant, every month, is where spreadsheets stop working.')}
+          ${p('<b>Verve AI does it automatically.</b> Connect your Shopify or WooCommerce store and it forecasts demand for every SKU, picks up seasonality on its own, and tells you when to reorder.')}
+          ${trialButtons()}
+          ${p('The Verve AI team')}
+        `,
+      },
+      {
+        day: 15,
+        subject: 'Last call: automate your demand forecasting',
+        bodyHtml: ({ firstName, toolUrl }) => `
+          ${p(`Hi ${firstName},`)}
+          ${p('It’s been two weeks since you grabbed the Demand Forecasting Excel Template.')}
+          ${p('If you’re still updating forecasts by hand, you’re spending time on something Verve AI already does automatically — for every SKU, updated as your sales data comes in.')}
+          ${trialButtons()}
+          ${p(`<span style="font-size:13px;color:rgb(107,114,128);">Prefer to keep using Excel? <a href="${toolUrl}" style="color:rgb(0,201,167);">Download the template again →</a></span>`)}
+          ${p('The Verve AI team')}
+        `,
+      },
+    ],
+  },
 }
 
 export const SEQUENCE_DAYS = [0, 5, 15] as const

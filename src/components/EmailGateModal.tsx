@@ -9,6 +9,7 @@ interface EmailGateModalProps {
   subtitle?: string
   buttonLabel?: string
   successTitle?: string
+  successMessage?: string
   onClose: () => void
 }
 
@@ -21,6 +22,7 @@ export default function EmailGateModal({
   subtitle = "Enter your email and we'll send it straight through.",
   buttonLabel = 'Get Free Template →',
   successTitle = 'Opening your template…',
+  successMessage,
   onClose,
 }: EmailGateModalProps) {
   const [email, setEmail] = useState('')
@@ -66,7 +68,18 @@ export default function EmailGateModal({
     // a macrotask breaks the browser's user-activation link to the click and
     // the popup gets silently blocked.
     if (data.redirectUrl) {
-      window.open(data.redirectUrl, '_blank', 'noopener,noreferrer')
+      // Self-hosted files (e.g. the .xlsx template) download in place;
+      // window.open would leave an empty tab behind.
+      if (/\.(xlsx|csv|pdf)$/i.test(data.redirectUrl)) {
+        const a = document.createElement('a')
+        a.href = data.redirectUrl
+        a.download = ''
+        document.body.appendChild(a)
+        a.click()
+        a.remove()
+      } else {
+        window.open(data.redirectUrl, '_blank', 'noopener,noreferrer')
+      }
     }
   }
 
@@ -103,7 +116,7 @@ export default function EmailGateModal({
               </div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">{successTitle}</h2>
               <p className="text-gray-500 text-sm">
-                Your free {toolName} is opening in a new tab.
+                {successMessage ?? `Your free ${toolName} is opening in a new tab.`}
               </p>
             </div>
           ) : (

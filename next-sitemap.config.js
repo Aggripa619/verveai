@@ -33,7 +33,8 @@ module.exports = {
         },
   robotsTxtOptions: {
     policies: [
-      { userAgent: '*', allow: '/' },
+      // /downloads/ holds email-gated files; keep them out of search results.
+      { userAgent: '*', allow: '/', disallow: '/downloads/' },
     ],
     additionalSitemaps: [],
   },

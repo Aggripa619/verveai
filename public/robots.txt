@@ -1,6 +1,7 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /downloads/
 
 # Host
 Host: https://www.getverveai.com

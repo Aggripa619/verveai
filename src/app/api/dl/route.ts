@@ -12,6 +12,8 @@ const SHEET_URLS: Record<string, string> = {
   'cashflow-forecast-template':'https://docs.google.com/spreadsheets/d/1pwJcHzAPcxTcuXhi897NdonHj9pXmCNmClMvCM8YEoc/edit?usp=drivesdk',
   'ecommerce-profit-margin-calculator': 'https://tool1.getverveai.com/',
   'inventory-days-calculator': 'https://tool2.getverveai.com/',
+  // Built by scripts/build-demand-forecast-template.py; offered on /blog/demand-forecasting-excel.
+  'demand-forecast-excel-template': 'https://www.getverveai.com/downloads/f7c2a91e4b3d/Verve-AI-Demand-Forecast-Template.xlsx',
 }
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
