@@ -64,6 +64,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <Link href="/shopify-inventory-forecasting" className="hover:text-white transition-colors">
+                  Shopify Inventory Forecasting
+                </Link>
+              </li>
+              <li>
                 <a href={WOOCOMMERCE_URL} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   Verve AI WooCommerce
                 </a>
