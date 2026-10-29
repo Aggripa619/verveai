@@ -11,7 +11,7 @@ export default function ComparisonBanner() {
     >
       <p className="text-sm text-gray-700 flex-1 leading-relaxed">
         <span className="font-semibold text-gray-900">Choosing an inventory forecasting app?</span>
-        {' '}See how Verve AI stacks up against Prediko, Assisty, and Forecastly — side by side.
+        {' '}See how Verve AI stacks up against Prediko, Inventory Planner and Cogsy, side by side.
       </p>
       <Link
         href="/blog/shopify-inventory-forecasting-app-comparison"
